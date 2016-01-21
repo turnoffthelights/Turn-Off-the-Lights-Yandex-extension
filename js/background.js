@@ -163,7 +163,7 @@ var sharemenupostongoogleplus = chrome.i18n.getMessage("sharemenupostongoogleplu
 var sharemenuratetitle = chrome.i18n.getMessage("sharemenuratetitle");
 var sharemenudonatetitle = chrome.i18n.getMessage("sharemenudonatetitle");
 
-var contexts = ["page_action", "browser_action"];
+/*var contexts = ["page_action", "browser_action"];
 chrome.contextMenus.create({"title": sharemenuwelcomeguidetitle, "type":"normal", "id": "totlguideemenu", "contexts":contexts});
 chrome.contextMenus.create({"title": sharemenudonatetitle, "type":"normal", "id": "totldevelopmenu", "contexts":contexts});
 chrome.contextMenus.create({"title": sharemenuratetitle, "type":"normal", "id": "totlratemenu", "contexts":contexts});
@@ -174,7 +174,7 @@ var child1 = chrome.contextMenus.create({"title": sharemenutellafriend, "id": "t
 var child2 = chrome.contextMenus.create({"title": sharemenusendatweet, "id": "totlsharetwitter", "parentId": parent});
 var child3 = chrome.contextMenus.create({"title": sharemenupostonfacebook, "id": "totlsharefacebook", "parentId": parent});
 var child4 = chrome.contextMenus.create({"title": sharemenupostongoogleplus, "id": "totlsharegoogleplus", "parentId": parent});
-});
+});*/
 
 chrome.contextMenus.onClicked.addListener(onClickHandler);
 
