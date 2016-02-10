@@ -173,8 +173,8 @@ var parent = chrome.contextMenus.create({"title": sharemenusharetitle, "id": "to
 var child1 = chrome.contextMenus.create({"title": sharemenutellafriend, "id": "totlshareemail", "parentId": parent});
 var child2 = chrome.contextMenus.create({"title": sharemenusendatweet, "id": "totlsharetwitter", "parentId": parent});
 var child3 = chrome.contextMenus.create({"title": sharemenupostonfacebook, "id": "totlsharefacebook", "parentId": parent});
-var child4 = chrome.contextMenus.create({"title": sharemenupostongoogleplus, "id": "totlsharegoogleplus", "parentId": parent});
-});*/
+var child4 = chrome.contextMenus.create({"title": sharemenupostongoogleplus, "id": "totlsharegoogleplus", "parentId": parent});*/
+});
 
 chrome.contextMenus.onClicked.addListener(onClickHandler);
 
@@ -245,8 +245,8 @@ function initwelcome(){
 chrome.storage.local.get(['firstRun'], function(chromeset){
 if ((chromeset["firstRun"]!="false") && (chromeset["firstRun"]!=false)){
   var totlidextension = chrome.i18n.getMessage("@@extension_id");
-  chrome.tabs.create({url: "chrome-extension://"+totlidextension+"/options.html?welcome", selected:true})
-  chrome.tabs.create({url: "https://www.turnoffthelights.com/extension/yandexguide.html", selected:false})
+  chrome.tabs.create({ url: "https://www.turnoffthelights.com/extension/yandexwelcome.html", selected: true })
+  //chrome.tabs.create({url: "https://www.turnoffthelights.com/extension/yandexguide.html", selected:false}) // Yandex design
   chrome.storage.local.set({"firstRun": "false"});
   chrome.storage.local.set({"version": "2.4"});
 }
