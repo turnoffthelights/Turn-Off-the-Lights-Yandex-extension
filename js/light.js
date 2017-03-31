@@ -69,7 +69,6 @@ return r
 
 if(flash == true){
 intelligentvideodetection();
-
 flashobjects();
 } else if(hardflash == true){
 intelligentvideodetection();
@@ -148,6 +147,9 @@ if(watch7content)$('watch7-content').style.zIndex = 'auto';
 /* temp fix watch7-video */
 var watch7video = $('watch7-video');
 if(watch7video)$('watch7-video').style.zIndex = 'auto';
+
+var pagemanager = $('page-manager');
+if(pagemanager)$('page-manager').style.cssText = 'z-index:auto !important';
 
 // Turn Off the Lights path detection and set to auto zindex
 // this to make sure later YouTube doesn't change again the website layout
@@ -310,11 +312,11 @@ for (var div in divs) {
         }
 }
 
-// YouTube new player 27/04/2015 and 31/08/2015 and 29/02/2016
+// YouTube new player 27/04/2015 and 31/08/2015 and 29/02/2016 and 23/06/2016
 var ytdivs = document.getElementsByTagName('div');
 for (var div in ytdivs) {
         var d = ytdivs[div].className;
-        if (d == 'ytp-upnext ytp-endscreen-upnext-autoplay-paused ytp-suggestion-set' || d == 'ytp-remote' || d == 'ytp-thumbnail-overlay ytp-cued-thumbnail-overlay' || d == 'ytp-spinner' || d == 'ytp-bezel' || d == 'ytp-gradient-top' || d == 'ytp-chrome-top' || d == 'ytp-gradient-bottom' || d == 'ytp-chrome-bottom' || d == 'ytp-panelpopup ytp-settings-menu' || d == 'ytp-share-panel' || d == 'ytp-playlist-menu' || d == 'ytp-related-menu' || d == 'ytp-webgl-spherical-control' || d == 'ytp-storyboard enabled' || d == 'ytp-storyboard-framepreview' || d == 'ytp-ad-progress-bar-container' || d == 'ytp-popup ytp-settings-menu' || d == 'ytp-panelpopup ytp-contextmenu') {
+        if (d == 'ytp-upnext ytp-endscreen-upnext-autoplay-paused ytp-suggestion-set' || d == 'ytp-remote' || d == 'ytp-thumbnail-overlay ytp-cued-thumbnail-overlay' || d == 'ytp-spinner' || d == 'ytp-bezel' || d == 'ytp-gradient-top' || d == 'ytp-chrome-top' || d == 'ytp-gradient-bottom' || d == 'ytp-chrome-bottom' || d == 'ytp-panelpopup ytp-settings-menu' || d == 'ytp-share-panel' || d == 'ytp-playlist-menu' || d == 'ytp-related-menu' || d == 'ytp-webgl-spherical-control' || d == 'ytp-storyboard enabled' || d == 'ytp-storyboard-framepreview' || d == 'ytp-ad-progress-bar-container' || d == 'ytp-popup ytp-settings-menu' || d == 'ytp-panelpopup ytp-contextmenu' || d == 'ytp-multicam-menu') {
                 ytdivs[div].style.zIndex = 1001;
         }
 }
@@ -331,22 +333,21 @@ for(var i = 0; i < ytbezel.length; i++ )
 // YouTube still showing the skip button for the ads
 var admedia = document.getElementsByTagName('div');
 for(var i = 0; i < admedia.length; i++ )
-{if(admedia[i].className == ('ad-container ad-container-single-media-element')) {admedia[i].style.zIndex = 1001;}}
+{if(admedia[i].className == ('ad-container ad-container-single-media-element')) {admedia[i].style.zIndex = 1001}}
 
 var admediaanno = document.getElementsByTagName('div');
 for(var i = 0; i < admediaanno.length; i++ )
-{if(admediaanno[i].className == ('ad-container ad-container-single-media-element-annotations')) {admediaanno[i].style.zIndex = 1001;}}
+{if(admediaanno[i].className == ('ad-container ad-container-single-media-element-annotations')) {admediaanno[i].style.zIndex = 1001;;admediaanno[i].style.top = "0px"}}
 
 // show HTML5 controls
 var ytpprogress = document.getElementsByTagName('div');
 for(var i = 0; i < ytpprogress.length; i++ )
 {if(ytpprogress[i].className == ('ytp-progress-bar-container')) {ytpprogress[i].style.zIndex = 1005;}}
 
-var playerapi = $('player-api');
-if(playerapi){$('player-api').style.zIndex = 1001;}
+
 
 } // end YouTube
-});
+
 
 /////////// leanbackplayer player support
 // controls way
@@ -389,6 +390,8 @@ if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*y
 	} else {
 	 // default the regular player
 	}
+	var playerapi = $('player-api');
+	if(playerapi){$('player-api').style.zIndex = 1001;}
 }
 
 }
@@ -471,6 +474,7 @@ if((insideframe.substring(0, 17) == '//www.youtube.com') || (insideframe.substri
 || (insideframe.substring(0, 29) == 'http://embed.itunes.apple.com') || (insideframe.substring(0, 30) == 'https://embed.itunes.apple.com')
 || (insideframe.substring(0, 19) == 'http://vk.com/video') || (insideframe.substring(0, 20) == 'https://vk.com/video') || (insideframe.substring(0, 17) == 'http://vk.com/swf') || (insideframe.substring(0, 18) == 'https://vk.com/swf')
 || (insideframe.substring(0, 26) == 'http://www.facebook.com/v/') || (insideframe.substring(0, 27) == 'https://www.facebook.com/v/') || (insideframe.substring(0, 26) == 'http://static.ak.fbcdn.net')  || (insideframe.substring(0, 27) == 'https://static.ak.fbcdn.net') || (insideframe.substring(0, 29) == 'http://static.ak.facebook.com') || (insideframe.substring(0, 30) == 'https://static.ak.facebook.com') || (insideframe.substring(0, 31) == 'http://s-static.ak.facebook.com') || (insideframe.substring(0, 32) == 'https://s-static.ak.facebook.com') || (insideframe.substring(0, 30) == 'http://fbstatic-a.akamaihd.net') || (insideframe.substring(0, 31) == 'https://fbstatic-a.akamaihd.net')// facebook embed video
+|| (insideframe.substring(0, 46) == 'http://www.facebook.com/v2.7/plugins/video.php') || (insideframe.substring(0, 47) == 'https://www.facebook.com/v2.7/plugins/video.php')
 || (insideframe.substring(0, 30) == 'http://lads.myspace.com/videos') || (insideframe.substring(0, 31) == 'https://lads.myspace.com/videos')
 || (insideframe.substring(0, 25) == 'http://www.hulu.com/embed') || (insideframe.substring(0, 26) == 'https://www.hulu.com/embed') || (insideframe.substring(0, 32) == 'https://www.hulu.com/site-player') || (insideframe.substring(0, 31) == 'http://www.hulu.com/site-player')|| (insideframe.substring(0, 22) == 'http://player.hulu.com') || (insideframe.substring(0, 23) == 'https://player.hulu.com')
 || (insideframe.substring(0, 14) == 'http://blip.tv') || (insideframe.substring(0, 15) == 'http://blip.tv') || (insideframe.substring(0, 16) == 'http://a.blip.tv') || (insideframe.substring(0, 17) == 'https://a.blip.tv')
@@ -516,6 +520,8 @@ if((insideframe.substring(0, 17) == '//www.youtube.com') || (insideframe.substri
 || (insideframe.substring(0, 19) == 'http://s1.56img.com') || (insideframe.substring(0, 20) == 'https://s1.56img.com')
 || (insideframe.substring(0, 20) == 'http://client.joy.cn') || (insideframe.substring(0, 21) == 'https://client.joy.cn')
 || (insideframe.substring(0, 28) == 'http://player.video.qiyi.com') || (insideframe.substring(0, 29) == 'https://player.video.qiyi.com')
+|| (insideframe.substring(0, 28) == 'http://vxml.ifengimg.com/swf') || (insideframe.substring(0, 29) == 'https://vxml.ifengimg.com/swf')
+|| (insideframe.substring(0, 30) == 'http://live.nicovideo.jp/embed') || (insideframe.substring(0, 31) == 'https://live.nicovideo.jp/embed')
 || (insideframe.substring(0, 44) == 'http://ssl.acfun.tv/block-player-homura.html') || (insideframe.substring(0, 45) == 'http://ssl.acfun.tv/block-player-homura.html')
 || (insideframe.substring(0, 23) == 'http://player.youku.com') || (insideframe.substring(0, 24) == 'https://player.youku.com') || (insideframe.substring(0, 23) == 'http://static.youku.com') || (insideframe.substring(0, 24) == 'https://static.youku.com'))
 {
@@ -554,6 +560,7 @@ if((insideframe.substring(0, 17) == '//www.youtube.com') || (insideframe.substri
 || (insideframe.substring(0, 29) == 'http://embed.itunes.apple.com') || (insideframe.substring(0, 30) == 'https://embed.itunes.apple.com')
 || (insideframe.substring(0, 19) == 'http://vk.com/video') || (insideframe.substring(0, 20) == 'https://vk.com/video') || (insideframe.substring(0, 17) == 'http://vk.com/swf') || (insideframe.substring(0, 18) == 'https://vk.com/swf')
 || (insideframe.substring(0, 26) == 'http://www.facebook.com/v/') || (insideframe.substring(0, 27) == 'https://www.facebook.com/v/') || (insideframe.substring(0, 26) == 'http://static.ak.fbcdn.net')  || (insideframe.substring(0, 27) == 'https://static.ak.fbcdn.net') || (insideframe.substring(0, 29) == 'http://static.ak.facebook.com') || (insideframe.substring(0, 30) == 'https://static.ak.facebook.com') || (insideframe.substring(0, 31) == 'http://s-static.ak.facebook.com') || (insideframe.substring(0, 32) == 'https://s-static.ak.facebook.com') || (insideframe.substring(0, 30) == 'http://fbstatic-a.akamaihd.net') || (insideframe.substring(0, 31) == 'https://fbstatic-a.akamaihd.net')// facebook embed video
+|| (insideframe.substring(0, 46) == 'http://www.facebook.com/v2.7/plugins/video.php') || (insideframe.substring(0, 47) == 'https://www.facebook.com/v2.7/plugins/video.php')
 || (insideframe.substring(0, 30) == 'http://lads.myspace.com/videos') || (insideframe.substring(0, 31) == 'https://lads.myspace.com/videos')
 || (insideframe.substring(0, 25) == 'http://www.hulu.com/embed') || (insideframe.substring(0, 26) == 'https://www.hulu.com/embed') || (insideframe.substring(0, 32) == 'https://www.hulu.com/site-player') || (insideframe.substring(0, 31) == 'http://www.hulu.com/site-player')|| (insideframe.substring(0, 22) == 'http://player.hulu.com') || (insideframe.substring(0, 23) == 'https://player.hulu.com')
 || (insideframe.substring(0, 14) == 'http://blip.tv') || (insideframe.substring(0, 15) == 'http://blip.tv') || (insideframe.substring(0, 16) == 'http://a.blip.tv') || (insideframe.substring(0, 17) == 'https://a.blip.tv')
@@ -599,6 +606,8 @@ if((insideframe.substring(0, 17) == '//www.youtube.com') || (insideframe.substri
 || (insideframe.substring(0, 19) == 'http://s1.56img.com') || (insideframe.substring(0, 20) == 'https://s1.56img.com')
 || (insideframe.substring(0, 20) == 'http://client.joy.cn') || (insideframe.substring(0, 21) == 'https://client.joy.cn')
 || (insideframe.substring(0, 28) == 'http://player.video.qiyi.com') || (insideframe.substring(0, 29) == 'https://player.video.qiyi.com')
+|| (insideframe.substring(0, 28) == 'http://vxml.ifengimg.com/swf') || (insideframe.substring(0, 29) == 'https://vxml.ifengimg.com/swf')
+|| (insideframe.substring(0, 30) == 'http://live.nicovideo.jp/embed') || (insideframe.substring(0, 31) == 'https://live.nicovideo.jp/embed')
 || (insideframe.substring(0, 44) == 'http://ssl.acfun.tv/block-player-homura.html') || (insideframe.substring(0, 45) == 'http://ssl.acfun.tv/block-player-homura.html')
 || (insideframe.substring(0, 23) == 'http://player.youku.com') || (insideframe.substring(0, 24) == 'https://player.youku.com') || (insideframe.substring(0, 23) == 'http://static.youku.com') || (insideframe.substring(0, 24) == 'https://static.youku.com'))
 {
@@ -634,6 +643,7 @@ if((insideframe.substring(0, 17) == '//www.youtube.com') || (insideframe.substri
 || (insideframe.substring(0, 29) == 'http://embed.itunes.apple.com') || (insideframe.substring(0, 30) == 'https://embed.itunes.apple.com')
 || (insideframe.substring(0, 19) == 'http://vk.com/video') || (insideframe.substring(0, 20) == 'https://vk.com/video') || (insideframe.substring(0, 17) == 'http://vk.com/swf') || (insideframe.substring(0, 18) == 'https://vk.com/swf')
 || (insideframe.substring(0, 26) == 'http://www.facebook.com/v/') || (insideframe.substring(0, 27) == 'https://www.facebook.com/v/') || (insideframe.substring(0, 26) == 'http://static.ak.fbcdn.net')  || (insideframe.substring(0, 27) == 'https://static.ak.fbcdn.net') || (insideframe.substring(0, 29) == 'http://static.ak.facebook.com') || (insideframe.substring(0, 30) == 'https://static.ak.facebook.com') || (insideframe.substring(0, 31) == 'http://s-static.ak.facebook.com') || (insideframe.substring(0, 32) == 'https://s-static.ak.facebook.com') || (insideframe.substring(0, 30) == 'http://fbstatic-a.akamaihd.net') || (insideframe.substring(0, 31) == 'https://fbstatic-a.akamaihd.net')// facebook embed video
+|| (insideframe.substring(0, 46) == 'http://www.facebook.com/v2.7/plugins/video.php') || (insideframe.substring(0, 47) == 'https://www.facebook.com/v2.7/plugins/video.php')
 || (insideframe.substring(0, 30) == 'http://lads.myspace.com/videos') || (insideframe.substring(0, 31) == 'https://lads.myspace.com/videos')
 || (insideframe.substring(0, 25) == 'http://www.hulu.com/embed') || (insideframe.substring(0, 26) == 'https://www.hulu.com/embed') || (insideframe.substring(0, 32) == 'https://www.hulu.com/site-player') || (insideframe.substring(0, 31) == 'http://www.hulu.com/site-player')|| (insideframe.substring(0, 22) == 'http://player.hulu.com') || (insideframe.substring(0, 23) == 'https://player.hulu.com') 
 || (insideframe.substring(0, 14) == 'http://blip.tv') || (insideframe.substring(0, 15) == 'http://blip.tv') || (insideframe.substring(0, 16) == 'http://a.blip.tv') || (insideframe.substring(0, 17) == 'https://a.blip.tv')
@@ -679,6 +689,8 @@ if((insideframe.substring(0, 17) == '//www.youtube.com') || (insideframe.substri
 || (insideframe.substring(0, 19) == 'http://s1.56img.com') || (insideframe.substring(0, 20) == 'https://s1.56img.com')
 || (insideframe.substring(0, 20) == 'http://client.joy.cn') || (insideframe.substring(0, 21) == 'https://client.joy.cn')
 || (insideframe.substring(0, 28) == 'http://player.video.qiyi.com') || (insideframe.substring(0, 29) == 'https://player.video.qiyi.com')
+|| (insideframe.substring(0, 28) == 'http://vxml.ifengimg.com/swf') || (insideframe.substring(0, 29) == 'https://vxml.ifengimg.com/swf')
+|| (insideframe.substring(0, 30) == 'http://live.nicovideo.jp/embed') || (insideframe.substring(0, 31) == 'https://live.nicovideo.jp/embed')
 || (insideframe.substring(0, 44) == 'http://ssl.acfun.tv/block-player-homura.html') || (insideframe.substring(0, 45) == 'http://ssl.acfun.tv/block-player-homura.html')
 || (insideframe.substring(0, 23) == 'http://player.youku.com') || (insideframe.substring(0, 24) == 'https://player.youku.com') || (insideframe.substring(0, 23) == 'http://static.youku.com') || (insideframe.substring(0, 24) == 'https://static.youku.com'))
 {
@@ -848,6 +860,8 @@ for(var i = 0; i < i5q.length; i++){
         }
 }
 }
+
+}); // end storage
 
 //Flash games
 //Windows Media Player
@@ -1515,7 +1529,7 @@ if(stretchable)  {
 			// disable for on YouTube website
 			if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){}
 			else{
-			/*chrome.extension.sendMessage({name: 'currenttabforblur'}, function(response) {
+			/*chrome.runtime.sendMessage({name: 'currenttabforblur'}, function(response) {
 				var img = response.screenshotUrl;
 				var newblur = document.createElement('img');
 				newblur.setAttribute('id','stefanvdblurimage');
