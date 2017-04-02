@@ -2,9 +2,9 @@ function $(id) { return document.getElementById(id); }
 // Install on www.stefanvd.net
 // Install on www.turnoffthelights.com
 if (window.location.href.match(/http:\/\/(.*stefanvd\.net\/.*|www\.stefanvd\.net\/.*\/.*)/i)|| window.location.href.match(/http:\/\/(.*turnoffthelights\.com\/.*|www\.turnoffthelights\.com\/.*\/.*)/i)){
-	if ($('turnoffthelights-chrome-install-button')) {
-		$('turnoffthelights-chrome-install-button').style.display = 'none';
-		$('turnoffthelights-chrome-thanks-button').style.display = '';
+	if ($('turnoffthelights-yandex-install-button')) {
+		$('turnoffthelights-yandex-install-button').style.display = 'none';
+		$('turnoffthelights-yandex-thanks-button').style.display = '';
 	}
 }
 var ambientaureaproduct = "https://chrome.google.com/webstore/detail/ambient-aurea/pkaglmndhfgdaiaccjglghcbnfinfffa";
@@ -23,7 +23,7 @@ var linkwelcomepage = "https://www.turnoffthelights.com/extension/yandexwelcome.
 var linkuninstall = "https://www.turnoffthelights.com/extension/yandexuninstalled.html";
 var linkguide = "https://www.turnoffthelights.com/extension/yandexguide.html";
 var linkshare = "https://www.turnoffthelights.com/shareextension.html";
-var linkthemedownload = "https://chrome.google.com/webstore/detail/fpddgembdeaikopmbfiokjolihbamcca";
+var linkthemedownload = "https://www.turnoffthelights.com/browser/theme.html";
 var browsernewtab = "chrome://newtab/";
 var browserstore = "https://chrome.google.com";
 var linkyoutube = "https://www.youtube.com/c/turnoffthelights?sub_confirmation=1";
