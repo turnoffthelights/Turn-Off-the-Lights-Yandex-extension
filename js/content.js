@@ -1726,7 +1726,7 @@ if(typeof atmosphereDomains == "string") {
 } else {ambilightfunction();}
 
 function ambilightfunction(){
-		// yes show time
+// yes show time
 // ambilight play detect
 var requestId;
 
@@ -1797,16 +1797,16 @@ function animate(){
 				var youtubewatchvideoshadow = $("watch-video"); // YouTube video page
 				if(youtubewatchvideoshadow){ youtubewatchvideoshadow.style.overflow = "visible"; } // show the overflow out the video element	
 				var youtubewindow = $("watch-player") || $("watch7-player") || $("player-api");
-				if(youtubewindow){youtubewindow.style.zIndex = 1001;}
+				if(youtubewindow){youtubewindow.classList.add('stefanvdvideocontrolsitem');}
 				var youtubemovieplayer = $("movie_player"); // YouTube video page
-				if(youtubemovieplayer){ youtubemovieplayer.style.overflow = "hidden"; youtubemovieplayer.style.zIndex = 1001; } // show the overflow out the video element
+				if(youtubemovieplayer){ youtubemovieplayer.style.overflow = "hidden"; youtubemovieplayer.classList.add('stefanvdvideocontrolsitem');} // show the overflow out the video element
 			}
 
 			// TESTING...Report #seconds since start and achieved fps.
-			var sinceStart = now - startTime;
-			var currentFps = Math.round(1000 / (sinceStart / ++frameCount) * 100) / 100;
+			//var sinceStart = now - startTime;
+			//var currentFps = Math.round(1000 / (sinceStart / ++frameCount) * 100) / 100;
 			//console.log("Elapsed time= " + Math.round(sinceStart / 1000 * 100) / 100 + " secs @ " + currentFps + " fps.");
-		}
+		}		
 }
 
 function stopAnimation(e) {
@@ -2151,7 +2151,7 @@ observeDOM( document.getElementById('content') ,function(){
 		if (no360youtube == true){
         var ytfullvideo = document.getElementsByTagName('video');
         for(var i = 0; i < ytfullvideo.length; i++) {
-            ytfullvideo[i].style.cssText += "position:relative; z-index:1000; display:block !important";
+            ytfullvideo[i].classList.add('stefanvdvideotop');
         }
         var ytwebgl = document.getElementsByClassName('webgl');
         for(var i = 0; i < ytwebgl.length; i++ ){ytwebgl[i].style.display = 'none';}
@@ -2823,8 +2823,8 @@ var doscroll=function(){
  		this.volume = Math.round(this.volume/videovolumesteps)*videovolumesteps; // fix the correct ceil level (steps of the user)
 		}
 
-        if(delta== -1 && this.volume <= 0.99){this.volume+=videovolumesteps;this.volume=Math.round(this.volume * 100) / 100}
-        if(delta== 1 && this.volume > 0.00){this.volume-=videovolumesteps;this.volume=Math.round(this.volume * 100) / 100}
+        if(delta== -1 && this.volume > 0.00){this.volume-=videovolumesteps;this.volume=Math.round(this.volume * 100) / 100}
+        if(delta== 1 && this.volume <= 0.99){this.volume+=videovolumesteps;this.volume=Math.round(this.volume * 100) / 100}
 
         document.getElementById("volumecontrol"+pop).value = Math.round(this.volume * 100);
         if(videovolumelabel == true){document.getElementById("lblvolume"+pop).textContent = Math.round(this.volume * 100)+"%";}
@@ -2956,7 +2956,7 @@ if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*y
 if (no360youtube == true){
 	var ytfullvideo = document.getElementsByTagName('video');
 	for(var i = 0; i < ytfullvideo.length; i++) {
-        ytfullvideo[i].style.cssText += "position:relative; z-index:1000; display:block !important";
+        ytfullvideo[i].classList.add('stefanvdvideotop');
 	}
 	var ytwebgl = document.getElementsByClassName('webgl');
 	for(var i = 0; i < ytwebgl.length; i++ ){ytwebgl[i].style.display = 'none';}

@@ -140,7 +140,7 @@ if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*y
 	 // default the regular player
 	 // also the 360 frame push to front
 	var webgl = document.querySelector('.webgl');
-	if(webgl){webgl.classList.add('stefanvdvideotop');};
+	if(webgl){webgl.classList.add('stefanvdvideocontrolsitem');};
 	}
 	var playerapi = $('player-api');
 	if(playerapi){
@@ -159,7 +159,7 @@ try {
 		var innerDoc = (frames.item(i).contentDocument) ? frames.item(i).contentDocument : frames.item(i).contentWindow.document;
 		var iframeVideoTags = innerDoc.getElementsByTagName("video");
 		for (var j = 0; j < iframeVideoTags.length; j++) {
-			iframeVideoTags.item(j).style.cssText = 'visibility:visible !important; position:relative !important; z-index:1001 !important';
+			iframeVideoTags.item(j).classList.add('stefanvdvideotop');
 		}
 	}	
 } catch(e){}
@@ -664,6 +664,13 @@ do {
 // current video to front
 var targetComputedStyleHeight=document.defaultView.getComputedStyle(embedplayer[i],null).getPropertyValue("height");var spar = targetComputedStyleHeight.replace("px","");
 var targetComputedStyleWidth=document.defaultView.getComputedStyle(embedplayer[i],null).getPropertyValue("width");var been = targetComputedStyleWidth.replace("px","");
+// double check to remove all other CSS classes
+if(embedplayer[i].classList.contains("stefanvdotherdown")){embedplayer[i].classList.remove("stefanvdotherdown");}
+if(embedplayer[i].classList.contains("stefanvdvideocontrolstop")){embedplayer[i].classList.remove("stefanvdvideocontrolstop");}
+if(embedplayer[i].classList.contains("stefanvdvideocontrolsitem")){embedplayer[i].classList.remove("stefanvdvideocontrolsitem");}
+if(embedplayer[i].classList.contains("stefanvditemtop")){embedplayer[i].classList.remove("stefanvditemtop");}
+if(embedplayer[i].classList.contains("stefanvdvideoauto")){embedplayer[i].classList.remove("stefanvdvideoauto");}
+//---
 embedplayer[i].classList.add('stefanvdvideotop');
 embedplayer[i].style.cssText = 'height:' + Math.round(spar) + 'px; width:' + Math.round(been) + 'px; display: block;';
 }
@@ -736,12 +743,15 @@ var dmpSharePane = $('dmp_SharePane');
 if(dmpSharePane){$('dmp_SharePane').classList.add('stefanvdvideocontrolsitem');}
 }
 // vk.com, fixed show video
-else if (window.location.href.match(/http:\/\/(vk\.com\/.*|vk\.com\/.*)/i)){
+else if (window.location.href.match(/((http:\/\/.*vk\.com\/.*)|(https:\/\/.*vk\.com\/.*))/i)){
 var videoplayer = $('video_player');
 if(videoplayer){$('video_player').classList.add('stefanvdvideocontrolsitem');}
 
+var layerbg = $('layer_bg');
+if(layerbg){layerbg.style.cssText += "position:absolute !important";}
+
 var mvlayerwrap = $('mv_layer_wrap');
-if(mvlayerwrap){$('mv_layer_wrap').classList.add('stefanvdvideocontrolsitem');}
+if(mvlayerwrap){mvlayerwrap.style.cssText += "position:absolute !important";}
 }
 // steampowered.com, fixed show control
 else if (window.location.href.match(/((http:\/\/.*steampowered\.com\/.*)|(https:\/\/.*steampowered\.com\/.*))/i)){

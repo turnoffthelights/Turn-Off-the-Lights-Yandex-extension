@@ -218,21 +218,21 @@ if(command == "toggle-feature-nightmode"){
 function onClickHandler(info, tab) {
 var str = info.menuItemId;var resvideo = str.substring(0, 9);var respage = str.substring(0, 8);
 if (resvideo == "totlvideo" || respage == "totlpage") {chrome.tabs.executeScript(tab.id, {file: "js/light.js"});}
-else if (info.menuItemId == "totlguideemenu") {window.open(linkguide, "_blank");}
-else if (info.menuItemId == "totldevelopmenu") {window.open(donatewebsite, "_blank");}
-else if (info.menuItemId == "totlratemenu") {window.open(writereview, "_blank");}
-else if (info.menuItemId == "totlsharemenu") {window.open(linkshare, "_blank");}
-else if (info.menuItemId == "totlshareemail") {window.open("mailto:youremail?subject="+chrome.i18n.getMessage("sharetexta")+"&body="+chrome.i18n.getMessage("sharetextb")+" "+turnoffthelightsproduct, "_blank");}
-else if (info.menuItemId == "totlsharetwitter") {var sturnoffthelightsproductcodeurl = encodeURIComponent(chrome.i18n.getMessage("sharetextc")+" "+turnoffthelightsproduct);window.open("https://twitter.com/home?status="+sturnoffthelightsproductcodeurl, "_blank");}
-else if (info.menuItemId == "totlsharefacebook") {window.open("https://www.facebook.com/sharer/sharer.php?u="+turnoffthelightsproduct, "_blank");}
-else if (info.menuItemId == "totlsharegoogleplus") {window.open("https://plus.google.com/share?url="+turnoffthelightsproduct, "_blank");}
+else if (info.menuItemId == "totlguideemenu") {chrome.tabs.create({url: linkguide, active:true})}
+else if (info.menuItemId == "totldevelopmenu") {chrome.tabs.create({url: donatewebsite, active:true})}
+else if (info.menuItemId == "totlratemenu") {chrome.tabs.create({url: writereview, active:true})}
+else if (info.menuItemId == "totlsharemenu") {chrome.tabs.create({url: linkshare, active:true})}
+else if (info.menuItemId == "totlshareemail") {var sturnoffthelightemail = "mailto:your@email.com?subject="+chrome.i18n.getMessage("sharetexta")+"&body="+chrome.i18n.getMessage("sharetextb")+" "+turnoffthelightsproduct;chrome.tabs.create({url: sturnoffthelightemail, active:true})}
+else if (info.menuItemId == "totlsharetwitter") {var sturnoffthelightsproductcodeurl = encodeURIComponent(chrome.i18n.getMessage("sharetextc")+" "+turnoffthelightsproduct);chrome.tabs.create({url: "https://twitter.com/home?status="+sturnoffthelightsproductcodeurl, active:true})}
+else if (info.menuItemId == "totlsharefacebook") {chrome.tabs.create({url: "https://www.facebook.com/sharer/sharer.php?u="+turnoffthelightsproduct, active:true})}
+else if (info.menuItemId == "totlsharegoogleplus") {chrome.tabs.create({url: "https://plus.google.com/share?url="+turnoffthelightsproduct, active:true})}
 }
 
 // check to remove all contextmenus
 chrome.contextMenus.removeAll(function() {
 //console.log("contextMenus.removeAll callback");
 });
-/*
+
 var sharemenusharetitle = chrome.i18n.getMessage("sharemenusharetitle");
 var sharemenuwelcomeguidetitle = chrome.i18n.getMessage("sharemenuwelcomeguidetitle");
 var sharemenutellafriend = chrome.i18n.getMessage("sharemenutellafriend");
@@ -249,11 +249,11 @@ chrome.contextMenus.create({"title": sharemenuratetitle, "type":"normal", "id": 
 
 // Create a parent item and two children.
 var parent = chrome.contextMenus.create({"title": sharemenusharetitle, "id": "totlsharemenu", "contexts":contexts});
-var child1 = chrome.contextMenus.create({"title": sharemenutellafriend, "id": "totlshareemail", "parentId": parent});
-var child2 = chrome.contextMenus.create({"title": sharemenusendatweet, "id": "totlsharetwitter", "parentId": parent});
-var child3 = chrome.contextMenus.create({"title": sharemenupostonfacebook, "id": "totlsharefacebook", "parentId": parent});
-var child4 = chrome.contextMenus.create({"title": sharemenupostongoogleplus, "id": "totlsharegoogleplus", "parentId": parent});
-*/
+var child1 = chrome.contextMenus.create({"title": sharemenutellafriend, "id": "totlshareemail", "contexts": contexts, "parentId": parent});
+var child2 = chrome.contextMenus.create({"title": sharemenusendatweet, "id": "totlsharetwitter", "contexts": contexts, "parentId": parent});
+var child3 = chrome.contextMenus.create({"title": sharemenupostonfacebook, "id": "totlsharefacebook", "contexts": contexts, "parentId": parent});
+var child4 = chrome.contextMenus.create({"title": sharemenupostongoogleplus, "id": "totlsharegoogleplus", "contexts": contexts, "parentId": parent});
+
 chrome.contextMenus.onClicked.addListener(onClickHandler);
 
 // context menu for page and video
@@ -373,7 +373,7 @@ function initwelcome(){
 chrome.storage.sync.get(['firstRun'], function(chromeset){
 if ((chromeset["firstRun"]!="false") && (chromeset["firstRun"]!=false)){
   chrome.tabs.create({url: linkwelcomepage, active:true})
-  //chrome.tabs.create({url: linkguide, active:false})
+  chrome.tabs.create({url: linkguide, active:false})
   chrome.storage.sync.set({"firstRun": false, "version": "2.4"});
 }
 });
