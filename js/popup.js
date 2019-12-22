@@ -3,7 +3,7 @@
 
 Turn Off the Lights
 The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2017 Stefan vd
+Copyright (C) 2018 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -29,7 +29,19 @@ To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.
 
 function $(id) { return document.getElementById(id); }
 
+var darkmode;
+
 document.addEventListener('DOMContentLoaded', function () {
+    chrome.storage.sync.get(['darkmode'], function(items){
+        darkmode = items['darkmode'];if(darkmode == null)darkmode = false; // default darkmode false
+
+        // dark mode
+        if(darkmode == true){
+            document.body.className = 'dark';
+        } else{
+            document.body.className = 'light';
+        }
+    });
 $("opendonate").addEventListener('click', function() {chrome.tabs.create({url: donatewebsite, active:true})});
 $("openrate").addEventListener('click', function() {chrome.tabs.create({url: writereview, active:true})});
 $("openoptions").addEventListener('click', function() {chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});

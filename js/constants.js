@@ -1,12 +1,14 @@
 function $(id) { return document.getElementById(id); }
 // Install on www.stefanvd.net
 // Install on www.turnoffthelights.com
-if (window.location.href.match(/http:\/\/(.*stefanvd\.net\/.*|www\.stefanvd\.net\/.*\/.*)/i)|| window.location.href.match(/http:\/\/(.*turnoffthelights\.com\/.*|www\.turnoffthelights\.com\/.*\/.*)/i)){
-	if ($('turnoffthelights-yandex-install-button')) {
+if(window.location.href.match(/^http(s)?:\/\/(www\.)?stefanvd.net/i)||window.location.href.match(/^http(s)?:\/\/(www\.)?turnoffthelights.com/i)){
+	if($('turnoffthelights-yandex-install-button')){
 		$('turnoffthelights-yandex-install-button').style.display = 'none';
-		$('turnoffthelights-yandex-thanks-button').style.display = '';
+		$('turnoffthelights-yandex-thanks-button').style.display = 'block';
 	}
 }
+var developerwebsite = "https://www.turnoffthelights.com";
+var totloptionspage = "https://www.turnoffthelights.com/extension/options.html";
 var ambientaureaproduct = "https://chrome.google.com/webstore/detail/ambient-aurea/pkaglmndhfgdaiaccjglghcbnfinfffa";
 var datetodayproduct = "https://chrome.google.com/webstore/detail/date-today/mhgknbehalhkedjgfhiaindklahhkccc";
 var turnoffthelightsproduct = "https://chrome.google.com/webstore/detail/turn-off-the-lights/bfbmjmiodbnnpllbbbfblcplfjjepjdn";

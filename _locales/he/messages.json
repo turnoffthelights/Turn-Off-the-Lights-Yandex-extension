@@ -27,7 +27,7 @@
     "message":"אפשר לחיצה על קישורים כשהמסך מוחשך"
   },
   "desmousespotlights":{
-    "message":"Enable the screen shade, with the possibility to click on the hyperlinks"
+    "message":"אפשר/י את בהירות המסך, עם אפשרות הלחיצה על הקישורים החיצוניים"
   },
   "desambilight4color":{
     "message":"4 צבעים נבחרים מסביב לווידאו:"
@@ -117,7 +117,7 @@
     "message":"הגדרות"
   },
   "desspotlightradius":{
-    "message":"Diameter of spotlight:"
+    "message":"קוטר הספוטלייט:"
   },
   "titelsync":{
     "message":"סינכרון"
@@ -168,13 +168,13 @@
     "message":"גירסא"
   },
   "shortcutdark":{
-    "message":"to darken the screen (increase opacity)"
+    "message":"להכההת המסך (הגברת טטימות)"
   },
   "dessharebutton":{
     "message":"הצג את לחצן השיתוף של יוטיוב עבור הסרטון הזה"
   },
   "shortcutbright":{
-    "message":"to brighten the screen (decrease opacity)"
+    "message":"להבהרת המסך (הפחתת אטימות)"
   },
   "titelalllightsoff":{
     "message":"כל הכרטיסיות הפתוחות"
@@ -204,7 +204,7 @@
     "message":"הראה את לחצן ההוספה מסרטון ה-YouTube הזה"
   },
   "shortcuteyeprotection":{
-    "message":"to enable/disable the eye protection feature"
+    "message":"כדי להפעיל/לכבות את אפשרות הגנת העין"
   },
   "titelfadein":{
     "message":"עמעם פנימה"
@@ -225,7 +225,7 @@
     "message":"התמקד על הסרטון הזה"
   },
   "warningtextambilight":{
-    "message":"When unable to receive video data because of a website's security rule, the chosen solid color will be used instead."
+    "message":"כאשר אין אפשרות לקבל נתוני וידאו בגלל כללי האבטחה של האתר, ייעשה שימוש בצבע המוצק הנבחר."
   },
   "desdynamiccloud":{
     "message":"עננים מונפשות"
@@ -423,7 +423,7 @@
     "message":"אל תציג דף תזכורת"
   },
   "description":{
-    "message":"The entire page will be fading to dark, so you can watch the videos as if you were in the cinema. Works for YouTube™ and Beyond."
+    "message":"הדף כולן יחשיך, כך שתוכלו לצפות בסרטונים כאילו שאתם בקולנוע. עובד עבור YouTube™ ועוד."
   },
   "titelviewcount":{
     "message":"מספר צפיות"
@@ -474,7 +474,7 @@
     "message":"ביצי פסחא"
   },
   "textfoot":{
-    "message":"This software is licensed under the CC-GNU GPL. To view a copy of this license, view the"
+    "message":"התוכנה הזו פועלת תחת רשיון - CC-GNU GPL. בכדי לראות את עותק הרשיון, ראו את"
   },
   "left":{
     "message":"שמאל"
@@ -516,7 +516,7 @@
     "message":"זיהוי קולי"
   },
   "upgradecontextitemmb":{
-    "message":"Control the web page more accurately"
+    "message":"שלוט בדף האינטרנט בצורה יותר מדוייקת"
   },
   "upgradefbshare":{
     "message":"שתף בפייסבוק"
@@ -525,10 +525,10 @@
     "message":"ציוץ"
   },
   "ratetitle":{
-    "message":"Please rate & review my extension"
+    "message":"בבקשה דרגו ותנו משוב על ההרחבה שלי"
   },
   "ratedes":{
-    "message":"And let everyone know about this great extension!"
+    "message":"ותיידעו את כולם על ההרחבה הנהדרת הזאת!"
   },
   "rateitema":{
     "message":"דרג 5 כוכבים"
@@ -537,10 +537,10 @@
     "message":"אפס הגדרות"
   },
   "resetbrowserextension":{
-    "message":"Reset the Turn Off the Lights settings"
+    "message":"אפס את הגדרות לכבות את האורות"
   },
   "desautoplaydelay":{
-    "message":"Brighten the background again when the video has ended after"
+    "message":"להאיר את הרקע שוב כאשר הווידאו הסתיים"
   },
   "desautoplaydelayend":{
     "message":"שניות"
@@ -616,7 +616,7 @@
     "message":"בחר בניב הנאום שלך:"
   },
   "desatmosvivid":{
-    "message":"Vivid atmosphere effects, require"
+    "message":"דרושים אפקטים של אווירה חיה"
   },
   "help":{
     "message":"עזרה"
@@ -646,7 +646,7 @@
     "message":"הדפדפן שלך אינו תומך בתכונה זו עדיין. ודא כי ברשותך הגירסה העדכנית ביותר של דפדפן מותקן במחשב שלך."
   },
   "titelsupportatmos":{
-    "message":"Supports only the HTML5 <video> and YouTube HTML5 player. It also uses the GPU from your graphics card."
+    "message":"תומך רק ב-<HTML5 <video ובנגן HTML5 של YouTube. הוא גם משתמש ב-GPU מכרטיס המסך שלך."
   },
   "titelseeonline":{
     "message":"לקבלת דוגמאות נוספות, ראה באינטרנט"
@@ -676,10 +676,10 @@
     "message":"פרוייקט"
   },
   "titelapideveloper":{
-    "message":"API Developer"
+    "message":"מפתח API"
   },
   "titelwikiatmos":{
-    "message":"Wiki about the Atmosphere Lighting feature"
+    "message":"אתר ויקי אודות תכונת תאורת האטמוספירה"
   },
   "sharemenusharetitle":{
     "message":"שתפו את זה"
@@ -712,7 +712,7 @@
     "message":"עצור את הווידאו באופן אוטומטי כשאני פותח דף אינטרנט"
   },
   "areyouhappy":{
-    "message":"Are you happy about Turn Off the Lights?"
+    "message":"האם הינך מרוצה מ-Turn Off the Lights?"
   },
   "tellothers":{
     "message":"הבטח כי דעתך תשמע"
@@ -724,22 +724,22 @@
     "message":"כתוב ביקורת"
   },
   "desauroraplayer":{
-    "message":"The ambient lighting player is also available for your computer."
+    "message":"נגן התאורה האווירתית זמין גם בעבור מחשבך."
   },
   "downloadtheapp":{
     "message":"הורד את היישום כעת"
   },
   "titeldownloadupgradezoom":{
-    "message":"Zooms in or out on web content using the zoom button for more comfortable reading."
+    "message":"זום פנימה או החוצה על תוכן אינטרנט באמצעות לחצן זום, לקריאה נוחה יותר."
   },
   "titeldownloadupgradepropermenubar":{
-    "message":"Adds back the black menubar on the Google website."
+    "message":"מוסיף בחזרה את שורת התפריט השחורה באתר האינטרנט של גוגל."
   },
   "titeldownloadupgradefinancetoolbar":{
-    "message":"This shows you the real time stock market information."
+    "message":"זה מציג לך את פרטי הבורסה בזמן אמת."
   },
   "titelnightmodeposition":{
-    "message":"Position of switch"
+    "message":"מיקום המתג"
   },
   "nmtopleft":{
     "message":"למעלה משמאל"
@@ -754,10 +754,10 @@
     "message":"למטה משמאל"
   },
   "nmcustom":{
-    "message":"Custom (click, hold and move the switch to the desired screen location)"
+    "message":"מותאם אישית (לחץ, החזק והעבר את המתג למיקום הרצוי במסך)"
   },
   "desnighthover":{
-    "message":"Shows a transparent switch on the web page"
+    "message":"מציג מתג שקוף בדף האינטרנט"
   },
   "titelnightmodewhitelist":{
     "message":"רשימה לבנה"
@@ -766,7 +766,7 @@
     "message":"רשימה שחורה"
   },
   "desautostoponly":{
-    "message":"Only activate stop playing the video automatically on the following site(s):"
+    "message":"הפעל הפסקת ניגון אוטומטי של סרטונים רק באתר(ים) הבא(ים):"
   },
   "titelautostopwhitelist":{
     "message":"רשימה לבנה"
@@ -775,10 +775,10 @@
     "message":"רשימה שחורה"
   },
   "desnightactivetime":{
-    "message":"The switch will be visible between the following times:"
+    "message":"המתג יהיה גלוי בין הזמנים הבאים:"
   },
   "deslampandnightmode":{
-    "message":"Activate the 'Night Mode' option when you click on the gray lamp button"
+    "message":"הפעל את אפשרות 'מצב לילה' בלחיצה על כפתור המנורה האפור"
   },
   "titeleyewhitelist":{
     "message":"רשימה לבנה"
@@ -790,16 +790,16 @@
     "message":"מנורת דפדפן"
   },
   "html5andyoutube":{
-    "message":"HTML5 & YouTube™ video"
+    "message":"סרטון HTML5 ו-™YouTube"
   },
   "flashembedobject":{
-    "message":"Supports: <object>, <embed>, <applet>, <iframe>."
+    "message":"תומך ב: <object>, <embed>, <applet>, <iframe>."
   },
   "titelnightmodebck":{
-    "message":"Background color"
+    "message":"צבע רקע"
   },
   "titelnightmodetxt":{
-    "message":"Text color"
+    "message":"צבע טקסט"
   },
   "desdynamicsmoke":{
     "message":"עשן"
@@ -812,43 +812,43 @@
     "description":"סערה"
   },
   "desdynamictriangulation":{
-    "message":"Triangulation"
+    "message":"טריאנגולציה"
   },
   "desdynamicstars":{
     "message":"כוכבים"
   },
   "desmobileapp":{
-    "message":"Turn Off the Lights is also available for your mobile device."
+    "message":"Turn Off the Lights זמין גם עבור המכשיר הנייד שלך."
   },
   "titel360youtube":{
-    "message":"Shows the full 360 degrees YouTube video in one frame"
+    "message":"מציג את מלוא סרטון 360 המעלות של YouTube בפריים אחד"
   },
   "titelvideotool":{
-    "message":"Video Toolbar"
+    "message":"סרגל וידאו"
   },
   "desvideotool":{
-    "message":"Show the toolbar below your screen to customize the current video player"
+    "message":"הצגת סרגל הכלים מתחת למסך להתאמה אישית של נגן הווידאו הנוכחי"
   },
   "vtoolfullscreen":{
-    "message":"A button to set the video player to the full window size"
+    "message":"לחצן להגדרת נגן הווידאו לגודל החלון המלא"
   },
   "vtoolfilter":{
-    "message":"A button to add a filter in the current video player"
+    "message":"לחצן להוספת מסנן בנגן הווידאו הנוכחי"
   },
   "vtoolreplay":{
     "message":"כפתור להפעלה מחודשת של נגן הווידיאו הנוכחי"
   },
   "vtoolscreenshot":{
-    "message":"A button to take a screenshot of the current video player"
+    "message":"לחצן ליצירת צילום מסך מתוך נגן הווידאו הנוכחי"
   },
   "vtoolalign":{
-    "message":"A button to center the video player in your browser window"
+    "message":"לחצן למרכוז נגן הווידאו בחלון הדפדפן שלך"
   },
   "titelvideotoolgrayscale":{
     "message":"גווני אפור"
   },
   "titelvideotoolsepia":{
-    "message":"sepia"
+    "message":"ספיה"
   },
   "titelvideotoolinvert":{
     "message":"הפוך"
@@ -884,16 +884,16 @@
     "message":"מסך מלא"
   },
   "titelvideotoolscreenshot":{
-    "message":"Take a screenshot"
+    "message":"צלם מסך"
   },
   "titelreflection":{
     "message":"השתקפות"
   },
   "desreflection":{
-    "message":"Show the reflection effect on all videos"
+    "message":"הצג אפקט השתקפות בכל הסרטונים"
   },
   "desvideotoolonly":{
-    "message":"Activate the Video Tool Bar only on the following site(s):"
+    "message":"הפעל את סרגל הכלים של הסרטונים רק באתר(ים) הבא(ים):"
   },
   "titelvideotoolwhitelist":{
     "message":"רשימה לבנה"
@@ -906,44 +906,44 @@
     "description":"היפר-קישור"
   },
   "titelblock60fps":{
-    "message":"Block 60fps",
-    "description":"Block 60fps"
+    "message":"חסום 60fps",
+    "description":"חסום 60fps"
   },
   "titelvolume":{
-    "message":"Video Volume Slider"
+    "message":"מחוון עוצמת קול של סרטון"
   },
   "desvideovolume":{
-    "message":"Control the volume of the current video player with a mouse scroll"
+    "message":"שלוט בעוצמת הקול של הנגן הנוכחי באמצעות הגלגלת בעכבר"
   },
   "desvideovolumecolor":{
-    "message":"Color of the slider"
+    "message":"צבע המחוון"
   },
   "desvolumelabel":{
-    "message":"Show volume label"
+    "message":"הצג תווית עוצמת קול"
   },
   "desvolumesteps":{
-    "message":"The number of levels for each 360° wheel scroll"
+    "message":"מספר רמות עבור כל גלילה של 360° באמצעות העכבר"
   },
   "sharetexta":{
-    "message":"Get this Cool Turn Off the Lights Browser Extension"
+    "message":"השג את תוסף הדפדפן Turn Off the Lights המגניב הזה"
   },
   "sharetextb":{
-    "message":"Hey, This is amazing. I just tried today this Turn Off the Lights Browser extension "
+    "message":"היי, זה מדהים. ניסיתי היום את תוסף הדפדפן Turn Off the Lights "
   },
   "sharetextc":{
-    "message":"The Best and Amazing Turn Off the Lights Browser extension"
+    "message":"תוסף הדפדפן הטוב ביותר והמדהים Turn Off the Lights"
   },
   "sharetextd":{
-    "message":"Turn Off the Lights extension is the Best Tool for use on YouTube. Download it and try it yourself!"
+    "message":"תוסף Turn Off the Lights הוא הכלי הטוב ביותר לשימוש ב-YouTube. הורד ונסה אותו בעצמך!"
   },
   "titelsharethis":{
-    "message":"Share this:"
+    "message":"שתף את זה:"
   },
   "titellampchoose":{
-    "message":"Choose your favorite lamp style"
+    "message":"בחר את סגנון המנורה האהוב עלייך"
   },
   "titeldoesntwork":{
-    "message":"Turn Off the Lights doesn't work on this web page. Please try another page."
+    "message":"Turn Off the Lights לא עובד בדף אינטרנט זה. אנא נסה דף אחר."
   },
   "titelpopupvideo":{
     "message":"YouTube"
@@ -985,72 +985,87 @@
     "message":"כפתור הצגת את audio-visualization על גבי נגן הוידאו הנוכחי"
   },
   "desvideotoolcolor":{
-    "message":"Color of the toolbar"
+    "message":"צבע סרגל הכלים"
   },
   "titelhovervideo":{
-    "message":"Video Hover"
+    "message":"וידאו צף"
   },
   "deshovervideo":{
-    "message":"Hover your mouse on the video element for certain number of seconds, after which the webpage automatically dims"
+    "message":"העבר את העכבר שלך מעל רכיב הוידאו לכמה שניות, לאחריהן דף האינטרנט מתעמעם אוטומטית"
   },
   "promotitle":{
-    "message":"Tip of the day"
+    "message":"העצה היומית"
   },
   "desremyoutube":{
     "message":"הירשם כמנוי ביוטיוב"
   },
   "desremfacebook":{
-    "message":"Recommend this on Facebook"
+    "message":"המלץ בפייסבוק"
   },
   "titleuserprofile":{
-    "message":"Below, choose the settings you want to use when clicking the gray lamp button. Each profile has its own features."
+    "message":"להלן, בחר את ההגדרות שבהן ברצונך להשתמש בלחיצה על כפתור המנורה האפור. כל פרופיל כולל תכונות משלו."
   },
   "titleregularuser":{
-    "message":"Video Lover"
+    "message":"אוהב סרטונים"
   },
   "titlenightowl":{
-    "message":"Night Owl"
+    "message":"ינשוף לילה"
   },
   "titlescreenprotection":{
     "message":"הגנה לעיניים"
   },
   "desregularuser":{
-    "message":"This is default and the regular setting for new users. When clicking the gray lamp button, this style will be applied to the current web page."
+    "message":"זה ברירת המחדל וההגדרה הרגילה עבור משתמשים חדשים. בעת לחיצה על לחצן אפור המנורה, סגנון זה יחול על דף האינטרנט הנוכחי."
   },
   "desnightowl":{
-    "message":"One click converts the page directly into a night theme with a clickable hyperlink. Click it again to return to normal view. Click the lamp button again to disable this feature."
+    "message":"לחיצה אחת ממירה את העמוד ישירות לתוך נושא בלילה עם היפר-קישור לחיץ. לחץ עליו שוב כדי לחזור לתצוגה רגילה. לחץ על לחצן המנורה שוב כדי לבטל תכונה זו."
   },
   "desscreenprotection":{
-    "message":"One click shades the page to a soothing orange color to decrease eye strain on all open tabs. Click the lamp button again to disable this feature."
+    "message":"לחיצה אחת גוונים שהדף צבע כתום מרגיע כדי להקטין את מאמץ בעיניים את כל הכרטיסיות הפתוחות. לחץ על לחצן המנורה שוב כדי לבטל תכונה זו."
   },
   "titleprofilevideofocus":{
-    "message":"Video focus is enabled"
+    "message":"מיקוד הסרטון מופעל"
   },
   "titleprofilenovideofocus":{
-    "message":"Video focus is disabled"
+    "message":"מיקוד הסרטון אינו מופעל"
   },
   "titleprofilealwaysscreentab":{
-    "message":"Always enabled for all open tabs"
+    "message":"תמיד מופעל לכל הכרטיסיות הפתוחות"
   },
   "titleprofilescreenclick":{
     "message":"אפשר לחיצה על קישורים כשהמסך מוחשך"
   },
   "titleprofilesubmit":{
-    "message":"Choose this settings"
+    "message":"בחר הגדרות אלו"
   },
   "titlelearnmore":{
-    "message":"Learn more"
+    "message":"למידע נוסף"
   },
   "optionprofilesaved":{
-    "message":"New lamp action is saved successfully!"
+    "message":"פעולה מנורה חדשה נשמר בהצלחה!"
   },
   "desaplay":{
-    "message":"play"
+    "message":"נגן"
   },
   "desapause":{
-    "message":"pause"
+    "message":"השהה"
   },
   "desastop":{
-    "message":"stop"
+    "message":"עצור"
+  },
+  "desvideozoom":{
+    "message":"להגדיל או להקטין על תוכן וידאו באמצעות לחצן הזום"
+  },
+  "titlevideoplayrate":{
+    "message":"מהירות וידאו"
+  },
+  "desplayrate":{
+    "message":"מהירות ניגון ברירת מחדל"
+  },
+  "desspeedtoolbar":{
+    "message":"להציג את סרגל הכלים של השמעה בנגן וידאו הנוכחי"
+  },
+  "desatmosontotlmode":{
+    "message":"הצג את אפקט תאורה של האווירה רק כאשר TOtL מצב מופעל"
   }
 }

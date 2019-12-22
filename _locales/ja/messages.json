@@ -96,7 +96,7 @@
     "message":"「目の保護」機能は有効です。以下の機能を利用するには、このオプションを無効にしてください。"
   },
   "name":{
-    "message":"Turn Off the Lights"
+    "message":"Turn Off the Lights for YouTube™"
   },
   "changelog":{
     "message":"更新履歴"
@@ -1015,22 +1015,22 @@
     "message":"目の保護機能"
   },
   "desregularuser":{
-    "message":"初めてこのアプリを使うときはこの通常モードになります。グレーの電球のボタンをクリックすると、ブラウザーの画面はこの効果に変わります。"
+    "message":"初めてこのアプリを使うときはこの通常モードになります。グレーの電球のボタンをクリックすると、そのとき表示しているブラウザーの画面はこの効果に変わります。"
   },
   "desnightowl":{
-    "message":"ハイパーリンクをクリック、ナイトモードに切り替え。もう一度クリックすると元に戻ります。"
+    "message":"クリックでナイトモードのオンとオフを切り替えます。どちらでもリンクは有効です。"
   },
   "desscreenprotection":{
-    "message":"電球ボタンをクリック、すべてのタブの表示を、目に優しいオレンジ色に切り替え。もう一度クリックすると元に戻ります。"
+    "message":"電球ボタンをクリックすると、目に優しいモードのオンとオフを切り替えます。開いているタブはすべて、表示が変更されます。"
   },
   "titleprofilevideofocus":{
     "message":"動画画面の優先をオン"
   },
   "titleprofilenovideofocus":{
-    "message":"ビデオ画面の優先をオフ"
+    "message":"動画画面の優先をオフ"
   },
   "titleprofilealwaysscreentab":{
-    "message":"すべてのタブにこの機能を使う"
+    "message":"常にすべてのタブにこの機能を使う"
   },
   "titleprofilescreenclick":{
     "message":"画面が暗い時にハイパーリンクのクリックを有効にする"
@@ -1052,5 +1052,20 @@
   },
   "desastop":{
     "message":"停止"
+  },
+  "desvideozoom":{
+    "message":"ズームボタンを使って動画を拡大・縮小"
+  },
+  "titlevideoplayrate":{
+    "message":"動画の再生スピード"
+  },
+  "desplayrate":{
+    "message":"既定の再生スピード"
+  },
+  "desspeedtoolbar":{
+    "message":"現在のビデオプレイヤーに再生ツールバーを表示"
+  },
+  "desatmosontotlmode":{
+    "message":"Turn On the Light が有効な場合のみ雰囲気照明効果をオンにする"
   }
 }

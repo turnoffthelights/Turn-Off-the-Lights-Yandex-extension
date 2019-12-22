@@ -3,7 +3,7 @@
 
 Turn Off the Lights
 The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2017 Stefan vd
+Copyright (C) 2018 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -29,14 +29,14 @@ To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.
 
 function $(id) { return document.getElementById(id); }
 // settings
-var default_opacity = null, suggestions = null, playlist = null, videoheadline = null, flash = null, head = null, infobar = null, likebutton = null, sharebutton = null, viewcount = null, addvideobutton = null, likebar = null, mousespotlighto = null, mousespotlightc = null, mousespotlighta = null, lightcolor = null, lightimagea = null, lightimage = null, interval = null, fadein = null, fadeout = null, readera = null, readerlargestyle = null, mousespotlightt = null, password = null, enterpassword = null, noflash = null, hardflash = null, dynamic = null, dynamic1 = null, dynamic2 = null, dynamic3 = null, dynamic4 = null, dynamic5 = null, dynamic6 = null, dynamic7 = null, dynamic8 = null, dynamic9 = null, dynamic10 = null, hoveroptiondyn5 = null, blur = null, cinemaontop = null, slideeffect = null, lightimagelin = null, linearsq = null, colora = null, intervallina = null, colorb = null, intervallinb = null, no360youtube = null, mousespotlightt = null, mousespotlights = null;
+var default_opacity = null, suggestions = null, playlist = null, videoheadline = null, flash = null, head = null, infobar = null, likebutton = null, sharebutton = null, viewcount = null, addvideobutton = null, likebar = null, mousespotlighto = null, mousespotlightc = null, mousespotlighta = null, lightcolor = null, lightimagea = null, lightimage = null, interval = null, fadein = null, fadeout = null, readera = null, readerlargestyle = null, mousespotlightt = null, password = null, enterpassword = null, noflash = null, hardflash = null, dynamic = null, dynamic1 = null, dynamic2 = null, dynamic3 = null, dynamic4 = null, dynamic5 = null, dynamic6 = null, dynamic7 = null, dynamic8 = null, dynamic9 = null, dynamic10 = null, hoveroptiondyn5 = null, blur = null, cinemaontop = null, slideeffect = null, lightimagelin = null, linearsq = null, colora = null, intervallina = null, colorb = null, intervallinb = null, no360youtube = null, mousespotlightt = null, mousespotlights = null, titleinvertcolor = null, darkbrowsertheme = null, multiopacall = null, multiopacsel = null, multiopacityDomains = null;
 // html elements used
 var div = null, video = null, span = null, iframe = null, embed = null, object = null, a = null, img = null;
 // block lights
 var activatelightsoff = true;
 
 /////////// Option page settings
-chrome.storage.sync.get(['suggestions','playlist','videoheadline','head','infobar','likebutton','sharebutton','viewcount','addvideobutton','likebar','flash','noflash','hardflash','no360youtube','mousespotlights'], function(response){
+chrome.storage.sync.get(['suggestions','playlist','videoheadline','head','infobar','likebutton','sharebutton','viewcount','addvideobutton','likebar','flash','noflash','hardflash','no360youtube','mousespotlights','titleinvertcolor'], function(response){
 suggestions = response['suggestions'];
 playlist = response['playlist'];
 videoheadline = response['videoheadline'];
@@ -52,10 +52,44 @@ noflash = response['noflash'];
 hardflash = response['hardflash'];
 no360youtube = response['no360youtube'];
 mousespotlights = response['mousespotlights'];
+titleinvertcolor = response['titleinvertcolor'];if(titleinvertcolor)titleinvertcolor = response['titleinvertcolor'];else titleinvertcolor = '#ffffff'; // default color white
+
+// check if CSS inject is on the current page
+var a;var span = document.createElement("span");
+span.setAttribute('id','stefanvdtest');
+span.className = "stefanvdtest";
+document.body.appendChild(span);
+a = span.offsetTop;
+if(a != 88){
+chrome.runtime.sendMessage({name: 'sendlightcss'});
+}
+if(document.getElementById('stefanvdtest')){
+var elem = document.getElementById("stefanvdtest");
+elem.parentNode.removeChild(elem);
+}
+
+chrome.runtime.onMessage.addListener(
+function(request, sender) {
+	if(request.name == "injectlightcss"){var style = document.createElement("style");style.type = "text/css";style.textContent = request.message;document.getElementsByTagName("head")[0].appendChild(style);}
+});
+
+function hasClass(a, b) {
+	return (' ' + a.className + ' ').indexOf(' ' + b + ' ') > -1;
+}
 
 if(mousespotlights == true){
 // no video detection
 }else{
+// CSS for pseudo
+if($('csstotlpseudo')){}else{
+var totlpseudo = "*:before,*:after{z-index:auto!important}";
+var css = document.createElement('style');
+css.setAttribute('id','csstotlpseudo');
+css.type = 'text/css';
+css.appendChild(document.createTextNode(totlpseudo));
+document.getElementsByTagName("head")[0].appendChild(css);
+}
+
 // intelligent video detection
 // detect if not higher then z-index 1000, then make it push down
 // search for the z-index, if found something give it 'auto'
@@ -66,19 +100,44 @@ if(mousespotlights == true){
 // remove this and place the 'none' value
 var q = document.getElementsByTagName('*');
 for(var i = 0; i < q.length; i++ ) {
-	if (q[i].currentStyle){
+	if(q[i].currentStyle){
 		var y = q[i].currentStyle["z-Index"];
 		var x = q[i].currentStyle["contain"];
-		var t = q[i].currentStyle["-webkit-transform"] || q[i].currentStyle["-moz-transform"] || q[i].currentStyle["-ms-transform"] || q[i].currentStyle["-o-transform"] || q[i].currentStyle["transform"]
+		var t = q[i].currentStyle["-webkit-transform"] || q[i].currentStyle["-moz-transform"] || q[i].currentStyle["-ms-transform"] || q[i].currentStyle["-o-transform"] || q[i].currentStyle["transform"];
 	}
-	else if (window.getComputedStyle){
+	else if(window.getComputedStyle){
 		var st = document.defaultView.getComputedStyle(q[i], null);
 		var y = st.getPropertyValue("z-Index");
 		var x = st.getPropertyValue("contain");
-		var t = st.getPropertyValue("-webkit-transform") || st.getPropertyValue("-moz-transform") || st.getPropertyValue("-ms-transform") || st.getPropertyValue("-o-transform") || st.getPropertyValue("transform")
+		var t = st.getPropertyValue("-webkit-transform") || st.getPropertyValue("-moz-transform") || st.getPropertyValue("-ms-transform") || st.getPropertyValue("-o-transform") || st.getPropertyValue("transform");
 	}
+
+	if(q[i].shadowRoot){
+		// only for open shadowRoot
+		if(q[i].shadowRoot.querySelector('#rootstefan')){}else{
+			var css = '.stefanvdotherdown{z-index:950!important}',
+			style = document.createElement('style');
+			style.id = "rootstefan";
+			style.type = 'text/css';
+			if (style.styleSheet){
+			style.styleSheet.cssText = css;
+			} else {
+			style.appendChild(document.createTextNode(css));
+			}
+			q[i].shadowRoot.appendChild(style);
+		}
+		var s = q[i].shadowRoot.querySelectorAll('*');
+		for(var j = 0; j < s.length; j++ ) {
+			var st = document.defaultView.getComputedStyle(s[j], null);
+			var k = st.getPropertyValue("z-Index");
+			if (k >= 1000){
+				s[j].classList.add('stefanvdotherdown');
+			}
+		}
+	}
+
 	// push below the dark layer
-	if (y >= 1000){
+	if(y >= 1000){
 		var elementa = document.getElementsByTagName("screenshader")[0];//Stefan screenshader
 		var elementstefanvd = q[i].id; elementstefanvd = elementstefanvd.substring(0, 8); // everthing with stefanvd element is whitelist
 		if (elementa == q[i].parentNode || elementstefanvd == "stefanvd" || q[i].tagName == "VIDEO") {
@@ -88,7 +147,7 @@ for(var i = 0; i < q.length; i++ ) {
 	} // its value from its parent element
 	// remove contain that block z-index level
 	if (x == "strict" || x == "paint"){q[i].classList.add('stefanvdcontainauto');}
-	if (t == "matrix(1, 0, 0, 1, 0, 0)"){ q[i].style.webkitTransform = 'none'; q[i].style.MozTransform = 'none'; q[i].style.msTransform = 'none'; q[i].style.OTransform = 'none'; q[i].style.transform = 'none';}
+	//if (t == "matrix(1, 0, 0, 1, 0, 0)"){q[i].style.webkitTransform = 'none'; q[i].style.MozTransform = 'none'; q[i].style.msTransform = 'none'; q[i].style.OTransform = 'none'; q[i].style.transform = 'none';}
 }
 
 /////////// API for Website Developer
@@ -109,13 +168,16 @@ var path = [];
 var el = video[i];
 do {
     var qq = path.unshift(el.nodeName);
-    if (el.currentStyle) { 
-        var yta = qq.currentStyle["z-Index"]; 
+    if(el.currentStyle) {
+        var yta = qq.currentStyle["z-Index"];
+		var tta = qq.currentStyle["-webkit-transform"] || qq.currentStyle["-moz-transform"] || qq.currentStyle["-ms-transform"] || qq.currentStyle["-o-transform"] || qq.currentStyle["transform"];
     }
-    else {
+    else{
         var yta = document.defaultView.getComputedStyle(el,null).getPropertyValue("z-Index");
+		var st = document.defaultView.getComputedStyle(el, null);
+		var tta = st.getPropertyValue("-webkit-transform") || st.getPropertyValue("-moz-transform") || st.getPropertyValue("-ms-transform") || st.getPropertyValue("-o-transform") || st.getPropertyValue("transform");
     }
-	if (yta == "auto"){}
+	if(yta == "auto"){}
 	else{
 			// if it is not the <video> player element,
 			// and if otherdown class is inside, then remove it
@@ -127,10 +189,11 @@ do {
 				el.classList.add('stefanvdvideoauto');
 			}
 	}
+	if(tta != "none"){el.classList.add('stefanvdtransformauto');}
 } while ((el.nodeName.toLowerCase() != 'html') && (el = el.parentNode))
 
 // other file then "mp3" then run this code
-if (video[i].currentSrc.lastIndexOf(".mp3")==-1) {video[i].classList.add('stefanvdvideotop');}
+if (video[i].currentSrc.lastIndexOf(".mp3")==-1) {video[i].classList.add('stefanvdvideotop');if(video[i].classList.contains("stefanvdtransformauto")){video[i].classList.remove("stefanvdtransformauto");}}
 if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
 	if (no360youtube == true){
 		video[i].style.cssText += "display:block !important";
@@ -161,7 +224,7 @@ try {
 		for (var j = 0; j < iframeVideoTags.length; j++) {
 			iframeVideoTags.item(j).classList.add('stefanvdvideotop');
 		}
-	}	
+	}
 } catch(e){}
 */
 
@@ -179,13 +242,16 @@ if(j!=3||!R((C=N.contentWindow)?C:N.contentDocument.defaultView))
 	var el = N;
 	do {
 		var qq = path.unshift(el.nodeName);
-		if (el.currentStyle) { 
-			var yta = qq.currentStyle["z-Index"]; 
+		if(el.currentStyle) { 
+			var yta = qq.currentStyle["z-Index"];
+			var tta = qq.currentStyle["-webkit-transform"] || qq.currentStyle["-moz-transform"] || qq.currentStyle["-ms-transform"] || qq.currentStyle["-o-transform"] || qq.currentStyle["transform"];
 		}
-		else {
+		else{
 			var yta = document.defaultView.getComputedStyle(el,null).getPropertyValue("z-Index");
+			var st = document.defaultView.getComputedStyle(el, null);
+			var tta = st.getPropertyValue("-webkit-transform") || st.getPropertyValue("-moz-transform") || st.getPropertyValue("-ms-transform") || st.getPropertyValue("-o-transform") || st.getPropertyValue("transform");
 		}
-		if (yta == "auto"){}
+		if(yta == "auto"){}
 		else{
 				// if it is not the <video> player element,
 				// and if otherdown class is inside, then remove it
@@ -197,6 +263,7 @@ if(j!=3||!R((C=N.contentWindow)?C:N.contentDocument.defaultView))
 					el.classList.add('stefanvdvideoauto');
 				}
 		}
+		if(tta != "none"){el.classList.add('stefanvdtransformauto');}
 	} while ((el.nodeName.toLowerCase() != 'html') && (el = el.parentNode))
 	N.classList.add('stefanvdvideotop');
 }
@@ -218,12 +285,15 @@ for(var i = 0; i < a.length; i++ )
 	do {
 		var qq = path.unshift(el.nodeName);
 		if (el.currentStyle) { 
-			var yta = qq.currentStyle["z-Index"]; 
+			var yta = qq.currentStyle["z-Index"];
+			var tta = qq.currentStyle["-webkit-transform"] || qq.currentStyle["-moz-transform"] || qq.currentStyle["-ms-transform"] || qq.currentStyle["-o-transform"] || qq.currentStyle["transform"];
 		}
-		else {
+		else{
 			var yta = document.defaultView.getComputedStyle(el,null).getPropertyValue("z-Index");
+			var st = document.defaultView.getComputedStyle(el, null);
+			var tta = st.getPropertyValue("-webkit-transform") || st.getPropertyValue("-moz-transform") || st.getPropertyValue("-ms-transform") || st.getPropertyValue("-o-transform") || st.getPropertyValue("transform");
 		}
-		if (yta == "auto"){}
+		if(yta == "auto"){}
 		else{
 				// if it is not the <video> player element,
 				// and if otherdown class is inside, then remove it
@@ -235,6 +305,7 @@ for(var i = 0; i < a.length; i++ )
 					el.classList.add('stefanvdvideoauto');
 				}
 		}
+		if(tta != "none"){el.classList.add('stefanvdtransformauto');}
 	} while ((el.nodeName.toLowerCase() != 'html') && (el = el.parentNode))
 	a[i].classList.add('stefanvdvideotop');
 }
@@ -246,7 +317,11 @@ if (window.location.href.match(/((http:\/\/(gaming.youtube\.com\/.*))|(https:\/\
 var ytgpersistentplayer = document.getElementsByTagName('ytg-persistent-player');
     for(var i = 0; i < ytgpersistentplayer.length; i++ ){
         if(ytgpersistentplayer[i].getAttribute('id') == "player"){
-            ytgpersistentplayer[i].classList.add('stefanvdvideotop');
+				if(ytgpersistentplayer[i].classList.contains("stefanvdotherdown")){ytgpersistentplayer[i].classList.remove("stefanvdotherdown");}
+				if(ytgpersistentplayer[i].classList.contains("stefanvdvideocontrolsitem")){ytgpersistentplayer[i].classList.remove("stefanvdvideocontrolsitem");}
+				if(ytgpersistentplayer[i].classList.contains("stefanvditemtop")){ytgpersistentplayer[i].classList.remove("stefanvditemtop");}
+				if(ytgpersistentplayer[i].classList.contains("stefanvdvideoauto")){ytgpersistentplayer[i].classList.remove("stefanvdvideoauto");}
+            ytgpersistentplayer[i].classList.add('stefanvdvideocontrolstop');
         }
     }
 } // plus use YouTube Options also on the gaming site, for the html5 player visibility 
@@ -308,7 +383,7 @@ if(eowtitle){$('eow-title').style.color = 'white';$('eow-title').style.zIndex = 
 var ytmaterialvideotitle = document.querySelector("ytd-video-primary-info-renderer");
 if(ytmaterialvideotitle){
 var ytgeth = ytmaterialvideotitle.querySelector("h1");
-if(ytgeth != null){ytgeth.classList.add('stefanvditemtop');ytgeth.style.color = "white";}
+if(ytgeth != null){ytgeth.classList.add('stefanvditemtop');ytgeth.style.color = titleinvertcolor;}
 }
 }
 
@@ -327,7 +402,7 @@ if(ytmaterialhead){ytmaterialhead.classList.add('stefanvditemtop');ytmaterialhea
 
 // Shows Infobar
 if(infobar == true){
-// updated 15 january 2016    
+// updated 15 january 2016
 var watchdescription = $('watch-description');
 if(watchdescription){$('watch-description').style.zIndex = 1000;$('watch-description').style.background = 'white';}
 // update YouTube material 21 march 2017
@@ -346,7 +421,7 @@ if(likebuttonrenderdislike){likebuttonrenderdislike.style.zIndex = 1000;likebutt
 // update YouTube material 21 march 2017
 var ytmateriallikebutton = document.querySelectorAll('ytd-toggle-button-renderer');
 for(var i = 0; i < ytmateriallikebutton.length; i++ ){
-var ytgetobject = ytmateriallikebutton[i].querySelector("paper-icon-button");
+var ytgetobject = ytmateriallikebutton[i].getElementsByTagName('button')[0];
 if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
 if(ytgetstring != null){
 if(ytgetstring.substring(0, 7) == "dislike"){ytmateriallikebutton[i].classList.add('stefanvditemtop');ytmateriallikebutton[i].style.background = "white";}
@@ -362,7 +437,7 @@ if(actionsharepanel){actionsharepanel.style.zIndex = 1000;actionsharepanel.style
 // update YouTube material 21 march 2017
 var ytmaterialsharebutton = document.querySelectorAll('ytd-button-renderer');
 for(var i = 0; i < ytmaterialsharebutton.length; i++ ){
-var ytgetobject = ytmaterialsharebutton[i].querySelector("paper-icon-button");
+var ytgetobject = ytmaterialsharebutton[i].getElementsByTagName('button')[0];
 if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
 if(ytgetstring != null){
 if(ytgetstring.substring(0, 5) == "Share"){ytmaterialsharebutton[i].classList.add('stefanvditemtop');ytmaterialsharebutton[i].style.background = "white";}
@@ -377,7 +452,7 @@ if(watchviewcount){watchviewcount.style.zIndex = 1000;watchviewcount.style.color
 // update YouTube material 21 march 2017
 var ytmaterialviewcount = document.querySelector("yt-view-count-renderer");
 if(ytmaterialviewcount){
-var ytgetformat = ytmaterialviewcount.querySelector("yt-formatted-string");
+var ytgetformat = ytmaterialviewcount.querySelector(".view-count");
 if(ytgetformat != null){ytgetformat.classList.add('stefanvditemtop');ytgetformat.style.color = 'white';}
 }
 }
@@ -388,18 +463,18 @@ if(addvideobutton == true){
 var addtobutton = document.querySelector('.addto-button');
 if(addtobutton){addtobutton.style.zIndex = 1000;addtobutton.style.position = 'relative';addtobutton.style.background = 'white';}
 // update YouTube material 21 march 2017
-var ytmaterialsharebutton = document.querySelectorAll('ytd-button-renderer');
-for(var i = 0; i < ytmaterialsharebutton.length; i++ ){
-var ytgetobject = ytmaterialsharebutton[i].querySelector("paper-icon-button");
+var ytmaterialaddbutton = document.querySelectorAll('ytd-button-renderer');
+for(var i = 0; i < ytmaterialaddbutton.length; i++ ){
+var ytgetobject = ytmaterialaddbutton[i].getElementsByTagName('button')[0];
 if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
 if(ytgetstring != null){
-if(ytgetstring.substring(0, 6) == "Add to"){ytmaterialsharebutton[i].classList.add('stefanvditemtop');ytmaterialsharebutton[i].style.background = "white";}
+if(ytgetstring.substring(0, 6) == "Add to"){ytmaterialaddbutton[i].classList.add('stefanvditemtop');ytmaterialaddbutton[i].style.background = "white";}
 }}}
 }
 
 // Shows like/dislike bar
 if(likebar == true){
-// updated 15 january 2016    
+// updated 15 january 2016
 var videoextrasparkbars = document.querySelector('.video-extras-sparkbars');
 if(videoextrasparkbars){videoextrasparkbars.style.zIndex = 1000;videoextrasparkbars.style.position = 'relative'};
 // update YouTube material 21 march 2017
@@ -436,7 +511,12 @@ for(var i = 0; i < ytpcardsteaser.length; i++ )
 
 var ytpcardsbutton = document.getElementsByTagName('button');
 for(var i = 0; i < ytpcardsbutton.length; i++ )
-{if(ytpcardsbutton[i].className == ('ytp-button ytp-cards-button')) {ytpcardsbutton[i].classList.add('stefanvdvideocontrolstop');ytpcardsbutton[i].style.position = 'absolute';ytpcardsbutton[i].style.top = '0';}}
+{if(ytpcardsbutton[i].className == ('ytp-button ytp-cards-button')) {ytpcardsbutton[i].classList.add('stefanvdvideocontrolstop');}}
+
+// edit video card end screen
+var ytpcardsteaser = document.getElementsByTagName('div');
+for(var i = 0; i < ytpcardsteaser.length; i++ )
+{if(ytpcardsteaser[i].className == ('playergrid-safe-area')) {ytpcardsteaser[i].classList.add('stefanvdvideocontrolsitem');}}
 
 // YouTube video sidebar info button
 var ivdrawer = document.getElementsByTagName('div');
@@ -460,7 +540,7 @@ var guide = $('guide');
 if(guide){guide.classList.add('stefanvdvideocontrolstop');}
 
 // short and cleaner engine 2014
-var data = [['movie_player'],['movie_player-html5'],['watch-player'],['html5-player'],['video-player'],['user_fullwidth_gadget'],['ytp-share-panel']];
+var data = [['movie_player'],['movie_player-html5'],['watch-player'],['html5-player'],['video-player'],['user_fullwidth_gadget'],['ytp-share-panel'],['player-container']];
 for (var conf in data) {
         var temp = document.getElementById(data[conf][0]);
         if (temp) {
@@ -470,25 +550,17 @@ for (var conf in data) {
         }
 }
 
-var divs = document.getElementsByTagName('div');
-for (var div in divs) {
-        var c = divs[div].className;
-        if (c == 'video-controls' || c == 'html5-video-controls' || c == 'html5-video-controls ytp-block-autohide' || c == 'html5-video-controls disabled-control-seek') {
-			if(ytdivs[div].classList.contains("stefanvdvideoauto")){divs[div].classList.remove("stefanvdvideoauto");}
-			if(ytdivs[div].classList.contains("stefanvdotherdown")){divs[div].classList.remove("stefanvdotherdown");}
-			divs[div].classList.add('stefanvdvideocontrolsitem');
-        }
-}
-
-// YouTube new player 27/04/2015 and 31/08/2015 and 29/02/2016 and 23/06/2016
+// YouTube new player 27/04/2015 and 31/08/2015 and 29/02/2016 and 23/06/2016 and 14/09/2017
+var dclasses = ['ytp-upnext ytp-endscreen-upnext-autoplay-paused ytp-suggestion-set', 'ytp-remote', 'ytp-thumbnail-overlay ytp-cued-thumbnail-overlay', 'ytp-spinner', 'ytp-bezel', 'ytp-gradient-top', 'ytp-chrome-top', 'ytp-gradient-bottom', 'ytp-chrome-bottom', 'ytp-panelpopup ytp-settings-menu', 'ytp-share-panel', 'ytp-playlist-menu', 'ytp-related-menu', 'ytp-webgl-spherical-control', 'ytp-storyboard enabled', 'ytp-storyboard-framepreview', 'ytp-ad-progress-bar-container', 'ytp-popup ytp-settings-menu', 'ytp-panelpopup ytp-contextmenu', 'ytp-multicam-menu','video-controls', 'html5-video-controls', 'html5-video-controls ytp-block-autohide', 'html5-video-controls disabled-control-seek'];
 var ytdivs = document.getElementsByTagName('div');
 for (var div in ytdivs) {
-        var d = ytdivs[div].className;
-        if (d == 'ytp-upnext ytp-endscreen-upnext-autoplay-paused ytp-suggestion-set' || d == 'ytp-remote' || d == 'ytp-thumbnail-overlay ytp-cued-thumbnail-overlay' || d == 'ytp-spinner' || d == 'ytp-bezel' || d == 'ytp-gradient-top' || d == 'ytp-chrome-top' || d == 'ytp-gradient-bottom' || d == 'ytp-chrome-bottom' || d == 'ytp-panelpopup ytp-settings-menu' || d == 'ytp-share-panel' || d == 'ytp-playlist-menu' || d == 'ytp-related-menu' || d == 'ytp-webgl-spherical-control' || d == 'ytp-storyboard enabled' || d == 'ytp-storyboard-framepreview' || d == 'ytp-ad-progress-bar-container' || d == 'ytp-popup ytp-settings-menu' || d == 'ytp-panelpopup ytp-contextmenu' || d == 'ytp-multicam-menu') {
-			if(ytdivs[div].classList.contains("stefanvdvideoauto")){divs[div].classList.remove("stefanvdvideoauto");}
-			if(ytdivs[div].classList.contains("stefanvdotherdown")){divs[div].classList.remove("stefanvdotherdown");}
-			ytdivs[div].classList.add('stefanvdvideocontrolsitem');
-        }
+	for(var i = 0, j = dclasses.length; i < j; i++) {
+	if(hasClass(ytdivs[div], dclasses[i])) {
+		if(ytdivs[div].classList.contains("stefanvdvideoauto")){ytdivs[div].classList.remove("stefanvdvideoauto");}
+		if(ytdivs[div].classList.contains("stefanvdotherdown")){ytdivs[div].classList.remove("stefanvdotherdown");}
+		ytdivs[div].classList.add('stefanvdvideocontrolsitem');
+	}
+	}
 }
 
 // YouTube show sub title
@@ -638,6 +710,7 @@ if((insideframe.substring(0, 17) == '//www.youtube.com') || (insideframe.substri
 || (insideframe.substring(0, 44) == 'http://ssl.acfun.tv/block-player-homura.html') || (insideframe.substring(0, 45) == 'https://ssl.acfun.tv/block-player-homura.html')
 || (insideframe.substring(0, 43) == 'http://www.ceskatelevize.cz/ivysilani/embed') || (insideframe.substring(0, 44) == 'http://www.ceskatelevize.cz/ivysilani/embed')
 || (insideframe.substring(0, 30) == 'http://cdn.embedly.com/widgets') || (insideframe.substring(0, 31) == 'https://cdn.embedly.com/widgets')
+|| (insideframe.substring(0, 29) == 'http://player.theplatform.com') || (insideframe.substring(0, 30) == 'https://player.theplatform.com')
 || (insideframe.substring(0, 23) == 'http://player.youku.com') || (insideframe.substring(0, 24) == 'https://player.youku.com') || (insideframe.substring(0, 23) == 'http://static.youku.com') || (insideframe.substring(0, 24) == 'https://static.youku.com'))
 {
 // search for the video player, and set the previous path all to z-index "auto"
@@ -709,38 +782,23 @@ if(vimeoplayed){vimeoplayed.classList.add('stefanvdvideocontrolsitem');}
 }
 // Dailymotion, fixed show video
 else if (window.location.href.match(/((http:\/\/(.*dailymotion\.com\/.*|.*dailymotion\.com\/video\/.*))|(https:\/\/(.*dailymotion\.com\/.*|.*dailymotion\.com\/video\/.*)))/i)){
-div = document.getElementsByTagName('div'); 
-for(var i = 0; i < div.length; i++ ) 
-{if(div[i].className == ('dmpi_video_playerv4 span-8')) {div[i].classList.add('stefanvdvideocontrolsitem');}}
-
-// HTML5 video
-div = document.getElementsByTagName('div'); 
-for(var i = 0; i < div.length; i++ ) 
-{if(div[i].className == ('controls_container')) {div[i].classList.add('stefanvdvideocontrolsitem');}}
-
-// player controls below
-div = document.getElementsByTagName('div'); 
-for(var i = 0; i < div.length; i++ ) 
-{if(div[i].className == ('dmp_ControlBar dmp_will-transition')) {div[i].classList.add('stefanvdvideocontrolsitem');}}
-
-// player top
-div = document.getElementsByTagName('div'); 
-for(var i = 0; i < div.length; i++ ) 
-{if(div[i].className == ('dmp_Dock dmp_will-transition')) {div[i].classList.add('stefanvdvideocontrolsitem');}}
-
-// hd tooltip
-div = document.getElementsByTagName('div'); 
-for(var i = 0; i < div.length; i++ ) 
-{if(div[i].className == ('dmp_Tooltip dmp_is-hidden')) {div[i].classList.add('stefanvdvideocontrolsitem');}}
-
-// menu
-div = document.getElementsByTagName('div'); 
-for(var i = 0; i < div.length; i++ ) 
-{if(div[i].className == ('dmp_Menu')) {div[i].classList.add('stefanvdvideocontrolsitem');}}
-
-// share panel
-var dmpSharePane = $('dmp_SharePane');
-if(dmpSharePane){$('dmp_SharePane').classList.add('stefanvdvideocontrolsitem');}
+// inject CSS for head
+try{
+	var totldailymotion = ".np_ButtonWatermark,.np_Darken,.np_ControlsManager,.np_Gesture,.np_dialog,.np_menu,.np_MenuSettings,.np_row--info{z-index:1001!important}";
+	
+	if($("csstotldailymotion")){
+	 var elem = document.getElementById("csstotldailymotion");
+	 elem.parentElement.removeChild(elem);
+	}
+	
+	var css = document.createElement('style');
+	css.setAttribute('id','csstotldailymotion');
+	css.type = 'text/css';
+	css.appendChild(document.createTextNode(totldailymotion));
+	document.getElementsByTagName("head")[0].appendChild(css);
+	
+}
+catch(e) {}
 }
 // vk.com, fixed show video
 else if (window.location.href.match(/((http:\/\/.*vk\.com\/.*)|(https:\/\/.*vk\.com\/.*))/i)){
@@ -757,7 +815,7 @@ if(mvlayerwrap){mvlayerwrap.style.cssText += "position:absolute !important";}
 else if (window.location.href.match(/((http:\/\/.*steampowered\.com\/.*)|(https:\/\/.*steampowered\.com\/.*))/i)){
 div = document.getElementsByTagName('div'); 
 for(var i = 0; i < div.length; i++ ) 
-{if(div[i].className == ('html5_video_overlay')) {div[i].classList.add('stefanvdvideocontrolsitem');;}}
+{if(div[i].className == ('html5_video_overlay')) {div[i].classList.add('stefanvdvideocontrolsitem');}}
 }
 // twich.tv
 // fixed 15 january 2016
@@ -773,7 +831,14 @@ var elems = document.querySelectorAll(".player-hover");
 el.classList.add('stefanvdvideocontrolsitem');
 });
 }
-
+// yahoo
+// fixed 15 january 2016
+else if (window.location.href.match(/((http:\/\/.*yahoo\.com\/.*)|(https:\/\/.*yahoo\.com\/.*))/i)){
+	var elems = document.querySelectorAll(".yvp-bottom-bar");
+	[].forEach.call(elems, function (el) {
+	el.classList.add('stefanvdvideocontrolstop');
+	});
+}
 // facebook.com - show the video player control
 // fixed 21 january 2016
 else if (window.location.href.match(/((http:\/\/.*facebook\.com\/.*)|(https:\/\/.*facebook\.com\/.*))/i)){
@@ -788,7 +853,6 @@ for(var i = 0; i < videoStage.length; i++){
             div[j].classList.add('stefanvdvideocontrolsitem');
         }
 }
-
 // main facebook video control
 var i5q = document.getElementsByClassName("_i5q");
 for(var i = 0; i < i5q.length; i++){
@@ -801,7 +865,6 @@ for(var i = 0; i < i5q.length; i++){
         }
 }
 }
-
 // Netflix, fullscreen video player -> block
 else if (window.location.href.match(/((http:\/\/(.*netflix\.com\/watch\/.*))|(https:\/\/(.*netflix\.com\/watch\/.*)))/i)){
 // it's a video player. Then do nothing
@@ -830,8 +893,6 @@ document.getElementsByTagName('video')[0].style.cssText += 'z-index:auto !import
 		var readerontext;
 		var readeronrange;
 		var readerlargestyle;
-		var readerlargeimgclick;
-		var readerlargetitleclick;
 
 		readerontext = $('totlgammaVal');
 		readeronrange = $('totlrange');
@@ -839,17 +900,15 @@ document.getElementsByTagName('video')[0].style.cssText += 'z-index:auto !import
 			chrome.storage.sync.set({"interval": readerontext.value});
 		}
 	
-		readerlargestyle = $('__totl-tidbit-box');
-		readerlargeimgclick = $('__totl-min');
-		readerlargetitleclick = $('__totl-box-info');
-		if (readerlargestyle != null && readerlargeimgclick != null && readerlargetitleclick != null) {
-			if(readerlargestyle.style.width == '24px'){chrome.storage.sync.set({"readerlargestyle": false});}
+		readerlargestyle = $('stefanvdreaderbar');
+		if (readerlargestyle != null) {
+			if(readerlargestyle.style.width == '30px'){chrome.storage.sync.set({"readerlargestyle": false});}
 			else{chrome.storage.sync.set({"readerlargestyle": true});}
-		}	
+		}
 		}
 	
-		var totlreaderbar = $('totlreaderbar');
-		if(totlreaderbar) {document.body.removeChild(totlreaderbar);}
+		var stefanvdreaderbar = $('stefanvdreaderbar');
+		if(stefanvdreaderbar){document.body.removeChild(stefanvdreaderbar);}
 		
 		// remove help div
 		var stefanvdlightareoffcustom = $('stefanvdlightareoffcustom');
@@ -861,61 +920,57 @@ document.getElementsByTagName('video')[0].style.cssText += 'z-index:auto !import
 		
         // Set everything back to the default YouTube theme
         if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
-			// update YouTube material 21 march 2017
+			// update YouTube material 6 August 2017
 			var ytmaterialinfo = document.querySelector("ytd-video-secondary-info-renderer");
 			if(ytmaterialinfo){ytmaterialinfo.style.background = "";}
 
-			// update YouTube material 21 march 2017
+			// YouTube like button
 			var ytmateriallikebutton = document.querySelectorAll('ytd-toggle-button-renderer');
 			for(var i = 0; i < ytmateriallikebutton.length; i++ ){
-			var ytgetobject = ytmateriallikebutton[i].querySelector("paper-icon-button");
+			var ytgetobject = ytmateriallikebutton[i].getElementsByTagName('button')[0];
 			if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
 			if(ytgetstring != null){
 			if(ytgetstring.substring(0, 7) == "dislike"){ytmateriallikebutton[i].style.background = "";}
 			else if(ytgetstring.substring(0, 4) == "like"){ytmateriallikebutton[i].style.background = "";}
 			}}}
 
-			// update YouTube material 21 march 2017
+			// YouTube share button
 			var ytmaterialsharebutton = document.querySelectorAll('ytd-button-renderer');
 			for(var i = 0; i < ytmaterialsharebutton.length; i++ ){
-			var ytgetobject = ytmaterialsharebutton[i].querySelector("paper-icon-button");
+			var ytgetobject = ytmaterialsharebutton[i].getElementsByTagName('button')[0];
 			if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
 			if(ytgetstring != null){
 			if(ytgetstring.substring(0, 5) == "Share"){ytmaterialsharebutton[i].style.background = "";}
 			}}}
 		
-			// update YouTube material 21 march 2017
+			// YouTube add button
 			var ytmaterialsharebutton = document.querySelectorAll('ytd-button-renderer');
 			for(var i = 0; i < ytmaterialsharebutton.length; i++ ){
-			var ytgetobject = ytmaterialsharebutton[i].querySelector("paper-icon-button");
+			var ytgetobject = ytmaterialsharebutton[i].getElementsByTagName('button')[0];
 			if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
 			if(ytgetstring != null){
 			if(ytgetstring.substring(0, 6) == "Add to"){ytmaterialsharebutton[i].style.background = "";}
 			}}}
 		
-			// update YouTube material 21 march 2017
+			// YouTube head
 			var ytmaterialhead = document.querySelector("ytd-video-owner-renderer");
 			if(ytmaterialhead){ytmaterialhead.style.background = "";}
 
-			// update YouTube material 21 march 2017
+			// YouTube suggestions
 			var ytmaterialsuggestions = document.querySelector("ytd-watch-next-secondary-results-renderer");
 			if(ytmaterialsuggestions){ytmaterialsuggestions.style.background = "";}
 
-			// update YouTube material 21 march 2017
+			// YouTube video title
 			var ytmaterialvideotitle = document.querySelector("ytd-video-primary-info-renderer");
 			if(ytmaterialvideotitle){
 			var ytgeth = ytmaterialvideotitle.querySelector("h1");
 			if(ytgeth != null){ytgeth.style.color = "";}
 			}
 
-			// update YouTube material 21 march 2017
-			var ytmaterialviewcount = document.querySelector("yt-view-count-renderer");
-			if(ytmaterialviewcount){ytmaterialviewcount.style.color = '';}
-
-			// update YouTube material 21 march 2017
+			// YouTube view count
 			var ytmaterialviewcount = document.querySelector("yt-view-count-renderer");
 			if(ytmaterialviewcount){
-			var ytgetformat = ytmaterialviewcount.querySelector("yt-formatted-string");
+			var ytgetformat = ytmaterialviewcount.querySelector(".view-count");
 			if(ytgetformat != null){ytgetformat.style.color = '';}
 			}
 			
@@ -958,7 +1013,7 @@ document.getElementsByTagName('video')[0].style.cssText += 'z-index:auto !import
             var watchviewcount = document.querySelector('.watch-view-count');
             if(watchviewcount){watchviewcount.style.zIndex = 'auto';watchviewcount.style.color = '#333';}
             
-            // YouTube video view count (set back to default)
+            // YouTube video add button (set back to default)
             var addtobutton = document.querySelector('.addto-button');
             if(addtobutton){addtobutton.style.zIndex = 'auto';addtobutton.style.position = 'relative';addtobutton.style.background = 'transparent';}
     
@@ -987,28 +1042,37 @@ document.getElementsByTagName('video')[0].style.cssText += 'z-index:auto !import
 		var stefanvdlightcorner = $('stefanvdlightcorner');
 		if(stefanvdlightcorner) {document.body.removeChild(stefanvdlightcorner);}
 
+		var csstotlpseudo = $('csstotlpseudo');
+		if(csstotlpseudo) {document.getElementsByTagName("head")[0].removeChild(csstotlpseudo);}
+
 		// remove video player on top
-		document.querySelectorAll('.stefanvdvideotop').forEach(function(el) {
-		el.classList.remove("stefanvdvideotop");
-		});
-		document.querySelectorAll('.stefanvditemtop').forEach(function(el) {
-		el.classList.remove("stefanvditemtop");
-		});
-		document.querySelectorAll('.stefanvdvideoauto').forEach(function(el) {
-		el.classList.remove("stefanvdvideoauto");
-		});
-		document.querySelectorAll('.stefanvdotherdown').forEach(function(el) {
-		el.classList.remove("stefanvdotherdown");
-		});
-		document.querySelectorAll('.stefanvdcontainauto').forEach(function(el) {
-		el.classList.remove("stefanvdcontainauto");
-		});
-		document.querySelectorAll('.stefanvdvideocontrolsitem').forEach(function(el) {
-		el.classList.remove("stefanvdvideocontrolsitem");
-		});
-		document.querySelectorAll('.stefanvdvideocontrolstop').forEach(function(el) {
-		el.classList.remove("stefanvdvideocontrolstop");
-		});		
+		var div = document.querySelectorAll('.stefanvdvideotop');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdvideotop"); }
+		var div = document.querySelectorAll('.stefanvditemtop');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvditemtop"); }
+		var div = document.querySelectorAll('.stefanvdvideoauto');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdvideoauto"); }
+		var div = document.querySelectorAll('.stefanvdotherdown');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdotherdown"); }
+		var div = document.querySelectorAll('.stefanvdcontainauto');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdcontainauto"); }
+		var div = document.querySelectorAll('.stefanvdtransformauto');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdtransformauto"); }
+		var div = document.querySelectorAll('.stefanvdvideocontrolsitem');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdvideocontrolsitem"); }
+		var div = document.querySelectorAll('.stefanvdvideocontrolstop');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdvideocontrolstop"); }
+	
+		// inside the root
+		var q = document.getElementsByTagName('*');
+		for(var i = 0; i < q.length; i++ ) {
+			if(q[i].shadowRoot){
+				if(q[i].shadowRoot.querySelector('#rootstefan')){q[i].shadowRoot.removeChild(q[i].shadowRoot.querySelector('#rootstefan'));}
+
+				var rootdiv = q[i].shadowRoot.querySelectorAll('.stefanvdotherdown');
+				for(var k = 0; k < rootdiv.length; k++){rootdiv[k].classList.remove("stefanvdotherdown");}
+			}
+		}
 	}
 	
 	function removenewdynamic() {
@@ -1016,7 +1080,7 @@ document.getElementsByTagName('video')[0].style.cssText += 'z-index:auto !import
 		if(stefanvddynamicbackground) {document.body.removeChild(stefanvddynamicbackground);}
 	}
 
-chrome.storage.sync.get(['mousespotlighto','mousespotlightc','mousespotlighta','lightcolor','lightimagea','lightimage','interval','fadein','fadeout','readera','readerlargestyle','mousespotlightt','enterpassword','password','dynamic','dynamic1',"dynamic2",'dynamic3','dynamic4','dynamic5','dynamic6','dynamic7','dynamic8','dynamic9','dynamic10','hoveroptiondyn5','blur','cinemaontop','spotlightradius','slideeffect','lightimagelin','linearsq','colora','intervallina','colorb','intervallinb','mousespotlights','screenshader'], function(response){
+chrome.storage.sync.get(['mousespotlighto','mousespotlightc','mousespotlighta','lightcolor','lightimagea','lightimage','interval','fadein','fadeout','readera','readerlargestyle','mousespotlightt','enterpassword','password','dynamic','dynamic1',"dynamic2",'dynamic3','dynamic4','dynamic5','dynamic6','dynamic7','dynamic8','dynamic9','dynamic10','hoveroptiondyn5','blur','cinemaontop','spotlightradius','slideeffect','lightimagelin','linearsq','colora','intervallina','colorb','intervallinb','mousespotlights','screenshader','darkbrowsertheme','multiopacall','multiopacsel','multiopacityDomains'], function(response){
 mousespotlighto = response['mousespotlighto'];if(mousespotlighto == null)mousespotlighto = true; // default mousespotlighto true
 mousespotlightc = response['mousespotlightc'];if(mousespotlightc == null)mousespotlightc = false; // default mousespotlightc false
 mousespotlighta = response['mousespotlighta'];if(mousespotlighta == null)mousespotlighta = false; // default mousespotlighta false
@@ -1054,6 +1118,14 @@ intervallina = response['intervallina'];
 colorb = response['colorb'];
 intervallinb = response['intervallinb'];
 mousespotlights = response['mousespotlights'];if(mousespotlights == null)mousespotlights = false; // default mousespotlights false
+darkbrowsertheme = response['darkbrowsertheme'];
+multiopacall = response['multiopacall'];if(multiopacall == null)multiopacall = true; // default multiopacall true
+multiopacsel = response['multiopacsel'];if(multiopacsel == null)multiopacsel = false; // default multiopacsel false
+multiopacityDomains = response['multiopacityDomains'];
+if(typeof multiopacityDomains == "undefined" || multiopacityDomains == null){
+    multiopacityDomains = JSON.stringify({'https://www.example.com': ["90"], 'https://www.nytimes.com': ["85"]});
+}
+multiopacityDomains = JSON.parse(multiopacityDomains);
 
 if(mousespotlights == true){
 	// the screen shader
@@ -1082,20 +1154,30 @@ var i18nlockentername = chrome.i18n.getMessage("lockentername");
 var i18nlockwrongpassword = chrome.i18n.getMessage("lockwrongpassword");
 
 function taart(){
-var pwon2 = $('stefanvdlightareoffpw');
+	var pwon2 = $('stefanvdlightareoffpw');
 	if(pwon2){
 		var entername = window.prompt(i18nlockentername,'');
 		if(enterpassword == entername){
 		document.body.removeChild(pwon2);
-		if(fadeout == true){ReducingFinished = false;fader('hide');reader();} 
-		else {removenewframe();reader();}
+		if(fadeout == true){ReducingFinished = false;fader('hide');reader();removenewdynamic();} 
+		else {removenewframe();reader();removenewdynamic();}
+		if(darkbrowsertheme == true){
+			chrome.runtime.sendMessage({'name' : 'browsertheme', 'value' : 'light'});
+		}
 		} else {window.alert(i18nlockwrongpassword);}	
 	} else {
-		if(fadeout == true){ReducingFinished = false;fader('hide');reader();}
-		else {removenewframe();reader();}
+		if(fadeout == true){ReducingFinished = false;fader('hide');reader();removenewdynamic();}
+		else {removenewframe();reader();removenewdynamic();}
+		if(darkbrowsertheme == true){
+			chrome.runtime.sendMessage({'name' : 'browsertheme', 'value' : 'light'});
+		}
 	}
-	removenewdynamic();
+	// lamp and night mode active with one click
+	if(lampandnightmode == true){
+		chrome.runtime.sendMessage({'name': 'sendnightmodeindark', 'value': 'day'});
+	}
 }
+
 
 // Password enable
 var pwon = $('stefanvdlightareoffpw');
@@ -1130,8 +1212,32 @@ function lightsgoonoroff() {
 		else{taart();}
 		}
 	}
-	else {	
-		default_opacity = interval;
+	else {
+		// lamp and night mode active with one click
+		if(lampandnightmode == true){
+			chrome.runtime.sendMessage({'name': 'sendnightmodeindark', 'value': 'night'});
+		}
+
+		if(darkbrowsertheme == true){
+			chrome.runtime.sendMessage({'name' : 'browsertheme', 'value' : 'dark'});
+		}
+
+		// multi opacity
+		var currentURL = window.location.href;
+		currentURL = currentURL.match(/^[\w-]+:\/*\[?([\w\.:-]+)\]?(?::\d+)?/)[0];
+		if(multiopacall == true){
+			default_opacity = interval;
+		}else{
+			var atbbuf = [];
+			for(var domain in multiopacityDomains){atbbuf.push(domain);atbbuf.sort();}
+			for(var i = 0; i < atbbuf.length; i++){
+			  if(atbbuf[i] == currentURL){
+				var tempatbbuf = atbbuf[i];
+				var editzoom = multiopacityDomains[atbbuf[i]];
+				default_opacity = editzoom;
+			}
+			}
+		}
 
 	    if(mousespotlighta == true){
 	    var newframe1 = document.createElement("div");
@@ -1582,146 +1688,152 @@ if(stretchable)  {
 		
 		// blur effect
 		if(blur == true){
-			// disable for on YouTube website
-			if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){}
-			else{
-			/*chrome.runtime.sendMessage({name: 'currenttabforblur'}, function(response) {
-				var img = response.screenshotUrl;
-				var newblur = document.createElement('img');
+
+			var supportsBackdrop = 'backdropFilter' in document.body.style;
+			if(supportsBackdrop){
+
+				if($("stefanvdblurimage")){}else{
+				var newblur = document.createElement('div');
 				newblur.setAttribute('id','stefanvdblurimage');
-				newblur.setAttribute('src','' + img + '');
+				newblur.style.webkitBackdropFilter = "blur(6px)";
+                newblur.style.backdropFilter = "blur(6px)";
 				newblur.style.width = '100%';
 				newblur.style.height = '100%';
 				newblur.style.left = 0;
 				newblur.style.top = 0;
-				newblur.style.position = 'absolute';
-				newblur.style.zIndex = 998;
+				newblur.style.position = 'fixed';
 				document.body.appendChild(newblur);
-
-				for (var bcount=0; bcount<4; bcount++) {
-				newblur.style.webkitFilter = 'blur(' + bcount + 'px)';
 				}
-			});
-			*/
 				
-			(function(exports){function urlsToAbsolute(nodeList){if(!nodeList.length){return[];}
-var attrName='href';if(nodeList[0].__proto__===HTMLImageElement.prototype||nodeList[0].__proto__===HTMLScriptElement.prototype){attrName='src';}
-nodeList=[].map.call(nodeList,function(el,i){var attr=el.getAttribute(attrName);if(!attr){return;}
-var absURL=/^(https?|data):/i.test(attr);if(absURL){return el;}else{return el;}});return nodeList;}
-function screenshotPage(){urlsToAbsolute(document.images);urlsToAbsolute(document.querySelectorAll("link[rel='stylesheet']"));var screenshot=document.documentElement.cloneNode(true);var b=document.createElement('base');b.href=document.location.protocol+'//'+location.host;var head=screenshot.querySelector('head');head.insertBefore(b,head.firstChild);screenshot.style.pointerEvents='none';screenshot.style.overflow='hidden';screenshot.style.webkitUserSelect='none';screenshot.style.mozUserSelect='none';screenshot.style.msUserSelect='none';screenshot.style.oUserSelect='none';screenshot.style.userSelect='none';screenshot.dataset.scrollX=window.scrollX;screenshot.dataset.scrollY=window.scrollY;var script=document.createElement('script');script.textContent='('+addOnPageLoad_.toString()+')();';screenshot.querySelector('body').appendChild(script);var blob=new Blob([screenshot.outerHTML],{type:'text/html'});return blob;}
-function addOnPageLoad_(){window.addEventListener('DOMContentLoaded',function(e){var scrollX=document.documentElement.dataset.scrollX||0;var scrollY=document.documentElement.dataset.scrollY||0;window.scrollTo(scrollX,scrollY);});}
-function doScreenshot(){window.URL=window.URL||window.webkitURL;
+			}else{
+				// disable for on YouTube website
+				if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){}
+				else{
+				/*chrome.runtime.sendMessage({name: 'currenttabforblur'}, function(response) {
+					var img = response.screenshotUrl;
+					var newblur = document.createElement('img');
+					newblur.setAttribute('id','stefanvdblurimage');
+					newblur.setAttribute('src','' + img + '');
+					newblur.style.width = '100%';
+					newblur.style.height = '100%';
+					newblur.style.left = 0;
+					newblur.style.top = 0;
+					newblur.style.position = 'absolute';
+					document.body.appendChild(newblur);
 
-var B = document.body, H = document.documentElement, blurheight;
-if(document.height !== undefined) {
-    blurheight = document.height // For webkit browsers
-} else {
-    blurheight = Math.max( B.scrollHeight, B.offsetHeight,H.clientHeight, H.scrollHeight, H.offsetHeight );
-}
+					for (var bcount=0; bcount<4; bcount++) {
+					newblur.style.webkitFilter = 'blur(' + bcount + 'px)';
+					}
+				});
+				*/
 
-				var newiframeblur = document.createElement('iframe');
-				newiframeblur.setAttribute('id','stefanvdblurimage');
-				newiframeblur.setAttribute('src','' + window.URL.createObjectURL(screenshotPage()) + '');
-				newiframeblur.style.width = '100%'; 
-				newiframeblur.style.height = blurheight + 'px'; 
-				newiframeblur.style.left = 0; 
-				newiframeblur.style.top = 0;
-				newiframeblur.style.position = 'absolute';
-				newiframeblur.style.zIndex = 998;
-                newiframeblur.style.border = '0px';
-				document.body.appendChild(newiframeblur);
+				(function(exports){function urlsToAbsolute(nodeList){if(!nodeList.length){return[];}
+	var attrName='href';if(nodeList[0].__proto__===HTMLImageElement.prototype||nodeList[0].__proto__===HTMLScriptElement.prototype){attrName='src';}
+	nodeList=[].map.call(nodeList,function(el,i){var attr=el.getAttribute(attrName);if(!attr){return;}
+	var absURL=/^(https?|data):/i.test(attr);if(absURL){return el;}else{return el;}});return nodeList;}
+	function screenshotPage(){urlsToAbsolute(document.images);urlsToAbsolute(document.querySelectorAll("link[rel='stylesheet']"));var screenshot=document.documentElement.cloneNode(true);var b=document.createElement('base');b.href=document.location.protocol+'//'+location.host;var head=screenshot.querySelector('head');head.insertBefore(b,head.firstChild);screenshot.style.pointerEvents='none';screenshot.style.overflow='hidden';screenshot.style.webkitUserSelect='none';screenshot.style.mozUserSelect='none';screenshot.style.msUserSelect='none';screenshot.style.oUserSelect='none';screenshot.style.userSelect='none';screenshot.dataset.scrollX=window.scrollX;screenshot.dataset.scrollY=window.scrollY;var script=document.createElement('script');script.textContent='('+addOnPageLoad_.toString()+')();';screenshot.querySelector('body').appendChild(script);var blob=new Blob([screenshot.outerHTML],{type:'text/html'});return blob;}
+	function addOnPageLoad_(){window.addEventListener('DOMContentLoaded',function(e){var scrollX=document.documentElement.dataset.scrollX||0;var scrollY=document.documentElement.dataset.scrollY||0;window.scrollTo(scrollX,scrollY);});}
+	function doScreenshot(){window.URL=window.URL||window.webkitURL;
 
-				for (var bcount=0; bcount<4; bcount++) {
-				newiframeblur.style.webkitFilter = 'blur(' + bcount + 'px)';
+	var B = document.body, H = document.documentElement, blurheight;
+	if(document.height !== undefined) {
+		blurheight = document.height // For webkit browsers
+	} else {
+		blurheight = Math.max( B.scrollHeight, B.offsetHeight,H.clientHeight, H.scrollHeight, H.offsetHeight );
+	}
+
+					var newiframeblur = document.createElement('iframe');
+					newiframeblur.setAttribute('id','stefanvdblurimage');
+					newiframeblur.setAttribute('src','' + window.URL.createObjectURL(screenshotPage()) + '');
+					newiframeblur.style.width = '100%'; 
+					newiframeblur.style.height = blurheight + 'px';
+					newiframeblur.style.position = 'absolute';
+					newiframeblur.style.left = 0;
+					newiframeblur.style.top = 0;
+					newiframeblur.style.border = '0px';
+					document.body.appendChild(newiframeblur);
+
+					for (var bcount=0; bcount<4; bcount++) {
+					newiframeblur.style.webkitFilter = 'blur(' + bcount + 'px)';
+					}
+	}
+	exports.screenshotPage=screenshotPage;exports.doScreenshot=doScreenshot;})(window);
+	doScreenshot();
 				}
-}
-exports.screenshotPage=screenshotPage;exports.doScreenshot=doScreenshot;})(window);
-doScreenshot();
 			}
+
+
 		}
 
 /////////// Turn Off the Lights reader slider
 	// Show always option
 	if(readera == true){
+		var stefanvdreaderbar = document.createElement('div');
+		stefanvdreaderbar.setAttribute('id','stefanvdreaderbar');
+		document.body.appendChild(stefanvdreaderbar);
+		var stefanvdreaderbardiv1 = document.createElement('div');
+		stefanvdreaderbardiv1.setAttribute('id','stefanvdreaderbarinnerbox');
+		stefanvdreaderbar.appendChild(stefanvdreaderbardiv1);
+
+		// if false then use small view
+		if(readerlargestyle == false){stefanvdreaderbar.style.width = "30px";stefanvdreaderbar.style.height = "30px";}
+
+		// top
+		var stefanvdreaderbartop = document.createElement('div');
+		stefanvdreaderbartop.setAttribute('id','stefanvdreaderbartop');
+		stefanvdreaderbartop.setAttribute('class','stefanvdreaderbartop');
+		stefanvdreaderbartop.addEventListener('click', function (e) {toggle_small()}, true);
+		stefanvdreaderbardiv1.appendChild(stefanvdreaderbartop);
+
+			// if false then use small view
+			if(readerlargestyle == false){stefanvdreaderbartop.style.opacity = 0;}
+
+			var stefanvdreaderbartxt1 = document.createTextNode('Turn Off the Lights');
+			stefanvdreaderbartop.appendChild(stefanvdreaderbartxt1);
+
+			var stefanvdreaderbarmin = document.createElement('div');
+			stefanvdreaderbarmin.setAttribute('id','stefanvdreaderbarmin');
+			stefanvdreaderbarmin.innerText = "⎯";
+			stefanvdreaderbartop.appendChild(stefanvdreaderbarmin);
+
+		// bottom
+		var stefanvdreaderbaroa = document.createElement('div');
+		stefanvdreaderbaroa.setAttribute('class','stefanvdreaderbaroa');
+		stefanvdreaderbardiv1.appendChild(stefanvdreaderbaroa);
+
+			var stefanvdreaderinput1 = document.createElement('input');
+			stefanvdreaderinput1.setAttribute('type','range');
+			stefanvdreaderinput1.setAttribute('id','totlrange');
+			stefanvdreaderinput1.setAttribute('min','0');
+			stefanvdreaderinput1.setAttribute('max','100');
+			stefanvdreaderinput1.setAttribute('step','1');
+			stefanvdreaderinput1.setAttribute('value','0');
+			stefanvdreaderinput1.addEventListener('change', function (e) {showValue(this.value)}, true);
+			stefanvdreaderinput1.addEventListener('input', function (e) {showValue(this.value)}, true);
+			stefanvdreaderbaroa.appendChild(stefanvdreaderinput1);
+
+			var stefanvdreaderbaran = document.createElement('div');
+			stefanvdreaderbaran.setAttribute('class','stefanvdreaderbaran');
+			stefanvdreaderbardiv1.appendChild(stefanvdreaderbaran);
+
+			var stefanvdreaderinput2 = document.createElement('input');
+			stefanvdreaderinput2.setAttribute('id','totlgammaVal');
+			stefanvdreaderinput2.setAttribute('maxlength','3');
+			stefanvdreaderinput2.setAttribute('size','3');
+			stefanvdreaderinput2.setAttribute('type','text');
+			stefanvdreaderinput2.setAttribute('value','0');
+			stefanvdreaderinput2.addEventListener('change', function (e) {showValue(this.value)}, true);
+			stefanvdreaderbaran.appendChild(stefanvdreaderinput2);
+
+
 	// script readerbar
 	function showValue(newValue){$("totlgammaVal").value = newValue;$("totlrange").value = newValue;div = document.getElementsByTagName("div");
 	for(var i = 0; i < div.length; i++ ){if(div[i].className == ("stefanvdlightareoff")) {div[i].style.opacity = (newValue/100);}}}
 
-	function toggle_small() {
-	var totlreader = $("__totl-tidbit-box");var totlreadermin = $("__totl-min");
-	if ( totlreader.style.width != "24px" ) {totlreader.style.width = "24px";totlreader.style.height = "24px";totlreadermin.style.opacity = "0";}
-	else {totlreader.style.width = "";totlreader.style.height = "";totlreadermin.style.opacity = "100";}}
-
-	// Injected js to page
-	var totlreaderbar = document.createElement('div');
-	totlreaderbar.setAttribute('id','totlreaderbar');
-	document.body.appendChild(totlreaderbar);
-	var totlreaderbardiv1 = document.createElement('div');
-	totlreaderbardiv1.setAttribute('id','__totl-tidbit-box');
-
-	// if false then use small view
-	if(readerlargestyle == false){totlreaderbardiv1.style.width = "24px";totlreaderbardiv1.style.height = "24px";}
-
-	totlreaderbar.appendChild(totlreaderbardiv1);
-	var totlreaderbardiv2 = document.createElement('div');
-	totlreaderbardiv2.setAttribute('id','__totl-wrapper');
-	totlreaderbardiv1.appendChild(totlreaderbardiv2);
-	var totlreaderbarimg1 = document.createElement('div');
-	totlreaderbarimg1.setAttribute('id','__totl-min');
-	totlreaderbarimg1.innerText = "⎯";
-	totlreaderbarimg1.addEventListener('click', function (e) {toggle_small()}, true);
-
-	// if false then use small view
-	if(readerlargestyle == false){totlreaderbarimg1.style.opacity = "0";}
-
-	totlreaderbardiv2.appendChild(totlreaderbarimg1);
-	var totlreaderbardiv3 = document.createElement('div');
-	totlreaderbardiv3.setAttribute('id','__totl-box-info');
-	totlreaderbardiv3.className = '__totl-box-title';
-	totlreaderbardiv3.addEventListener('click', function (e) {toggle_small()}, true);
-	totlreaderbardiv2.appendChild(totlreaderbardiv3);
-	var totlreaderbarimagelogo = document.createElement('div');
-	totlreaderbarimagelogo.className = '__totl-icon';
-	totlreaderbarimagelogo.innerText = "🎚";
-	totlreaderbardiv3.appendChild(totlreaderbarimagelogo);
-	var totlreaderbarspan1 = document.createElement('span');
-	totlreaderbarspan1.className = '__totl-nowrap';
-	totlreaderbardiv3.appendChild(totlreaderbarspan1);
-	var totlreaderbartxt1 = document.createTextNode('Turn Off the Lights');
-	totlreaderbarspan1.appendChild(totlreaderbartxt1);
-	var totlreaderbardiv4 = document.createElement('div');
-	totlreaderbardiv4.setAttribute('id','__totl-box-tidbits');
-	totlreaderbardiv2.appendChild(totlreaderbardiv4);
-	var totlreaderbardiv5 = document.createElement('div');
-	totlreaderbardiv5.className = '__totl-box-msg';
-	totlreaderbardiv4.appendChild(totlreaderbardiv5);
-	var totlreaderbartable1 = document.createElement('table');
-	totlreaderbardiv5.appendChild(totlreaderbartable1);
-	var totlreaderbartbody1 = document.createElement('tbody');
-	totlreaderbartable1.appendChild(totlreaderbartbody1);
-	var totlreaderbartr1 = document.createElement('tr');
-	totlreaderbartbody1.appendChild(totlreaderbartr1);
-	var totlreaderbartd1 = document.createElement('td');
-	totlreaderbartr1.appendChild(totlreaderbartd1);
-	var totlreaderbarinput1 = document.createElement('input');
-	totlreaderbarinput1.setAttribute('type','range');
-	totlreaderbarinput1.setAttribute('id','totlrange');
-	totlreaderbarinput1.setAttribute('min','0');
-	totlreaderbarinput1.setAttribute('max','100');
-	totlreaderbarinput1.setAttribute('step','1');
-	totlreaderbarinput1.setAttribute('value','0');
-	totlreaderbarinput1.addEventListener('change', function (e) {showValue(this.value)}, true);
-	totlreaderbartd1.appendChild(totlreaderbarinput1);
-	var totlreaderbartd2 = document.createElement('td');
-	totlreaderbartr1.appendChild(totlreaderbartd2);
-	var totlreaderbarinput2 = document.createElement('input');
-	totlreaderbarinput2.setAttribute('id','totlgammaVal');
-	totlreaderbarinput2.setAttribute('maxlength','3');
-	totlreaderbarinput2.setAttribute('size','3');
-	totlreaderbarinput2.setAttribute('type','text');
-	totlreaderbarinput2.setAttribute('value','0');
-	totlreaderbarinput2.addEventListener('change', function (e) {showValue(this.value)}, true);
-	totlreaderbartd2.appendChild(totlreaderbarinput2);
+	function toggle_small(){
+	var totlreader = $("stefanvdreaderbar");var totlreadermin = $("stefanvdreaderbartop");
+	if(totlreader.style.width != "30px"){totlreader.style.width = "30px";totlreader.style.height = "30px";totlreadermin.style.opacity = 0;}
+	else{totlreader.style.width = "";totlreader.style.height = "";totlreadermin.style.opacity = 1;}}
 
 // settings reader slider
 	$('totlgammaVal').value = interval;
@@ -2020,13 +2132,15 @@ doScreenshot();
 
 			// If the context is set then we can draw the scene (if not then the browser does not support canvas)
 			if (context) {
-				setInterval(function() {
+				if (document.visibilityState === "visible"){
+				window.setInterval(function() {
 					// Update the scene before drawing
 					update();
 
 					// Draw the scene
 					draw();
 				}, 1000 / targetFPS);
+				}
 			}
 
 			}else if(dynamic7 == true){
@@ -2072,12 +2186,14 @@ doScreenshot();
 			window.addEventListener('resize', resizer, false);
 
 			function paintSky() {
-			  for (var i = 0; i < drop_count; i++) {
-				drops[i] = new drop();
-				drops[i].reset();
-			  }
-			  
-			  rain();
+				if (document.visibilityState === "visible"){
+				for (var i = 0; i < drop_count; i++) {
+					drops[i] = new drop();
+					drops[i].reset();
+				}
+
+				rain();
+				}
 			}
 
 			function rain() {
@@ -2249,6 +2365,7 @@ doScreenshot();
 			}
 
 			function refresh() {
+				if (document.visibilityState === "visible"){
 				randomize();
 				for(var i = 0; i < document.querySelector('#triangle svg').childNodes.length; i++) {
 					var polygon = document.querySelector('#triangle svg').childNodes[i];
@@ -2260,6 +2377,7 @@ doScreenshot();
 					animate.beginElement();
 				}
 				refreshTimeout = window.setTimeout(function() {refresh();}, refreshDuration);
+				}
 			}
 
 			trianglerun();

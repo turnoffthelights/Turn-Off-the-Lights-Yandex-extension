@@ -1,1056 +1,1377 @@
 {
-  "pagehelp":{
-    "message":"المساعدة"
+  "pagehelp": {
+    "message": "المساعدة"
   },
-  "titelimage":{
-    "message":"صورة الخلفية"
+  "titelimage": {
+    "message": "صورة الخلفية"
   },
-  "shortcutalllights":{
-    "message":"لتشغيل/إيقاف الإضاءة لكل التبويبات المفتوحة"
+  "shortcutalllights": {
+    "message": "لتشغيل/إيقاف الإضاءة لكل التبويبات المفتوحة"
   },
-  "lastchecked":{
-    "message":"آخر تحقق من إصدار أحدث تم في"
+  "lastchecked": {
+    "message": "آخر تحقق من إصدار أحدث تم في"
   },
-  "visualeffects":{
-    "message":"المؤثرات البصرية"
+  "visualeffects": {
+    "message": "المؤثرات البصرية"
   },
-  "titelshortcutlight":{
-    "message":"مفتاح الاختصار"
+  "titelshortcutlight": {
+    "message": "مفتاح الاختصار"
   },
-  "titledonatebutton":{
-    "message":"التبرع"
+  "titledonatebutton": {
+    "message": "التبرع"
   },
-  "titellikebar":{
-    "message":"شريط الإعجاب"
+  "titellikebar": {
+    "message": "شريط الإعجاب"
   },
-  "desmousespotlightt":{
-    "message":"إمكان الضغط على الروابط عند إيقاف الإضاءة"
+  "desmousespotlightt": {
+    "message": "إمكان الضغط على الروابط عند إيقاف الإضاءة"
   },
-  "desmousespotlights":{
-    "message":"يمكن تظليل الشاشة، و هو دائما ناشط  ويمكن النقر من خلال هذه الطبقة"
+  "desmousespotlights": {
+    "message": "تمكين تظليل الشاشة، مع إمكانية النقر على الروابط خلال هذه الطبقة"
   },
-  "desambilight4color":{
-    "message":"الألوان الأربعة المختارة حول الفيديو:"
+  "desambilight4color": {
+    "message": "Four chosen colors around the video"
   },
-  "lockentername":{
-    "message":"الرجاء إدخال كلمة المرور الخاصة بك"
+  "lockentername": {
+    "message": "الرجاء إدخال كلمة المرور الخاصة بك"
   },
-  "desnoflash":{
-    "message":"لا تستخدم هذه الخاصية."
+  "desnoflash": {
+    "message": "لا تستخدم هذه الخاصية."
   },
-  "desdynamicblocks":{
-    "message":"الحواجز"
+  "desdynamicblocks": {
+    "message": "الحواجز"
   },
-  "titeleye":{
-    "message":"حماية العين"
+  "titeleye": {
+    "message": "حماية العين"
   },
-  "titelcinemaontop":{
-    "message":"وضعية مسرح الأفلام: تُظهر طبقة 'إطفاء الأنوار' فقط في حالة كونها أعلى النافذة"
+  "titelcinemaontop": {
+    "message": "وضعية مسرح الأفلام: تُظهر طبقة 'إطفاء الأنوار' فقط في حالة كونها أعلى النافذة"
   },
-  "desmousespotlightc":{
-    "message":"إذا انطفأت الأضواء، يمكنك اختيار منطقة للتركيز على عنصر."
+  "desmousespotlightc": {
+    "message": "إذا انطفأت الأضواء، يمكنك اختيار منطقة للتركيز على عنصر."
   },
-  "titelrememberpage":{
-    "message":"صفحة التذكير"
+  "titelrememberpage": {
+    "message": "صفحة التذكير"
   },
-  "desmousespotlighta":{
-    "message":"إذا انطفأت الأضواء، أظهر نقطة ضوء خول مؤشر الماوس"
+  "desmousespotlighta": {
+    "message": "إذا انطفأت الأضواء، أظهر نقطة ضوء خول مؤشر الماوس"
   },
-  "desmousespotlighto":{
-    "message":"الاستخدام العادي (تعطيل إعدادات الماوس بالأسفل)"
+  "desmousespotlighto": {
+    "message": "الاستخدام العادي (تعطيل إعدادات الماوس بالأسفل)"
   },
-  "desplaylist":{
-    "message":"إظهار قائمة اليوتيوب على موقع اليوتيوب."
+  "desplaylist": {
+    "message": "إظهار قائمة اليوتيوب على موقع اليوتيوب."
   },
-  "desambilightfixcolor":{
-    "message":"لون سادة:"
+  "desambilightfixcolor": {
+    "message": "Only one color"
   },
-  "desuntil":{
-    "message":"حتى"
+  "desuntil": {
+    "message": "حتى"
   },
-  "desconfirmpassword":{
-    "message":"تأكيد كلمة المرور"
+  "desconfirmpassword": {
+    "message": "تأكيد كلمة المرور"
   },
-  "desautoplayonly":{
-    "message":"خافت فقط في موقع/مواقع الفيديو التالية:"
+  "desautoplayonly": {
+    "message": "خافت فقط في موقع/مواقع الفيديو التالية:"
   },
-  "helpeyeprotection":{
-    "message":"تمكين 'حماية العين' سيعطل تلقائياً خاصية 'التشغيل التلقائي'."
+  "helpeyeprotection": {
+    "message": "تمكين 'حماية العين' سيعطل تلقائياً خاصية 'التشغيل التلقائي'."
   },
-  "skipremember":{
-    "message":"تخطي هذا، وقم بفتح صفحة الخيارات الآن"
+  "skipremember": {
+    "message": "تخطي هذا، وقم بفتح صفحة الخيارات الآن"
   },
-  "optiontimesaved":{
-    "message":"تم حفظ الوقت بنجاح!"
+  "optiontimesaved": {
+    "message": "تم حفظ الوقت بنجاح!"
   },
-  "titelvideoheadline":{
-    "message":"عنوان الفيديو"
+  "titelvideoheadline": {
+    "message": "عنوان الفيديو"
   },
-  "translateme":{
-    "message":"المساعدة في ترجمة"
+  "translateme": {
+    "message": "المساعدة في ترجمة"
   },
-  "despassword":{
-    "message":"يتطلب ادخال كلمة المرور قبل إعادة تشغيل الأضواء مرة أخرى."
+  "despassword": {
+    "message": "يتطلب ادخال كلمة المرور قبل إعادة تشغيل الأضواء مرة أخرى."
   },
-  "helpautoplay":{
-    "message":"تم تمكين حماية العين. لاستخدام الخاصية بالأسفل، قم بتعطيل خيار 'حماية العين'."
+  "helpautoplay": {
+    "message": "تم تمكين حماية العين. لاستخدام الخاصية بالأسفل، قم بتعطيل خيار 'حماية العين'."
   },
-  "name":{
-    "message":"Turn Off the Lights"
+  "name": {
+    "message": "Turn Off the Lights"
   },
-  "changelog":{
-    "message":"سجل التغيير"
+  "changelog": {
+    "message": "سجل التغيير"
   },
-  "optionpagetitle":{
-    "message":"Turn Off the Lights - الخيارات"
+  "optionpagetitle": {
+    "message": "Turn Off the Lights - الخيارات"
   },
-  "optionpasswordsaved":{
-    "message":"تم حفظ كلمة المرور بنجاح!"
+  "optionpasswordsaved": {
+    "message": "تم حفظ كلمة المرور بنجاح!"
   },
-  "desdynamicspace":{
-    "message":"مساحة الكون"
+  "desdynamicspace": {
+    "message": "مساحة الكون"
   },
-  "deseastereggs":{
-    "message":"الضغط على زر T يضيف ستارة مسرح إلى الطبقة الداكنة"
+  "deseastereggs": {
+    "message": "الضغط على زر T يضيف ستارة مسرح إلى الطبقة الداكنة"
   },
-  "settings":{
-    "message":"الإعدادات"
+  "settings": {
+    "message": "الإعدادات"
   },
-  "desspotlightradius":{
-    "message":"قطر بقعة الضوء:"
+  "desspotlightradius": {
+    "message": "قطر بقعة الضوء:"
   },
-  "titelsync":{
-    "message":"المزامنة"
+  "titelsync": {
+    "message": "المزامنة"
   },
-  "right":{
-    "message":"يمين"
+  "right": {
+    "message": "Right"
   },
-  "titeldynamic":{
-    "message":"خلفية متحركة"
+  "titeldynamic": {
+    "message": "خلفية متحركة"
   },
-  "deslikebutton":{
-    "message":"إظهار أزرار الإعجاب وعدم الإعجابالخاصة باليوتيوب لهذا الفيديو."
+  "deslikebutton": {
+    "message": "إظهار أزرار الإعجاب وعدم الإعجابالخاصة باليوتيوب لهذا الفيديو."
   },
-  "titelmouse":{
-    "message":"الماوس"
+  "titelmouse": {
+    "message": "الماوس"
   },
-  "titellessmore":{
-    "message":"إظهار أقل"
+  "titellessmore": {
+    "message": "إظهار أقل"
   },
-  "desshortcutlight":{
-    "message":"تمكين اختصارات لوحة المفاتيح بالأسفل."
+  "desshortcutlight": {
+    "message": "تمكين اختصارات لوحة المفاتيح بالأسفل."
   },
-  "titelinfobar":{
-    "message":"شريط المعلومات"
+  "titelinfobar": {
+    "message": "شريط المعلومات"
   },
-  "descontextmenus":{
-    "message":"إظهار قائمة السياق للتركيز على عنصر."
+  "descontextmenus": {
+    "message": "إظهار قائمة السياق للتركيز على عنصر."
   },
-  "titelcontextmenus":{
-    "message":"قائمة السياق"
+  "titelcontextmenus": {
+    "message": "قائمة السياق"
   },
-  "titelplaylist":{
-    "message":"قائمة التشغيل"
+  "titelplaylist": {
+    "message": "قائمة التشغيل"
   },
-  "desatmosphereonly":{
-    "message":"استخدام خاصية الجو العام للإضاءة فقط في موقع الفيديو التالي:"
+  "desatmosphereonly": {
+    "message": "Use the atmosphere lighting feature only on the following video website:"
   },
-  "recflash":{
-    "message":"موصى به"
+  "recflash": {
+    "message": "موصى به"
   },
-  "desenterpassword":{
-    "message":"أدخل كلمة المرور الخاصة بك في الصندوق بالأسفل:"
+  "desenterpassword": {
+    "message": "أدخل كلمة المرور الخاصة بك في الصندوق بالأسفل:"
   },
-  "titelblurradius":{
-    "message":"نصف قطر التمويه:"
+  "titelblurradius": {
+    "message": "نصف قطر التمويه:"
   },
-  "version":{
-    "message":"الإصدار"
+  "version": {
+    "message": "الإصدار"
   },
-  "shortcutdark":{
-    "message":"لتغميق الشاشة (قم بزيادة التعتيم)"
+  "shortcutdark": {
+    "message": "لتغميق الشاشة (قم بزيادة التعتيم)"
   },
-  "dessharebutton":{
-    "message":"إظهار زر المشاركة لليوتيوب لهذا الفيديو."
+  "dessharebutton": {
+    "message": "إظهار زر المشاركة لليوتيوب لهذا الفيديو."
   },
-  "shortcutbright":{
-    "message":"لتفتيح الشاشة (قم بتقليل التعتيم)"
+  "shortcutbright": {
+    "message": "لتفتيح الشاشة (قم بتقليل التعتيم)"
   },
-  "titelalllightsoff":{
-    "message":"كافة علامات التبويب المفتوحة"
+  "titelalllightsoff": {
+    "message": "كافة علامات التبويب المفتوحة"
   },
-  "desreadera":{
-    "message":"إظهار دائم لشريط مستوى الخفوت عند انطفاء الأضواء"
+  "desreadera": {
+    "message": "إظهار دائم لشريط مستوى الخفوت عند انطفاء الأضواء"
   },
-  "rememberrate":{
-    "message":"معدل"
+  "rememberrate": {
+    "message": "معدل"
   },
-  "desautoplay":{
-    "message":"خفوت تلقائي للخلفية عند النقر على زر التشغيل والعكس."
+  "desautoplay": {
+    "message": "خفوت تلقائي للخلفية عند النقر على زر التشغيل والعكس."
   },
-  "titelscreen":{
-    "message":"الشاشة"
+  "titelscreen": {
+    "message": "الشاشة"
   },
-  "desflash":{
-    "message":"إظهار كافة مكونات الفلاش."
+  "desflash": {
+    "message": "إظهار كافة مكونات الفلاش."
   },
-  "titelhead":{
-    "message":"القناة"
+  "titelhead": {
+    "message": "القناة"
   },
-  "pageatitle":{
-    "message":"إطفاء الأنوار"
+  "pageatitle": {
+    "message": "إطفاء الأنوار"
   },
-  "desaddvideobutton":{
-    "message":"إظهار زر الإضافة من فيديو اليوتيوب هذا"
+  "desaddvideobutton": {
+    "message": "إظهار زر الإضافة من فيديو اليوتيوب هذا"
   },
-  "shortcuteyeprotection":{
-    "message":"لتمكين/تعطيل خاصية حماية العين"
+  "shortcuteyeprotection": {
+    "message": "لتمكين/تعطيل خاصية حماية العين"
   },
-  "titelfadein":{
-    "message":"ظهور تدريجي"
+  "titelfadein": {
+    "message": "ظهور تدريجي"
   },
-  "desreadern":{
-    "message":"لا تظهر أبدا شريط مستوى الخفوت."
+  "desreadern": {
+    "message": "لا تظهر أبدا شريط مستوى الخفوت."
   },
-  "titelmaxqualityyoutube":{
-    "message":"تعيين دقة الوضوح هذه تلقائياً:"
+  "titelmaxqualityyoutube": {
+    "message": "تعيين دقة الوضوح هذه تلقائياً:"
   },
-  "desambilightrangespreadradius":{
-    "message":"القيم الموجبة تزيد حجم الظل، والقيم السالبة تنقص حجم الظل"
+  "desambilightrangespreadradius": {
+    "message": "القيم الموجبة تزيد حجم الظل، والقيم السالبة تنقص حجم الظل"
   },
-  "titelon":{
-    "message":"تشغيل"
+  "titelon": {
+    "message": "تشغيل"
   },
-  "videotitle":{
-    "message":"تركيز على هذا الفيديو"
+  "videotitle": {
+    "message": "تركيز على هذا الفيديو"
   },
-  "warningtextambilight":{
-    "message":"عند عدم القدرة على استقبال بيانات الفيديو بسبب قاعدة أمنية للموقع، سيتم استخدام لون سادة بدلاً من ذلك."
+  "warningtextambilight": {
+    "message": "عند عدم القدرة على استقبال بيانات الفيديو بسبب قاعدة أمنية للموقع، سيتم استخدام لون سادة بدلاً من ذلك."
   },
-  "desdynamiccloud":{
-    "message":"الغيوم المتحركة"
+  "desdynamiccloud": {
+    "message": "الغيوم المتحركة"
   },
-  "desconfirmtimesaver":{
-    "message":"تأكيد وقت شاشة التوقف"
+  "desconfirmtimesaver": {
+    "message": "تأكيد وقت شاشة التوقف"
   },
-  "deslikebar":{
-    "message":"إظهار شريط الإعجاب/عدم الإعجاب تحت فيديوهات اليوتيوب."
+  "deslikebar": {
+    "message": "إظهار شريط الإعجاب/عدم الإعجاب تحت فيديوهات اليوتيوب."
   },
-  "titelautoplay":{
-    "message":"التشغيل التلقائي"
+  "titelautoplay": {
+    "message": "التشغيل التلقائي"
   },
-  "top":{
-    "message":"الأعلى"
+  "top": {
+    "message": "Top"
   },
-  "titelspreadradius":{
-    "message":"نصف قطر الإنتشار:"
+  "titelspreadradius": {
+    "message": "نصف قطر الإنتشار:"
   },
-  "installadblocker":{
-    "message":"إذا كنت لا ترغب بمشاهدة الدعايات، قم باستخدام ملحق adblocker."
+  "installadblocker": {
+    "message": "إذا كنت لا ترغب بمشاهدة الدعايات، قم باستخدام ملحق adblocker."
   },
-  "titelsharebutton":{
-    "message":"زر المشاركة"
+  "titelsharebutton": {
+    "message": "زر المشاركة"
   },
-  "titelcolor":{
-    "message":"اللون"
+  "titelcolor": {
+    "message": "اللون"
   },
-  "titeldownloadbutton":{
-    "message":"تنزيل هذه الترقية!"
+  "titeldownloadbutton": {
+    "message": "تنزيل هذه الترقية!"
   },
-  "pagetitle":{
-    "message":"إعتام هذه الصفحة"
+  "pagetitle": {
+    "message": "إعتام هذه الصفحة"
   },
-  "titelambilight":{
-    "message":"الضوء المحيط"
+  "titelambilight": {
+    "message": "الضوء المحيط"
   },
-  "titelshowmore":{
-    "message":"عرض المزيد"
+  "titelshowmore": {
+    "message": "عرض المزيد"
   },
-  "desviewcount":{
-    "message":"إظهار عدد المشاهدات لهذا لفيديو."
+  "desviewcount": {
+    "message": "إظهار عدد المشاهدات لهذا لفيديو."
   },
-  "titelautowidthyoutube":{
-    "message":"تعيين مشغل اليوتيوب تلقائياً إلى حجم أكبر."
+  "titelautowidthyoutube": {
+    "message": "تعيين مشغل اليوتيوب تلقائياً إلى حجم أكبر."
   },
-  "desconfirmtime":{
-    "message":"تأكيد الوقت"
+  "desconfirmtime": {
+    "message": "تأكيد الوقت"
   },
-  "titelupgrade":{
-    "message":"الترقية"
+  "titelupgrade": {
+    "message": "الترقية"
   },
-  "lockwrongpassword":{
-    "message":"كلمة مرور خاطئة، من فضلك حاول مُجددًا."
+  "lockwrongpassword": {
+    "message": "كلمة مرور خاطئة، من فضلك حاول مُجددًا."
   },
-  "titelsyncbrowser":{
-    "message":"مزامنة إعدادات الامتداد مع متصفحك الآخر."
+  "titelsyncbrowser": {
+    "message": "مزامنة إعدادات الامتداد مع متصفحك الآخر."
   },
-  "deletebutton":{
-    "message":"حذف"
+  "deletebutton": {
+    "message": "حذف"
   },
-  "eyedivon":{
-    "message":"تشغيل"
+  "eyedivon": {
+    "message": "تشغيل"
   },
-  "eyedivoff":{
-    "message":"إغلاق"
+  "eyedivoff": {
+    "message": "إغلاق"
   },
-  "deshead":{
-    "message":"إظهار شريط قناة اليوتيوب أو الاسم."
+  "deshead": {
+    "message": "إظهار شريط قناة اليوتيوب أو الاسم."
   },
-  "shortcutsavingopacity":{
-    "message":"لحفظ درجة التعتيم الحالية."
+  "shortcutsavingopacity": {
+    "message": "لحفظ درجة التعتيم الحالية."
   },
-  "desinfobar":{
-    "message":"إظهار المعلومات الوصفية عن الفيديو."
+  "desinfobar": {
+    "message": "إظهار المعلومات الوصفية عن الفيديو."
   },
-  "titellamp":{
-    "message":"مصباح"
+  "titellamp": {
+    "message": "مصباح"
   },
-  "desambilightvarcolor":{
-    "message":"خُذ اللون من الفيديو."
+  "desambilightvarcolor": {
+    "message": "Extract the color from the video"
   },
-  "showremember":{
-    "message":"عدم إظهار صفحة التذكير هذه مرة أخرى عند فتح الخيارات"
+  "showremember": {
+    "message": "عدم إظهار صفحة التذكير هذه مرة أخرى عند فتح الخيارات"
   },
-  "donatepromotext":{
-    "message":"إذا كنت تستطيع التبرع بأي مبلغ، سأقدّر ذلك كثيرا!"
+  "donatepromotext": {
+    "message": "إذا كنت تستطيع التبرع بأي مبلغ، سأقدّر ذلك كثيرا!"
   },
-  "titelblur":{
-    "message":"طمس البقية"
+  "titelblur": {
+    "message": "طمس البقية"
   },
-  "desdynamicraindrops":{
-    "message":"قطرات المطر"
+  "desdynamicraindrops": {
+    "message": "قطرات المطر"
   },
-  "desalllightsoff":{
-    "message":"الضغط على زر المصباح سيبدل تشغيل/إيقاف الأضواء في كافة التبويبات المفتوحة"
+  "desalllightsoff": {
+    "message": "الضغط على زر المصباح سيبدل تشغيل/إيقاف الأضواء في كافة التبويبات المفتوحة"
   },
-  "optionecosaversaved":{
-    "message":"تم حفظ الثواني بنجاح!"
+  "optionecosaversaved": {
+    "message": "تم حفظ الثواني بنجاح!"
   },
-  "titelreader":{
-    "message":"شريط مستوى الخفوت"
+  "titelreader": {
+    "message": "شريط مستوى الخفوت"
   },
-  "deseyen":{
-    "message":"الاستخدام العادي (تنطفئ الأضواء عند الضغط على أيقونة المصباح)"
+  "deseyen": {
+    "message": "الاستخدام العادي (تنطفئ الأضواء عند الضغط على أيقونة المصباح)"
   },
-  "enjoyshare":{
-    "message":"استمتع بهذا الامتداد، وشاركه مع الآخرين الذين كنت تعتقد بأنهم سيقدرون ذلك."
+  "enjoyshare": {
+    "message": "استمتع بهذا الامتداد، وشاركه مع الآخرين الذين كنت تعتقد بأنهم سيقدرون ذلك."
   },
-  "shortcuttotl":{
-    "message":"لتبديل تشغيل/إطفاء الأنوار"
+  "shortcuttotl": {
+    "message": "لتبديل تشغيل/إطفاء الأنوار"
   },
-  "deseyea":{
-    "message":"تعتيم الخلفية تلقائيا عند فتح صفحة ويب"
+  "deseyea": {
+    "message": "تعتيم الخلفية تلقائيا عند فتح صفحة ويب"
   },
-  "basicsettings":{
-    "message":"الأساسيات"
+  "basicsettings": {
+    "message": "الأساسيات"
   },
-  "hoveroptionapply":{
-    "message":"تطبيق"
+  "hoveroptionapply": {
+    "message": "تطبيق"
   },
-  "reportbug":{
-    "message":"أبلغ عن مشكلة"
+  "reportbug": {
+    "message": "أبلغ عن مشكلة"
   },
-  "destime":{
-    "message":"إطفاء الأنوار بين الأوقات التالية:"
+  "destime": {
+    "message": "إطفاء الأنوار بين الأوقات التالية:"
   },
-  "guide":{
-    "message":"دليل ترحيب إطفاء الأنوار"
+  "guide": {
+    "message": "دليل ترحيب إطفاء الأنوار"
   },
-  "deseyealist":{
-    "message":"تعتيم الخلفية تلقائياً عن فتح المواقع التالية:"
+  "deseyealist": {
+    "message": "تعتيم الخلفية تلقائياً عن فتح المواقع التالية:"
   },
-  "titellikebutton":{
-    "message":"أزرار الإعجاب وعدم الإعجاب"
+  "titellikebutton": {
+    "message": "أزرار الإعجاب وعدم الإعجاب"
   },
-  "titelpageaction":{
-    "message":"إخفاء أيقونة المصباح"
+  "titelpageaction": {
+    "message": "إخفاء أيقونة المصباح"
   },
-  "friendlyremember":{
-    "message":"تذكير ودي..."
+  "friendlyremember": {
+    "message": "تذكير ودي..."
   },
-  "desfadein":{
-    "message":"إظهار تأثير الظهور التدريجي."
+  "desfadein": {
+    "message": "إظهار تأثير الظهور التدريجي."
   },
-  "warning":{
-    "message":"تحذير!"
+  "warning": {
+    "message": "تحذير!"
   },
-  "deseyetimesaver":{
-    "message":"عندما تكون الصفحة غير نشطة (لا إدخال من الماوس أو لوحة المفاتيح) للوقت المحدد أدناه، ستصبح الصفحة مظلمة تلقائيا."
+  "deseyetimesaver": {
+    "message": "عندما تكون الصفحة غير نشطة (لا إدخال من الماوس أو لوحة المفاتيح) للوقت المحدد أدناه، ستصبح الصفحة مظلمة تلقائيا."
   },
-  "titelsuggestions":{
-    "message":"الاقتراحات"
+  "titelsuggestions": {
+    "message": "الاقتراحات"
   },
-  "advancedoptions":{
-    "message":"خيارات متقدمة"
+  "advancedoptions": {
+    "message": "خيارات متقدمة"
   },
-  "dessuggestions":{
-    "message":"إظهار اقتراحات موقع اليوتيوب."
+  "dessuggestions": {
+    "message": "إظهار اقتراحات موقع اليوتيوب."
   },
-  "titelflash":{
-    "message":"الكشف عن الفلاش"
+  "titelflash": {
+    "message": "الكشف عن الفلاش"
   },
-  "desambilight":{
-    "message":"يظهر لك الجو العام لتأثير الضوء بالفيديو المُشغّل حاليًا."
+  "desambilight": {
+    "message": "يظهر لك الجو العام لتأثير الضوء بالفيديو المُشغّل حاليًا."
   },
-  "productshare":{
-    "message":"مشاركة"
+  "productshare": {
+    "message": "مشاركة"
   },
-  "addbutton":{
-    "message":"إضافة"
+  "addbutton": {
+    "message": "إضافة"
   },
-  "reportlist":{
-    "message":"(انظر القائمة)"
+  "reportlist": {
+    "message": "(انظر القائمة)"
   },
-  "desdynamicfishtank":{
-    "message":"خزان الأسماك"
+  "desdynamicfishtank": {
+    "message": "خزان الأسماك"
   },
-  "longdonatetext":{
-    "message":"سأقدر حقاً إن كان يمكنك التبرع لي للحفاظ على اضافة المتصفح هذه للمستخدمين الجدد. سواء أكان $$1 أو $$100، ممتنين لدعمكم لنا!"
+  "longdonatetext": {
+    "message": "سأقدر حقاً إن كان يمكنك التبرع لي للحفاظ على اضافة المتصفح هذه للمستخدمين الجدد. سواء أكان $$1 أو $$100، ممتنين لدعمكم لنا!"
   },
-  "deshardflash":{
-    "message":"إظهار كافة مكونات الفلاش، تخطي عامل التصفية العنوان. فهذا سيصلح المشاكل مع بعض مشغلات الفيديو المخفية، ولكن أيضا سيعرض الإعلانات."
+  "deshardflash": {
+    "message": "إظهار كافة مكونات الفلاش، تخطي عامل التصفية العنوان. فهذا سيصلح المشاكل مع بعض مشغلات الفيديو المخفية، ولكن أيضا سيعرض الإعلانات."
   },
-  "desfadeout":{
-    "message":"إظهار تأثير التلاشي."
+  "desfadeout": {
+    "message": "إظهار تأثير التلاشي."
   },
-  "optionwrongimg":{
-    "message":"ملف الصورة غير صالح!"
+  "optionwrongimg": {
+    "message": "ملف الصورة غير صالح!"
   },
-  "desvideoheadline":{
-    "message":"إظهار وعكس اللون لعنوان الفيديو."
+  "desvideoheadline": {
+    "message": "إظهار وعكس اللون لعنوان الفيديو."
   },
-  "desrememberpage":{
-    "message":"لا تظهر صفحة التذكير"
+  "desrememberpage": {
+    "message": "لا تظهر صفحة التذكير"
   },
-  "description":{
-    "message":"سوف يعم الصفحة الظلام لتتمتع بمشاهدة اشرطة الفيديو كما لو كنت في السينما. الخدمة متوفرة في يوتيوب و غيره."
+  "description": {
+    "message": "The entire page will be fading to dark, so you can watch the videos as if you were in the cinema. Works for YouTube™ and beyond."
   },
-  "titelviewcount":{
-    "message":"عدد المشاهدات"
+  "titelviewcount": {
+    "message": "عدد المشاهدات"
   },
-  "titelopacity":{
-    "message":"الشفافية"
+  "titelopacity": {
+    "message": "الشفافية"
   },
-  "titelqualityyoutube":{
-    "message":"تعيين جودة فيديوهات اليوتيوب تلقائياً."
+  "titelqualityyoutube": {
+    "message": "تعيين جودة فيديوهات اليوتيوب تلقائياً."
   },
-  "shortcutopacity":{
-    "message":"للرجوع لوضع التعتيم (الظلام)"
+  "shortcutopacity": {
+    "message": "للرجوع لوضع التعتيم (الظلام)"
   },
-  "desambilightrangeblurradius":{
-    "message":"القيم المنخفضة سوف تشحذ الظل، والقيم الأعلى ستجعله أكثر ضبابية."
+  "desambilightrangeblurradius": {
+    "message": "القيم المنخفضة سوف تشحذ الظل، والقيم الأعلى ستجعله أكثر ضبابية."
   },
-  "titeladdvideobutton":{
-    "message":"زر الإضافة"
+  "titeladdvideobutton": {
+    "message": "زر الإضافة"
   },
-  "titelpassword":{
-    "message":"الحماية بكلمة مرور"
+  "titelpassword": {
+    "message": "الحماية بكلمة مرور"
   },
-  "titeldownloadupgrade":{
-    "message":"الترقية تضيف دعم للتركيز على الصور المختارة، وسيتم عرض معرض للصور على الموقع."
+  "titeldownloadupgrade": {
+    "message": "الترقية تضيف دعم للتركيز على الصور المختارة، وسيتم عرض معرض للصور على الموقع."
   },
-  "titelfadeout":{
-    "message":"تلاشي"
+  "titelfadeout": {
+    "message": "تلاشي"
   },
-  "eastereggsquestion":{
-    "message":"هل تحب مسرح فيلم حقيقي؟"
+  "eastereggsquestion": {
+    "message": "هل تحب مسرح فيلم حقيقي؟"
   },
-  "bottom":{
-    "message":"القاع"
+  "bottom": {
+    "message": "Bottom"
   },
-  "dessaver":{
-    "message":"شاشة التوقف:"
+  "dessaver": {
+    "message": "شاشة التوقف:"
   },
-  "hoveroptiondyn5":{
-    "message":"مع الطائر"
+  "hoveroptiondyn5": {
+    "message": "مع الطائر"
   },
-  "pagestillloading":{
-    "message":"لا يزال يتم تحميل الصفحة؟"
+  "pagestillloading": {
+    "message": "لا يزال يتم تحميل الصفحة؟"
   },
-  "titeloff":{
-    "message":"إيقاف"
+  "titeloff": {
+    "message": "إيقاف"
   },
-  "titeleastereggs":{
-    "message":"بيض شم النسيم"
+  "titeleastereggs": {
+    "message": "بيض شم النسيم"
   },
-  "textfoot":{
-    "message":"هذا البرنامج مرخص بموجب CC-رخصة جنو \"العمومية\". لعرض نسخة من هذه الرخصة شاهد"
+  "textfoot": {
+    "message": "هذا البرنامج مرخص بموجب CC-رخصة جنو \"العمومية\". لعرض نسخة من هذه الرخصة شاهد"
   },
-  "left":{
-    "message":"يسار"
+  "left": {
+    "message": "Left"
   },
-  "titelnighttheme":{
-    "message":"الوضع الليلي"
+  "titelnighttheme": {
+    "message": "الوضع الليلي"
   },
-  "desnighttheme":{
-    "message":"إظهار زر التبديل الليلي أسفل صفحة الويب لجعل الصفحة داكنة أو فاتحة."
+  "desnighttheme": {
+    "message": "إظهار زر التبديل الليلي أسفل صفحة الويب لجعل الصفحة داكنة أو فاتحة."
   },
-  "nightoptions":{
-    "message":"الوضع الليلي"
+  "nightoptions": {
+    "message": "الوضع الليلي"
   },
-  "desnightonly":{
-    "message":"إظهار \"الوضع الليلي\" للموقع/المواقع التالية فقط:"
+  "desnightonly": {
+    "message": "إظهار \"الوضع الليلي\" للموقع/المواقع التالية فقط:"
   },
-  "desnightenabletheme":{
-    "message":"عندما تقوم بفتح صفحة جديدة تنتقل تلقائياً للوضع الليلي."
+  "desnightenabletheme": {
+    "message": "عندما تقوم بفتح صفحة جديدة تنتقل تلقائياً للوضع الليلي."
   },
-  "titellampregular":{
-    "message":"اظهار ايقونة المصباح دائما في الإشارات"
+  "titellampregular": {
+    "message": "اظهار ايقونة المصباح دائما في الإشارات"
   },
-  "titellampvideo":{
-    "message":"اعرض ايقونة lamp icon فقط اذا تم تم الكشف عن مشغل فيديو"
+  "titellampvideo": {
+    "message": "اعرض ايقونة lamp icon فقط اذا تم تم الكشف عن مشغل فيديو"
   },
-  "upgradecontexttitle":{
-    "message":"لقد اضفنا بعض الخصائص الجديدة لك"
+  "ratetitle": {
+    "message": "Thank you for using Turn Off the Lights"
   },
-  "upgradecontextmessage":{
-    "message":"هذا مايجعل هذه الإضافة اكثر روعة"
+  "ratedes": {
+    "message": "Please rate and review the extension on the Store. Your support is really appreciated."
   },
-  "upgradecontextitemta":{
-    "message":"حركة الكاميرا"
+  "rateitema": {
+    "message": "قيمها ب 5 نجوم"
   },
-  "upgradecontextitemma":{
-    "message":"اغلاق الإضاءة بواسطة يدك"
+  "titelreset": {
+    "message": "استعادة الخيارات الإفتراضية\n"
   },
-  "upgradecontextitemtb":{
-    "message":"التعرف على الصوت"
+  "resetbrowserextension": {
+    "message": "استعادة اعدادات اغلاق الضوء"
   },
-  "upgradecontextitemmb":{
-    "message":"التحكم في الصفحة بدقة اكبر"
+  "desautoplaydelay": {
+    "message": "قم بإضاءة الخلفية مرة أخرى عندما ينتهي الفيديو بعد"
   },
-  "upgradefbshare":{
-    "message":"مشاركة على facebook"
+  "desautoplaydelayend": {
+    "message": "ثواني"
   },
-  "upgradetwshare":{
-    "message":"تغريدة"
+  "motionoptions": {
+    "message": "حركة الكاميرا"
   },
-  "ratetitle":{
-    "message":"الرجاء اعطاء تقييم و استعراض اضافتي"
+  "desmotion": {
+    "message": "تفعيل حركة الكاميرا"
   },
-  "ratedes":{
-    "message":"اجعل الجميع يعرف عن هذه الإضافة الرائعة"
+  "desspeech": {
+    "message": "Enable the Speech Recognition"
   },
-  "rateitema":{
-    "message":"قيمها ب 5 نجوم"
+  "trymotion": {
+    "message": "جربها بنفسك"
   },
-  "titelreset":{
-    "message":"استعادة الخيارات الإفتراضية\n"
+  "destrymotion": {
+    "message": "هذا رائع,و الأروع من هذا انه يعمل في كل مكان.حتى على الyoutube , مواقع الأخبار,....الخ."
   },
-  "resetbrowserextension":{
-    "message":"استعادة اعدادات اغلاق الضوء"
+  "howworkmotion": {
+    "message": "كيف تعمل؟"
   },
-  "desautoplaydelay":{
-    "message":"قم بإضاءة الخلفية مرة أخرى عندما ينتهي الفيديو بعد"
+  "nightstep1description": {
+    "message": "Enable the Night Mode feature"
   },
-  "desautoplaydelayend":{
-    "message":"ثواني"
+  "nightstep2description": {
+    "message": "Open any web page, and you see this night switch"
   },
-  "motionoptions":{
-    "message":"حركة الكاميرا"
+  "nightstep3description": {
+    "message": "Click on the switch to see the web page in a dark theme"
   },
-  "desmotion":{
-    "message":"فتح حركة الكاميرا"
+  "speechstep1description": {
+    "message": "Enable the Speech Recognition feature"
   },
-  "trymotion":{
-    "message":"جربها بنفسك"
+  "speechstep2description": {
+    "message": "When you enable this option, you can talk to the browser lamp using the following commands:"
   },
-  "destrymotion":{
-    "message":"هذا رائع,و الأروع من هذا انه يعمل في كل مكان.حتى على الyoutube , مواقع الأخبار,....الخ."
+  "camstep1description": {
+    "message": "تفعيل خاصية حركة الكاميرا"
   },
-  "howworkmotion":{
-    "message":"كيف تعمل؟"
+  "camstep2description": {
+    "message": "حرك يدك(أو قبضتك) من الأعلى الى الأسفل"
   },
-  "step1description":{
-    "message":"تفعيل خاصية حركة الكاميرا"
+  "camstep3description": {
+    "message": "الشريحة السوداء ستنزلق تلقائيا نحو الأسفل."
   },
-  "step2description":{
-    "message":"حرك يدك (أو قبضتك) من الأعلى الى الأسفل"
+  "desmotionChecklist": {
+    "message": "قائمة:"
   },
-  "step3description":{
-    "message":"الشريحة السوداء ستنزلق تلقائيا نحو الأسفل."
+  "des1checkmotion": {
+    "message": "تأكد من أن الغرفة الخاصة بك ليست مظلمة، وأن لديها ما يكفي من الضوء."
   },
-  "desmotionChecklist":{
-    "message":"قائمة:"
+  "des2checkmotion": {
+    "message": "الكاميرا الخاصة بك يجب أن لا تتلقى أشعة الشمس مباشرة."
   },
-  "des1checkmotion":{
-    "message":"تأكد من أن الغرفة الخاصة بك ليست مظلمة، وأن لديها ما يكفي من الضوء."
+  "des3checkmotion": {
+    "message": "انت تستخدم الكاميرا الأمامية"
   },
-  "des2checkmotion":{
-    "message":"الكاميرا الخاصة بك يجب أن لا تتلقى أشعة الشمس مباشرة."
+  "titellinear": {
+    "message": "خطي"
   },
-  "des3checkmotion":{
-    "message":"انت تستخدم الكاميرا الأمامية"
+  "titelcolora": {
+    "message": "اللون أ:"
   },
-  "titellinear":{
-    "message":"خطي"
+  "titelcolorb": {
+    "message": "اللون ب:",
+    "description": "اللون ب:"
   },
-  "titelcolora":{
-    "message":"اللون أ:"
+  "speechoption": {
+    "message": "التعرف على الصوت"
   },
-  "titelcolorb":{
-    "message":"اللون ب:",
-    "description":"اللون ب:"
+  "titelspeech": {
+    "message": "الكلام"
   },
-  "speechoption":{
-    "message":"التعرف على الصوت"
+  "desspeech1command": {
+    "message": "اغلط الأضواء"
   },
-  "titelspeech":{
-    "message":"الكلام"
+  "desspeech2command": {
+    "message": "شغل الأضواء"
   },
-  "desspeech":{
-    "message":"عند تمكينك لهذها الخيار,بإمكانك التحدث لمصباح المتصفح.و بإمكانك قول الأوامر التالية:"
+  "desspeech3command": {
+    "message": "تشغيل فيديو"
   },
-  "desspeech1command":{
-    "message":"اغلط الأضواء"
+  "desspeech4command": {
+    "message": "ايقاف الفيديو"
   },
-  "desspeech2command":{
-    "message":"شغل الأضواء"
+  "desspeechdialect": {
+    "message": "اختر لهجتك"
   },
-  "desspeech3command":{
-    "message":"تشغيل فيديو"
+  "desatmosvivid": {
+    "message": "Vivid atmosphere effects"
   },
-  "desspeech4command":{
-    "message":"ايقاف الفيديو"
+  "help": {
+    "message": "المساعدة"
   },
-  "desspeechdialect":{
-    "message":"اختر لهجتك"
+  "about": {
+    "message": "حول"
   },
-  "desatmosvivid":{
-    "message":"تاثيرات الغلاف حية"
+  "desspeechonly": {
+    "message": "تفعيل التعرف على الصوت فقط في هذه المواقع:"
   },
-  "help":{
-    "message":"المساعدة"
+  "descammotiononly": {
+    "message": "تفعيل حركة الكاميرا فقط في هذه المواقع:"
   },
-  "about":{
-    "message":"حول"
+  "titelcamera": {
+    "message": "الكاميرا"
   },
-  "desspeechonly":{
-    "message":"تفعيل التعرف على الصوت فقط في هذه المواقع:"
+  "titelautoplaywhitelist": {
+    "message": "القائمة البيضاء"
   },
-  "descammotiononly":{
-    "message":"تفعيل حركة الكاميرا فقط في هذه المواقع:"
+  "titelautoplayblacklist": {
+    "message": "القائمة السوداء"
   },
-  "titelcamera":{
-    "message":"الكاميرا"
+  "titeldownloadthemeupgrade": {
+    "message": "اضافة السمة السوداء لمتصفحك لتغيير شكله.السمة تظهر حول اطار المتصفح."
   },
-  "titelautoplaywhitelist":{
-    "message":"القائمة البيضاء"
+  "desbrowsersupport": {
+    "message": "هذا المتصفح لايدعم هذه الخاصية بعد.تأكد من انك تملك اخر اصدار من المتصفح مركب على جهازك."
   },
-  "titelautoplayblacklist":{
-    "message":"القائمة السوداء"
+  "titelsupportatmos": {
+    "message": "Supports only the HTML5 <video> player. It also uses the GPU from your device."
   },
-  "titeldownloadthemeupgrade":{
-    "message":"اضافة السمة السوداء لمتصفحك لتغيير شكله.السمة تظهر حول اطار المتصفح."
+  "titelseeonline": {
+    "message": "انظر على الإنترنت للحصول على المزيد من الأمثلة"
   },
-  "desbrowsersupport":{
-    "message":"هذا المتصفح لايدعم هذه الخاصية بعد.تأكد من انك تملك اخر اصدار من المتصفح مركب على جهازك."
+  "titelvideosample": {
+    "message": "مثال فيديو"
   },
-  "titelsupportatmos":{
-    "message":"تدعم فقط HTML5 <فيديو> وقارئ اليوتيوب  HTML5 . كما أنها  تستخدم GPU من بطاقة الرسومات الخاصة بك."
+  "titelwebsite": {
+    "message": "الموقع"
   },
-  "titelseeonline":{
-    "message":"انظر على الإنترنت للحصول على المزيد من الأمثلة"
+  "titeldeveloper": {
+    "message": "المطورون"
   },
-  "titelvideosample":{
-    "message":"مثال فيديو"
+  "titelrightsreserved": {
+    "message": "بعض الحقوق محفوظة"
   },
-  "titelwebsite":{
-    "message":"الموقع"
+  "desbrowserextension": {
+    "message": "اضافة المتصفح"
   },
-  "titeldeveloper":{
-    "message":"المطورون"
+  "desapitext": {
+    "message": "wiki API لمطوري المواقع"
   },
-  "titelrightsreserved":{
-    "message":"بعض الحقوق محفوظة"
+  "desbrowsertheme": {
+    "message": "موضوع المتصفح"
   },
-  "desbrowserextension":{
-    "message":"اضافة المتصفح"
+  "desproject": {
+    "message": "المشروع"
   },
-  "desapitext":{
-    "message":"wiki API لمطوري المواقع"
+  "titelapideveloper": {
+    "message": "API المطورون"
   },
-  "desbrowsertheme":{
-    "message":"موضوع المتصفح"
+  "titelwikiatmos": {
+    "message": "مقالة ويكي حول ميزة إضاءة المحيط الخارجي"
   },
-  "desproject":{
-    "message":"المشروع"
+  "sharemenusharetitle": {
+    "message": "مشاركة"
   },
-  "titelapideveloper":{
-    "message":"API المطورون"
+  "sharemenuwelcomeguidetitle": {
+    "message": "دليل الترحيب"
   },
-  "titelwikiatmos":{
-    "message":"مقالة ويكي حول ميزة إضاءة المحيط الخارجي"
+  "sharemenutellafriend": {
+    "message": "أخبر صديق"
   },
-  "sharemenusharetitle":{
-    "message":"مشاركة"
+  "sharemenusendatweet": {
+    "message": "إرسال تغريدة"
   },
-  "sharemenuwelcomeguidetitle":{
-    "message":"دليل الترحيب"
+  "sharemenupostonfacebook": {
+    "message": "مشاركة على الفيس بوك"
   },
-  "sharemenutellafriend":{
-    "message":"أخبر صديق"
+  "sharemenupostongoogleplus": {
+    "message": "النشر في جوجل +"
   },
-  "sharemenusendatweet":{
-    "message":"إرسال تغريدة"
+  "sharemenuratetitle": {
+    "message": "قيم هذا الامتداد"
   },
-  "sharemenupostonfacebook":{
-    "message":"مشاركة على الفيس بوك"
+  "sharemenudonatetitle": {
+    "message": "دعم التنمية"
   },
-  "sharemenupostongoogleplus":{
-    "message":"النشر في جوجل +"
+  "titelautostop": {
+    "message": "ايقاف تلقائي"
   },
-  "sharemenuratetitle":{
-    "message":"قيم هذا الامتداد"
+  "desautostop": {
+    "message": "قم بإيقاف التشغيل التلقائي للفيديو عند فتح صفحة الويب."
   },
-  "sharemenudonatetitle":{
-    "message":"دعم التنمية"
+  "areyouhappy": {
+    "message": "هل أنت سعيد بتطبيق \"Turn Off the Lights\"؟"
   },
-  "titelautostop":{
-    "message":"ايقاف تلقائي"
+  "tellothers": {
+    "message": "نضمن لكم الاهتمام بارائكم"
   },
-  "desautostop":{
-    "message":"قم بإيقاف التشغيل التلقائي للفيديو عند فتح صفحة الويب."
+  "nothanks": {
+    "message": "لا شكراً"
   },
-  "areyouhappy":{
-    "message":"هل أنت سعيد بتطبيق \"Turn Off the Lights\"؟"
+  "writeareview": {
+    "message": "اكتب مراجعة"
   },
-  "tellothers":{
-    "message":"نضمن لكم الاهتمام بارائكم"
+  "desauroraplayer": {
+    "message": "مشغل الإضاءة المحيطة متاح لجهاز الكمبيوتر الخاص بك أيضاً."
   },
-  "nothanks":{
-    "message":"لا شكراً"
+  "downloadtheapp": {
+    "message": "تحميل التطبيق الآن"
   },
-  "writeareview":{
-    "message":"اكتب مراجعة"
+  "titeldownloadupgradezoom": {
+    "message": "يمكنك تكبير أو تصغير محتوى الويب باستخدام زر التكبير/التصغير للتمتع بقراءة مريحة أكثر."
   },
-  "desauroraplayer":{
-    "message":"لاعب الإضاءة المحيطة متاح لجهاز الكمبيوتر الخاص بك أيضا."
+  "titeldownloadupgradepropermenubar": {
+    "message": "ارجاع شريط القوائم السوداء على موقع جوجل."
   },
-  "downloadtheapp":{
-    "message":"تحميل التطبيق الآن"
+  "titeldownloadupgradefinancetoolbar": {
+    "message": "هذا يعرض لك معلومات سوق الأسهم في الوقت الحقيقي."
   },
-  "titeldownloadupgradezoom":{
-    "message":"يمكنك تكبير أو تصغير محتوى الويب باستخدام زر التكبير/التصغير للتمتع بقراءة مريحة أكثر."
+  "titelnightmodeposition": {
+    "message": "موقع المفتاح"
   },
-  "titeldownloadupgradepropermenubar":{
-    "message":"ارجاع شريط القوائم السوداء على موقع جوجل."
+  "nmtopleft": {
+    "message": "أعلى اليسار"
   },
-  "titeldownloadupgradefinancetoolbar":{
-    "message":"هذا يظهر لك الوقت الحقيقي لمعلومات سوق الأسهم."
+  "nmtopright": {
+    "message": "أعلى اليمين"
   },
-  "titelnightmodeposition":{
-    "message":"وضع التبديل"
+  "nmbottomright": {
+    "message": "أسفل اليمين"
   },
-  "nmtopleft":{
-    "message":"أعلى اليسار"
+  "nmbottomleft": {
+    "message": "أسفل اليسار"
   },
-  "nmtopright":{
-    "message":"أعلى اليمين"
+  "nmcustom": {
+    "message": "تخصيص (انقر، استمر في الضغط وانقل المفتاح إلى موقع الشاشة المطلوب)"
   },
-  "nmbottomright":{
-    "message":"أسفل اليمين"
+  "desnighthover": {
+    "message": "إظهار مفتاح شفاف على صفحة ويب"
   },
-  "nmbottomleft":{
-    "message":"أسفل اليسار"
+  "titelnightmodewhitelist": {
+    "message": "القائمة البيضاء"
   },
-  "nmcustom":{
-    "message":"الزبون (انقر، أكبت وانقل المفتاح إلى موقع الشاشة المطلوب)"
+  "titelnightmodeblacklist": {
+    "message": "القائمة السوداء"
   },
-  "desnighthover":{
-    "message":"يظهر تحول شفاف على صفحة ويب"
+  "desautostoponly": {
+    "message": "قم بتفعيل التوقف التلقائي عن تشغيل الفيديو فقط على الموقع/المواقع التالية:"
   },
-  "titelnightmodewhitelist":{
-    "message":"القائمة البيضاء"
+  "titelautostopwhitelist": {
+    "message": "القائمة البيضاء"
   },
-  "titelnightmodeblacklist":{
-    "message":"القائمة السوداء"
+  "titelautostopblacklist": {
+    "message": "القائمة السوداء"
   },
-  "desautostoponly":{
-    "message":"تفعيل التوقف تلقائيّا عن لعب الفيديو فقط على الموقع او المواقع التالية:"
+  "desnightactivetime": {
+    "message": "المفتاح سيكون مرئياً في الأوقات التالية:"
   },
-  "titelautostopwhitelist":{
-    "message":"القائمة البيضاء"
+  "deslampandnightmode": {
+    "message": "تفعيل خيار \"الوضع الليلي\" عند الضغط على زر المصباح الرمادي"
   },
-  "titelautostopblacklist":{
-    "message":"القائمة السوداء"
+  "titeleyewhitelist": {
+    "message": "القائمة البيضاء"
   },
-  "desnightactivetime":{
-    "message":"سيكون التبديل مرئيا في الأوقات التالية:"
+  "titeleyeblacklist": {
+    "message": "القائمة السوداء"
   },
-  "deslampandnightmode":{
-    "message":"تفعيل خيار \"الوضع الليلي\" عند الضغط على الزر الرمادي "
+  "desspeech5command": {
+    "message": "مصباح المتصفح"
   },
-  "titeleyewhitelist":{
-    "message":"القائمة البيضاء"
+  "html5andyoutube": {
+    "message": "فيديو يوتيوب و HTML5"
   },
-  "titeleyeblacklist":{
-    "message":"القائمة السوداء"
+  "flashembedobject": {
+    "message": "يدعم: <object>، <embed>، <applet>، <iframe>."
   },
-  "desspeech5command":{
-    "message":"مصباح المتصفح"
+  "titelnightmodebck": {
+    "message": "لون الخلفية"
   },
-  "html5andyoutube":{
-    "message":"فيديو يوتيوب و HTML5"
+  "titelnightmodetxt": {
+    "message": "لون النص"
   },
-  "flashembedobject":{
-    "message":"يدعم: <object>، <embed>، <applet>، <iframe>."
+  "desdynamicsmoke": {
+    "message": "دخان"
   },
-  "titelnightmodebck":{
-    "message":"لون الخلفية"
+  "desdynamicdotscolor": {
+    "message": "لون النّقاط"
   },
-  "titelnightmodetxt":{
-    "message":"لون النص"
+  "desdynamicstorm": {
+    "message": "عاصفة",
+    "description": "عاصفة"
   },
-  "desdynamicsmoke":{
-    "message":"دخان"
+  "desdynamictriangulation": {
+    "message": "التثليث"
   },
-  "desdynamicdotscolor":{
-    "message":"لون النّقاط"
+  "desdynamicstars": {
+    "message": "نجوم"
   },
-  "desdynamicstorm":{
-    "message":"عاصفة",
-    "description":"عاصفة"
+  "desmobileapp": {
+    "message": "\"Turn Off the Lights\" متوفر أيضاً كتطبيق لجهازك المحمول."
   },
-  "desdynamictriangulation":{
-    "message":"التثليث"
+  "titel360youtube": {
+    "message": "إظهار فيديو يوتيوب 360 درجة بشكل كامل في إطار واحد"
   },
-  "desdynamicstars":{
-    "message":"نجوم"
+  "titelvideotool": {
+    "message": "شريط أدوات الفيديو"
   },
-  "desmobileapp":{
-    "message":"\"إطفاء الأضواء\" متوفر أيضا في جهازك المحمول."
+  "desvideotool": {
+    "message": "عرض شريط الأدوات أسفل الشاشة لتخصيص مشغل الفيديو الحالي"
   },
-  "titel360youtube":{
-    "message":"يُظهر 360 درجة كاملة يوتيوب فيديو في إطار واحد"
+  "vtoolfullscreen": {
+    "message": "زر لتفعيل خاصية ملء الشاشة لمشغل الفيديو"
   },
-  "titelvideotool":{
-    "message":"شريط أدوات الفيديو"
+  "vtoolfilter": {
+    "message": "زر لإضافة المرشحات في مشغل الفيديو الحالي"
   },
-  "desvideotool":{
-    "message":"عرض شريط الأدوات أسفل الشاشة لتخصيص لاعب الفيديو الحالي"
+  "vtoolreplay": {
+    "message": "زر إعادة تشغيل الفيديو الحالي"
   },
-  "vtoolfullscreen":{
-    "message":"زر ليناسب لاعب الفيديو حجم الويندوز"
+  "vtoolscreenshot": {
+    "message": "زر لالتقاط مشهد من مشغل الفيديو الحالي"
   },
-  "vtoolfilter":{
-    "message":"زر لإظافة التصفية في لاعب الفيديو الحالي"
+  "vtoolalign": {
+    "message": "زر لتوسيط مشغل الفيديو في نافذة متصفحك"
   },
-  "vtoolreplay":{
-    "message":"زر إعادة تشغيل الفيديو الحالي"
+  "titelvideotoolgrayscale": {
+    "message": "تدرج الرمادي"
   },
-  "vtoolscreenshot":{
-    "message":"زر لالتقاط مشهد من الفيديو الحالي"
+  "titelvideotoolsepia": {
+    "message": "بني داكن"
   },
-  "vtoolalign":{
-    "message":"زر لتركيز مشغل الفيديو في نافذتك الرئيسية"
+  "titelvideotoolinvert": {
+    "message": "عكس"
   },
-  "titelvideotoolgrayscale":{
-    "message":"تدرج الرمادي"
+  "titelvideotoolcontrast": {
+    "message": "التباين"
   },
-  "titelvideotoolsepia":{
-    "message":"بني داكن"
+  "titelvideotoolsaturate": {
+    "message": "تشبع اللون"
   },
-  "titelvideotoolinvert":{
-    "message":"عكس"
+  "titelvideotoolhueroration": {
+    "message": "تدرج لوني"
   },
-  "titelvideotoolcontrast":{
-    "message":"contrast"
+  "titelvideotoolbrightness": {
+    "message": "السطوع"
   },
-  "titelvideotoolsaturate":{
-    "message":"saturație"
+  "titelvideotoolnormal": {
+    "message": "طبيعي"
   },
-  "titelvideotoolhueroration":{
-    "message":"تدرج لوني"
+  "titelvideotoollike": {
+    "message": "إعجاب"
   },
-  "titelvideotoolbrightness":{
-    "message":"strălucire"
+  "titelvideotoolsubscribe": {
+    "message": "اﻻنضمام"
   },
-  "titelvideotoolnormal":{
-    "message":"normal"
+  "titelvideotoolrepeat": {
+    "message": "تكرار"
   },
-  "titelvideotoollike":{
-    "message":"Îmi place"
+  "titelvideotoolfilter": {
+    "message": "مرشح"
   },
-  "titelvideotoolsubscribe":{
-    "message":"اﻻنضمام"
+  "titelvideotoolfullwindow": {
+    "message": "تكبير الشاشة"
   },
-  "titelvideotoolrepeat":{
-    "message":"Repetă"
+  "titelvideotoolscreenshot": {
+    "message": "اخذ لقطة للشاشة"
   },
-  "titelvideotoolfilter":{
-    "message":"Filtru"
+  "titelreflection": {
+    "message": "انعكاس"
   },
-  "titelvideotoolfullwindow":{
-    "message":"Ecran întreg"
+  "desreflection": {
+    "message": "إظهار تأثير الانعكاس على كافة الفيديوات"
   },
-  "titelvideotoolscreenshot":{
-    "message":"اخذ لقطة للشاشة"
+  "desvideotoolonly": {
+    "message": "تنشيط شريط أدوات الفيديو فقط في المواقع التالية:"
   },
-  "titelreflection":{
-    "message":"Reflexie"
+  "titelvideotoolwhitelist": {
+    "message": "القائمة البيضاء"
   },
-  "desreflection":{
-    "message":"إظهار تأثير الانعكاس على كافة الفيديوات"
+  "titelvideotoolblacklist": {
+    "message": "القائمة السوداء"
   },
-  "desvideotoolonly":{
-    "message":"تنشيط شريط أدوات الفيديو فقط في المواقع التالية:"
+  "titelnightmodehyperlink": {
+    "message": "رابط تشعبي",
+    "description": "رابط تشعبي"
   },
-  "titelvideotoolwhitelist":{
-    "message":"القائمة البيضاء"
+  "titelblock60fps": {
+    "message": "حجب 60fps",
+    "description": "حجب 60fps"
   },
-  "titelvideotoolblacklist":{
-    "message":"القائمة السوداء"
+  "titelvolume": {
+    "message": "شريط التحكم بصوت الفيديو"
   },
-  "titelnightmodehyperlink":{
-    "message":"رابِط تَشَعُّبيّ",
-    "description":"رابِط تَشَعُّبيّ"
+  "desvideovolume": {
+    "message": "التحكم في مستوى صوت الفيديو الحالي مع تمرير الماوس"
   },
-  "titelblock60fps":{
-    "message":"Block 60fps",
-    "description":"Block 60fps"
+  "desvideovolumecolor": {
+    "message": "لون شريط التمرير"
   },
-  "titelvolume":{
-    "message":"Video Volume Slider"
+  "desvolumelabel": {
+    "message": "إظهار نص حجم الصوت"
   },
-  "desvideovolume":{
-    "message":"Control the volume of the current video player with a mouse scroll"
+  "desvolumesteps": {
+    "message": "Number of volume steps (in %) for each scroll wheel notch"
   },
-  "desvideovolumecolor":{
-    "message":"Color of the slider"
+  "sharetexta": {
+    "message": "أحصل على الإضافة الرائعة \"Turn Off the Lights\" للمتصفح"
   },
-  "desvolumelabel":{
-    "message":"Show volume label"
+  "sharetextb": {
+    "message": "مهلاً، هذا مذهل. لقد قمت للتو بتجربة إضافة \"Turn Off the Lights\" على المتصفح "
   },
-  "desvolumesteps":{
-    "message":"The number of levels for each 360° wheel scroll"
+  "sharetextc": {
+    "message": "Turn Off the Lights هي الإضافة المذهلة والأفضل لمتصفحك"
   },
-  "sharetexta":{
-    "message":"Get this Cool Turn Off the Lights Browser Extension"
+  "sharetextd": {
+    "message": "إضافة Turn Off the Lights هي أفضل أداة لمشاهدة اليوتيوب. قم بتحميلها وتجربتها بنفسك!"
   },
-  "sharetextb":{
-    "message":"مهلا، هذا مذهل. لقد جربت اليوم تمديد المتصفح \" إطفاءالأضواء\" "
+  "titelsharethis": {
+    "message": "مشاركة:"
   },
-  "sharetextc":{
-    "message":"The Best and Amazing Turn Off the Lights Browser extension"
+  "titellampchoose": {
+    "message": "اختر تصميم مصباحك المفضل"
   },
-  "sharetextd":{
-    "message":"Turn Off the Lights extension is the Best Tool for use on YouTube. Download it and try it yourself!"
+  "titeldoesntwork": {
+    "message": "لا يعمل تطبيق\" Turn Off the Lights\" على صفحة ويب هذه. الرجاء محاولة صفحة أخرى."
   },
-  "titelsharethis":{
-    "message":"مشاركة:"
+  "titelpopupvideo": {
+    "message": "YouTube"
   },
-  "titellampchoose":{
-    "message":"اختر تصميم مصباحك المفضل"
+  "titelpopupwelcomeguide": {
+    "message": "دليل الترحيب"
   },
-  "titeldoesntwork":{
-    "message":"لا يعمل تطبيق\" إطفاء الأضواء\" على صفحة ويب هذه. الرجاء محاولة صفحة أخرى."
+  "titelpopupsupport": {
+    "message": "الدعم"
   },
-  "titelpopupvideo":{
-    "message":"YouTube"
+  "titelpopupoptions": {
+    "message": "خيارات"
   },
-  "titelpopupwelcomeguide":{
-    "message":"دليل الترحيب"
+  "titelpopupratestars": {
+    "message": "قيمها ب 5 نجوم"
   },
-  "titelpopupsupport":{
-    "message":"الدعم"
+  "titelvisenable": {
+    "message": "تمكين/تعطيل المؤثرات البصرية للصوت"
   },
-  "titelpopupoptions":{
-    "message":"خيارات"
+  "titelvischoose": {
+    "message": "اختر المؤثرات البصرية للصوت الخاصة بك"
   },
-  "titelpopupratestars":{
-    "message":"قيمها ب 5 نجوم"
+  "titelvisblocks": {
+    "message": "الحواجز"
   },
-  "titelvisenable":{
-    "message":"Enable/disable the Audio Visualization"
+  "titelvisfrequency": {
+    "message": "التردد"
   },
-  "titelvischoose":{
-    "message":"Choose your Audio Visualization"
+  "titelvistunnel": {
+    "message": "النفق الموسيقى"
   },
-  "titelvisblocks":{
-    "message":"الحواجز"
+  "titelvisualization": {
+    "message": "المؤثرات البصرية للصوت"
   },
-  "titelvisfrequency":{
-    "message":"التردد"
+  "desvisopacity": {
+    "message": "قيمة عتامة خلفية المؤثرات البصرية للصوت"
   },
-  "titelvistunnel":{
-    "message":"النفق الموسيقى"
+  "vtoolvisualization": {
+    "message": "زر لعرض المؤثرات البصرية للصوت لمشغل الفيديو الحالي"
   },
-  "titelvisualization":{
-    "message":"Audio Visualization"
+  "desvideotoolcolor": {
+    "message": "لون شريط الأدوات"
   },
-  "desvisopacity":{
-    "message":"The opacity value of the audio visualization background"
+  "titelhovervideo": {
+    "message": "تمرير الفيديو"
   },
-  "vtoolvisualization":{
-    "message":"A button for displaying the audio-visualization for the current video player"
+  "deshovervideo": {
+    "message": "قم بتمرير الماوس على عنصر الفيديو لبضع من الثواني، بعد ذلك سيتم تعتيم صفحة ويب تلقائياً"
   },
-  "desvideotoolcolor":{
-    "message":"Color of the toolbar"
+  "promotitle": {
+    "message": "نصيحة اليوم"
   },
-  "titelhovervideo":{
-    "message":"Video Hover"
+  "desremyoutube": {
+    "message": "اشترك في اليوتوب"
   },
-  "deshovervideo":{
-    "message":"Hover your mouse on the video element for certain number of seconds, after which the webpage automatically dims"
+  "desremfacebook": {
+    "message": "قم بالتوصية لهذا التطبيق على الفيس بوك"
   },
-  "promotitle":{
-    "message":"نصيحة اليوم"
+  "titleuserprofile": {
+    "message": "أدناه، اختر الإعدادات التي تريد استخدامها عند النقر على زر المصباح الرمادي. كل ملف له ميزاته الخاصة."
   },
-  "desremyoutube":{
-    "message":"اشترك في اليوتوب"
+  "titleregularuser": {
+    "message": "محبّ الفيديو"
   },
-  "desremfacebook":{
-    "message":"Recommend this on Facebook"
+  "titlenightowl": {
+    "message": "بومة الليل"
   },
-  "titleuserprofile":{
-    "message":"Below, choose the settings you want to use when clicking the gray lamp button. Each profile has its own features."
+  "titlescreenprotection": {
+    "message": "حماية العين"
   },
-  "titleregularuser":{
-    "message":"محبّ الفيديو"
+  "desregularuser": {
+    "message": "هذا هو الإعداد الافتراضي والعادي للمستخدمين الجدد. عند النقر على زر المصباح الرمادي، سيتم تطبيق هذا النمط على صفحة الويب الحالية."
   },
-  "titlenightowl":{
-    "message":"Night Owl"
+  "desnightowl": {
+    "message": "بنقرة واحدة تتحول الصفحة مباشرة الى النسق الليلي مع ارتباط تشعبي قابل للنقر. انقر فوقها مرة أخرى للعودة إلى العرض العادي. انقر فوق زر المصباح مرة أخرى لتعطيل هذه الميزة."
   },
-  "titlescreenprotection":{
-    "message":"حماية العين"
+  "desscreenprotection": {
+    "message": "نقرة واحد تلقي بظلال على الصحفة بلون برتقالي هادئ لتقليل إجهاد العين لكافة علامات التبويب المفتوحة. انقر فوق الزر \"مصباح\" مرة أخرى لتعطيل هذه الميزة."
   },
-  "desregularuser":{
-    "message":"This is default and the regular setting for new users. When clicking the gray lamp button, this style will be applied to the current web page."
+  "titleprofilevideofocus": {
+    "message": "تركيز الفيديو مفعَل"
   },
-  "desnightowl":{
-    "message":"One click converts the page directly into a night theme with a clickable hyperlink. Click it again to return to normal view. Click the lamp button again to disable this feature."
+  "titleprofilenovideofocus": {
+    "message": "تركيز الفيديو معطل"
   },
-  "desscreenprotection":{
-    "message":"One click shades the page to a soothing orange color to decrease eye strain to all open tabs. Click the lamp button again to disable this feature."
+  "titleprofilealwaysscreentab": {
+    "message": "دائماً قم بتفعيل كافة علامات التبويب المفتوحة"
   },
-  "titleprofilevideofocus":{
-    "message":"Video focus is enabled"
+  "titleprofilescreenclick": {
+    "message": "إمكان الضغط على الروابط عند إيقاف الإضاءة"
   },
-  "titleprofilenovideofocus":{
-    "message":"Video focus is disabled"
+  "titleprofilesubmit": {
+    "message": "اختيار هذه الاعدادات"
   },
-  "titleprofilealwaysscreentab":{
-    "message":"Always enabled for all open tabs"
+  "titlelearnmore": {
+    "message": "اقرأ المزيد"
   },
-  "titleprofilescreenclick":{
-    "message":"إمكان الضغط على الروابط عند إيقاف الإضاءة"
+  "optionprofilesaved": {
+    "message": "تمّ حفظ الإجراء الجديد للمصباح بنجاح!"
   },
-  "titleprofilesubmit":{
-    "message":"Choose this settings"
+  "desaplay": {
+    "message": "تشغيل"
   },
-  "titlelearnmore":{
-    "message":"اقرأ المزيد"
+  "desapause": {
+    "message": "إيقاف مؤقت"
   },
-  "optionprofilesaved":{
-    "message":"تمّ حفظ العمل الجديد للمصباح بنجاح!"
+  "desastop": {
+    "message": "إيقاف"
   },
-  "desaplay":{
-    "message":"play"
+  "desvideozoom": {
+    "message": "يمكنك التكبير أو التصغير على محتوى الفيديو باستخدام زر التكبير / التصغير"
   },
-  "desapause":{
-    "message":"pause"
+  "titlevideoplayrate": {
+    "message": "سرعة الفيديو"
   },
-  "desastop":{
-    "message":"stop"
+  "desplayrate": {
+    "message": "سرعة التشغيل الافتراضية"
+  },
+  "desspeedtoolbar": {
+    "message": "عرض شريط أدوات التشغيل في مشغل الفيديو الحالي"
+  },
+  "desatmosontotlmode": {
+    "message": "إظهار تأثير الإضاءة الغلاف الجوي فقط عندما يتم تمكين وضع توتال"
+  },
+  "desdarkbrowsertheme": {
+    "message": "Switch to a dark browser theme"
+  },
+  "desautostopfeaturewhite": {
+    "message": "BLOCKS below websites, but ALLOWS automatic playing on any other website."
+  },
+  "desautostopfeatureblack": {
+    "message": "ALLOWS below websites, but BLOCKS automatic playing on any other website."
+  },
+  "autostopbannerred": {
+    "message": "Show a red banner"
+  },
+  "autostopbannertrans": {
+    "message": "Show a transparent banner"
+  },
+  "titleanalytics": {
+    "message": "Analytics"
+  },
+  "desbadgeanalytics": {
+    "message": "Show the badge with the number of clicks you have dimmed the webpage"
+  },
+  "shareanalyticenergy": {
+    "message": "I saved $product$ kWh thanks to Turn Off the Lights",
+    "placeholders": {
+      "product": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "analyticsoption": {
+    "message": "Analytics"
+  },
+  "activelayertoday": {
+    "message": "Number of clicks today"
+  },
+  "totalenergysaved": {
+    "message": "Total electrical energy saved"
+  },
+  "resetlampanalytic": {
+    "message": "Reset your Turn Off the Lights Analytics Data"
+  },
+  "titlesiteengagement": {
+    "message": "Site Engagement"
+  },
+  "titleorigin": {
+    "message": "Origin"
+  },
+  "titletime": {
+    "message": "Time (minutes)"
+  },
+  "titleavgdayschedule": {
+    "message": "Average daily schedule"
+  },
+  "titlesharestats": {
+    "message": "Share Your Stats"
+  },
+  "btnsharestats": {
+    "message": "Share Stats"
+  },
+  "charttitletotaltime": {
+    "message": "Total time the dark layer is active (minutes)"
+  },
+  "charttitlelayeractive": {
+    "message": "Dark layer active (#)"
+  },
+  "charttitleavgday": {
+    "message": "Average daily schedule (when the lights turn off frequently)"
+  },
+  "charttitle30dayssaved": {
+    "message": "Energy saved this last 30 days"
+  },
+  "charttitlelblwebsiteused": {
+    "message": "Websites used this last 30 days"
+  },
+  "charttitlelblenergytotal": {
+    "message": "Total used Energy"
+  },
+  "charttitlelblenergysaved": {
+    "message": "Total saved Energy"
+  },
+  "titlelanalyticprivacy": {
+    "message": "Turn Off the Lights browser extension takes your privacy very seriously. The Turn Off the Lights Analytics you are seeing on this page is only stored locally on your computer. Your personal site engagement information will not be sold and not transferred to unaffiliated third parties."
+  },
+  "shareanalyticlove": {
+    "message": "The website I most love is $product$ with Turn Off the Lights",
+    "placeholders": {
+      "product": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "desvolumeposa": {
+    "message": "Show the volume meter in center of the current video player"
+  },
+  "desvolumeposb": {
+    "message": "Show the volume value on top left of the current video player"
+  },
+  "desvolumeposc": {
+    "message": "Show the volume value on top right of the current video player"
+  },
+  "desvideovolumhold": {
+    "message": "Hold down the left or right mouse button, and move your mouse to change the volume"
+  },
+  "desvideovolumalt": {
+    "message": "Only if the alt key is pressed"
+  },
+  "speechheybrowser": {
+    "message": "Hey Browser"
+  },
+  "speechokbrowser": {
+    "message": "ok Browser"
+  },
+  "functionactive": {
+    "message": "This function is activated when you click on a tab, or when you refresh the web page. However, this function stops automatically after 15 seconds."
+  },
+  "cardtexsubscribe": {
+    "message": "Subscribe Now!"
+  },
+  "cardtextfavdayweek": {
+    "message": "Favorite day of the week"
+  },
+  "cardtextyestime": {
+    "message": "Yesterday total time (in minutes)"
+  },
+  "cardavgprevweektime": {
+    "message": "Previous total week time (in minutes)"
+  },
+  "sunday": {
+    "message": "Sunday"
+  },
+  "monday": {
+    "message": "Monday"
+  },
+  "tuesday": {
+    "message": "Tuesday"
+  },
+  "wednesday": {
+    "message": "Wednesday"
+  },
+  "thursday": {
+    "message": "Thursday"
+  },
+  "friday": {
+    "message": "Friday"
+  },
+  "saturday": {
+    "message": "Saturday"
+  },
+  "titlemultiopacity": {
+    "message": "Each website, its own opacity"
+  },
+  "desmultiopacitynormal": {
+    "message": "All websites have the same opacity value"
+  },
+  "desmultiopacitysel": {
+    "message": "The websites in the list here below have that chosen opacities"
+  },
+  "desmultiopacitynot": {
+    "message": "If a website it not in the list, the default opacity value will apply."
+  },
+  "titleok": {
+    "message": "موافق"
+  },
+  "titlecancel": {
+    "message": "الغاء"
+  },
+  "titledarkmodeon": {
+    "message": "Dark Mode ON"
+  },
+  "titledarkmodeoff": {
+    "message": "Dark Mode OFF"
+  },
+  "titlelprivacy": {
+    "message": "سياسة الخصوصية"
+  },
+  "titleprofile": {
+    "message": "Profile"
+  },
+  "descolorfixcolor": {
+    "message": "Choose your dark layer color"
+  },
+  "desatmossolidcolor": {
+    "message": "Choose your one solid glow effect color"
+  },
+  "titlelratenow": {
+    "message": "Rate Now!"
+  },
+  "titleratelater": {
+    "message": "فيما بعد"
+  },
+  "desremrate": {
+    "message": "If you like Turn Off the Lights™, please do not hesitate to rate this extension to five stars now. This gives us courage to continue to maintain and improve this product for you. Writing a review is recommended, but not mandatory. If you do not have the time to write a review, you can rate it anonymously. It is important to give it ★★★★★. Thank you!"
+  },
+  "titelnightmodedomain": {
+    "message": "Domain"
+  },
+  "titelnightmodepage": {
+    "message": "Web page"
+  },
+  "titelintroduce": {
+    "message": "Introducing the new Turn Off the Lights!"
+  },
+  "desintroduce": {
+    "message": "All the features you're used to, with a brand new look and feel, and personalized to you."
+  },
+  "econothingthisyear": {
+    "message": "Nothing this year. Keeps the lights off to save energy"
+  },
+  "ecothirtyminutes": {
+    "message": "30 minutes of light saved"
+  },
+  "ecowatchtvfortwo": {
+    "message": "Watch TV for 2 hours"
+  },
+  "ecotoastermaking": {
+    "message": "Toaster making two loaves of toast"
+  },
+  "ecochargeiphone": {
+    "message": "Charge your iPhone"
+  },
+  "ecobrewsomecoffee": {
+    "message": "Brew some Coffee, brewing one pot of coffee"
+  },
+  "ecoplayingxbox": {
+    "message": "Playing Xbox 360 for one hour"
+  },
+  "ecovacuumingfor": {
+    "message": "Vacuuming for 15 minutes"
+  },
+  "ecoblowdrying": {
+    "message": "Blow-drying your hair for 10 minutes uses approximately"
+  },
+  "ecowashingclothes": {
+    "message": "Washing your clothes in a cold-rinse cycle uses approximately"
+  },
+  "ecowififoraday": {
+    "message": "Wi-Fi for a day"
+  },
+  "ecorunningdishwasher": {
+    "message": "Running your dishwasher in energy-saver mode will use"
+  },
+  "ecochargelaptop": {
+    "message": "Charge your laptop"
+  },
+  "ecokeeplightonforsix": {
+    "message": "Keep the Lights on for 6 hours"
+  },
+  "ecokeepfridgeday": {
+    "message": "Keep the Fridge Running for a day"
+  },
+  "ecoloadlaundry": {
+    "message": "One load of laundry in the dryer"
+  },
+  "ecoheatingtenshower": {
+    "message": "Heating enough water for a 10-minute shower"
+  },
+  "ecotwentyfourghome": {
+    "message": "Enough to run Google Home for 24h"
+  },
+  "ecochargeteslacar": {
+    "message": "Charge your Tesla car for 20 miles"
+  },
+  "ecochargeteslacarhundred": {
+    "message": "Charge your Tesla electric vehicle to 100%"
+  },
+  "ecochargeteslathreetimes": {
+    "message": "Charge 3 times your Tesla electric vehicle to 100%"
+  },
+  "ecopowerhawaiimonth": {
+    "message": "Enough electric energy for 1 month in Hawaii"
+  },
+  "ecopowernwymonth": {
+    "message": "Enough electric energy for 1 month in New York"
+  },
+  "ecopowercamonth": {
+    "message": "Enough electric energy for 1 month in California"
+  },
+  "ecopowerbaseballgame": {
+    "message": "To power 1 jumbotron for a baseball game"
+  },
+  "ecopowereiffeltower": {
+    "message": "To illuminate the Eiffel Tower for 1 day"
+  },
+  "ecopowereurostar": {
+    "message": "For a Eurostar trip from Brussels to London"
+  },
+  "ecopowereurostarparis": {
+    "message": "For a Eurostar trip from Paris to London"
+  },
+  "ecoeiffeltoweryear": {
+    "message": "To illuminate the Eiffel Tower for 1 year"
+  },
+  "ecosfoyear": {
+    "message": "To power San Francisco for 1 year"
+  },
+  "ecolayear": {
+    "message": "To power Los Angeles for 1 year"
+  },
+  "ecoplanetearth": {
+    "message": "Ready to save the planet Earth"
+  },
+  "autostopdetails": {
+    "message": "DETAILS"
+  },
+  "autostopblocked": {
+    "message": "Blocked by Turn Off the Lights™ - www.turnoffthelights.com"
+  },
+  "autostopclickme": {
+    "message": "Click on me to play this HTML5 video"
+  },
+  "autostopenabled": {
+    "message": "AutoStop is enabled!"
   }
 }

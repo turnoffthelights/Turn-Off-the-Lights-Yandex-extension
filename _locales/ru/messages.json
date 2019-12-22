@@ -1,1056 +1,1377 @@
 {
-  "pagehelp":{
-    "message":"помощь"
+  "pagehelp": {
+    "message": "помощь"
   },
-  "titelimage":{
-    "message":"Фоновое изображение"
+  "titelimage": {
+    "message": "Фоновое изображение"
   },
-  "shortcutalllights":{
-    "message":"чтобы включить или отключить свет для всех открытых вкладок"
+  "shortcutalllights": {
+    "message": "чтобы включить или отключить свет для всех открытых вкладок"
   },
-  "lastchecked":{
-    "message":"Последняя проверка обновлений"
+  "lastchecked": {
+    "message": "Последняя проверка обновлений"
   },
-  "visualeffects":{
-    "message":"Визуальные эффекты"
+  "visualeffects": {
+    "message": "Визуальные эффекты"
   },
-  "titelshortcutlight":{
-    "message":"Сочетание клавиш"
+  "titelshortcutlight": {
+    "message": "Сочетание клавиш"
   },
-  "titledonatebutton":{
-    "message":"Пожертвовать"
+  "titledonatebutton": {
+    "message": "Пожертвовать"
   },
-  "titellikebar":{
-    "message":"Строка лайков"
+  "titellikebar": {
+    "message": "Строка лайков"
   },
-  "desmousespotlightt":{
-    "message":"Разрешить нажатие на ссылки, когда экран затемнён"
+  "desmousespotlightt": {
+    "message": "Разрешить нажатие на ссылки, когда экран затемнён"
   },
-  "desmousespotlights":{
-    "message":"Включение затемнения экрана, которое всегда поддерживается в активном состоянии и предоставляет возможность нажатия через этот слой"
+  "desmousespotlights": {
+    "message": "Включение затемнения экрана, которое всегда поддерживается в активном состоянии и предоставляет возможность нажатия через этот слой"
   },
-  "desambilight4color":{
-    "message":"4 выбранных цвета вокруг видео:"
+  "desambilight4color": {
+    "message": "4 выбранных цвета вокруг видео"
   },
-  "lockentername":{
-    "message":"Пожалуйста, введите пароль"
+  "lockentername": {
+    "message": "Пожалуйста, введите пароль"
   },
-  "desnoflash":{
-    "message":"Не используйте эту функцию."
+  "desnoflash": {
+    "message": "Не используйте эту функцию."
   },
-  "desdynamicblocks":{
-    "message":"Блоки"
+  "desdynamicblocks": {
+    "message": "Блоки"
   },
-  "titeleye":{
-    "message":"Защита глаз"
+  "titeleye": {
+    "message": "Защита глаз"
   },
-  "titelcinemaontop":{
-    "message":"Режим кинотеатра: слой 'свет выключен' отображается только вверху окна"
+  "titelcinemaontop": {
+    "message": "Режим кинотеатра: слой 'свет выключен' отображается только вверху окна"
   },
-  "desmousespotlightc":{
-    "message":"Если затемнение активно, вы можете выбрать область для фокуса нужного элемента."
+  "desmousespotlightc": {
+    "message": "Если затемнение активно, вы можете выбрать область для фокуса нужного элемента."
   },
-  "titelrememberpage":{
-    "message":"Страница напоминания"
+  "titelrememberpage": {
+    "message": "Страница напоминания"
   },
-  "desmousespotlighta":{
-    "message":"Если затемнение активно, показывать свечение вокруг курсора."
+  "desmousespotlighta": {
+    "message": "Если затемнение активно, показывать свечение вокруг курсора."
   },
-  "desmousespotlighto":{
-    "message":"Поведение мыши по умолчанию (отключает настройки мыши ниже)"
+  "desmousespotlighto": {
+    "message": "Поведение мыши по умолчанию (отключает настройки мыши ниже)"
   },
-  "desplaylist":{
-    "message":"Показывать плейлист на сайте YouTube."
+  "desplaylist": {
+    "message": "Показывать плейлист на сайте YouTube."
   },
-  "desambilightfixcolor":{
-    "message":"Сплошной цвет"
+  "desambilightfixcolor": {
+    "message": "Сплошной цвет"
   },
-  "desuntil":{
-    "message":"до"
+  "desuntil": {
+    "message": "до"
   },
-  "desconfirmpassword":{
-    "message":"Подтвердить пароль"
+  "desconfirmpassword": {
+    "message": "Подтвердить пароль"
   },
-  "desautoplayonly":{
-    "message":"Приглушать свет только на следующих видеосайтах:"
+  "desautoplayonly": {
+    "message": "Приглушать свет только на следующих видеосайтах:"
   },
-  "helpeyeprotection":{
-    "message":"Включение функции защиты глаз автоматически отключает функцию автовоспроизведения."
+  "helpeyeprotection": {
+    "message": "Включение функции защиты глаз автоматически отключает функцию автовоспроизведения."
   },
-  "skipremember":{
-    "message":"Пропустить это и открыть страницу с настройками"
+  "skipremember": {
+    "message": "Пропустить это и открыть страницу с настройками"
   },
-  "optiontimesaved":{
-    "message":"Изменения времени успешно сохранены!"
+  "optiontimesaved": {
+    "message": "Изменения времени успешно сохранены!"
   },
-  "titelvideoheadline":{
-    "message":"Название видео"
+  "titelvideoheadline": {
+    "message": "Название видео"
   },
-  "translateme":{
-    "message":"Помочь в переводе"
+  "translateme": {
+    "message": "Помочь в переводе"
   },
-  "despassword":{
-    "message":"Требовать ввода пароля при включении света."
+  "despassword": {
+    "message": "Требовать ввода пароля при включении света."
   },
-  "helpautoplay":{
-    "message":"Включена защита глаз. Чтобы использовать функцию ниже, отключите опцию защиты глаз."
+  "helpautoplay": {
+    "message": "Включена защита глаз. Чтобы использовать функцию ниже, отключите опцию защиты глаз."
   },
-  "name":{
-    "message":"Turn Off the Lights"
+  "name": {
+    "message": "Turn Off the Lights"
   },
-  "changelog":{
-    "message":"История изменений"
+  "changelog": {
+    "message": "История изменений"
   },
-  "optionpagetitle":{
-    "message":"Turn Off the Lights - Опции"
+  "optionpagetitle": {
+    "message": "Turn Off the Lights - Опции"
   },
-  "optionpasswordsaved":{
-    "message":"Пароль успешно сохранен!"
+  "optionpasswordsaved": {
+    "message": "Пароль успешно сохранен!"
   },
-  "desdynamicspace":{
-    "message":"Космическое пространство"
+  "desdynamicspace": {
+    "message": "Космическое пространство"
   },
-  "deseastereggs":{
-    "message":"Нажатие клавиши T добавляет театральный занавес на тёмный слой"
+  "deseastereggs": {
+    "message": "Нажатие клавиши T добавляет театральный занавес на тёмный слой"
   },
-  "settings":{
-    "message":"Параметры"
+  "settings": {
+    "message": "Параметры"
   },
-  "desspotlightradius":{
-    "message":"Диаметр прожектора:"
+  "desspotlightradius": {
+    "message": "Диаметр прожектора:"
   },
-  "titelsync":{
-    "message":"Синхронизация"
+  "titelsync": {
+    "message": "Синхронизация"
   },
-  "right":{
-    "message":"справа"
+  "right": {
+    "message": "Справа"
   },
-  "titeldynamic":{
-    "message":"Динамический фон"
+  "titeldynamic": {
+    "message": "Динамический фон"
   },
-  "deslikebutton":{
-    "message":"Показывать кнопки Like & Dislike (нравится & не нравится) видеоролика на сайте Youtube."
+  "deslikebutton": {
+    "message": "Показывать кнопки Like & Dislike (нравится & не нравится) видеоролика на сайте Youtube."
   },
-  "titelmouse":{
-    "message":"Мышь"
+  "titelmouse": {
+    "message": "Мышь"
   },
-  "titellessmore":{
-    "message":"Показывать меньше"
+  "titellessmore": {
+    "message": "Показывать меньше"
   },
-  "desshortcutlight":{
-    "message":"Включите сочетания клавиш ниже."
+  "desshortcutlight": {
+    "message": "Включите сочетания клавиш ниже."
   },
-  "titelinfobar":{
-    "message":"Инфопанель"
+  "titelinfobar": {
+    "message": "Инфопанель"
   },
-  "descontextmenus":{
-    "message":"Показывать контекстное меню для элементов на странице."
+  "descontextmenus": {
+    "message": "Показывать контекстное меню для элементов на странице."
   },
-  "titelcontextmenus":{
-    "message":"Контекстное меню"
+  "titelcontextmenus": {
+    "message": "Контекстное меню"
   },
-  "titelplaylist":{
-    "message":"Плейлист"
+  "titelplaylist": {
+    "message": "Плейлист"
   },
-  "desatmosphereonly":{
-    "message":"Использовать функцию эффекта атмосферного освещения только для следующих видеосайтов:"
+  "desatmosphereonly": {
+    "message": "Используйте функцию атмосферного освещения только для следующих видеосайтов:"
   },
-  "recflash":{
-    "message":"Рекомендуется"
+  "recflash": {
+    "message": "Рекомендуется"
   },
-  "desenterpassword":{
-    "message":"Введите свой пароль в поле ниже:"
+  "desenterpassword": {
+    "message": "Введите свой пароль в поле ниже:"
   },
-  "titelblurradius":{
-    "message":"Радиус размытия:"
+  "titelblurradius": {
+    "message": "Радиус размытия:"
   },
-  "version":{
-    "message":"Версия"
+  "version": {
+    "message": "Версия"
   },
-  "shortcutdark":{
-    "message":"чтобы затемнить экран (увеличить прозрачность)"
+  "shortcutdark": {
+    "message": "чтобы затемнить экран (увеличить прозрачность)"
   },
-  "dessharebutton":{
-    "message":"Показывать кнопки share (поделиться) видеоролика на сайте YouTube."
+  "dessharebutton": {
+    "message": "Показывать кнопки share (поделиться) видеоролика на сайте YouTube."
   },
-  "shortcutbright":{
-    "message":"чтобы осветить экран (уменьшить прозрачность)"
+  "shortcutbright": {
+    "message": "чтобы осветить экран (уменьшить прозрачность)"
   },
-  "titelalllightsoff":{
-    "message":"Все открытые вкладки"
+  "titelalllightsoff": {
+    "message": "Все открытые вкладки"
   },
-  "desreadera":{
-    "message":"Всегда показывать уровень затемнения."
+  "desreadera": {
+    "message": "Всегда показывать уровень затемнения."
   },
-  "rememberrate":{
-    "message":"Оценить"
+  "rememberrate": {
+    "message": "Оценить"
   },
-  "desautoplay":{
-    "message":"Автоматически затемнять страницу при нажатии на кнопку Play в Youtube."
+  "desautoplay": {
+    "message": "Автоматически затемнять страницу при нажатии на кнопку Play в Youtube."
   },
-  "titelscreen":{
-    "message":"Затемнение"
+  "titelscreen": {
+    "message": "Затемнение"
   },
-  "desflash":{
-    "message":"Показывать все Flash-объекты"
+  "desflash": {
+    "message": "Показывать все Flash-объекты"
   },
-  "titelhead":{
-    "message":"Канал"
+  "titelhead": {
+    "message": "Канал"
   },
-  "pageatitle":{
-    "message":"Turn Off the Lights"
+  "pageatitle": {
+    "message": "Turn Off the Lights"
   },
-  "desaddvideobutton":{
-    "message":"Показывать кнопку Добавить для этого видео."
+  "desaddvideobutton": {
+    "message": "Показывать кнопку Добавить для этого видео."
   },
-  "shortcuteyeprotection":{
-    "message":"чтобы включить или отключить функцию защиты глаз"
+  "shortcuteyeprotection": {
+    "message": "чтобы включить или отключить функцию защиты глаз"
   },
-  "titelfadein":{
-    "message":"Появление"
+  "titelfadein": {
+    "message": "Появление"
   },
-  "desreadern":{
-    "message":"Скрывать уровень затемнения."
+  "desreadern": {
+    "message": "Скрывать уровень затемнения."
   },
-  "titelmaxqualityyoutube":{
-    "message":"Автоматически устанавливать следующее разрешение:"
+  "titelmaxqualityyoutube": {
+    "message": "Автоматически устанавливать следующее разрешение:"
   },
-  "desambilightrangespreadradius":{
-    "message":"Положительные значение увеличивают размер тени, отрицательные - уменьшают."
+  "desambilightrangespreadradius": {
+    "message": "Положительные значение увеличивают размер тени, отрицательные - уменьшают."
   },
-  "titelon":{
-    "message":"Вкл."
+  "titelon": {
+    "message": "Вкл."
   },
-  "videotitle":{
-    "message":"Выделить это видео"
+  "videotitle": {
+    "message": "Выделить это видео"
   },
-  "warningtextambilight":{
-    "message":"Если не удастся получить данные о видео из-за правил безопасности сайта, будет использован выбранный сплошной цвет."
+  "warningtextambilight": {
+    "message": "Если не удастся получить данные о видео из-за правил безопасности сайта, будет использован выбранный сплошной цвет."
   },
-  "desdynamiccloud":{
-    "message":"Анимированные облака"
+  "desdynamiccloud": {
+    "message": "Анимированные облака"
   },
-  "desconfirmtimesaver":{
-    "message":"Задать время"
+  "desconfirmtimesaver": {
+    "message": "Задать время"
   },
-  "deslikebar":{
-    "message":"Показывать полосу нравится/не нравится под видео YouTube."
+  "deslikebar": {
+    "message": "Показывать полосу нравится/не нравится под видео YouTube."
   },
-  "titelautoplay":{
-    "message":"Автовоспроизведение"
+  "titelautoplay": {
+    "message": "Автовоспроизведение"
   },
-  "top":{
-    "message":"сверху"
+  "top": {
+    "message": "Вверху"
   },
-  "titelspreadradius":{
-    "message":"Радиус распространения:"
+  "titelspreadradius": {
+    "message": "Радиус распространения:"
   },
-  "installadblocker":{
-    "message":"Если Вы не хотите видеть рекламу, используйте блокирующее её расширение."
+  "installadblocker": {
+    "message": "Если Вы не хотите видеть рекламу, используйте блокирующее её расширение."
   },
-  "titelsharebutton":{
-    "message":"Кнопка Поделиться"
+  "titelsharebutton": {
+    "message": "Кнопка Поделиться"
   },
-  "titelcolor":{
-    "message":"Цвет"
+  "titelcolor": {
+    "message": "Цвет"
   },
-  "titeldownloadbutton":{
-    "message":"Скачать это Улучшение!"
+  "titeldownloadbutton": {
+    "message": "Скачать это Улучшение!"
   },
-  "pagetitle":{
-    "message":"Затемнить эту страницу"
+  "pagetitle": {
+    "message": "Затемнить эту страницу"
   },
-  "titelambilight":{
-    "message":"Атмосферное освещение"
+  "titelambilight": {
+    "message": "Атмосферное освещение"
   },
-  "titelshowmore":{
-    "message":"Показывать больше"
+  "titelshowmore": {
+    "message": "Показывать больше"
   },
-  "desviewcount":{
-    "message":"Показывать количество просмотров этого видео."
+  "desviewcount": {
+    "message": "Показывать количество просмотров этого видео."
   },
-  "titelautowidthyoutube":{
-    "message":"Автоматически устанавливать проигрыватель YouTube на больший размер."
+  "titelautowidthyoutube": {
+    "message": "Автоматически устанавливать проигрыватель YouTube на больший размер."
   },
-  "desconfirmtime":{
-    "message":"Задать время"
+  "desconfirmtime": {
+    "message": "Задать время"
   },
-  "titelupgrade":{
-    "message":"Улучшение"
+  "titelupgrade": {
+    "message": "Улучшение"
   },
-  "lockwrongpassword":{
-    "message":"Неверный пароль, повторите попытку."
+  "lockwrongpassword": {
+    "message": "Неверный пароль, повторите попытку."
   },
-  "titelsyncbrowser":{
-    "message":"Синхронизация параметров расширения с Вашим браузером."
+  "titelsyncbrowser": {
+    "message": "Синхронизация параметров расширения с Вашим браузером."
   },
-  "deletebutton":{
-    "message":"Удалить"
+  "deletebutton": {
+    "message": "Удалить"
   },
-  "eyedivon":{
-    "message":"ВКЛ"
+  "eyedivon": {
+    "message": "ВКЛ"
   },
-  "eyedivoff":{
-    "message":"ВЫКЛ"
+  "eyedivoff": {
+    "message": "ВЫКЛ"
   },
-  "deshead":{
-    "message":"Показывать панель каналов YouTube или название."
+  "deshead": {
+    "message": "Показывать панель каналов YouTube или название."
   },
-  "shortcutsavingopacity":{
-    "message":"чтобы сохранить это значение затенения"
+  "shortcutsavingopacity": {
+    "message": "чтобы сохранить это значение затенения"
   },
-  "desinfobar":{
-    "message":"Показывать информацию в описании видео."
+  "desinfobar": {
+    "message": "Показывать информацию в описании видео."
   },
-  "titellamp":{
-    "message":"Лампочка"
+  "titellamp": {
+    "message": "Лампочка"
   },
-  "desambilightvarcolor":{
-    "message":"Захват цвета из видео."
+  "desambilightvarcolor": {
+    "message": "Захват цвета из видео"
   },
-  "showremember":{
-    "message":"Не показывать страницу напоминания, когда я открываю настройки"
+  "showremember": {
+    "message": "Не показывать страницу напоминания, когда я открываю настройки"
   },
-  "donatepromotext":{
-    "message":"Если вы можете сделать пожертвование (на любую сумму), я буду очень признателен!"
+  "donatepromotext": {
+    "message": "Если вы можете сделать пожертвование (на любую сумму), я буду очень признателен!"
   },
-  "titelblur":{
-    "message":"Размытие остального"
+  "titelblur": {
+    "message": "Размытие остального"
   },
-  "desdynamicraindrops":{
-    "message":"Капли дождя"
+  "desdynamicraindrops": {
+    "message": "Капли дождя"
   },
-  "desalllightsoff":{
-    "message":"Нажатие на кнопку лампы включит или выключит свет на всех открытых вкладках"
+  "desalllightsoff": {
+    "message": "Нажатие на кнопку лампы включит или выключит свет на всех открытых вкладках"
   },
-  "optionecosaversaved":{
-    "message":"Настройки успешно сохранены!"
+  "optionecosaversaved": {
+    "message": "Настройки успешно сохранены!"
   },
-  "titelreader":{
-    "message":"Уровень затемнения"
+  "titelreader": {
+    "message": "Уровень затемнения"
   },
-  "deseyen":{
-    "message":"Обычный режим (свет выключается, когда Вы нажимаете на значке лампы)"
+  "deseyen": {
+    "message": "Обычный режим (свет выключается, когда Вы нажимаете на значке лампы)"
   },
-  "enjoyshare":{
-    "message":"Наслаждайтесь этим расширением и  делитесь им с другими, кому, по Вашему мнению, это понравится."
+  "enjoyshare": {
+    "message": "Наслаждайтесь этим расширением и  делитесь им с другими, кому, по Вашему мнению, это понравится."
   },
-  "shortcuttotl":{
-    "message":"чтобы включить или выключить свет"
+  "shortcuttotl": {
+    "message": "чтобы включить или выключить свет"
   },
-  "deseyea":{
-    "message":"Автоматически затемнять фон при открытии веб-страницы"
+  "deseyea": {
+    "message": "Автоматически затемнять фон при открытии веб-страницы"
   },
-  "basicsettings":{
-    "message":"Основные"
+  "basicsettings": {
+    "message": "Основные"
   },
-  "hoveroptionapply":{
-    "message":"применить"
+  "hoveroptionapply": {
+    "message": "применить"
   },
-  "reportbug":{
-    "message":"Сообщить о проблеме"
+  "reportbug": {
+    "message": "Сообщить о проблеме"
   },
-  "destime":{
-    "message":"Выключать свет в определенное время:"
+  "destime": {
+    "message": "Выключать свет в определенное время:"
   },
-  "guide":{
-    "message":"TOtL-руководство"
+  "guide": {
+    "message": "TOtL-руководство"
   },
-  "deseyealist":{
-    "message":"Автоматически затемнять фон при открытии следующих сайтов:"
+  "deseyealist": {
+    "message": "Автоматически затемнять фон при открытии следующих сайтов:"
   },
-  "titellikebutton":{
-    "message":"Кнопки Нравится и Не нравится"
+  "titellikebutton": {
+    "message": "Кнопки Нравится и Не нравится"
   },
-  "titelpageaction":{
-    "message":"Скрыть иконку в панели адреса"
+  "titelpageaction": {
+    "message": "Скрыть иконку в панели адреса"
   },
-  "friendlyremember":{
-    "message":"Дружеское напоминание..."
+  "friendlyremember": {
+    "message": "Дружеское напоминание..."
   },
-  "desfadein":{
-    "message":"Плавное появление"
+  "desfadein": {
+    "message": "Плавное появление"
   },
-  "warning":{
-    "message":"Внимание!"
+  "warning": {
+    "message": "Внимание!"
   },
-  "deseyetimesaver":{
-    "message":"Когда страница неактивна (нет активности мыши или клавиатуры), она автоматически гаснет на время, указанное ниже."
+  "deseyetimesaver": {
+    "message": "Когда страница неактивна (нет активности мыши или клавиатуры), она автоматически гаснет на время, указанное ниже."
   },
-  "titelsuggestions":{
-    "message":"Рекомендации"
+  "titelsuggestions": {
+    "message": "Рекомендации"
   },
-  "advancedoptions":{
-    "message":"Дополнительные параметры"
+  "advancedoptions": {
+    "message": "Дополнительные параметры"
   },
-  "dessuggestions":{
-    "message":"Показывать рекомендации к видео от сайта YouTube."
+  "dessuggestions": {
+    "message": "Показывать рекомендации к видео от сайта YouTube."
   },
-  "titelflash":{
-    "message":"Распознавание Flash-объектов"
+  "titelflash": {
+    "message": "Распознавание Flash-объектов"
   },
-  "desambilight":{
-    "message":"Отображение эффекта атмосферного освещения для текущего видео."
+  "desambilight": {
+    "message": "Отображение эффекта атмосферного освещения для текущего видео."
   },
-  "productshare":{
-    "message":"Поделиться"
+  "productshare": {
+    "message": "Поделиться"
   },
-  "addbutton":{
-    "message":"Добавить"
+  "addbutton": {
+    "message": "Добавить"
   },
-  "reportlist":{
-    "message":"(см. список)"
+  "reportlist": {
+    "message": "(см. список)"
   },
-  "desdynamicfishtank":{
-    "message":"Аквариум"
+  "desdynamicfishtank": {
+    "message": "Аквариум"
   },
-  "longdonatetext":{
-    "message":"Я буду очень признателен, если Вы сможете пожертвовать, чтобы я мог поддерживать это расширение браузера для новых пользователей. Неважно, 1 доллар или 100, Ваша поддержка очень ценна!"
+  "longdonatetext": {
+    "message": "Я буду очень признателен, если Вы сможете пожертвовать, чтобы я мог поддерживать это расширение браузера для новых пользователей. Неважно, 1 доллар или 100, Ваша поддержка очень ценна!"
   },
-  "deshardflash":{
-    "message":"Показать все объекты Flash, пропуская фильтр URL. Это исправит проблемы с отсутствием отображения некоторых видеопроигрывателей, но включит показ рекламы."
+  "deshardflash": {
+    "message": "Показать все объекты Flash, пропуская фильтр URL. Это исправит проблемы с отсутствием отображения некоторых видеопроигрывателей, но включит показ рекламы."
   },
-  "desfadeout":{
-    "message":"Плавное затухание"
+  "desfadeout": {
+    "message": "Плавное затухание"
   },
-  "optionwrongimg":{
-    "message":"Недопустимый файл изображения!"
+  "optionwrongimg": {
+    "message": "Недопустимый файл изображения!"
   },
-  "desvideoheadline":{
-    "message":"Показывать название видео (инверсно)."
+  "desvideoheadline": {
+    "message": "Показывать название видео (инверсно)."
   },
-  "desrememberpage":{
-    "message":"Не показывать страницу напоминания"
+  "desrememberpage": {
+    "message": "Не показывать страницу напоминания"
   },
-  "description":{
-    "message":"Вся страница станет тёмной и Вы сможете смотреть видео, как в кинотеатре. Работает как для YouTube™, так и в других случаях."
+  "description": {
+    "message": "Вся страница станет тёмной и Вы сможете смотреть видео, как в кинотеатре. Работает как для YouTube™, так и в других случаях."
   },
-  "titelviewcount":{
-    "message":"Количество просмотров"
+  "titelviewcount": {
+    "message": "Количество просмотров"
   },
-  "titelopacity":{
-    "message":"Непрозрачность"
+  "titelopacity": {
+    "message": "Непрозрачность"
   },
-  "titelqualityyoutube":{
-    "message":"Автоматически задайте качество видео на YouTube."
+  "titelqualityyoutube": {
+    "message": "Автоматически задайте качество видео на YouTube."
   },
-  "shortcutopacity":{
-    "message":"которые нужно восстановить, чтобы задать степень затемнения (прозрачности)"
+  "shortcutopacity": {
+    "message": "которые нужно восстановить, чтобы задать степень затемнения (прозрачности)"
   },
-  "desambilightrangeblurradius":{
-    "message":"Меньшие значения уточнят тени, большие значения сделают их более размытыми."
+  "desambilightrangeblurradius": {
+    "message": "Меньшие значения уточнят тени, большие значения сделают их более размытыми."
   },
-  "titeladdvideobutton":{
-    "message":"Кнопка Добавить"
+  "titeladdvideobutton": {
+    "message": "Кнопка Добавить"
   },
-  "titelpassword":{
-    "message":"Защита паролем"
+  "titelpassword": {
+    "message": "Защита паролем"
   },
-  "titeldownloadupgrade":{
-    "message":"Обновление добавит поддержку фокусировки выбранных изображений и позволит отображать галерею изображений на сайте."
+  "titeldownloadupgrade": {
+    "message": "Обновление добавит поддержку фокусировки выбранных изображений и позволит отображать галерею изображений на сайте."
   },
-  "titelfadeout":{
-    "message":"Затухание"
+  "titelfadeout": {
+    "message": "Затухание"
   },
-  "eastereggsquestion":{
-    "message":"Вам нравится настоящий кинотеатр?"
+  "eastereggsquestion": {
+    "message": "Вам нравится настоящий кинотеатр?"
   },
-  "bottom":{
-    "message":"снизу"
+  "bottom": {
+    "message": "Внизу"
   },
-  "dessaver":{
-    "message":"Заставка:"
+  "dessaver": {
+    "message": "Заставка:"
   },
-  "hoveroptiondyn5":{
-    "message":"полетели"
+  "hoveroptiondyn5": {
+    "message": "полетели"
   },
-  "pagestillloading":{
-    "message":"Страница всё ещё загружается?"
+  "pagestillloading": {
+    "message": "Страница всё ещё загружается?"
   },
-  "titeloff":{
-    "message":"Выкл."
+  "titeloff": {
+    "message": "Выкл."
   },
-  "titeleastereggs":{
-    "message":"Скрытые функции"
+  "titeleastereggs": {
+    "message": "Скрытые функции"
   },
-  "textfoot":{
-    "message":"Данное программное обеспечение лицензируется под CC-GNU GPL. Чтобы просмотреть копию данной лицензии, посетите"
+  "textfoot": {
+    "message": "Данное программное обеспечение лицензируется под CC-GNU GPL. Чтобы просмотреть копию данной лицензии, посетите"
   },
-  "left":{
-    "message":"покинуть"
+  "left": {
+    "message": "Слева"
   },
-  "titelnighttheme":{
-    "message":"Ночной режим"
+  "titelnighttheme": {
+    "message": "Ночной режим"
   },
-  "desnighttheme":{
-    "message":"Показать переключатель ночного режима под веб-страницей, чтобы затемнять или осветлять страницы."
+  "desnighttheme": {
+    "message": "Показать переключатель ночного режима под веб-страницей, чтобы затемнять или осветлять страницы."
   },
-  "nightoptions":{
-    "message":"Ночной режим"
+  "nightoptions": {
+    "message": "Ночной режим"
   },
-  "desnightonly":{
-    "message":"Показать ночной режим только на следующих сайтах:"
+  "desnightonly": {
+    "message": "Показать ночной режим только на следующих сайтах:"
   },
-  "desnightenabletheme":{
-    "message":"Когда Вы открываете новую страницу, она автоматически переходит в ночной режим."
+  "desnightenabletheme": {
+    "message": "Когда Вы открываете новую страницу, она автоматически переходит в ночной режим."
   },
-  "titellampregular":{
-    "message":"Всегда показывать значок лампы в омнибоксе"
+  "titellampregular": {
+    "message": "Всегда показывать значок лампы в омнибоксе"
   },
-  "titellampvideo":{
-    "message":"Показать значок лампы только при наличии видеопроигрывателя"
+  "titellampvideo": {
+    "message": "Показать значок лампы только при наличии видеопроигрывателя"
   },
-  "upgradecontexttitle":{
-    "message":"Мы добавили для Вас несколько новых возможностей"
+  "ratetitle": {
+    "message": "Спасибо за использование Turn Off the Lights"
   },
-  "upgradecontextmessage":{
-    "message":"Это делает данное расширение ещё более удивительным"
+  "ratedes": {
+    "message": "Пожалуйста, оцените и оставьте отзыв на это расширение в магазине. Ваша поддержка очень важна."
   },
-  "upgradecontextitemta":{
-    "message":"Движение камеры"
+  "rateitema": {
+    "message": "Оценить в 5 звёзд"
   },
-  "upgradecontextitemma":{
-    "message":"приглушить свет рукой"
+  "titelreset": {
+    "message": "Сброс параметров"
   },
-  "upgradecontextitemtb":{
-    "message":"Распознавание речи"
+  "resetbrowserextension": {
+    "message": "Сброс параматров Turn Off the Lights"
   },
-  "upgradecontextitemmb":{
-    "message":"Более точное управление веб-страницей"
+  "desautoplaydelay": {
+    "message": "Вернуть светлый фон, когда видео закончится"
   },
-  "upgradefbshare":{
-    "message":"Поделиться через Фэйсбук"
+  "desautoplaydelayend": {
+    "message": "секунд"
   },
-  "upgradetwshare":{
-    "message":"Твит"
+  "motionoptions": {
+    "message": "Движение камеры"
   },
-  "ratetitle":{
-    "message":"Пожалуйста, оцените и сделайте отзыв для моего расширения"
+  "desmotion": {
+    "message": "Включить Движение Камеры"
   },
-  "ratedes":{
-    "message":"И пусть все узнают об этом великолепном расширении!"
+  "desspeech": {
+    "message": "Включить распознавание речи"
   },
-  "rateitema":{
-    "message":"Оценить в 5 звёзд"
+  "trymotion": {
+    "message": "Попробуйте сами!"
   },
-  "titelreset":{
-    "message":"Сброс параметров"
+  "destrymotion": {
+    "message": "Это просто здорово, и лучше всего то, что это работает везде. Даже на YouTube, новостных сайтах, и т.д."
   },
-  "resetbrowserextension":{
-    "message":"Сброс параматров Turn Off the Lights"
+  "howworkmotion": {
+    "message": "Как это работает?"
   },
-  "desautoplaydelay":{
-    "message":"Вернуть светлый фон, когда видео закончится"
+  "nightstep1description": {
+    "message": "Включить функцию ночного режима"
   },
-  "desautoplaydelayend":{
-    "message":"секунд"
+  "nightstep2description": {
+    "message": "Откройте любую веб-страницу, и Вы увидите переключатель ночного режима"
   },
-  "motionoptions":{
-    "message":"Движение камеры"
+  "nightstep3description": {
+    "message": "Нажмите на переключатель, чтобы применить к веб-странице темную тему"
   },
-  "desmotion":{
-    "message":"Включить Движение Камеры"
+  "speechstep1description": {
+    "message": "Включить функцию голосового распознавания"
   },
-  "trymotion":{
-    "message":"Попробуйте сами!"
+  "speechstep2description": {
+    "message": "При включении этой опции, Вы можете голосом управлять освещением в браузере. Можно давать следующие команды:"
   },
-  "destrymotion":{
-    "message":"Это просто здорово, и лучше всего то, что это работает везде. Даже на YouTube, новостных сайтах, и т.д."
+  "camstep1description": {
+    "message": "Включить функцию движения камеры"
   },
-  "howworkmotion":{
-    "message":"Как это работает?"
+  "camstep2description": {
+    "message": "Сделайте движение рукой сверху вниз."
   },
-  "step1description":{
-    "message":"Включить функцию движения камеры"
+  "camstep3description": {
+    "message": "Чёрный слой автоматически будет опускаться вниз."
   },
-  "step2description":{
-    "message":"Сделайте движение рукой (или кистью) сверху вниз"
+  "desmotionChecklist": {
+    "message": "Проверка:"
   },
-  "step3description":{
-    "message":"Чёрный слой автоматически будет опускаться вниз."
+  "des1checkmotion": {
+    "message": "Убедитесь, что в комнате не темно и хватает света."
   },
-  "desmotionChecklist":{
-    "message":"Проверка:"
+  "des2checkmotion": {
+    "message": "На Вашу камеру не падает прямой солнечный свет."
   },
-  "des1checkmotion":{
-    "message":"Убедитесь, что в комнате не темно и хватает света."
+  "des3checkmotion": {
+    "message": "Используется фронтальная камера."
   },
-  "des2checkmotion":{
-    "message":"На Вашу камеру не падает прямой солнечный свет."
+  "titellinear": {
+    "message": "Линия"
   },
-  "des3checkmotion":{
-    "message":"Используется фронтальная камера."
+  "titelcolora": {
+    "message": "Цвет А:"
   },
-  "titellinear":{
-    "message":"Линия"
+  "titelcolorb": {
+    "message": "Цвет Б:",
+    "description": "Цвет Б:"
   },
-  "titelcolora":{
-    "message":"Цвет А:"
+  "speechoption": {
+    "message": "Распознавание речи"
   },
-  "titelcolorb":{
-    "message":"Цвет Б:",
-    "description":"Цвет Б:"
+  "titelspeech": {
+    "message": "Голос"
   },
-  "speechoption":{
-    "message":"Распознавание речи"
+  "desspeech1command": {
+    "message": "выключить свет"
   },
-  "titelspeech":{
-    "message":"Голос"
+  "desspeech2command": {
+    "message": "включить свет"
   },
-  "desspeech":{
-    "message":"При включении этой опции, Вы можете голосом управлять освещением в браузере. Можно давать следующие команды:"
+  "desspeech3command": {
+    "message": "воспроизвести видео"
   },
-  "desspeech1command":{
-    "message":"выключить свет"
+  "desspeech4command": {
+    "message": "остановить видео"
   },
-  "desspeech2command":{
-    "message":"включить свет"
+  "desspeechdialect": {
+    "message": "Выберите Ваш язык:"
   },
-  "desspeech3command":{
-    "message":"воспроизвести видео"
+  "desatmosvivid": {
+    "message": "Эффекты живой атмосферы"
   },
-  "desspeech4command":{
-    "message":"остановить видео"
+  "help": {
+    "message": "Справка"
   },
-  "desspeechdialect":{
-    "message":"Выберите Ваш язык:"
+  "about": {
+    "message": "О программе"
   },
-  "desatmosvivid":{
-    "message":"Эффекты живой атмосферы, требуют"
+  "desspeechonly": {
+    "message": "Активировать распознавание речи только на следующих сайтах:"
   },
-  "help":{
-    "message":"Справка"
+  "descammotiononly": {
+    "message": "Активировать движение камеры только на следующих сайтах:"
   },
-  "about":{
-    "message":"О программе"
+  "titelcamera": {
+    "message": "Камера"
   },
-  "desspeechonly":{
-    "message":"Активировать распознавание речи только на следующих сайтах:"
+  "titelautoplaywhitelist": {
+    "message": "Белый список"
   },
-  "descammotiononly":{
-    "message":"Активировать движение камеры только на следующих сайтах:"
+  "titelautoplayblacklist": {
+    "message": "Чёрный список"
   },
-  "titelcamera":{
-    "message":"Камера"
+  "titeldownloadthemeupgrade": {
+    "message": "Добавьте тёмную тему для украшения Вашего браузера. Тема появляется вокруг границы браузера."
   },
-  "titelautoplaywhitelist":{
-    "message":"Белый список"
+  "desbrowsersupport": {
+    "message": "Браузер пока не поддерживает эту тему. Убедитесь, что на вашем компьютере установлена последняя версия браузера."
   },
-  "titelautoplayblacklist":{
-    "message":"Чёрный список"
+  "titelsupportatmos": {
+    "message": "Поддерживает только проигрывание <video> HTML5. Также использует Ваш графический процессор."
   },
-  "titeldownloadthemeupgrade":{
-    "message":"Добавьте тёмную тему для украшения Вашего браузера. Тема появляется вокруг границы браузера."
+  "titelseeonline": {
+    "message": "Смотрите онлайн другие примеры"
   },
-  "desbrowsersupport":{
-    "message":"Браузер пока не поддерживает эту тему. Убедитесь, что на вашем компьютере установлена последняя версия браузера."
+  "titelvideosample": {
+    "message": "Образец видео"
   },
-  "titelsupportatmos":{
-    "message":"Поддерживает только <video> HTML5 и проигрыватель HTML5 на YouTube. Также использует Ваш графический процессор."
+  "titelwebsite": {
+    "message": "Веб-сайт"
   },
-  "titelseeonline":{
-    "message":"Смотрите онлайн другие примеры"
+  "titeldeveloper": {
+    "message": "Разработчик"
   },
-  "titelvideosample":{
-    "message":"Образец видео"
+  "titelrightsreserved": {
+    "message": "Некоторые права защищены."
   },
-  "titelwebsite":{
-    "message":"Веб-сайт"
+  "desbrowserextension": {
+    "message": "расширение для браузера"
   },
-  "titeldeveloper":{
-    "message":"Разработчик"
+  "desapitext": {
+    "message": "Вики API для разработчика веб-сайтов"
   },
-  "titelrightsreserved":{
-    "message":"Некоторые права защищены."
+  "desbrowsertheme": {
+    "message": "Тема браузера"
   },
-  "desbrowserextension":{
-    "message":"расширение для браузера"
+  "desproject": {
+    "message": "проект"
   },
-  "desapitext":{
-    "message":"Вики API для разработчика веб-сайтов"
+  "titelapideveloper": {
+    "message": "API разработчик"
   },
-  "desbrowsertheme":{
-    "message":"Тема браузера"
+  "titelwikiatmos": {
+    "message": "Wiki о функции атмосферного освещения"
   },
-  "desproject":{
-    "message":"проект"
+  "sharemenusharetitle": {
+    "message": "Поделиться"
   },
-  "titelapideveloper":{
-    "message":"API разработчик"
+  "sharemenuwelcomeguidetitle": {
+    "message": "Начальное руководство"
   },
-  "titelwikiatmos":{
-    "message":"Wiki о функции атмосферного освещения"
+  "sharemenutellafriend": {
+    "message": "Рассказать друзьям"
   },
-  "sharemenusharetitle":{
-    "message":"Поделиться"
+  "sharemenusendatweet": {
+    "message": "Отправить твит"
   },
-  "sharemenuwelcomeguidetitle":{
-    "message":"Начальное руководство"
+  "sharemenupostonfacebook": {
+    "message": "Пост на Facebook"
   },
-  "sharemenutellafriend":{
-    "message":"Рассказать друзьям"
+  "sharemenupostongoogleplus": {
+    "message": "Пост на Google +"
   },
-  "sharemenusendatweet":{
-    "message":"Отправить твит"
+  "sharemenuratetitle": {
+    "message": "Оценить это расширение"
   },
-  "sharemenupostonfacebook":{
-    "message":"Пост на Facebook"
+  "sharemenudonatetitle": {
+    "message": "Поддержать разработчика"
   },
-  "sharemenupostongoogleplus":{
-    "message":"Пост на Google +"
+  "titelautostop": {
+    "message": "Автоматическая остановка"
   },
-  "sharemenuratetitle":{
-    "message":"Оценить это расширение"
+  "desautostop": {
+    "message": "Остановить автоматическое воспроизведение видео, когда я открываю веб-страницу."
   },
-  "sharemenudonatetitle":{
-    "message":"Поддержать разработчика"
+  "areyouhappy": {
+    "message": "Вы довольны Turn Off the Lights?"
   },
-  "titelautostop":{
-    "message":"Автоматическая остановка"
+  "tellothers": {
+    "message": "Мы гарантируем, что Ваше мнение будет учтено"
   },
-  "desautostop":{
-    "message":"Остановить автоматическое воспроизведение видео, когда я открываю веб-страницу."
+  "nothanks": {
+    "message": "Нет, спасибо"
   },
-  "areyouhappy":{
-    "message":"Вы довольны Turn Off the Lights?"
+  "writeareview": {
+    "message": "Написать отзыв"
   },
-  "tellothers":{
-    "message":"Мы гарантируем, что Ваше мнение будет учтено"
+  "desauroraplayer": {
+    "message": "Для Вашего компьютера также доступен проигрыватель с возможностью рассеянного освещения."
   },
-  "nothanks":{
-    "message":"Нет, спасибо"
+  "downloadtheapp": {
+    "message": "Скачайте приложение сейчас"
   },
-  "writeareview":{
-    "message":"Написать отзыв"
+  "titeldownloadupgradezoom": {
+    "message": "Увеличивает или уменьшает содержимое страницы при помощи кнопки масштабирования для более комфортного чтения."
   },
-  "desauroraplayer":{
-    "message":"Для Вашего компьютера также доступен проигрыватель с возможностью рассеянного освещения."
+  "titeldownloadupgradepropermenubar": {
+    "message": "Возвращает чёрную панель меню на веб-сайте Google."
   },
-  "downloadtheapp":{
-    "message":"Скачайте приложение сейчас"
+  "titeldownloadupgradefinancetoolbar": {
+    "message": "Это покажет Вам информацию фондового рынка в реальном времени."
   },
-  "titeldownloadupgradezoom":{
-    "message":"Увеличивает или уменьшает содержимое страницы при помощи кнопки масштабирования для более комфортного чтения."
+  "titelnightmodeposition": {
+    "message": "Изменить положение"
   },
-  "titeldownloadupgradepropermenubar":{
-    "message":"Возвращает чёрную панель меню на веб-сайте Google."
+  "nmtopleft": {
+    "message": "Сверху слева"
   },
-  "titeldownloadupgradefinancetoolbar":{
-    "message":"Это покажет Вам информацию фондового рынка в реальном времени."
+  "nmtopright": {
+    "message": "Сверху справа"
   },
-  "titelnightmodeposition":{
-    "message":"Изменить положение"
+  "nmbottomright": {
+    "message": "Снизу справа"
   },
-  "nmtopleft":{
-    "message":"Сверху слева"
+  "nmbottomleft": {
+    "message": "Снизу слева"
   },
-  "nmtopright":{
-    "message":"Сверху справа"
+  "nmcustom": {
+    "message": "Пользовательское (нажмите, удерживайте и перемещайте переключатель в желаемое место)"
   },
-  "nmbottomright":{
-    "message":"Снизу справа"
+  "desnighthover": {
+    "message": "Показывать прозрачный переключатель на веб-странице."
   },
-  "nmbottomleft":{
-    "message":"Снизу слева"
+  "titelnightmodewhitelist": {
+    "message": "Белый список"
   },
-  "nmcustom":{
-    "message":"Пользовательское (нажмите, удерживайте и перемещайте переключатель в желаемое место)"
+  "titelnightmodeblacklist": {
+    "message": "Чёрный список"
   },
-  "desnighthover":{
-    "message":"Показывать прозрачный переключатель на веб-странице."
+  "desautostoponly": {
+    "message": "Активировать автоматическую остановку видео только на указанных сайтах:"
   },
-  "titelnightmodewhitelist":{
-    "message":"Белый список"
+  "titelautostopwhitelist": {
+    "message": "Белый список"
   },
-  "titelnightmodeblacklist":{
-    "message":"Чёрный список"
+  "titelautostopblacklist": {
+    "message": "Чёрный список"
   },
-  "desautostoponly":{
-    "message":"Активировать автоматическую остановку видео только на указанных сайтах:"
+  "desnightactivetime": {
+    "message": "Переключатель будет доступен в следующий период времени:"
   },
-  "titelautostopwhitelist":{
-    "message":"Белый список"
+  "deslampandnightmode": {
+    "message": "Активируйте опцию 'Ночной режим' нажатием на кнопку серой лампочки."
   },
-  "titelautostopblacklist":{
-    "message":"Чёрный список"
+  "titeleyewhitelist": {
+    "message": "Белый список"
   },
-  "desnightactivetime":{
-    "message":"Переключатель будет доступен в следующий период времени:"
+  "titeleyeblacklist": {
+    "message": "Чёрный список"
   },
-  "deslampandnightmode":{
-    "message":"Активируйте опцию 'Ночной режим' нажатием на кнопку серой лампочки."
+  "desspeech5command": {
+    "message": "лампа браузера"
   },
-  "titeleyewhitelist":{
-    "message":"Белый список"
+  "html5andyoutube": {
+    "message": "Видео HTML5 и YouTube™"
   },
-  "titeleyeblacklist":{
-    "message":"Чёрный список"
+  "flashembedobject": {
+    "message": "Поддержка: <object>, <embed>, <applet>, <iframe>."
   },
-  "desspeech5command":{
-    "message":"лампа браузера"
+  "titelnightmodebck": {
+    "message": "Цвет фона"
   },
-  "html5andyoutube":{
-    "message":"Видео HTML5 и YouTube™"
+  "titelnightmodetxt": {
+    "message": "Цвет текста"
   },
-  "flashembedobject":{
-    "message":"Поддержка: <object>, <embed>, <applet>, <iframe>."
+  "desdynamicsmoke": {
+    "message": "Дым"
   },
-  "titelnightmodebck":{
-    "message":"Цвет фона"
+  "desdynamicdotscolor": {
+    "message": "Цветные точки"
   },
-  "titelnightmodetxt":{
-    "message":"Цвет текста"
+  "desdynamicstorm": {
+    "message": "Шторм",
+    "description": "Шторм"
   },
-  "desdynamicsmoke":{
-    "message":"Дым"
+  "desdynamictriangulation": {
+    "message": "Триангуляция"
   },
-  "desdynamicdotscolor":{
-    "message":"Цветные точки"
+  "desdynamicstars": {
+    "message": "Звезды"
   },
-  "desdynamicstorm":{
-    "message":"Шторм",
-    "description":"Шторм"
+  "desmobileapp": {
+    "message": "Turn Off the Lights также доступен для Вашего мобильного устройства."
   },
-  "desdynamictriangulation":{
-    "message":"Триангуляция"
+  "titel360youtube": {
+    "message": "Показывает 360-градусные видео с YouTube в одном кадре."
   },
-  "desdynamicstars":{
-    "message":"Звезды"
+  "titelvideotool": {
+    "message": "Панель инструментов видео"
   },
-  "desmobileapp":{
-    "message":"Turn Off the Lights также доступен для Вашего мобильного устройства."
+  "desvideotool": {
+    "message": "Отображать панель для настройки текущего видеопроигрывателя внизу экрана"
   },
-  "titel360youtube":{
-    "message":"Показывает 360-градусные видео с YouTube в одном кадре."
+  "vtoolfullscreen": {
+    "message": "Кнопка для установки полноэкранного режима для видеопроигрывателя"
   },
-  "titelvideotool":{
-    "message":"Панель инструментов видео"
+  "vtoolfilter": {
+    "message": "Кнопка для добавления фильтра видеопроигрывателя"
   },
-  "desvideotool":{
-    "message":"Отображать панель для настройки текущего видеопроигрывателя внизу экрана"
+  "vtoolreplay": {
+    "message": "Кнопка для повтора воспроизведения"
   },
-  "vtoolfullscreen":{
-    "message":"Кнопка для установки полноэкранного режима для видеопроигрывателя"
+  "vtoolscreenshot": {
+    "message": "Кнопка для снимка экрана текущего видеопроигрывателя"
   },
-  "vtoolfilter":{
-    "message":"Кнопка для добавления фильтра видеопроигрывателя"
+  "vtoolalign": {
+    "message": "Кнопка помещения видеопроигрывателя в центр окна браузера"
   },
-  "vtoolreplay":{
-    "message":"Кнопка для повтора воспроизведения"
+  "titelvideotoolgrayscale": {
+    "message": "оттенки серого"
   },
-  "vtoolscreenshot":{
-    "message":"Кнопка для снимка экрана текущего видеопроигрывателя"
+  "titelvideotoolsepia": {
+    "message": "сепия"
   },
-  "vtoolalign":{
-    "message":"Кнопка помещения видеопроигрывателя в центр окна браузера"
+  "titelvideotoolinvert": {
+    "message": "инверсия"
   },
-  "titelvideotoolgrayscale":{
-    "message":"оттенки серого"
+  "titelvideotoolcontrast": {
+    "message": "контраст"
   },
-  "titelvideotoolsepia":{
-    "message":"сепия"
+  "titelvideotoolsaturate": {
+    "message": "насыщенность"
   },
-  "titelvideotoolinvert":{
-    "message":"инверсия"
+  "titelvideotoolhueroration": {
+    "message": "вращение тона 90°"
   },
-  "titelvideotoolcontrast":{
-    "message":"контраст"
+  "titelvideotoolbrightness": {
+    "message": "яркость 50%"
   },
-  "titelvideotoolsaturate":{
-    "message":"насыщенность"
+  "titelvideotoolnormal": {
+    "message": "обычный"
   },
-  "titelvideotoolhueroration":{
-    "message":"вращение тона 90°"
+  "titelvideotoollike": {
+    "message": "Мне нравится"
   },
-  "titelvideotoolbrightness":{
-    "message":"яркость 50%"
+  "titelvideotoolsubscribe": {
+    "message": "Подписаться"
   },
-  "titelvideotoolnormal":{
-    "message":"обычный"
+  "titelvideotoolrepeat": {
+    "message": "Повтор"
   },
-  "titelvideotoollike":{
-    "message":"Мне нравится"
+  "titelvideotoolfilter": {
+    "message": "Фильтр"
   },
-  "titelvideotoolsubscribe":{
-    "message":"Подписаться"
+  "titelvideotoolfullwindow": {
+    "message": "Полный экран"
   },
-  "titelvideotoolrepeat":{
-    "message":"Повтор"
+  "titelvideotoolscreenshot": {
+    "message": "Сделать снимок экрана"
   },
-  "titelvideotoolfilter":{
-    "message":"Фильтр"
+  "titelreflection": {
+    "message": "Отражение"
   },
-  "titelvideotoolfullwindow":{
-    "message":"Полный экран"
+  "desreflection": {
+    "message": "Показывать эффект отражения на всех видео"
   },
-  "titelvideotoolscreenshot":{
-    "message":"Сделать снимок экрана"
+  "desvideotoolonly": {
+    "message": "Активировать панель инструментов видео только на следующих сайтах:"
   },
-  "titelreflection":{
-    "message":"Отражение"
+  "titelvideotoolwhitelist": {
+    "message": "Белый список"
   },
-  "desreflection":{
-    "message":"Показывать эффект отражения на всех видео"
+  "titelvideotoolblacklist": {
+    "message": "Чёрный список"
   },
-  "desvideotoolonly":{
-    "message":"Активировать панель инструментов видео только на следующих сайтах:"
+  "titelnightmodehyperlink": {
+    "message": "Ссылка",
+    "description": "Ссылка"
   },
-  "titelvideotoolwhitelist":{
-    "message":"Белый список"
+  "titelblock60fps": {
+    "message": "Блокировать скорость 60 кадров в секунду",
+    "description": "Блокировать скорость 60 кадров в секунду"
   },
-  "titelvideotoolblacklist":{
-    "message":"Чёрный список"
+  "titelvolume": {
+    "message": "Регулятор громкости видео"
   },
-  "titelnightmodehyperlink":{
-    "message":"Ссылка",
-    "description":"Ссылка"
+  "desvideovolume": {
+    "message": "Управляйте громкостью текущего проигрывателя видео колесиком мыши"
   },
-  "titelblock60fps":{
-    "message":"Блокировать скорость 60 кадров в секунду",
-    "description":"Блокировать скорость 60 кадров в секунду"
+  "desvideovolumecolor": {
+    "message": "Цвет слайдера"
   },
-  "titelvolume":{
-    "message":"Регулятор громкости видео"
+  "desvolumelabel": {
+    "message": "Показать ярлык для громкости"
   },
-  "desvideovolume":{
-    "message":"Управляйте громкостью текущего проигрывателя видео колесиком мыши"
+  "desvolumesteps": {
+    "message": "Количество шагов громкости (в %) для каждого деления колеса прокрутки"
   },
-  "desvideovolumecolor":{
-    "message":"Цвет слайдера"
+  "sharetexta": {
+    "message": "Получите замечательное расширение для браузера Turn Off the Lights"
   },
-  "desvolumelabel":{
-    "message":"Показать ярлык для громкости"
+  "sharetextb": {
+    "message": "Ого, это замечательно. Сегодня попробовал расширение для браузера Turn Off the Lights "
   },
-  "desvolumesteps":{
-    "message":"Число шагов для каждой прокрутки"
+  "sharetextc": {
+    "message": "Самое лучшее и замечательное расширение для браузера Turn Off the Lights"
   },
-  "sharetexta":{
-    "message":"Получите замечательное расширение для браузера Turn Off the Lights"
+  "sharetextd": {
+    "message": "Расширение для браузера Turn Off the Lights - лучший инструмент для YouTube. Загрузите и попробуйте сами!"
   },
-  "sharetextb":{
-    "message":"Ого, это замечательно. Сегодня попробовал расширение для браузера Turn Off the Lights "
+  "titelsharethis": {
+    "message": "Поделиться:"
   },
-  "sharetextc":{
-    "message":"Самое лучшее и замечательное расширение для браузера Turn Off the Lights"
+  "titellampchoose": {
+    "message": "Выберите свой любимый стиль лампы"
   },
-  "sharetextd":{
-    "message":"Расширение для браузера Turn Off the Lights - лучший инструмент для YouTube. Загрузите и попробуйте сами!"
+  "titeldoesntwork": {
+    "message": "Turn Off the Lights не работает на этой странице. Попробуйте другую."
   },
-  "titelsharethis":{
-    "message":"Поделиться:"
+  "titelpopupvideo": {
+    "message": "YouTube"
   },
-  "titellampchoose":{
-    "message":"Выберите свой любимый стиль лампы"
+  "titelpopupwelcomeguide": {
+    "message": "Начальное руководство"
   },
-  "titeldoesntwork":{
-    "message":"Turn Off the Lights не работает на этой странице. Попробуйте другую."
+  "titelpopupsupport": {
+    "message": "Поддержка"
   },
-  "titelpopupvideo":{
-    "message":"YouTube"
+  "titelpopupoptions": {
+    "message": "Параметры"
   },
-  "titelpopupwelcomeguide":{
-    "message":"Начальное руководство"
+  "titelpopupratestars": {
+    "message": "Оценить в 5 звёзд"
   },
-  "titelpopupsupport":{
-    "message":"Поддержка"
+  "titelvisenable": {
+    "message": "Включить/отключить аудиовизуализацию"
   },
-  "titelpopupoptions":{
-    "message":"Параметры"
+  "titelvischoose": {
+    "message": "Выберите Ваш стиль аудиовизуализации"
   },
-  "titelpopupratestars":{
-    "message":"Оценить в 5 звёзд"
+  "titelvisblocks": {
+    "message": "Блоки"
   },
-  "titelvisenable":{
-    "message":"Включить/отключить аудиовизуализацию"
+  "titelvisfrequency": {
+    "message": "Частота"
   },
-  "titelvischoose":{
-    "message":"Выберите Ваш стиль аудиовизуализации"
+  "titelvistunnel": {
+    "message": "Музыкальный туннель"
   },
-  "titelvisblocks":{
-    "message":"Блоки"
+  "titelvisualization": {
+    "message": "Визуализация аудио"
   },
-  "titelvisfrequency":{
-    "message":"Частота"
+  "desvisopacity": {
+    "message": "Значение непрозрачности фона аудиовизуализации"
   },
-  "titelvistunnel":{
-    "message":"Музыкальный туннель"
+  "vtoolvisualization": {
+    "message": "Кнопка аудиовизуализации для текущего поигрывателя видео"
   },
-  "titelvisualization":{
-    "message":"Визуализация аудио"
+  "desvideotoolcolor": {
+    "message": "Цвет панели инструментов"
   },
-  "desvisopacity":{
-    "message":"Значение непрозрачности фона аудиовизуализации"
+  "titelhovervideo": {
+    "message": "Наведение на видео"
   },
-  "vtoolvisualization":{
-    "message":"Кнопка аудиовизуализации для текущего поигрывателя видео"
+  "deshovervideo": {
+    "message": "Наведите курсор мыши на элемент видео на несколько секунд, веб-страница автоматически будет затемнена"
   },
-  "desvideotoolcolor":{
-    "message":"Цвет панели инструментов"
+  "promotitle": {
+    "message": "Совет дня"
   },
-  "titelhovervideo":{
-    "message":"Наведение на видео"
+  "desremyoutube": {
+    "message": "Подпишитесь на нас на YouTube"
   },
-  "deshovervideo":{
-    "message":"Наведите курсор мыши на элемент видео на несколько секунд, веб-страница автоматически будет затемнена"
+  "desremfacebook": {
+    "message": "Рекомендовать на Facebook"
   },
-  "promotitle":{
-    "message":"Совет дня"
+  "titleuserprofile": {
+    "message": "Выберите ниже параметры, которые хотите использовать при нажатии на кнопку лампы. У каждого профиля имеются индивидуальные настройки."
   },
-  "desremyoutube":{
-    "message":"Подпишитесь на нас на YouTube"
+  "titleregularuser": {
+    "message": "Любитель видео"
   },
-  "desremfacebook":{
-    "message":"Рекомендовать на Facebook"
+  "titlenightowl": {
+    "message": "Ночная сова"
   },
-  "titleuserprofile":{
-    "message":"Выберите ниже параметры, которые хотите использовать при нажатии на кнопку лампы. У каждого профиля имеются индивидуальные настройки."
+  "titlescreenprotection": {
+    "message": "Защита глаз"
   },
-  "titleregularuser":{
-    "message":"Любитель видео"
+  "desregularuser": {
+    "message": "Это настройка по умолчанию, обычный параметр для новых пользователей, при нажатии на кнопку лампы на вашей текущей веб-странице включается этот стиль."
   },
-  "titlenightowl":{
-    "message":"Ночная сова"
+  "desnightowl": {
+    "message": "Одно нажатие включает на странице ночное оформление с гиперссылкой. Нажмите на неё для возврата к нормальному виду. Для отключения ночной темы снова нажмите на кнопку лампы."
   },
-  "titlescreenprotection":{
-    "message":"Защита глаз"
+  "desscreenprotection": {
+    "message": "Одно нажатие затемняет фон во всех открытых вкладках, придавая странице успокаивающий, комфортный для глаз оранжевый цвет. Для отключения этой функции нажмите ещё раз на кнопку лампы."
   },
-  "desregularuser":{
-    "message":"Это настройка по умолчанию, обычный параметр для новых пользователей, при нажатии на кнопку лампы на вашей текущей веб-странице включается этот стиль."
+  "titleprofilevideofocus": {
+    "message": "Фокусировка видео включена"
   },
-  "desnightowl":{
-    "message":"Одно нажатие включает на странице ночное оформление с гиперссылкой. Нажмите на неё для возврата к нормальному виду. Для отключения ночной темы снова нажмите на кнопку лампы."
+  "titleprofilenovideofocus": {
+    "message": "Фокусировка видео отключена"
   },
-  "desscreenprotection":{
-    "message":"Одно нажатие затемняет фон во всех открытых вкладках, придавая странице успокаивающий, комфортный для глаз оранжевый цвет. Для отключения этой функции нажмите ещё раз на кнопку лампы."
+  "titleprofilealwaysscreentab": {
+    "message": "Всегда включено для всех открытых вкладок"
   },
-  "titleprofilevideofocus":{
-    "message":"Фокусировка видео включена"
+  "titleprofilescreenclick": {
+    "message": "Разрешить нажатие на ссылки, когда экран затемнён"
   },
-  "titleprofilenovideofocus":{
-    "message":"Фокусировка видео отключена"
+  "titleprofilesubmit": {
+    "message": "Выберите эти настройки"
   },
-  "titleprofilealwaysscreentab":{
-    "message":"Всегда включено для всех открытых вкладок"
+  "titlelearnmore": {
+    "message": "Подробнее"
   },
-  "titleprofilescreenclick":{
-    "message":"Разрешить нажатие на ссылки, когда экран затемнён"
+  "optionprofilesaved": {
+    "message": "Новое действие для лампы успешно сохранено!"
   },
-  "titleprofilesubmit":{
-    "message":"Выберите эти настройки"
+  "desaplay": {
+    "message": "пуск"
   },
-  "titlelearnmore":{
-    "message":"Подробнее"
+  "desapause": {
+    "message": "пауза"
   },
-  "optionprofilesaved":{
-    "message":"Новое действие для лампы успешно сохранено!"
+  "desastop": {
+    "message": "стоп"
   },
-  "desaplay":{
-    "message":"пуск"
+  "desvideozoom": {
+    "message": "Увеличение или уменьшение видео с помощью кнопки масштабирования"
   },
-  "desapause":{
-    "message":"пауза"
+  "titlevideoplayrate": {
+    "message": "Скорость видео"
   },
-  "desastop":{
-    "message":"стоп"
+  "desplayrate": {
+    "message": "Скорость воспроизведения по умолчанию"
+  },
+  "desspeedtoolbar": {
+    "message": "Отображение панели управления видеопроигрывателем"
+  },
+  "desatmosontotlmode": {
+    "message": "Отображение эффекта атмосферного освещения только когда TOtL включен"
+  },
+  "desdarkbrowsertheme": {
+    "message": "Переключение на темную тему браузера"
+  },
+  "desautostopfeaturewhite": {
+    "message": "БЛОКИРУЮТСЯ следующие сайты, воспроизведение на остальных РАЗРЕШЕНО."
+  },
+  "desautostopfeatureblack": {
+    "message": "РАЗРЕШЕНЫ следующие сайты, воспроизведение на остальных БЛОКИРУЕТСЯ."
+  },
+  "autostopbannerred": {
+    "message": "Отображение красного баннереа"
+  },
+  "autostopbannertrans": {
+    "message": "Отображение прозрачного баннера"
+  },
+  "titleanalytics": {
+    "message": "Аналитика"
+  },
+  "desbadgeanalytics": {
+    "message": "Показывать счётчик с количеством нажатий, которые Вы делали для затемнения страницы"
+  },
+  "shareanalyticenergy": {
+    "message": "Я сэкономил $product$ кВч благодаря Turn Off the Lights",
+    "placeholders": {
+      "product": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "analyticsoption": {
+    "message": "Аналитика"
+  },
+  "activelayertoday": {
+    "message": "Количество кликов сегодня"
+  },
+  "totalenergysaved": {
+    "message": "Всего энергии сэкономлено"
+  },
+  "resetlampanalytic": {
+    "message": "Сброс аналитики Turn Off the Lights"
+  },
+  "titlesiteengagement": {
+    "message": "Работа с сайтом"
+  },
+  "titleorigin": {
+    "message": "Адрес"
+  },
+  "titletime": {
+    "message": "Время (минуты)"
+  },
+  "titleavgdayschedule": {
+    "message": "Средний ежедневный график"
+  },
+  "titlesharestats": {
+    "message": "Поделиться статистикой"
+  },
+  "btnsharestats": {
+    "message": "Поделиться статистикой"
+  },
+  "charttitletotaltime": {
+    "message": "Всего времени работы тёмного слоя (мин)"
+  },
+  "charttitlelayeractive": {
+    "message": "Тёмный слой активен (#)"
+  },
+  "charttitleavgday": {
+    "message": "Средний ежедневный график (частота затемнения экрана)"
+  },
+  "charttitle30dayssaved": {
+    "message": "Сохранено энергии за последние 30 дней"
+  },
+  "charttitlelblwebsiteused": {
+    "message": "Использовано сайтов за последние 30 дней"
+  },
+  "charttitlelblenergytotal": {
+    "message": "Всего использовано энергии"
+  },
+  "charttitlelblenergysaved": {
+    "message": "Всего сэкономлено энергии"
+  },
+  "titlelanalyticprivacy": {
+    "message": "Расширение для браузера Turn Off the Lights очень серьёзно относится к Вашей конфиденциальности. Аналитика Turn Off the Lights, которую Вы видите на этой странице, хранится локально только на Вашем компьютере. Данные о Вашей личной работе на сайтах не будет продаваться или передаваться третьим неавторизованным лицам."
+  },
+  "shareanalyticlove": {
+    "message": "Сайт, который мне больше всего нравится - $product$ с Turn Off the Lights",
+    "placeholders": {
+      "product": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "desvolumeposa": {
+    "message": "Показывать уровень громкости в центре текущего видеопроигрывателя"
+  },
+  "desvolumeposb": {
+    "message": "Показать значение громкости в левом верхнем углу текущего видеопроигрывателя"
+  },
+  "desvolumeposc": {
+    "message": "Показать значение громкости в правом верхнем углу текущего видеопроигрывателя"
+  },
+  "desvideovolumhold": {
+    "message": "Удерживая нажатой левую или правую кнопку мыши, переместите мышь для изменения громкости"
+  },
+  "desvideovolumalt": {
+    "message": "Только если нажата клавиша alt"
+  },
+  "speechheybrowser": {
+    "message": "Привет, браузер"
+  },
+  "speechokbrowser": {
+    "message": "ok, браузер"
+  },
+  "functionactive": {
+    "message": "Эта функция активируется при нажатии на вкладку или при обновлении веб-страницы. Однако, она автоматически отключается через 15 секунд."
+  },
+  "cardtexsubscribe": {
+    "message": "Подпишитесь сейчас!"
+  },
+  "cardtextfavdayweek": {
+    "message": "Любимый день недели"
+  },
+  "cardtextyestime": {
+    "message": "Общее время за вчера (в минутах)"
+  },
+  "cardavgprevweektime": {
+    "message": "Общее время за предыдущую неделю (в минутах)"
+  },
+  "sunday": {
+    "message": "Воскресенье"
+  },
+  "monday": {
+    "message": "Понедельник"
+  },
+  "tuesday": {
+    "message": "Вторник"
+  },
+  "wednesday": {
+    "message": "Среда"
+  },
+  "thursday": {
+    "message": "Четверг"
+  },
+  "friday": {
+    "message": "Пятница"
+  },
+  "saturday": {
+    "message": "Суббота"
+  },
+  "titlemultiopacity": {
+    "message": "У каждого сайта своя непрозрачность"
+  },
+  "desmultiopacitynormal": {
+    "message": "У всех веб-сайтов одинаковое значение непрозрачности"
+  },
+  "desmultiopacitysel": {
+    "message": "У веб-сайтов в данном списке выбранная непрозрачность"
+  },
+  "desmultiopacitynot": {
+    "message": "Если веб-сайт не в списке, то он использует значение непрозрачности по умолчанию."
+  },
+  "titleok": {
+    "message": "Хорошо"
+  },
+  "titlecancel": {
+    "message": "Отмена"
+  },
+  "titledarkmodeon": {
+    "message": "Тёмный режим ВКЛ"
+  },
+  "titledarkmodeoff": {
+    "message": "Тёмный режим ВЫКЛ"
+  },
+  "titlelprivacy": {
+    "message": "Политика конфиденциальности"
+  },
+  "titleprofile": {
+    "message": "Профиль"
+  },
+  "descolorfixcolor": {
+    "message": "Выберите цвет темного слоя"
+  },
+  "desatmossolidcolor": {
+    "message": "Выберите один сплошной цвет эффекта свечения"
+  },
+  "titlelratenow": {
+    "message": "Оценить сейчас!"
+  },
+  "titleratelater": {
+    "message": "Позже"
+  },
+  "desremrate": {
+    "message": "Если Вы любите Turn Off the Lights™, пожалуйста, не стесняйтесь оценить это расширение на пять звезд. Это помогает нам продолжать поддерживать и улучшать этот продукт для Вас. Рекомендуется написать отзыв, но это не обязательно. Если у Вас нет времени, чтобы написать рецензию, Вы можете анонимно оценить приложение. Важно поставить ★★★★★. Спасибо!"
+  },
+  "titelnightmodedomain": {
+    "message": "Домен"
+  },
+  "titelnightmodepage": {
+    "message": "Страница"
+  },
+  "titelintroduce": {
+    "message": "Встречайте новый Turn Off the Lights!"
+  },
+  "desintroduce": {
+    "message": "Все функции, к которым Вы привыкли, с совершенно новым внешним видом и персонализацией."
+  },
+  "econothingthisyear": {
+    "message": "Ничего в этом году. Отключайте свет для экономии энергии"
+  },
+  "ecothirtyminutes": {
+    "message": "30 минут света сэкономлено"
+  },
+  "ecowatchtvfortwo": {
+    "message": "2 часа просмотра ТВ"
+  },
+  "ecotoastermaking": {
+    "message": "Приготовление двух тостов в тостере"
+  },
+  "ecochargeiphone": {
+    "message": "Зарядка вашего айфона"
+  },
+  "ecobrewsomecoffee": {
+    "message": "Заваривание одной чашки кофе в кофемашине"
+  },
+  "ecoplayingxbox": {
+    "message": "1 час игры в Xbox"
+  },
+  "ecovacuumingfor": {
+    "message": "15 минут работы с пылесосом"
+  },
+  "ecoblowdrying": {
+    "message": "Сушка волос феном в течение 10 минут"
+  },
+  "ecowashingclothes": {
+    "message": "Стирка одежды в холодной воде"
+  },
+  "ecowififoraday": {
+    "message": "1 день Wi-Fi"
+  },
+  "ecorunningdishwasher": {
+    "message": "Запуск посудомоечной машины в режиме экономии энергии"
+  },
+  "ecochargelaptop": {
+    "message": "Зарядка вашего ноутбука"
+  },
+  "ecokeeplightonforsix": {
+    "message": "6 часов света лампы"
+  },
+  "ecokeepfridgeday": {
+    "message": "1 день включенного холодильника"
+  },
+  "ecoloadlaundry": {
+    "message": "Одна загрузка стирки в сушильную машину"
+  },
+  "ecoheatingtenshower": {
+    "message": "Разогрев воды для 10-минутного душа"
+  },
+  "ecotwentyfourghome": {
+    "message": "Google Home может работать 24 часа"
+  },
+  "ecochargeteslacar": {
+    "message": "Зарядите свой электромобиль Tesla на 20 миль"
+  },
+  "ecochargeteslacarhundred": {
+    "message": "Зарядите свой электромобиль Tesla до 100%"
+  },
+  "ecochargeteslathreetimes": {
+    "message": "Трижды зарядите свой электромобиль Tesla до 100%"
+  },
+  "ecopowerhawaiimonth": {
+    "message": "Достаточное количество электрической энергии для 1 месяца на Гавайях"
+  },
+  "ecopowernwymonth": {
+    "message": "Достаточное количество электрической энергии для 1 месяца в Нью-Йорке"
+  },
+  "ecopowercamonth": {
+    "message": "Достаточное количество электрической энергии для 1 месяца в Калифорнии"
+  },
+  "ecopowerbaseballgame": {
+    "message": "Работа 1 джумботрона на игре в бейсбол"
+  },
+  "ecopowereiffeltower": {
+    "message": "Для освещения Эйфелевой башни в течение 1 дня"
+  },
+  "ecopowereurostar": {
+    "message": "Для поездки на Eurostar из Брюсселя в Лондон"
+  },
+  "ecopowereurostarparis": {
+    "message": "Для поездки на Eurostar из Парижа в Лондон"
+  },
+  "ecoeiffeltoweryear": {
+    "message": "Для освещения Эйфелевой башни в течение 1 года"
+  },
+  "ecosfoyear": {
+    "message": "Для энергообеспечения Сан-Франциско в течение 1 года"
+  },
+  "ecolayear": {
+    "message": "Для энергообеспечения Лос-Анджелеса в течение 1 года"
+  },
+  "ecoplanetearth": {
+    "message": "Готовы спасти планету Земля"
+  },
+  "autostopdetails": {
+    "message": "ДЕТАЛИ"
+  },
+  "autostopblocked": {
+    "message": "Заблокировано Turn Off the Lights™ - www.turnoffthelights.com"
+  },
+  "autostopclickme": {
+    "message": "Нажмите на меня, чтобы воспроизвести это видео HTML5"
+  },
+  "autostopenabled": {
+    "message": "Автостоп включен!"
   }
 }

@@ -30,7 +30,7 @@
     "message":"Enable the screen shade, with the possibility to click on the hyperlinks"
   },  
   "desambilight4color":{
-    "message":"Four chosen colors around the video:"
+    "message":"Four chosen colors around the video"
   },
   "lockentername":{
     "message":"Please enter your password"
@@ -63,7 +63,7 @@
     "message":"Show the YouTube playlist on the YouTube website"
   },
   "desambilightfixcolor":{
-    "message":"Only one color:"
+    "message":"Only one color"
   },
   "desuntil":{
     "message":"until"
@@ -123,7 +123,7 @@
     "message":"Sync"
   },
   "right":{
-    "message":"Right:"
+    "message":"Right"
   },
   "titeldynamic":{
     "message":"Dynamic Background"
@@ -153,7 +153,7 @@
     "message":"Playlist"
   },
   "desatmosphereonly":{
-    "message":"Use the atmosphere lighting feature only the following video site:"
+    "message":"Use the atmosphere lighting feature only on the following video website:"
   },
   "recflash":{
     "message":"Recommended"
@@ -240,7 +240,7 @@
     "message":"Autoplay"
   },
   "top":{
-    "message":"Top:"
+    "message":"Top"
   },
   "titelspreadradius":{
     "message":"Spread radius:"
@@ -306,7 +306,7 @@
     "message":"Bulb"
   },
   "desambilightvarcolor":{
-    "message":"Extract the color from the video."
+    "message":"Extract the color from the video"
   },
   "showremember":{
     "message":"Do not show this reminder page again when I open the options"
@@ -423,7 +423,7 @@
     "message":"Do not show reminder page"
   },
   "description":{
-    "message":"The entire page will be fading to dark, so you can watch the videos as if you were in the cinema. Works for YouTube™ and Beyond."
+    "message":"The entire page will be fading to dark, so you can watch the videos as if you were in the cinema. Works for YouTube™ and beyond."
   },
   "titelviewcount":{
     "message":"Number of Views"
@@ -456,7 +456,7 @@
     "message":"Do you like a real movie theater?"
   },
   "bottom":{
-    "message":"Bottom:"
+    "message":"Bottom"
   },
   "dessaver":{
     "message":"Screen Saver:"
@@ -477,7 +477,7 @@
     "message":"This software is licensed under the CC-GNU GPL. To view a copy of this license, view the"
   },
   "left":{
-    "message":"Left:"
+    "message":"Left"
   },
   "titelnighttheme":{
     "message":"Night Mode"
@@ -500,35 +500,11 @@
   "titellampvideo":{
     "message":"Show the lamp icon only if a video player is detected"
   },
-  "upgradecontexttitle":{
-    "message":"We have added some new features for you"
-  },
-  "upgradecontextmessage":{
-    "message":"That makes this extension even more amazing"
-  },
-  "upgradecontextitemta":{
-    "message":"Camera Motion"
-  },
-  "upgradecontextitemma":{
-    "message":"light off with your hand"
-  },
-  "upgradecontextitemtb":{
-    "message":"Speech Recognition"
-  },
-  "upgradecontextitemmb":{
-    "message":"Control the web page more accurately"
-  },
-  "upgradefbshare":{
-    "message":"Share on Facebook"
-  },
-  "upgradetwshare":{
-    "message":"Tweet"
-  },
   "ratetitle":{
-    "message":"Please rate & review my extension"
+    "message":"Thank you for using Turn Off the Lights"
   },
   "ratedes":{
-    "message":"And let everyone know about this great extension!"
+    "message":"Please rate and review the extension on the Store. Your support is really appreciated."
   },
   "rateitema":{
     "message":"Rate 5 stars"
@@ -551,6 +527,9 @@
   "desmotion":{
     "message":"Enable the Camera Motion"
   },
+  "desspeech":{
+    "message":"Enable the Speech Recognition"
+  },
   "trymotion":{
     "message":"Try it yourself!"
   },
@@ -560,13 +539,28 @@
   "howworkmotion":{
     "message":"How does it work?"
   },
-  "step1description":{
+  "nightstep1description":{
+    "message":"Enable the Night Mode feature"
+  },
+  "nightstep2description":{
+    "message":"Open any web page, and you see this night switch"
+  },
+  "nightstep3description":{
+    "message":"Click on the switch to see the web page in a dark theme"
+  },
+  "speechstep1description":{
+    "message":"Enable the Speech Recognition feature"
+  },
+  "speechstep2description":{
+    "message":"When you enable this option, you can talk to the browser lamp using the following commands:"
+  },
+  "camstep1description":{
     "message":"Enable the Camera Motion feature"
   },
-  "step2description":{
+  "camstep2description":{
     "message":"Move your hand (or fist) from the top to bottom."
   },
-  "step3description":{
+  "camstep3description":{
     "message":"The black layer will automatically slide down."
   },
   "desmotionChecklist":{
@@ -597,9 +591,6 @@
   "titelspeech":{
     "message":"Speech"
   },
-  "desspeech":{
-    "message":"When you enable this option, you can talk to the browser lamp and say the following commands:"
-  },
   "desspeech1command":{
     "message":"turn off the lights"
   },
@@ -616,7 +607,7 @@
     "message":"Choose your speech dialect:"
   },
   "desatmosvivid":{
-    "message":"Vivid atmosphere effects, requires"
+    "message":"Vivid atmosphere effects"
   },
   "help":{
     "message":"Help"
@@ -646,7 +637,7 @@
     "message":"Your browser doesn't support this feature yet. Make sure you have the latest browser version installed on your computer."
   },
   "titelsupportatmos":{
-    "message":"Supports only the HTML5 <video> and YouTube HTML5 player. It also uses the GPU from your graphics card."
+    "message":"Supports only the HTML5 <video> player. It also uses the GPU from your device."
   },
   "titelseeonline":{
     "message":"See online for more examples"
@@ -757,7 +748,7 @@
     "message":"Custom (click, hold and move the switch to the desired screen location)"
   },
   "desnighthover":{
-    "message":"Shows a transparent switch on the web page"
+    "message":"Show a transparent switch on the web page"
   },
   "titelnightmodewhitelist":{
     "message":"Whitelist"
@@ -922,13 +913,13 @@
     "message":"Show volume label"
   },
   "desvolumesteps":{
-    "message":"The number of levels for each 360° wheel scroll"
+    "message":"Number of volume steps (in %) for each scroll wheel notch"
   },  
   "sharetexta":{
     "message":"Get this Cool Turn Off the Lights Browser Extension"
   },
   "sharetextb":{
-    "message":"Hey, This is amazing. I just tried today this Turn Off the Lights Browser extension "
+    "message":"Hey, This is amazing. I just tried today this Turn Off the Lights Browser extension"
   },
   "sharetextc":{
     "message":"The Best and Amazing Turn Off the Lights Browser extension"
@@ -1055,5 +1046,332 @@
   },
   "desvideozoom":{
     "message":"Zoom in or out on video content using the zoom button"
+  },
+  "titlevideoplayrate":{
+    "message":"Video Speed"
+  },
+  "desplayrate":{
+    "message":"Default playback speed"
+  },
+  "desspeedtoolbar":{
+    "message":"Show the playback toolbar in the current video player"
+  },
+  "desatmosontotlmode":{
+    "message":"Show the atmosphere lighting effect only when TOtL mode is enabled"
+  },
+  "desdarkbrowsertheme":{
+    "message":"Switch to a dark browser theme"
+  },
+  "desautostopfeaturewhite":{
+    "message":"BLOCKS below websites, but ALLOWS automatic playing on any other website."
+  },
+  "desautostopfeatureblack":{
+    "message":"ALLOWS below websites, but BLOCKS automatic playing on any other website."
+  },
+  "autostopbannerred":{
+    "message":"Show a red banner"
+  },
+  "autostopbannertrans":{
+    "message":"Show a transparent banner"
+  },
+  "titleanalytics":{
+    "message":"Analytics"
+  },
+  "desbadgeanalytics":{
+    "message":"Show the badge with the number of clicks you have dimmed the webpage"
+  },
+  "shareanalyticenergy":{
+    "message":"I saved $product$ kWh thanks to Turn Off the Lights",
+    "placeholders": {
+          "product": {
+            "content": "$1",
+            "example": "123"
+          }
+        }
+  },
+  "analyticsoption":{
+    "message":"Analytics"
+  },
+  "activelayertoday":{
+    "message":"Number of clicks today"
+  },
+  "totalenergysaved":{
+    "message":"Total electrical energy saved"
+  },
+  "resetlampanalytic":{
+    "message":"Reset your Turn Off the Lights Analytics Data"
+  },
+  "titlesiteengagement":{
+    "message":"Site Engagement"
+  },
+  "titleorigin":{
+    "message":"Origin"
+  },
+  "titletime":{
+    "message":"Time (minutes)"
+  },
+  "titleavgdayschedule":{
+    "message":"Average daily schedule"
+  },
+  "titlesharestats":{
+    "message":"Share Your Stats"
+  },
+  "btnsharestats":{
+    "message":"Share Stats"
+  },
+  "charttitletotaltime": {
+    "message": "Total time the dark layer is active (minutes)"
+  },
+  "charttitlelayeractive":{
+    "message":"Dark layer active (#)"
+  },
+  "charttitleavgday":{
+    "message":"Average daily schedule (when the lights turn off frequently)"
+  },
+  "charttitle30dayssaved":{
+    "message":"Energy saved this last 30 days"
+  },
+  "charttitlelblwebsiteused":{
+    "message":"Websites used this last 30 days"
+  },
+  "charttitlelblenergytotal":{
+    "message":"Total used Energy"
+  },
+  "charttitlelblenergysaved":{
+    "message":"Total saved Energy"
+  },
+  "titlelanalyticprivacy":{
+    "message":"Turn Off the Lights browser extension takes your privacy very seriously. The Turn Off the Lights Analytics you are seeing on this page is only stored locally on your computer. Your personal site engagement information will not be sold and not transferred to unaffiliated third parties."
+  },
+  "shareanalyticlove":{
+    "message":"The website I most love is $product$ with Turn Off the Lights",
+    "placeholders": {
+          "product": {
+            "content": "$1",
+            "example": "123"
+          }
+        }
+  },
+  "desvolumeposa":{
+    "message":"Show the volume meter in center of the current video player"
+  },
+  "desvolumeposb":{
+    "message":"Show the volume value on top left of the current video player"
+  },
+  "desvolumeposc":{
+    "message":"Show the volume value on top right of the current video player"
+  },
+  "desvideovolumhold": {
+    "message": "Hold down the left or right mouse button, and move your mouse to change the volume"
+  },
+  "desvideovolumalt": {
+    "message": "Only if the alt key is pressed"
+  },
+  "speechheybrowser":{
+    "message":"Hey Browser"
+  },
+  "speechokbrowser":{
+    "message":"ok Browser"
+  },
+  "functionactive":{
+    "message":"This function is activated when you click on a tab, or when you refresh the web page. However, this function stops automatically after 15 seconds."
+  },
+  "cardtexsubscribe":{
+    "message":"Subscribe Now!"
+  },
+  "cardtextfavdayweek":{
+    "message":"Favorite day of the week"
+  },
+  "cardtextyestime":{
+    "message":"Yesterday total time (in minutes)"
+  },
+  "cardavgprevweektime":{
+    "message":"Previous total week time (in minutes)"
+  },
+  "sunday":{
+    "message":"Sunday"
+  },
+  "monday":{
+    "message":"Monday"
+  },
+  "tuesday":{
+    "message":"Tuesday"
+  },
+  "wednesday":{
+    "message":"Wednesday"
+  },
+  "thursday":{
+    "message":"Thursday"
+  },
+  "friday":{
+    "message":"Friday"
+  },
+  "saturday":{
+    "message":"Saturday"
+  },
+  "titlemultiopacity":{
+    "message":"Each website, its own opacity"
+  },
+  "desmultiopacitynormal":{
+    "message":"All websites have the same opacity value"
+  },
+  "desmultiopacitysel":{
+    "message":"The websites in the list here below have that chosen opacities"
+  },
+  "desmultiopacitynot":{
+    "message":"If a website it not in the list, the default opacity value will apply."
+  },
+  "titleok":{
+    "message":"OK"
+  }, 
+  "titlecancel":{
+    "message":"Cancel"
+  },
+  "titledarkmodeon":{
+    "message":"Dark Mode ON"
+  }, 
+  "titledarkmodeoff":{
+    "message":"Dark Mode OFF"
+  },
+  "titlelprivacy":{
+    "message":"Privacy Policy"
+  },
+  "titleprofile":{
+    "message":"Profile"
+  },
+  "descolorfixcolor":{
+    "message":"Choose your dark layer color"
+  },
+  "desatmossolidcolor":{
+    "message":"Choose your one solid glow effect color"
+  },
+  "titlelratenow":{
+    "message":"Rate Now!"
+  },
+  "titleratelater":{
+    "message":"Later"
+  },
+  "desremrate":{
+    "message":"If you like Turn Off the Lights™, please do not hesitate to rate this extension to five stars now. This gives us courage to continue to maintain and improve this product for you. Writing a review is recommended, but not mandatory. If you do not have the time to write a review, you can rate it anonymously. It is important to give it ★★★★★. Thank you!"
+  },
+  "titelnightmodedomain":{
+    "message":"Domain"
+  }, 
+  "titelnightmodepage":{
+    "message":"Web page"
+  },
+  "titelintroduce":{
+    "message":"Introducing the new Turn Off the Lights!"
+  },
+  "desintroduce":{
+    "message":"All the features you're used to, with a brand new look and feel, and personalized to you."
+  },
+  "econothingthisyear":{
+    "message":"Nothing this year. Keeps the lights off to save energy"
+  },
+  "ecothirtyminutes":{
+    "message":"30 minutes of light saved"
+  },
+  "ecowatchtvfortwo":{
+    "message":"Watch TV for 2 hours"
+  },
+  "ecotoastermaking":{
+    "message":"Toaster making two loaves of toast"
+  },
+  "ecochargeiphone":{
+    "message":"Charge your iPhone"
+  },
+  "ecobrewsomecoffee":{
+    "message":"Brew some Coffee, brewing one pot of coffee"
+  },
+  "ecoplayingxbox":{
+    "message":"Playing Xbox 360 for one hour"
+  },
+  "ecovacuumingfor":{
+    "message":"Vacuuming for 15 minutes"
+  },
+  "ecoblowdrying":{
+    "message":"Blow-drying your hair for 10 minutes uses approximately"
+  },
+  "ecowashingclothes":{
+    "message":"Washing your clothes in a cold-rinse cycle uses approximately"
+  },
+  "ecowififoraday":{
+    "message":"Wi-Fi for a day"
+  },
+  "ecorunningdishwasher":{
+    "message":"Running your dishwasher in energy-saver mode will use"
+  },
+  "ecochargelaptop":{
+    "message":"Charge your laptop"
+  },
+  "ecokeeplightonforsix":{
+    "message":"Keep the Lights on for 6 hours"
+  },
+  "ecokeepfridgeday":{
+    "message":"Keep the Fridge Running for a day"
+  },
+  "ecoloadlaundry":{
+    "message":"One load of laundry in the dryer"
+  },
+  "ecoheatingtenshower":{
+    "message":"Heating enough water for a 10-minute shower"
+  },
+  "ecotwentyfourghome": {
+    "message": "Enough to run Google Home for 24h"
+  },
+  "ecochargeteslacar":{
+    "message":"Charge your Tesla car for 20 miles"
+  },
+  "ecochargeteslacarhundred":{
+    "message":"Charge your Tesla electric vehicle to 100%"
+  },
+  "ecochargeteslathreetimes":{
+    "message":"Charge 3 times your Tesla electric vehicle to 100%"
+  },
+  "ecopowerhawaiimonth":{
+    "message":"Enough electric energy for 1 month in Hawaii"
+  },
+  "ecopowernwymonth":{
+    "message":"Enough electric energy for 1 month in New York"
+  },
+  "ecopowercamonth":{
+    "message":"Enough electric energy for 1 month in California"
+  },
+  "ecopowerbaseballgame":{
+    "message":"To power 1 jumbotron for a baseball game"
+  },
+  "ecopowereiffeltower":{
+    "message":"To illuminate the Eiffel Tower for 1 day"
+  },
+  "ecopowereurostar":{
+    "message":"For a Eurostar trip from Brussels to London"
+  },
+  "ecopowereurostarparis":{
+    "message":"For a Eurostar trip from Paris to London"
+  },
+  "ecoeiffeltoweryear": {
+    "message": "To illuminate the Eiffel Tower for 1 year"
+  },
+  "ecosfoyear":{
+    "message":"To power San Francisco for 1 year"
+  },
+  "ecolayear":{
+    "message":"To power Los Angeles for 1 year"
+  },
+  "ecoplanetearth":{
+    "message":"Ready to save the planet Earth"
+  },
+  "autostopdetails":{
+    "message":"DETAILS"
+  },
+  "autostopblocked":{
+    "message":"Blocked by Turn Off the Lights™ - www.turnoffthelights.com"
+  },
+  "autostopclickme":{
+    "message":"Click on me to play this HTML5 video"
+  },
+  "autostopenabled":{
+    "message":"AutoStop is enabled!"
   }
 }

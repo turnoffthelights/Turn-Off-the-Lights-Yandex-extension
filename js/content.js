@@ -3,7 +3,7 @@
 
 Turn Off the Lights
 The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2017 Stefan vd
+Copyright (C) 2018 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -28,9 +28,9 @@ To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.
 //================================================
 
 // settings
-var autoplay = null, eastereggs = null, shortcutlight = null, eyen = null, eyea = null, eyealist = null, contextmenus = null, excludedDomains = null, nighttime = null, begintime = null, endtime = null, ambilight = null, ambilightrangeblurradius = null, ambilightrangespreadradius = null, ambilightfixcolor = null, ambilightvarcolor = null, ambilightcolorhex = null, ambilight4color = null, ambilight1colorhex = null, ambilight2colorhex = null, ambilight3colorhex = null, ambilight4colorhex = null, ecosavertime = null, ecosavertime = null, autoplayonly = null, autoplayDomains = null, interval = null, autowidthyoutube = null, customqualityyoutube = null, maxquality = null, atmosphereonly = null, atmosphereDomains = null, nighttheme = null, nightonly = null, nightDomains = null, nightenabletheme = null, autoplaydelay = null, autoplaydelaytime = null, atmosvivid = null, autoplaychecklistwhite = null, autoplaychecklistblack = null, nighthover = null, nmbegintime = null, nmendtime = null, nightmodechecklistblack = null, nightmodechecklistwhite = null, nmtopleft = null, nmtopright = null, nmbottomright = null, nmbottomleft = null, nmcustom = null, nmcustomx = null, nmcustomy = null, lampandnightmode = null, autostop = null, autostoponly = null, autostopDomains = null, autostopchecklistwhite = null, autostopchecklistblack = null, eyechecklistwhite = null, eyechecklistblack = null, nightmodebck = null, nightmodetxt = null, no360youtube = null, videotool = null, reflection = null, reflectionamount = null, videotoolonly = null, videotoolDomains = null, videotoolchecklistwhite = null, videotoolchecklistblack = null, nightmodehyperlink = null, videovolume = null, videovolumecolor = null, videovolumesteps = null, videovolumelabel = null, visopacity = null, videotoolcolor = null, hovervideo = null, hovervideoamount = null, mousespotlights = null, screenshader = null, drawatmosfps = null, aplay = null, apause = null, astop = null, videozoom = null;;
+var autoplay = null, eastereggs = null, shortcutlight = null, eyen = null, eyea = null, eyealist = null, contextmenus = null, excludedDomains = null, nighttime = null, begintime = null, endtime = null, ambilight = null, ambilightrangeblurradius = null, ambilightrangespreadradius = null, ambilightfixcolor = null, ambilightvarcolor = null, ambilightcolorhex = null, ambilight4color = null, ambilight1colorhex = null, ambilight2colorhex = null, ambilight3colorhex = null, ambilight4colorhex = null, ecosavertime = null, ecosavertime = null, autoplayonly = null, autoplayDomains = null, interval = null, autowidthyoutube = null, customqualityyoutube = null, maxquality = null, atmosphereonly = null, atmosphereDomains = null, nighttheme = null, nightonly = null, nightDomains = null, nightenabletheme = null, autoplaydelay = null, autoplaydelaytime = null, atmosvivid = null, autoplaychecklistwhite = null, autoplaychecklistblack = null, nighthover = null, nmbegintime = null, nmendtime = null, nightmodechecklistblack = null, nightmodechecklistwhite = null, nmtopleft = null, nmtopright = null, nmbottomright = null, nmbottomleft = null, nmcustom = null, nmcustomx = null, nmcustomy = null, lampandnightmode = null, autostop = null, autostoponly = null, autostopDomains = null, autostopchecklistwhite = null, autostopchecklistblack = null, eyechecklistwhite = null, eyechecklistblack = null, nightmodebck = null, nightmodetxt = null, no360youtube = null, videotool = null, reflection = null, reflectionamount = null, videotoolonly = null, videotoolDomains = null, videotoolchecklistwhite = null, videotoolchecklistblack = null, nightmodehyperlink = null, videovolume = null, videovolumecolor = null, videovolumesteps = null, videovolumelabel = null, visopacity = null, videotoolcolor = null, hovervideo = null, hovervideoamount = null, mousespotlights = null, screenshader = null, drawatmosfps = null, aplay = null, apause = null, astop = null, videozoom = null, playrate = null, playrateamount = null, speedtoolbar = null, atmosontotlmode = null, vpause = null, videovolumeposa = null, videovolumeposb = null, videovolumeposc = null, videovolumehold = null, videovolumealt = null, nightmodebydomain = null, nightmodebypage = null;
 /* -------------------------------------------------- */
-chrome.storage.sync.get(['autoplay','eastereggs','shortcutlight','eyen','eyea','eyealist','contextmenus','excludedDomains','nighttime','begintime','endtime','ambilight','ambilightrangeblurradius','ambilightrangespreadradius','ambilightfixcolor','ambilightvarcolor','ambilightcolorhex','ambilight4color','ambilight1colorhex','ambilight2colorhex','ambilight3colorhex','ambilight4colorhex','ecosaver','ecosavertime','autoplayonly','autoplayDomains','interval','maxquality','autowidthyoutube','customqualityyoutube','atmosphereonly','atmosphereDomains','nighttheme','nightonly','nightDomains','nightenabletheme','autoplaydelay','autoplaydelaytime','atmosvivid','autoplaychecklistwhite','autoplaychecklistblack','nighthover','nightactivetime','nmbegintime','nmendtime','nightmodechecklistblack','nightmodechecklistwhite','nmtopleft','nmtopright','nmbottomright','nmbottomleft','nmcustom','nmcustomx','nmcustomy','lampandnightmode','autostop','autostoponly','autostopDomains','autostopchecklistwhite','autostopchecklistblack','eyechecklistwhite','eyechecklistblack','nightmodebck','nightmodetxt','no360youtube','videotool','reflection','reflectionamount','videotoolonly','videotoolDomains','videotoolchecklistwhite','videotoolchecklistblack','nightmodehyperlink','videovolume','videovolumecolor','videovolumesteps','videovolumelabel','visopacity','videotoolcolor','hovervideo','hovervideoamount','mousespotlights','screenshader','drawatmosfps','aplay','apause','astop','videozoom'],function(response){
+chrome.storage.sync.get(['autoplay','eastereggs','shortcutlight','eyen','eyea','eyealist','contextmenus','excludedDomains','nighttime','begintime','endtime','ambilight','ambilightrangeblurradius','ambilightrangespreadradius','ambilightfixcolor','ambilightvarcolor','ambilightcolorhex','ambilight4color','ambilight1colorhex','ambilight2colorhex','ambilight3colorhex','ambilight4colorhex','ecosaver','ecosavertime','autoplayonly','autoplayDomains','interval','maxquality','autowidthyoutube','customqualityyoutube','atmosphereonly','atmosphereDomains','nighttheme','nightonly','nightDomains','nightenabletheme','autoplaydelay','autoplaydelaytime','atmosvivid','autoplaychecklistwhite','autoplaychecklistblack','nighthover','nightactivetime','nmbegintime','nmendtime','nightmodechecklistblack','nightmodechecklistwhite','nmtopleft','nmtopright','nmbottomright','nmbottomleft','nmcustom','nmcustomx','nmcustomy','lampandnightmode','autostop','autostoponly','autostopDomains','autostopchecklistwhite','autostopchecklistblack','eyechecklistwhite','eyechecklistblack','nightmodebck','nightmodetxt','no360youtube','videotool','reflection','reflectionamount','videotoolonly','videotoolDomains','videotoolchecklistwhite','videotoolchecklistblack','nightmodehyperlink','videovolume','videovolumecolor','videovolumesteps','videovolumelabel','visopacity','videotoolcolor','hovervideo','hovervideoamount','mousespotlights','screenshader','drawatmosfps','aplay','apause','astop','videozoom','playrate','playrateamount','speedtoolbar','atmosontotlmode','vpause','videovolumeposa','videovolumeposb','videovolumeposc','videovolumehold','videovolumealt','nightmodebydomain','nightmodebypage'],function(response){
 autoplay = response['autoplay'];
 eastereggs = response['eastereggs'];
 shortcutlight = response['shortcutlight'];
@@ -119,14 +119,30 @@ aplay = response['aplay'];if(aplay == null)aplay = true;
 apause = response['apause'];if(apause == null)apause = true;
 astop = response['astop'];if(astop == null)astop = true;
 videozoom = response['videozoom'];
+playrate = response['playrate'];
+playrateamount = response['playrateamount'];if(playrateamount == null)playrateamount = '1';
+speedtoolbar = response['speedtoolbar'];
+atmosontotlmode = response['atmosontotlmode'];
+vpause = response['vpause'];
+videovolumeposa = response['videovolumeposa'];
+videovolumeposb = response['videovolumeposb'];
+videovolumeposc = response['videovolumeposc'];
+videovolumehold = response['videovolumehold'];
+videovolumealt = response['videovolumealt'];
+nightmodebydomain = response.nightmodebydomain;if(nightmodebydomain == null)nightmodebydomain = true;
+nightmodebypage = response.nightmodebypage;if(nightmodebypage == null)nightmodebypage = false;
 
 function $(id) { return document.getElementById(id); }
 
+function rgbToHex(r, g, b) {
+	if (r > 255 || g > 255 || b > 255)
+		throw "Invalid color component";
+	return ((r << 16) | (g << 8) | b).toString(16);
+}
+
 // inject script for autoplay
 if(autoplay == true){
-if((!(window.location.href.indexOf("actions.com") > -1)) && (!(window.location.href.indexOf("chrome") > -1))){
 chrome.runtime.sendMessage({name: 'sendautoplay'});
-}
 }
 
 chrome.runtime.onMessage.addListener(
@@ -313,7 +329,6 @@ window.addEventListener('keydown', function(e) {
 				var stefanvdlightseye = $('stefanvdlightseye');
 				if(stefanvdlightseye) {document.body.removeChild(stefanvdlightseye);} // remove it
 				window.clearInterval(myVar);
-				document.location.reload(true); // reload current web page
 			},3000);
 			}
 		}
@@ -450,7 +465,7 @@ var gracePeriod = 250, lastEvent = null, timeout = null;
 		
 var messagediv = $('ytCinemaMessage');
 if(messagediv) {}
-else {		
+else {
 		// injected code messaging
 		var message = document.createElement("div");
 		var bt=document.getElementsByTagName("body");if(!bt.length)return;
@@ -490,108 +505,7 @@ if(typeof autoplayDomains == "string") {
 
 } // option autoplay on end
 
-if(autostop == true){
-window.addEventListener("load", function(){
-if(autostoponly == true){
-var currenturl = window.location.protocol + '//' + window.location.host;
-var stoprabbit = false;
-if(typeof autostopDomains == "string") {
-	autostopDomains = JSON.parse(autostopDomains);
-	var atbuf = [];
-	for(var domain in autostopDomains)
-		atbuf.push(domain);
-        atbuf.sort();
-		for(var i = 0; i < atbuf.length; i++){
-			if(autostopchecklistwhite == true){
-				if(currenturl == atbuf[i]){autostopfunction();observeautostop();}
-			}
-			else if(autostopchecklistblack == true){
-				if(currenturl == atbuf[i]){stoprabbit=true;}
-			}
-		}
-    }
-	if(autostopchecklistblack == true){
-		if(stoprabbit == false){autostopfunction();observeautostop();}
-	}
-} else {autostopfunction();}
-}, false);
 
-function observeautostop(){
-// Observe a specific DOM element:
-if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
-	if(document.getElementById('movie_player')){ // from youtube website
-        // for update later also
-		observeDOM( document.querySelector('#movie_player') ,function(){
-                var ytps = document.querySelector('.ytp-play-button');
-				var myVideo = document.getElementsByTagName('video')[0];
-                if($('eow-title')){
-					if($('eow-title').getAttribute('data-totlplayer') == "activeplayer"){}
-					else{autostopfunction();}
-				}
-		});
-	}
-}
-}
-
-var forceautostop;
-var forcecount = 0;
-function autostopvideo(video) {
-	forceautostop = window.setInterval(function(){
-	forcecount +=1;
-	video.currentTime = 0;
-	video.pause();
-	video.autostart = false;
-	video.autoplay = false;
-	video.preload = "none";
-	video.oncanplay = null;
-	video.onplay = null;
-	var ytps = document.querySelector('.ytp-play-button');
-    if(ytps){if(ytps.getAttribute("aria-label") == "Pause"){ytps.click();}}
-	if(forcecount >= 25){window.clearInterval(forceautostop);forceautostop=0;forcecount=0;}
-	}, 100);
-}
-
-function autostopfunction(){
-    var ytps = document.querySelector('.ytp-play-button');
-    if(ytps) {
-        if (ytps.getAttribute("aria-label") == "Pause") {
-            ytps.click();
-			var myVideo = document.getElementsByTagName('video')[0];
-			if(myVideo){
-				autostopvideo(myVideo);
-				if (myVideo.paused == true){
-					// add active player label
-					if($('eow-title')){$('eow-title').setAttribute('data-totlplayer','activeplayer');}
-				}
-			}
-		}
-    }
-	else {
-		// regular HTML5 video
-        var videos = document.querySelectorAll('video');
-        for (var i=0; i<videos.length; i++) {
-            video = videos[i];
-            if (video && video.readyState == 4){autostopvideo(video);}
-            else {
-                video.oncanplay = function() { autostopvideo(video); };
-                video.onplay = function() { autostopvideo(video); };
-            }
-        }
-		// inside iframe elements
-		try {
-			var frames = document.getElementsByTagName("iframe");
-			for (var i = 0; i< frames.length; i++) {
-				var innerDoc = (frames.item(i).contentDocument) ? frames.item(i).contentDocument : frames.item(i).contentWindow.document;
-				var iframeVideoTags = innerDoc.getElementsByTagName("video");
-				for (var j = 0; j < iframeVideoTags.length; j++) {
-					autostopvideo(iframeVideoTags.item(j));
-				}
-			}
-		} catch(e){}
-    }
-}
-
-} // option autostop on end
 
 // general ID for each HTML5 video player
 function adddatavideo() {
@@ -685,6 +599,7 @@ var dovischoose=function(){
 	}
 }
 
+var elementonevideo;
 var elementvisa;
 var currentviswidth;
 var currentvisheight;
@@ -692,12 +607,33 @@ var currentvistop;
 var currentvisleft;
 var currentvisbottom;
 var currentvisright;
+var currentvisdisplay;
 var currentbarwidthvisualization;
 var currentbartopvisualization;
 var currentbarleftvisualization;
+
+var currentbarwidthzoomcanvas;
+var currentbarheightzoomcanvas;
+
+var currentbarleftzoomstage;
+var currentbartopzoomstage;
+var currentbarwidthzoomstage;
+var currentbarheightzoomstage;
+
+var currentbarleftzoom;
+var currentbartopzoom;
+var currentbarwidthzoom;
+var currentbarheightzoom;
+
+var currentbarleftspeed;
+var currentbartopspeed;
+var currentbarwidthspeed;
+var currentbarheightspeed;
+
 var dovisfull=function(potvis){
+elementonevideo = document.getElementsByTagName("video")[potvis];
 elementvisa = document.getElementById('stefanvdvisualizationcanvas'+potvis);
-	if(elementvisa.style.width == "100%"){
+	if(elementonevideo.classList.contains("stefanvdvideowindow")){
 		elementvisa.style.position = "absolute";
 		elementvisa.style.width = currentviswidth;
 		elementvisa.style.height = currentvisheight;
@@ -705,7 +641,19 @@ elementvisa = document.getElementById('stefanvdvisualizationcanvas'+potvis);
 		elementvisa.style.left = currentvisleft;
 		elementvisa.style.bottom = currentvisbottom;
 		elementvisa.style.right = currentvisright;
+		elementvisa.style.display = currentvisdisplay;
 		document.getElementById('stefanvdvispanel'+potvis).style.cssText = "background:"+hexToRGB(videotoolcolor,0.4)+";width:"+currentbarwidthvisualization+"!important;top:"+currentbartopvisualization+"!important;left:"+currentbarleftvisualization+"!important;position:absolute!important";
+
+		if(videozoom == true){
+		document.getElementById('stefanvdzoomcanvas'+potvis).width = currentbarwidthzoomcanvas;
+		document.getElementById('stefanvdzoomcanvas'+potvis).height = currentbarheightzoomcanvas;
+		document.getElementById('stefanvdzoomstage'+potvis).style.cssText = "background:black;width:"+currentbarwidthzoomstage+"!important;height:"+currentbarheightzoomstage+";top:"+currentbartopzoomstage+"!important;left:"+currentbarleftzoomstage+"!important;position:absolute!important;display:none";
+		document.getElementById('stefanvdzoompanel'+potvis).style.cssText = "background:"+hexToRGB(videotoolcolor,0.4)+";width:"+currentbarwidthzoom+"!important;height:"+currentbarheightzoom+";top:"+currentbartopzoom+"!important;left:"+currentbarleftzoom+"!important;position:absolute!important;padding-top:40px";
+		}
+
+		if(speedtoolbar == true){
+		document.getElementById('stefanvdspeedpanel'+potvis).style.cssText = "background:"+hexToRGB(videotoolcolor,0.4)+";width:"+currentbarwidthspeed+"!important;height:"+currentbarheightspeed+";top:"+currentbartopspeed+"!important;left:"+currentbarleftspeed+"!important;position:absolute!important;padding-top:40px";
+		}
 	}else{
 		currentviswidth = elementvisa.style.width;
 		currentvisheight = elementvisa.style.height;
@@ -713,6 +661,7 @@ elementvisa = document.getElementById('stefanvdvisualizationcanvas'+potvis);
 		currentvisleft = elementvisa.style.left;
 		currentvisbottom = elementvisa.style.bottom;
 		currentvisright = elementvisa.style.right;
+		currentvisdisplay = elementvisa.style.display;
 		elementvisa.style.position = "fixed";
 		elementvisa.style.width = "100%";
 		elementvisa.style.height = "100%";
@@ -724,6 +673,28 @@ elementvisa = document.getElementById('stefanvdvisualizationcanvas'+potvis);
 		currentbartopvisualization = document.getElementById('stefanvdvispanel'+potvis).style.top;
 		currentbarleftvisualization = document.getElementById('stefanvdvispanel'+potvis).style.left;
 		document.getElementById('stefanvdvispanel'+potvis).style.cssText = "background:"+hexToRGB(videotoolcolor,0.4)+";width:100%!important;top:0!important;left:0!important;position:fixed!important";
+
+		if(videozoom == true){
+		currentbarwidthzoomcanvas = document.getElementById('stefanvdzoomcanvas'+potvis).width;
+		currentbarheightzoomcanvas = document.getElementById('stefanvdzoomcanvas'+potvis).height;
+
+		currentbarleftzoomstage = document.getElementById('stefanvdzoomstage'+potvis).style.left;
+		currentbartopzoomstage = document.getElementById('stefanvdzoomstage'+potvis).style.top;
+		currentbarwidthzoomstage = document.getElementById('stefanvdzoomstage'+potvis).style.width;
+		currentbarheightzoomstage = document.getElementById('stefanvdzoomstage'+potvis).style.height;
+
+		currentbarleftzoom = document.getElementById('stefanvdzoompanel'+potvis).style.left;
+		currentbartopzoom = document.getElementById('stefanvdzoompanel'+potvis).style.top;
+		currentbarwidthzoom = document.getElementById('stefanvdzoompanel'+potvis).style.width;
+		currentbarheightzoom = document.getElementById('stefanvdzoompanel'+potvis).style.height;
+		}
+	
+		if(speedtoolbar == true){
+		currentbarleftspeed = document.getElementById('stefanvdspeedpanel'+potvis).style.left;
+		currentbartopspeed = document.getElementById('stefanvdspeedpanel'+potvis).style.top;
+		currentbarwidthspeed = document.getElementById('stefanvdspeedpanel'+potvis).style.width;
+		currentbarheightspeed = document.getElementById('stefanvdspeedpanel'+potvis).style.height;
+		}
 	}
 
 	// Fix for the 3rd visualization size
@@ -775,8 +746,20 @@ var visualvideos = document.getElementsByTagName("video");
 			if($('stefanvdvispanel'+rock)){
 			$('stefanvdvispanel'+rock).style.display = "block";
 			}
-			if($('stefanvdzoompanel'+rock)){
-			$('stefanvdzoompanel'+rock).style.display = "block";
+			if(this.classList.contains("stefanvdvideowindow")){
+				if($('stefanvdzoompanel'+rock)){
+				$('stefanvdzoompanel'+rock).style.display = "none";
+				}
+				if($('stefanvdspeedpanel'+rock)){
+				$('stefanvdspeedpanel'+rock).style.display = "none";
+				}
+			}else{
+				if($('stefanvdzoompanel'+rock)){
+				$('stefanvdzoompanel'+rock).style.display = "block";
+				}
+				if($('stefanvdspeedpanel'+rock)){
+				$('stefanvdspeedpanel'+rock).style.display = "block";
+				}
 			}
 		},false);
 
@@ -786,6 +769,9 @@ var visualvideos = document.getElementsByTagName("video");
 			}
 			if($('stefanvdzoompanel'+rock)){
 			$('stefanvdzoompanel'+rock).style.display = "none";
+			}
+			if($('stefanvdspeedpanel'+rock)){
+			$('stefanvdspeedpanel'+rock).style.display = "none";
 			}
 		},false);
 
@@ -801,8 +787,8 @@ var visualvideos = document.getElementsByTagName("video");
 		newzoompanel.style.position = "absolute";
 		newzoompanel.style.background = hexToRGB(videotoolcolor, 0.4);
 		newzoompanel.style.display = "none";//default not visible
-		newzoompanel.style.top = visposition.y+tempvisscrolltop+"px";
-		newzoompanel.style.left = tempwidthvideo+visposition.x+tempvisscrollleft+"px";
+		newzoompanel.style.top = visposition.y+"px";
+		newzoompanel.style.left = tempwidthvideo+visposition.x+"px";
 		newzoompanel.style.width = "62px";
 		newzoompanel.style.height = tempheightvideo-40+"px";
 		newzoompanel.style.paddingTop = "40px";
@@ -822,8 +808,8 @@ var visualvideos = document.getElementsByTagName("video");
 		newzoomstage.style.background = "black";
 		newzoomstage.style.position = "absolute";
 		newzoomstage.style.display = "none";//default not visible
-		newzoomstage.style.top = visposition.y+tempvisscrolltop+"px";
-		newzoomstage.style.left = visposition.x+tempvisscrollleft+"px";
+		newzoomstage.style.top = visposition.y+"px";
+		newzoomstage.style.left = visposition.x+"px";
 		newzoomstage.style.width = tempwidthvideo+"px";
 		newzoomstage.style.height = tempheightvideo+"px";
 		document.body.appendChild(newzoomstage);
@@ -1011,16 +997,266 @@ var visualvideos = document.getElementsByTagName("video");
 			$('stefanvdzoompanel'+bomo).style.display = "none";
 		},false);
 		newzoompanel.appendChild(newzoombuttonexit);
-		//---
 		}
-	
+		//---
+		//---
+		if(speedtoolbar == true){
+			var intervalRewind;
+			myElement.addEventListener("play", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				if(playrate == true){onevideo.playbackRate = playrateamount;}
+				else{onevideo.playbackRate = 1.0;}
+				window.clearInterval(intervalRewind);
+			});
+			myElement.addEventListener("ended",function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				window.clearInterval(intervalRewind);
+				if(playrate == true){onevideo.playbackRate = playrateamount;}
+				else{onevideo.playbackRate = 1.0;}
+				onevideo.pause();
+			});
+			myElement.addEventListener("pause",function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				if(playrate == true){onevideo.playbackRate = playrateamount;}
+				else{onevideo.playbackRate = 1.0;}
+				window.clearInterval(intervalRewind);
+			});
+
+			function rewind(rewindSpeed,v) {    
+			window.clearInterval(intervalRewind);
+			var startSystemTime = new Date().getTime();
+			var startVideoTime = v.currentTime;
+			
+			intervalRewind = window.setInterval(function(){
+				v.playbackRate = 1.0;
+				if(v.currentTime == 0){
+					window.clearInterval(intervalRewind);
+					v.pause();
+				} else {
+					var elapsed = new Date().getTime()-startSystemTime;
+					v.currentTime = Math.max(startVideoTime - elapsed*rewindSpeed/1000.0, 0);
+				}
+			}, 30);
+			}
+
+			var newspeedpanel = document.createElement("div");
+			newspeedpanel.setAttribute("id","stefanvdspeedpanel"+i);
+			newspeedpanel.setAttribute("class","stefanvdspeed");
+			newspeedpanel.style.position = "absolute";
+			newspeedpanel.style.background = hexToRGB(videotoolcolor, 0.4);
+			newspeedpanel.style.display = "none";//default not visible
+			newspeedpanel.style.top = visposition.y+"px";
+			newspeedpanel.style.left = visposition.x-64+"px";
+			newspeedpanel.style.width = 64+"px";
+			newspeedpanel.style.height = tempheightvideo-40+"px";
+			newspeedpanel.style.paddingTop = "40px";
+			newspeedpanel.addEventListener("mouseover", function(event){
+				document.getElementById('stefanvdspeedpanel'+rock).style.display = "block";
+			},false);
+			newspeedpanel.addEventListener("mouseout", function(event){
+				document.getElementById('stefanvdspeedpanel'+rock).style.display = "none";
+			},false);
+			document.body.appendChild(newspeedpanel);
+
+			var newspeedbuttonneg2 = document.createElement("div");
+			newspeedbuttonneg2.setAttribute("id","stefanvdspeedN2step"+i);
+			newspeedbuttonneg2.setAttribute("data-video",i);
+			newspeedbuttonneg2.textContent = "-2";
+			newspeedbuttonneg2.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				rewind(2.0,onevideo);
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonneg2);
+
+			var newspeedbuttonneg15 = document.createElement("div");
+			newspeedbuttonneg15.setAttribute("id","stefanvdspeedN15step"+i);
+			newspeedbuttonneg15.setAttribute("data-video",i);
+			newspeedbuttonneg15.textContent = "-1.5";
+			newspeedbuttonneg15.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				rewind(1.5,onevideo);
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonneg15);
+
+			var newspeedbuttonneg125 = document.createElement("div");
+			newspeedbuttonneg125.setAttribute("id","stefanvdspeedN125step"+i);
+			newspeedbuttonneg125.setAttribute("data-video",i);
+			newspeedbuttonneg125.textContent = "-1.25";
+			newspeedbuttonneg125.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				rewind(1.25,onevideo);
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonneg125);
+
+			var newspeedbuttonneg1 = document.createElement("div");
+			newspeedbuttonneg1.setAttribute("id","stefanvdspeedN1step"+i);
+			newspeedbuttonneg1.setAttribute("data-video",i);
+			newspeedbuttonneg1.textContent = "-1";
+			newspeedbuttonneg1.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				rewind(1.0,onevideo);
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonneg1);
+
+			var newspeedbuttonneg075 = document.createElement("div");
+			newspeedbuttonneg075.setAttribute("id","stefanvdspeedN075step"+i);
+			newspeedbuttonneg075.setAttribute("data-video",i);
+			newspeedbuttonneg075.textContent = "-0.75";
+			newspeedbuttonneg075.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				rewind(0.5,onevideo);
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonneg075);
+
+			var newspeedbuttonneg05 = document.createElement("div");
+			newspeedbuttonneg05.setAttribute("id","stefanvdspeedN05step"+i);
+			newspeedbuttonneg05.setAttribute("data-video",i);
+			newspeedbuttonneg05.textContent = "-0.5";
+			newspeedbuttonneg05.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				rewind(0.5,onevideo);
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonneg05);
+
+			var newspeedbuttonneg025 = document.createElement("div");
+			newspeedbuttonneg025.setAttribute("id","stefanvdspeedN025step"+i);
+			newspeedbuttonneg025.setAttribute("data-video",i);
+			newspeedbuttonneg025.textContent = "-0.25";
+			newspeedbuttonneg025.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				rewind(0.25,onevideo);
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonneg025);
+
+			var newspeedbuttonzero = document.createElement("div");
+			newspeedbuttonzero.setAttribute("id","stefanvdspeedzerostep"+i);
+			newspeedbuttonzero.setAttribute("data-video",i);
+			newspeedbuttonzero.textContent = "0";
+			newspeedbuttonzero.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				window.clearInterval(intervalRewind);
+				onevideo.playbackRate = 1.0;
+				onevideo.pause();
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonzero);
+			
+			var newspeedbuttonpos025 = document.createElement("div");
+			newspeedbuttonpos025.setAttribute("id","stefanvdspeedP025step"+i);
+			newspeedbuttonpos025.setAttribute("data-video",i);
+			newspeedbuttonpos025.textContent = "+0.25";
+			newspeedbuttonpos025.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				window.clearInterval(intervalRewind);
+				if(onevideo.paused)onevideo.play();
+				window.setTimeout(function(){
+				onevideo.playbackRate = 0.25;
+				}, 0);
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonpos025);
+
+			var newspeedbuttonpos05 = document.createElement("div");
+			newspeedbuttonpos05.setAttribute("id","stefanvdspeedP05step"+i);
+			newspeedbuttonpos05.setAttribute("data-video",i);
+			newspeedbuttonpos05.textContent = "+0.5";
+			newspeedbuttonpos05.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				window.clearInterval(intervalRewind);
+				if(onevideo.paused)onevideo.play();
+				window.setTimeout(function(){
+				onevideo.playbackRate = 0.5;
+				}, 0);
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonpos05);
+
+			var newspeedbuttonpos075 = document.createElement("div");
+			newspeedbuttonpos075.setAttribute("id","stefanvdspeedP05step"+i);
+			newspeedbuttonpos075.setAttribute("data-video",i);
+			newspeedbuttonpos075.textContent = "+0.75";
+			newspeedbuttonpos075.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				window.clearInterval(intervalRewind);
+				if(onevideo.paused)onevideo.play();
+				window.setTimeout(function(){
+				onevideo.playbackRate = 0.75;
+				}, 0);
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonpos075);
+
+			var newspeedbuttonpos1 = document.createElement("div");
+			newspeedbuttonpos1.setAttribute("id","stefanvdspeedP1step"+i);
+			newspeedbuttonpos1.setAttribute("data-video",i);
+			newspeedbuttonpos1.textContent = "+1";
+			newspeedbuttonpos1.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				window.clearInterval(intervalRewind);
+				onevideo.playbackRate = 1.0;
+				if(onevideo.paused)onevideo.play();
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonpos1);
+
+			var newspeedbuttonpos125 = document.createElement("div");
+			newspeedbuttonpos125.setAttribute("id","stefanvdspeedP125step"+i);
+			newspeedbuttonpos125.setAttribute("data-video",i);
+			newspeedbuttonpos125.textContent = "+1.25";
+			newspeedbuttonpos125.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				window.clearInterval(intervalRewind);
+				onevideo.playbackRate = 1.25;
+				if(onevideo.paused)onevideo.play();
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonpos125);
+
+			var newspeedbuttonpos15 = document.createElement("div");
+			newspeedbuttonpos15.setAttribute("id","stefanvdspeedP15step"+i);
+			newspeedbuttonpos15.setAttribute("data-video",i);
+			newspeedbuttonpos15.textContent = "+1.5";
+			newspeedbuttonpos15.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				window.clearInterval(intervalRewind);
+				onevideo.playbackRate = 1.5;
+				if(onevideo.paused)onevideo.play();
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonpos15);
+
+			var newspeedbuttonpos2 = document.createElement("div");
+			newspeedbuttonpos2.setAttribute("id","stefanvdspeedP2step"+i);
+			newspeedbuttonpos2.setAttribute("data-video",i);
+			newspeedbuttonpos2.textContent = "+2";
+			newspeedbuttonpos2.addEventListener("click", function(){
+				var bomo = this.getAttribute("data-video");
+				var onevideo = document.getElementsByTagName("video")[bomo];
+				window.clearInterval(intervalRewind);
+				onevideo.playbackRate = 2.0;
+				if(onevideo.paused)onevideo.play();
+			},false);
+			newspeedpanel.appendChild(newspeedbuttonpos2);
+		}
+		//---
+
 		var newvisualizationvideo = document.createElement("canvas");
 		newvisualizationvideo.setAttribute("id","stefanvdvisualizationcanvas"+i);
 		newvisualizationvideo.setAttribute("class","stefanvdvisualization");
 		newvisualizationvideo.style.position = "absolute";
 		newvisualizationvideo.style.display = "none";//default not visible
-		newvisualizationvideo.style.top = visposition.y+tempvisscrolltop+"px";
-		newvisualizationvideo.style.left = visposition.x+tempvisscrollleft+"px";
+		newvisualizationvideo.style.top = visposition.y+"px";
+		newvisualizationvideo.style.left = visposition.x+"px";
 		newvisualizationvideo.style.width = tempwidthvideo+"px";
 		newvisualizationvideo.style.height = tempheightvideo+"px";
 		document.body.appendChild(newvisualizationvideo);
@@ -1030,8 +1266,8 @@ var visualvideos = document.getElementsByTagName("video");
 		newonvispanel.setAttribute("class","stefanvdvis");
 		newonvispanel.style.background = hexToRGB(videotoolcolor, 0.4);
 		newonvispanel.style.display = "none";//default not visible
-		newonvispanel.style.top = visposition.y+tempvisscrolltop+"px";
-		newonvispanel.style.left = visposition.x+tempvisscrollleft+"px";
+		newonvispanel.style.top = visposition.y+"px";
+		newonvispanel.style.left = visposition.x+"px";
 		newonvispanel.style.width = tempwidthvideo+"px";
 		newonvispanel.style.height = 36+"px";
 		newonvispanel.addEventListener("mouseover", function(event){
@@ -1214,6 +1450,18 @@ var visualvideos = document.getElementsByTagName("video");
 			else if(filtertype == "hue-rotate"){onevideo.style.webkitFilter = "" + filtertype + "("+gsvtrange+"deg)";}
 			else if(filtertype == "brightness"){onevideo.style.webkitFilter = "" + filtertype + "("+gsvtrange+")";}
 		}, false);
+		newvcpartiarange.addEventListener("input", function(){
+			var brownvis = this.getAttribute("data-video");
+			var onevideo = document.getElementsByTagName("video")[brownvis];
+			var gsvtrange = document.getElementById("stefanvdvideotoolrange"+brownvis).value;
+			if(filtertype == "grayscale"){onevideo.style.webkitFilter = "" + filtertype + "("+gsvtrange+")";}
+			else if(filtertype == "sepia"){onevideo.style.webkitFilter = "" + filtertype + "("+gsvtrange+")";}
+			else if(filtertype == "invert"){onevideo.style.webkitFilter = "" + filtertype + "("+gsvtrange+")";}
+			else if(filtertype == "contrast"){onevideo.style.webkitFilter = "" + filtertype + "("+gsvtrange+")";}
+			else if(filtertype == "saturate"){onevideo.style.webkitFilter = "" + filtertype + "("+gsvtrange+")";}
+			else if(filtertype == "hue-rotate"){onevideo.style.webkitFilter = "" + filtertype + "("+gsvtrange+"deg)";}
+			else if(filtertype == "brightness"){onevideo.style.webkitFilter = "" + filtertype + "("+gsvtrange+")";}
+		}, false);
 		if(tempwidthvideo <= 360){newvcpartiarange.style.cssText = "display:none!important";}
 		newonvispanel.appendChild(newvcpartiarange);
 
@@ -1277,6 +1525,10 @@ var visualvideos = document.getElementsByTagName("video");
 								stefanyoutubecontrols.style.width = "98%";
 							}
 						}
+
+						if(videovolume == true || videovolumehold == true){
+							refreshvolume();
+						}
 					} else {
 					// regular HTML5
 						if(onevideo.classList.contains('stefanvdvideowindow')){
@@ -1285,6 +1537,10 @@ var visualvideos = document.getElementsByTagName("video");
 							onevideo.classList.add('stefanvdvideowindow');
 							onevideo.controls = true;
 							onevideo.style.background = "black";
+						}
+
+						if(videovolume == true || videovolumehold == true){
+							refreshvolume();
 						}
 					}
 				}
@@ -1450,6 +1706,10 @@ function videovisualloop(tovideo){
 }
 
 window.addEventListener('resize', function(){
+	var elements = document.getElementsByClassName("stefanvdspeed");
+    while(elements.length > 0){
+        elements[0].parentNode.removeChild(elements[0]);
+    }
 	var elements = document.getElementsByClassName("stefanvdzoomstage");
     while(elements.length > 0){
         elements[0].parentNode.removeChild(elements[0]);
@@ -1466,96 +1726,106 @@ window.addEventListener('resize', function(){
     while(elements.length > 0){
         elements[0].parentNode.removeChild(elements[0]);
     }
-    addvisual();
-	adddatavideo();
+	adddatavideo(); // recheck remove and add video ID
+	addvisual();
 },false);
 
-// Observe a specific DOM element:
-if(window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
-	if(document.getElementById('content')){ // from youtube website
-        // for update later also
-		if(document.getElementById('placeholder-player')){
-		observeDOM( document.getElementById('placeholder-player') ,function(){
-			var elements = document.getElementsByClassName("stefanvdzoomstage");
-			while(elements.length > 0){
-				elements[0].parentNode.removeChild(elements[0]);
-			}
-			var elements = document.getElementsByClassName("stefanvdzoom");
-			while(elements.length > 0){
-				elements[0].parentNode.removeChild(elements[0]);
-			}
-			var elements = document.getElementsByClassName("stefanvdvisualization");
-			while(elements.length > 0){
-				elements[0].parentNode.removeChild(elements[0]);
-			}
-			var elements = document.getElementsByClassName("stefanvdvis");
-			while(elements.length > 0){
-				elements[0].parentNode.removeChild(elements[0]);
-			}
-			addvisual();
-		});
-		}
-			
-		if(document.getElementById('player-api')){
-		var firstthemoderun = false;
-		var firstdefaultrun = false;
-			observeDOM( document.getElementById('player-api') ,function(){
-				if(document.getElementsByClassName('ytp-size-button ytp-button')[0].title == "Default view"){
-					if(firstthemoderun == false){
-						var elements = document.getElementsByClassName("stefanvdzoomstage");
-						while(elements.length > 0){
-							elements[0].parentNode.removeChild(elements[0]);
+function refreshvisual(){
+	var elements = document.getElementsByClassName("stefanvdspeed");
+	while(elements.length > 0){
+		elements[0].parentNode.removeChild(elements[0]);
+	}
+	var elements = document.getElementsByClassName("stefanvdzoomstage");
+	while(elements.length > 0){
+		elements[0].parentNode.removeChild(elements[0]);
+	}
+	var elements = document.getElementsByClassName("stefanvdzoom");
+	while(elements.length > 0){
+		elements[0].parentNode.removeChild(elements[0]);
+	}
+	var elements = document.getElementsByClassName("stefanvdvisualization");
+	while(elements.length > 0){
+		elements[0].parentNode.removeChild(elements[0]);
+	}
+	var elements = document.getElementsByClassName("stefanvdvis");
+	while(elements.length > 0){
+		elements[0].parentNode.removeChild(elements[0]);
+	}
+
+	adddatavideo(); // recheck remove and add video ID
+	addvisual();
+}
+
+// Observe a specific DOM element
+// New Mutation Summary API Reference
+var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+if(MutationObserver){
+		// setup MutationSummary observer
+		var videolist = document.body;
+		var observer = new MutationObserver(function (mutations, observer) {
+			mutations.forEach(function (mutation) {
+
+				if(mutation.target.tagName == "VIDEO") {
+					if(mutation.attributeName === "src" && mutation.target.currentSrc != ""){
+						if(videotool == true){
+							refreshvisual();
 						}
-						var elements = document.getElementsByClassName("stefanvdzoom");
-						while(elements.length > 0){
-							elements[0].parentNode.removeChild(elements[0]);
+					}
+				}
+				// dynamic add and remove video
+				if(mutation.type == 'childList'){
+					for (var i, i = 0; i < mutation.addedNodes.length; i++){
+						if(mutation.addedNodes[i].tagName == "VIDEO"){
+							if(videotool == true){
+								refreshvisual();
+							}
 						}
-						var elements = document.getElementsByClassName("stefanvdvisualization");
-						while(elements.length > 0){
-							elements[0].parentNode.removeChild(elements[0]);
+					}
+					for (var i, i = 0; i < mutation.removedNodes.length; i++){
+						if(mutation.removedNodes[i].tagName == "VIDEO"){
+							if(videotool == true){
+								refreshvisual();
+							}
 						}
-						var elements = document.getElementsByClassName("stefanvdvis");
-						while(elements.length > 0){
-							elements[0].parentNode.removeChild(elements[0]);
+					}
+				}
+				// detect change style - this for floating box in div detection
+				if(mutation.attributeName == 'style'){
+					if(mutation.target.tagName == "VIDEO") {
+						if(mutation.target.hasAttribute("data-video")){
+							// data is available
+							// to nothing
+						} else{
+							// there is no data
+							// create everything again
+							refreshvisual();
 						}
-						addvisual();
-						adddatavideo();
-					firstthemoderun = true;
-					firstdefaultrun = false;
 					}
 				}
 
-				if(document.getElementsByClassName('ytp-size-button ytp-button')[0].title == "Theater mode"){
-					if(firstdefaultrun == false){
-						var elements = document.getElementsByClassName("stefanvdzoomstage");
-						while(elements.length > 0){
-							elements[0].parentNode.removeChild(elements[0]);
-						}
-						var elements = document.getElementsByClassName("stefanvdzoom");
-						while(elements.length > 0){
-							elements[0].parentNode.removeChild(elements[0]);
-						}
-						var elements = document.getElementsByClassName("stefanvdvisualization");
-						while(elements.length > 0){
-							elements[0].parentNode.removeChild(elements[0]);
-						}
-						var elements = document.getElementsByClassName("stefanvdvis");
-						while(elements.length > 0){
-							elements[0].parentNode.removeChild(elements[0]);
-						}
-						addvisual();
-						adddatavideo();
-					firstthemoderun = false;
-					firstdefaultrun = true;
-					}
-				}
 			});
-		}
-	}
+		});
+	
+		observer.observe(videolist, {
+			subtree: true,       // observe the subtree rooted at ...videolist...
+			childList: true,     // include childNode insertion/removals
+			characterData: false, // include textContent changes
+			attributes: true     // include changes to attributes within the subtree
+		});
+	
 }
+//---
 
 } // end function
 } // option videotool on end
+
+if(playrate == true){
+	var ratevideos = document.getElementsByTagName("video");
+	for(var i = 0; i < ratevideos.length; i++){
+		var myElement = document.getElementsByTagName("video")[i];
+		myElement.playbackRate = playrateamount;
+	}
+}
 
 // easter eggs
 function gogotheater(){
@@ -1680,6 +1950,7 @@ document.onmousemove = (function() {
 }
 
 // night time
+function gonighttime(){
 if(nighttime == true){ // yes night time
 var now = new Date();var hours = now.getHours();var minutes = now.getMinutes();var gettime = hours + ":" + minutes;
 var gettimesecond = gettime.split(":")[0] * 3600 + gettime.split(":")[1] * 60;
@@ -1708,10 +1979,11 @@ eyedojob();
 
 }
 else{eyedojob();} // no night time
+}
+gonighttime();
 
 // ambilight time
 if(ambilight == true){
-
 if(atmosphereonly == true){
 var currenturl = window.location.protocol + '//' + window.location.host;
 if(typeof atmosphereDomains == "string") {
@@ -1724,26 +1996,33 @@ if(typeof atmosphereDomains == "string") {
 		if(currenturl == albuf[i]){ambilightfunction();}
     }
 } else {ambilightfunction();}
+} // end ambilight
 
-function ambilightfunction(){
-// yes show time
-// ambilight play detect
-var requestId;
-
+var requestId = 0;
 var stop = false;
 var frameCount = 0;
 var fps, fpsInterval, startTime, now, then, elapsed;
 
+function stopAnimation(e) {
+    window.cancelAnimationFrame(requestId);
+}
+
+function ambilightfunction(){
+// yes show time
+// ambilight play detect
 startAnimating(drawatmosfps);
 
 function startAnimating(fps) {
     fpsInterval = 1000 / fps;
     then = window.performance.now();
     startTime = then;
-    //console.log(startTime);
-    animate();
+	//console.log(startTime);
+	if (document.visibilityState === "visible"){
+	animate();
+	}
 }
 
+var totlmode = false;
 function animate(){
 		// stop
 		if (stop) {return;}
@@ -1764,32 +2043,24 @@ function animate(){
 
 			// draw stuff here
 			// regular HTML5 videos
+			if(atmosontotlmode == true){
+				if($('stefanvdlightareoff1')){
+					totlmode = true;
+				}else{
+					totlmode = false;
+				}
+			}else{
+				totlmode = true;
+			}
+
 			var htmlplayer = document.getElementsByTagName("video") || null;
 			var playerid = null, item = null;
 			for(var j=0; j<htmlplayer.length; j++) {
-				if (htmlplayer[j].play){playerid = htmlplayer[j]; item = j + 1;drawAtmos(playerid, item);}
+				if(htmlplayer[j].play){playerid = htmlplayer[j]; item = j + 1;drawAtmos(playerid, item, totlmode);}
 			}
-			
+
 			// YouTube flash detect play
 			if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
-				var yttest = $("movie_player"); item = 1;
-				
-				/* temp fix watch7-video */
-				var watch7video = $('watch7-video');
-				if(watch7video)$('watch7-video').style.zIndex = 'auto';
-				
-				div = document.getElementsByTagName('div'); 
-				for(var i = 0; i < div.length; i++ )
-				{if(div[i].className == ('html5-video-player')) {div[i].style.overflow = 'visible';}}
-				
-				// fix 16 augustus 2013
-				var playerapilegacy = $('player-api-legacy');
-				if(playerapilegacy)$('player-api-legacy').style.overflow = 'visible';
-
-				// fix 22 februari 2014
-				var html5playermessages = $('html5-player-messages');
-				if(html5playermessages)$('html5-player-messages').style.display = 'none';
-				
 				var youtubewatchplayershadow = $("watch-player"); // YouTube video page
 				if(youtubewatchplayershadow){ youtubewatchplayershadow.style.overflow = "visible"; } // show the overflow out the video element
 				var youtubevideoplayershadow = $("video-player"); // YouTube video page
@@ -1800,25 +2071,33 @@ function animate(){
 				if(youtubewindow){youtubewindow.classList.add('stefanvdvideocontrolsitem');}
 				var youtubemovieplayer = $("movie_player"); // YouTube video page
 				if(youtubemovieplayer){ youtubemovieplayer.style.overflow = "hidden"; youtubemovieplayer.classList.add('stefanvdvideocontrolsitem');} // show the overflow out the video element
+				var ytdwatch = document.getElementsByTagName("ytd-watch")[0];
+				if(ytdwatch){ytdwatch.style.overflow = "visible";} // show the overflow out the video element
+				var ytdpagemanager = document.getElementsByTagName("ytd-page-manager")[0];
+				if(ytdpagemanager){ytdpagemanager.style.overflow = "visible";} // show the overflow out the video element
+			}
+			if (window.location.href.match(/((http:\/\/(gaming.youtube\.com\/.*))|(https:\/\/(gaming.youtube\.com\/.*)))/i)){
+				var contentlayer = $("content-layer");
+				if(contentlayer){contentlayer.classList.add('stefanvdvideoauto');}
 			}
 
 			// TESTING...Report #seconds since start and achieved fps.
 			//var sinceStart = now - startTime;
 			//var currentFps = Math.round(1000 / (sinceStart / ++frameCount) * 100) / 100;
 			//console.log("Elapsed time= " + Math.round(sinceStart / 1000 * 100) / 100 + " secs @ " + currentFps + " fps.");
-		}		
+		}
 }
 
-function stopAnimation(e) {
-    window.cancelAnimationFrame(requestId);
-}
+
 
 var countA = [], countB = [], countC = []; // start from zero (blur spread) and size (left right top under) position
-
 // ambilight draw code		
-function drawAtmos(playerid, item){
-try {
-	if(playerid.paused || playerid.ended || $("movie_player").getPlayerState() == 0 || $("movie_player").getPlayerState() == 2){
+function drawAtmos(playerid, item, totlmode){
+	var statusdetectvideo = playerid.paused || playerid.ended;
+	if(vpause == true){statusdetectvideo = playerid.ended;}
+	else{statusdetectvideo = playerid.paused || playerid.ended;}
+
+	if((statusdetectvideo) || totlmode == false){
 	// animation go out
 	if(typeof countA[item] == 'undefined'){countA[item] = 0;}
 	if(typeof countB[item] == 'undefined'){countB[item] = 0;}
@@ -1830,6 +2109,9 @@ try {
 	var textcountB = countB[item] + "px";
 	var textcountC = countC[item] + "px";
 
+	if(ambilightvarcolor == true){
+		if(atmosvivid == true){
+		}else{
 var k = item;
 	if(typeof k == "undefined") {
 	return
@@ -1839,12 +2121,6 @@ if(canvas){
 	var context = canvas.getContext('2d');
 	var imageData = context.getImageData(0, 0, 1, 1);
 	var data = imageData.data;
-
-	function rgbToHex(r, g, b) {
-    if (r > 255 || g > 255 || b > 255)
-        throw "Invalid color component";
-    return ((r << 16) | (g << 8) | b).toString(16);
-	}
 
 	var p1 = context.getImageData(0 , 0, 1, 1).data;
 	var p2 = context.getImageData(1 , 0, 1, 1).data;
@@ -1859,11 +2135,13 @@ var downhex1 = hex1; if(!hex1){ hex1 = "#000000"; } // previous value
 var downhex2 = hex2; if(!hex2){ hex2 = "#000000"; } // previous value
 var downhex3 = hex3; if(!hex3){ hex3 = "#000000"; } // previous value
 var downhex4 = hex4; if(!hex4){ hex4 = "#000000"; } // previous value
+		}
+	}
 	// ----
 
 	if(window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
 		// var youtubewindow = $("watch-player") || $("watch7-player") || $("player-api");
-		var youtubewindow = $("movie_player");
+		var youtubewindow = $("movie_player") || document.getElementsByTagName("ytg-persistent-player")[0];
 		if(ambilightvarcolor == true){
 			if(atmosvivid == true){
 				if($("stefanvdvivideffect"+playerid.getAttribute("data-video"))){
@@ -1907,7 +2185,8 @@ var downhex4 = hex4; if(!hex4){ hex4 = "#000000"; } // previous value
 	}
 	
 	return false;}
-}catch(err) {}
+
+if(totlmode == false){return;}
 
 try {
 	var k = item;
@@ -1918,11 +2197,14 @@ try {
 
     var totlshowtime = playerid;
 	// var youtubewindow = $("watch-player") || $("watch7-player") || $("player-api");
-	var youtubewindow = $("movie_player");
+	var youtubewindow = $("movie_player") || document.getElementsByTagName("ytg-persistent-player")[0];
 	var getblur = ambilightrangeblurradius + "px";
 	var getspread = ambilightrangespreadradius + "px";
 	
 	// animate out and in
+	if(typeof countA[item] == 'undefined'){countA[item] = 0;}
+	if(typeof countB[item] == 'undefined'){countB[item] = 0;}
+	if(typeof countC[item] == 'undefined'){countC[item] = 0;}
 	if (countA[item] < ambilightrangespreadradius){countA[item]=countA[item]+1;};
 	if (countB[item] < ambilightrangeblurradius){countB[item]=countB[item]+1;};
 	if (countC[item] < 20){countC[item]=countC[item]+.5;};
@@ -2000,50 +2282,56 @@ try{
 			var calcvividscale = 1+(ambilightrangespreadradius/100);
 				if($("stefanvdvivideffect"+totlshowtime.getAttribute("data-video"))){
 					var stefanvdvivideffect = $("stefanvdvivideffect"+totlshowtime.getAttribute("data-video"));
-						if((stefanvdvivideffect.style.height != totlshowtime.style.height) && (totlshowtime.style.height != "")){
+					if((stefanvdvivideffect.style.height != totlshowtime.style.height) && (totlshowtime.style.height != "")){
 						stefanvdvivideffect.style.height = totlshowtime.offsetHeight;
 						stefanvdvivideffect.style.width = totlshowtime.offsetWidth;
 					}
 					var vividctx = stefanvdvivideffect.getContext('2d');var vividx = Math.floor(totlshowtime.offsetWidth*0.08);var vividy = Math.floor(totlshowtime.offsetHeight*0.08);
 					vividctx.drawImage(totlshowtime,0,0,vividx,vividy);
-					totlshowtime.classList.add('stefanvdvideotop');
-if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){}else{			
-// update background html video
-var path = [];
-var el = totlshowtime;
-do {
-    var qq = path.unshift(el.nodeName);
-    if (el.currentStyle) { 
-        var yta = qq.currentStyle["z-Index"]; 
-    }
-    else {
-        var yta = document.defaultView.getComputedStyle(el,null).getPropertyValue("z-Index");
-    }
-	if (yta == "auto"){}
-	else{
-		// if it is not the <video> player element,
-		// and if otherdown class is inside, then remove it
-		if(el.tagName != "VIDEO"){
-		if(el.classList.contains("stefanvdotherdown")){el.classList.remove("stefanvdotherdown");}
-		el.classList.add('stefanvdvideoauto');
-		}
-	}
-} while ((el.nodeName.toLowerCase() != 'html') && (el = el.parentNode))
-}
+					if(!totlshowtime.classList.contains("stefanvdvideotop")){totlshowtime.classList.add('stefanvdvideotop');}
+
 				} else{
+					// if first run, or paused or stoped video before
+					// create the vivid effect layer (again)
 					if(totlshowtime.getAttribute("data-video") != null){
+
+						if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){}else{
+						// update background html video
+						var path = [];
+						var el = totlshowtime;
+						do {
+							var qq = path.unshift(el.nodeName);
+							if (el.currentStyle) { 
+								var yta = qq.currentStyle["z-Index"]; 
+							}
+							else {
+								var yta = document.defaultView.getComputedStyle(el,null).getPropertyValue("z-Index");
+							}
+							if (yta == "auto"){}
+							else{
+								// if it is not the <video> player element,
+								// and if otherdown class is inside, then remove it
+								if(el.tagName != "VIDEO"){
+								if(el.classList.contains("stefanvdotherdown")){el.classList.remove("stefanvdotherdown");}
+								el.classList.add('stefanvdvideoauto');
+								}
+							}
+						} while ((el.nodeName.toLowerCase() != 'html') && (el = el.parentNode))
+						}
+
 						var newpositionvivid = getPosition(totlshowtime);
 						var tempwidthvideo = totlshowtime.offsetWidth;
 						var tempheightvideo = totlshowtime.offsetHeight;
 						var tempvisscrollleft = window.pageXOffset || document.documentElement.scrollLeft;
-						var tempvisscrolltop = window.pageYOffset || document.documentElement.scrollTop;//
+						var tempvisscrolltop = window.pageYOffset || document.documentElement.scrollTop;
 						totlshowtime.setAttribute("class","stefanvdvideotop");
 						var newvivid = document.createElement("canvas");
 						newvivid.setAttribute('id','stefanvdvivideffect'+totlshowtime.getAttribute("data-video"));
 						newvivid.setAttribute("data-video",totlshowtime.getAttribute("data-video"));
 						newvivid.setAttribute("class","stefanvdvivideffect");
-						newvivid.style.webkitTransform = "scale("+calcvividscale+")";
+						newvivid.style.transform = "scale3d("+calcvividscale+","+calcvividscale+","+calcvividscale+")";
 						newvivid.style.webkitFilter = "blur("+ambilightrangeblurradius+"px)";
+						newvivid.style.filter = "blur("+ambilightrangeblurradius+"px)";
 						newvivid.style.top = newpositionvivid.y+tempvisscrolltop+"px";
 						newvivid.style.left = newpositionvivid.x+tempvisscrollleft+"px";
 						newvivid.style.width = tempwidthvideo+"px";
@@ -2087,12 +2375,6 @@ do {
 			var imageData = context.getImageData(0, 0, 1, 1);
 			var data = imageData.data;
 
-			function rgbToHex(r, g, b) {
-			if (r > 255 || g > 255 || b > 255)
-				throw "Invalid color component";
-			return ((r << 16) | (g << 8) | b).toString(16);
-			}
-
 			var p1 = context.getImageData(0 , 0, 1, 1).data;
 			var p2 = context.getImageData(1 , 0, 1, 1).data;
 			var p3 = context.getImageData(2 , 0, 1, 1).data;
@@ -2126,15 +2408,13 @@ do {
 }
 }
 
-} // end ambilight
-
 var isitdark = false;
 // Observe a specific DOM element:
 if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
 if(document.getElementById('content')){ // from youtube website
 observeDOM( document.getElementById('content') ,function(){
-        // for the night mode live update
-        if(isitdark == true){
+		// for the night mode live update
+		if(isitdark == true){
 			sun = true; gogonightmode(); // make it dark
 			
 			var i, frames;
@@ -2156,7 +2436,7 @@ observeDOM( document.getElementById('content') ,function(){
         var ytwebgl = document.getElementsByClassName('webgl');
         for(var i = 0; i < ytwebgl.length; i++ ){ytwebgl[i].style.display = 'none';}
         }
-        
+
 });
 }
 }
@@ -2189,10 +2469,11 @@ var oldbackgroundImage = document.body.style.backgroundImage;
 var oldbackgroundColor = document.body.style.backgroundColor;
 var oldbackground = document.body.style.background;
 var oldtextcolor = document.body.style.color;
+var oldbackgroundColorhtml = document.getElementsByTagName("html")[0].style.background;
 
 // gogo night mode
 function gogonightmode(){
-    var css = '.stefanvdnight{color:'+nightmodetxt+'!important;background:'+nightmodebck+'!important;background-color:'+nightmodebck+'!important;border:0px!important}.stefanvdnight a{color:'+nightmodehyperlink+'!important}.stefanvdnight a *{color:'+nightmodehyperlink+'!important}',
+    var css = '.stefanvdnightbck{background:'+nightmodebck+'!important;background-color:'+nightmodebck+'!important;}.stefanvdnight{color:'+nightmodetxt+'!important}.stefanvdnight a{color:'+nightmodehyperlink+'!important}.stefanvdnight a *{color:'+nightmodehyperlink+'!important}',
     head = document.head || document.getElementsByTagName('head')[0],
     style = document.createElement('style');
     
@@ -2210,28 +2491,105 @@ function gogonightmode(){
     }
     //---
 
-    if (sun == true) {
+    if(sun == true){
 			sun = false; isitdark = true;
-			if ($("stefanvdnighti")) {
+			if($("stefanvdnighti")){
 				$("stefanvdnighti").setAttribute("id", "stefanvdnightin"); // change day background button
 			}
-			if ($("stefanvdnightthemecheckbox")){$("stefanvdnightthemecheckbox").checked = true;}
-					
-			if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)) { } else {
+			if($("stefanvdnightthemecheckbox")){$("stefanvdnightthemecheckbox").checked = true;}
+			
+			if(window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){ }else{
+
+				document.body.className += " stefanvdnightbck stefanvdnight";
+				document.querySelector("html").className += " stefanvdnightbck stefanvdnight";
+
+				var switchelements = document.getElementById('stefanvdnighttheme').getElementsByTagName('*');
 				// search all elements and add night class
+				var startshow = false;
+				var counter = 0;
 				var n = document.getElementsByTagName('*');
-				for (var i = 0; i < n.length; i++) {
-                    n[i].className += " stefanvdnight"; 
+				for (var i = 0; i < n.length; i++){
+
+					var getthatid = n[i].id;
+					getthatid = getthatid.substring(0,18);
+					if(getthatid == "stefanvdnighttheme"){
+						if($("stefanvdnighttheme")){
+							startshow = true;
+						}
+					}else{
+          
+						if(startshow == true){
+							if(counter <= switchelements.length){
+							// do nothing
+							}
+							counter += +1;
+						
+							if(counter == switchelements.length){
+								counter = 0;
+								startshow = false;
+							}
+						}else{
+							if(n[i].tagName == "IMG" || n[i].tagName == "STYLE" || n[i].tagName == "SCRIPT" || n[i].tagName == "HEAD" || n[i].tagName == "META" || n[i].tagName == "LINK" || n[i].tagName == "TITLE" || n[i].tagName == "IFRAME" || n[i].tagName == "svg" || n[i].tagName == "path" || n[i].tagName == "PICTURE" || n[i].tagName == "SOURCE" || n[i].tagName == "VIDEO" || n[i].tagName == "AUDIO" || n[i].tagName == "FIGURE" || n[i].tagName == "A" || n[i].tagName == "INPUT"){}
+							else{
+
+								if(n[i].currentStyle){
+									var y = n[i].currentStyle["background-color"];
+									var z = n[i].currentStyle["background-image"];
+
+									var thatbckishere = false;
+
+									if(y == "rgba(0, 0, 0, 0)"){
+										if(z == "none"){thatbckishere = false;}
+										else{thatbckishere = true;}
+									}
+									else{
+										thatbckishere = true;
+									}
+
+									if(thatbckishere == true){
+										n[i].className += " stefanvdnightbck stefanvdnight";
+									}else{
+										n[i].className += " stefanvdnight";
+									}
+								}
+								else if(window.getComputedStyle){
+									var st = document.defaultView.getComputedStyle(n[i], null);
+									var y = st.getPropertyValue("background-color");
+									var z = st.getPropertyValue("background-image");
+
+									var thatbckishere = false;
+
+									if(y == "rgba(0, 0, 0, 0)"){
+										if(z == "none"){thatbckishere = false;}
+										else{thatbckishere = true;}
+									}
+									else{
+										thatbckishere = true;
+									}
+
+									if(thatbckishere == true){
+										n[i].className += " stefanvdnightbck stefanvdnight";
+									}else{
+										n[i].className += " stefanvdnight";
+									}
+
+								}
+
+							}
+						}
+					
+					}
+
 				}
 			}
 			//---
-			
+			if(window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
 			document.body.style.backgroundColor = nightmodebck;
 			document.body.style.background = nightmodebck;
 			document.body.style.color = nightmodetxt;
+			document.querySelector("html").style.backgroundColor = nightmodebck;
 
-			if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
-            if($("logo-container")){$("logo-container").style.cssText = "-webkit-filter: grayscale(100%) brightness(100%) contrast(100%);";}
+			if($("logo-container")){$("logo-container").style.cssText = "-webkit-filter: grayscale(100%) brightness(100%) contrast(100%);";}
 			if($("watch7-action-buttons")){$("watch7-action-buttons").style.cssText = "-webkit-filter: grayscale(0%) brightness(100%) contrast(0%);";}
 			if($("watch7-content")){$("watch7-content").style.background = nightmodebck;} //#fff
 			if($("yt-masthead-container")){$("yt-masthead-container").style.background = nightmodebck;} //#f1f1f1
@@ -2300,8 +2658,8 @@ function gogonightmode(){
 			// update new YouTube layout 19 december 2016
 			var ytytdapp = document.querySelectorAll('ytd-app');
 			for(var i = 0; i < ytytdapp.length; i++ ){ytytdapp[i].style.background = nightmodebck;}
-			var ytdotytdapp = document.querySelectorAll('.ytd-app');
-			for(var i = 0; i < ytdotytdapp.length; i++ ){ytdotytdapp[i].style.background = nightmodebck;}
+			//var ytdotytdapp = document.querySelectorAll('.ytd-app');
+			//for(var i = 0; i < ytdotytdapp.length; i++ ){ytdotytdapp[i].style.background = nightmodebck;}
 			var ytironicon = document.querySelectorAll('iron-icon');
 			for(var i = 0; i < ytironicon.length; i++ ){ytironicon[i].style.cssText = "-webkit-filter: grayscale(0%) brightness(0%) contrast(0%);";}
 			if ($("masthead")) { $("masthead").style.background = nightmodebck; }
@@ -2350,6 +2708,47 @@ function gogonightmode(){
 			for(var i = 0; i < ytendpointfour.length; i++ ){ytendpointfour[i].style.color = nightmodetxt;}
 			var ytformatstring = document.querySelectorAll('yt-formatted-string');
 			for(var i = 0; i < ytformatstring.length; i++ ){ytformatstring[i].style.color = nightmodetxt;}
+			// update YouTube 27 December 2017
+			var ytpagemanager = document.querySelectorAll('ytd-page-manager');
+			for(var i = 0; i < ytpagemanager.length; i++){ytpagemanager[i].style.color = nightmodetxt;ytpagemanager[i].style.backgroundColor = nightmodebck;}
+			var ytwatch = document.querySelectorAll('ytd-watch');
+			for(var i = 0; i < ytwatch.length; i++){ytwatch[i].style.color = nightmodetxt;ytwatch[i].style.backgroundColor = nightmodebck;}
+			var ytdtopbarlogorenderer = document.querySelectorAll('ytd-topbar-logo-renderer');
+			for(var i = 0; i < ytdtopbarlogorenderer.length; i++){ytdtopbarlogorenderer[i].style.cssText = "-webkit-filter: invert(1) grayscale(1);";}
+			if ($("guide-button")){$("guide-button").style.cssText = "-webkit-filter: invert(1) grayscale(1);"; }
+			if ($("buttons")){$("buttons").style.cssText = "-webkit-filter: invert(1) grayscale(1);"; }
+			if ($("guide-content")){$("guide-content").style.color = nightmodetxt;$("guide-content").style.backgroundColor = nightmodebck;}
+			var ytdguidenentry = document.querySelectorAll('.ytd-guide-entry-renderer');
+			for(var i = 0; i < ytdguidenentry.length; i++){ytdguidenentry[i].style.color = nightmodetxt;ytdguidenentry[i].style.backgroundColor = nightmodebck;}
+			var ytdguidenentry = document.querySelectorAll('.ytd-toggle-button-renderer');
+			for(var i = 0; i < ytdguidenentry.length; i++){ytdguidenentry[i].style.color = nightmodetxt;}
+			var ytdbuttonrenderer = document.querySelectorAll('yt-icon');
+			for(var i = 0; i < ytdbuttonrenderer.length; i++){ytdbuttonrenderer[i].style.cssText = "-webkit-filter: invert(1) grayscale(1) contrast(0);";}
+			var paperbutton = document.querySelectorAll('paper-button');
+			for(var i = 0; i < paperbutton.length; i++){paperbutton[i].style.color = nightmodetxt;}
+			var ytsimple = document.querySelectorAll('.yt-simple-endpoint style-scope ytd-guide-entry-renderer a');
+			for(var i = 0; i < ytsimple.length; i++){ytsimple[i].style.color = nightmodetxt;}
+			var ytcompact = document.querySelectorAll('.ytd-compact-autoplay-renderer');
+			for(var i = 0; i < ytcompact.length; i++){ytcompact[i].style.color = nightmodetxt;}
+			var ytgridvideorenderera = document.querySelectorAll('.style-scope ytd-grid-video-renderer a');
+			for(var i = 0; i < ytgridvideorenderera.length; i++){ytgridvideorenderera[i].style.color = nightmodetxt;}
+			var ytgridvideorendererspan = document.querySelectorAll('.style-scope ytd-grid-video-renderer span');
+			for(var i = 0; i < ytgridvideorendererspan.length; i++){ytgridvideorendererspan[i].style.color = nightmodetxt;}
+			var ytshelfspan = document.querySelectorAll('.style-scope ytd-shelf-renderer span');
+			for(var i = 0; i < ytshelfspan.length; i++){ytshelfspan[i].style.color = nightmodetxt;}
+			// update YouTube 8 March 2018
+			var ytdbrowse = document.querySelectorAll('ytd-browse');
+			for(var i = 0; i < ytdbrowse.length; i++){ytdbrowse[i].style.color = nightmodetxt;ytdbrowse[i].style.backgroundColor = nightmodebck;}
+			if ($("channel-container")){$("channel-container").style.color = nightmodetxt;$("channel-container").style.backgroundColor = nightmodebck;}
+			if ($("channel-header")){$("channel-header").style.color = nightmodetxt;$("channel-header").style.backgroundColor = nightmodebck;}
+			if ($("channel-title")){$("channel-title").style.color = nightmodetxt;}
+			if ($("tabs-inner-container")){$("tabs-inner-container").style.color = nightmodetxt;$("tabs-inner-container").style.backgroundColor = nightmodebck;}
+			var tabsinnerpapertabs = document.querySelectorAll('#tabs-inner-container paper-tabs');
+			for(var i = 0; i < tabsinnerpapertabs.length; i++){tabsinnerpapertabs[i].style.color = nightmodetxt;}
+			var ytdsearchboxcont = document.querySelectorAll('ytd-searchbox #container');
+			for(var i = 0; i < ytdsearchboxcont.length; i++){ytdsearchboxcont[i].style.color = nightmodetxt;ytdsearchboxcont[i].style.backgroundColor = nightmodebck;}
+			var h3ytdcompact = document.querySelectorAll('h3.ytd-compact-radio-renderer');
+			for(var i = 0; i < h3ytdcompact.length; i++){h3ytdcompact[i].style.color = nightmodetxt;}
 
 			chrome.runtime.sendMessage({name: 'adddarkyoutube'});
 		}
@@ -2360,17 +2759,25 @@ function gogonightmode(){
             $("stefanvdnightin").setAttribute("id", "stefanvdnighti"); // change night background button
         }
 		if ($("stefanvdnightthemecheckbox")){$("stefanvdnightthemecheckbox").checked = false;}
-        document.body.style.backgroundImage = oldbackgroundImage;
-        document.body.style.backgroundColor = oldbackgroundColor;
-        document.body.style.backgroundColor = oldbackground;
-        document.body.style.color = oldtextcolor;
 
-        if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)) { } else {
+
+        if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
+			document.body.style.backgroundImage = oldbackgroundImage;
+			document.body.style.backgroundColor = oldbackgroundColor;
+			document.body.style.backgroundColor = oldbackground;
+			document.body.style.color = oldtextcolor;
+			document.querySelector("html").style.backgroundColor = oldbackgroundColorhtml;
+		 } else {
             // search all elements and remove night class
             var elems = document.querySelectorAll(".stefanvdnight");
             [].forEach.call(elems, function (el) {
                 el.classList.remove("stefanvdnight");
-            });
+			});
+			
+            var elems = document.querySelectorAll(".stefanvdnightbck");
+            [].forEach.call(elems, function (el) {
+                el.classList.remove("stefanvdnightbck");
+			});
         }
 		//---
 
@@ -2444,8 +2851,8 @@ function gogonightmode(){
 			// update new YouTube layout 19 december 2016
 			var ytytdapp = document.querySelectorAll('ytd-app');
 			for(var i = 0; i < ytytdapp.length; i++ ){ytytdapp[i].style.background = "white";}
-			var ytdotytdapp = document.querySelectorAll('.ytd-app');
-			for(var i = 0; i < ytdotytdapp.length; i++ ){ytdotytdapp[i].style.background = "white";}
+			//var ytdotytdapp = document.querySelectorAll('.ytd-app');
+			//for(var i = 0; i < ytdotytdapp.length; i++ ){ytdotytdapp[i].style.background = "white";}
 			var ytironicon = document.querySelectorAll('iron-icon');
 			for(var i = 0; i < ytironicon.length; i++ ){ytironicon[i].style.cssText = "";}
 			if ($("masthead")) { $("masthead").style.background = "white"; }
@@ -2494,6 +2901,47 @@ function gogonightmode(){
 			for(var i = 0; i < ytendpointfour.length; i++ ){ytendpointfour[i].style.color = "";}
 			var ytformatstring = document.querySelectorAll('yt-formatted-string');
 			for(var i = 0; i < ytformatstring.length; i++ ){ytformatstring[i].style.color = "";}
+			// update YouTube 3 August 2017
+			var ytpagemanager = document.querySelectorAll('ytd-page-manager');
+			for(var i = 0; i < ytpagemanager.length; i++ ){ytpagemanager[i].style.color = "black";ytpagemanager[i].style.backgroundColor = "white";}
+			var ytwatch = document.querySelectorAll('ytd-watch');
+			for(var i = 0; i < ytwatch.length; i++ ){ytwatch[i].style.color = "black";ytwatch[i].style.backgroundColor = "white";}
+			var ytdtopbarlogorenderer = document.querySelectorAll('ytd-topbar-logo-renderer');
+			for(var i = 0; i < ytdtopbarlogorenderer.length; i++ ){ytdtopbarlogorenderer[i].style.cssText = "";}
+			if ($("guide-button")) { $("guide-button").style.cssText = ""; }
+			if ($("buttons")) { $("buttons").style.cssText = ""; }
+			if ($("guide-content")){$("guide-content").style.color = "black";$("guide-content").style.backgroundColor = "white";}
+			var ytdguidenentry = document.querySelectorAll('.ytd-guide-entry-renderer');
+			for(var i = 0; i < ytdguidenentry.length; i++){ytdguidenentry[i].style.color = "black";ytdguidenentry[i].style.backgroundColor = "white";}
+			var ytdguidenentry = document.querySelectorAll('.ytd-toggle-button-renderer');
+			for(var i = 0; i < ytdguidenentry.length; i++){ytdguidenentry[i].style.color = "";}
+			var ytdbuttonrenderer = document.querySelectorAll('yt-icon');
+			for(var i = 0; i < ytdbuttonrenderer.length; i++){ytdbuttonrenderer[i].style.cssText = "";}
+			var paperbutton = document.querySelectorAll('paper-button');
+			for(var i = 0; i < paperbutton.length; i++){paperbutton[i].style.color = "";}
+			var ytsimple = document.querySelectorAll('.yt-simple-endpoint style-scope ytd-guide-entry-renderer a');
+			for(var i = 0; i < ytsimple.length; i++){ytsimple[i].style.color = "";}
+			var ytcompact = document.querySelectorAll('.ytd-compact-autoplay-renderer');
+			for(var i = 0; i < ytcompact.length; i++){ytcompact[i].style.color = "";}
+			var ytgridvideorenderera = document.querySelectorAll('.style-scope ytd-grid-video-renderer a');
+			for(var i = 0; i < ytgridvideorenderera.length; i++){ytgridvideorenderera[i].style.color = "";}
+			var ytgridvideorendererspan = document.querySelectorAll('.style-scope ytd-grid-video-renderer span');
+			for(var i = 0; i < ytgridvideorendererspan.length; i++){ytgridvideorendererspan[i].style.color = "";}
+			var ytshelfspan = document.querySelectorAll('.style-scope ytd-shelf-renderer span');
+			for(var i = 0; i < ytshelfspan.length; i++){ytshelfspan[i].style.color = "";}
+			// update YouTube 8 March 2018
+			var ytdbrowse = document.querySelectorAll('ytd-browse');
+			for(var i = 0; i < ytdbrowse.length; i++){ytdbrowse[i].style.color = "";ytdbrowse[i].style.backgroundColor = "";}
+			if ($("channel-container")){$("channel-container").style.color = "";$("channel-container").style.backgroundColor = "";}
+			if ($("channel-header")){$("channel-header").style.color = "";$("channel-header").style.backgroundColor = "";}
+			if ($("channel-title")){$("channel-title").style.color = "";}
+			if ($("tabs-inner-container")){$("tabs-inner-container").style.color = "";$("tabs-inner-container").style.backgroundColor = "";}
+			var tabsinnerpapertabs = document.querySelectorAll('#tabs-inner-container paper-tabs');
+			for(var i = 0; i < tabsinnerpapertabs.length; i++){tabsinnerpapertabs[i].style.color = "";}
+			var ytdsearchboxcont = document.querySelectorAll('ytd-searchbox #container');
+			for(var i = 0; i < ytdsearchboxcont.length; i++){ytdsearchboxcont[i].style.color = "";ytdsearchboxcont[i].style.backgroundColor = "";}
+			var h3ytdcompact = document.querySelectorAll('h3.ytd-compact-radio-renderer');
+			for(var i = 0; i < h3ytdcompact.length; i++){h3ytdcompact[i].style.color = "";}
 
 			chrome.runtime.sendMessage({name: 'addnormalyoutube'});
 		}
@@ -2626,8 +3074,22 @@ function timergonighttricker(){
 	}
 }
 
+
+var currenturl;
+var currenturlb;
 if(nightonly == true){
-	var currenturl = window.location.protocol + '//' + window.location.host;
+	if(nightmodebydomain == true){
+		currenturl = window.location.protocol + '//' + window.location.host;
+		currenturlb = currenturl; // copy
+	} else{
+		// WITH end slash
+		currenturl = window.location.href;
+		if(currenturl.substr(-1) === '/') {
+		// NO end slash
+		currenturlb = currenturl.substr(0, currenturl.length - 1);
+		}
+	}
+
 	var nightrabbit = false;
 	if(typeof nightDomains == "string") {
 		nightDomains = JSON.parse(nightDomains);
@@ -2637,7 +3099,7 @@ if(nightonly == true){
 			nbuf.sort();
 		for(var i = 0; i < nbuf.length; i++){
 			if(nightmodechecklistwhite == true){
-				if(currenturl == nbuf[i]){
+				if(currenturl == nbuf[i] || currenturlb == nbuf[i]){
 					if (nighttheme == true){ showswitchtricker(); }
 					if (nightenabletheme == true){
 						timergonighttricker();
@@ -2645,7 +3107,7 @@ if(nightonly == true){
 				}
 			}
 			else if(nightmodechecklistblack == true){
-				if(currenturl == nbuf[i]){
+				if(currenturl == nbuf[i] || currenturlb == nbuf[i]){
                     nightrabbit=true;
                 }
 			}
@@ -2721,18 +3183,6 @@ dragobject.initialize();
 }
 }
 
-// lamp and night mode active with one click
-if(lampandnightmode == true){
-	// Observe a specific DOM element:
-	if(document.body){
-	observeDOM( document.body ,function(){	
-		if(isitdark == false){
-			if(document.getElementById('stefanvdlightareoff1')){ sun = true; gogonightmode(); } // make it dark
-		}else{if(document.getElementById('stefanvdlightareoff1')){}else{sun = false; gogonightmode();}}
-	});
-	}
-}
-
 // reflection
 if(reflection == true){
 		var startreflection = window.setInterval(function () {
@@ -2790,13 +3240,13 @@ while (el){xPos += (el.offsetLeft - el.scrollLeft + el.clientLeft);yPos += (el.o
 return{x:xPos,y:yPos};
 }
 
-if(videovolume == true){
+if(videovolume == true || videovolumehold == true){
 videovolumesteps = Math.round(videovolumesteps * 100) / 10000;
 
 var scrollTimer = -1;
 // inject CSS for the progress bar
 try{
-var totlvideovolume = ".totlmousewheelvideo progress[value]::-webkit-progress-value{background:"+videovolumecolor+"!important;background-color:"+videovolumecolor+"!important;border-radius:2px!important}.totlmousewheelvideo progress[value]::-moz-progress-value{background:"+videovolumecolor+"!important;background-color:"+videovolumecolor+"!important;border-radius:2px!important}.totlmousewheelvideo progress[value]::progress-value{background:"+videovolumecolor+"!important;background-color:"+videovolumecolor+"!important;border-radius:2px!important}";
+var totlvideovolume = ".totlmousewheelvideo progress[value]::-webkit-progress-value{background:"+videovolumecolor+"!important;background-color:"+videovolumecolor+"!important;border-radius:2px!important}.totlmousewheelvideo progress[value]::-moz-progress-bar{background:"+videovolumecolor+"!important;background-color:"+videovolumecolor+"!important;border-radius:2px!important}.totlmousewheelvideo progress[value]::progress-value{background:"+videovolumecolor+"!important;background-color:"+videovolumecolor+"!important;border-radius:2px!important}";
 
 if($("csstotlvolume")){
  var elem = document.getElementById("csstotlvolume");
@@ -2812,7 +3262,25 @@ document.getElementsByTagName("head")[0].appendChild(css);
 }
 catch(e) {}
 
-var doscroll=function(){
+var rundoscrollfunc = false;
+var doscroll=function(e){
+
+		if(videovolumealt == true){
+			window.addEventListener('keydown', onKeyDown, true);
+			window.addEventListener('keyup', onKeyUp, true);
+			
+			function onKeyDown(evt) {
+			  rundoscrollfunc = true;
+			}
+			
+			function onKeyUp(evt) {
+			  rundoscrollfunc = false;
+			}
+		}else{
+			rundoscrollfunc = true; // regular run with no keys down
+		}
+
+		if(rundoscrollfunc == true){
         e = window.event || e;
         var pop = this.getAttribute("data-video");
 
@@ -2830,7 +3298,7 @@ var doscroll=function(){
         if(videovolumelabel == true){document.getElementById("lblvolume"+pop).textContent = Math.round(this.volume * 100)+"%";}
         if(this.volume <= 0){this.muted = true}else{this.muted = false}
         
-        var el = document.getElementsByClassName('totlmousewheelvideo')
+        var el = document.getElementsByClassName('totlmousewheelvideo');
         el[pop].classList.remove('totlhidevolume');
         el[pop].classList.add('totlvisiblevolume');
 
@@ -2840,7 +3308,8 @@ var doscroll=function(){
         el[pop].classList.add('totlhidevolume');
         }, 750);
     
-        e.preventDefault();
+		e.preventDefault();
+		}
 }
 
 function addvolume(){
@@ -2856,15 +3325,29 @@ for(var i = 0; i < volumevideos.length; i++){
 
     var newmousewheelvideo = document.createElement("div");
     newmousewheelvideo.setAttribute("data-video",i);
-    newmousewheelvideo.setAttribute("class","totlmousewheelvideo totlhidevolume");
-    newmousewheelvideo.style.top = position.y+tempymidvideo+tempscrolltop+"px";
-    newmousewheelvideo.style.left = position.x+tempxmidvideo+tempscrollleft+"px";
+	newmousewheelvideo.setAttribute("class","totlmousewheelvideo totlhidevolume");
+	
+	if(videovolumeposa == true){
+		newmousewheelvideo.style.top = position.y+tempymidvideo+tempscrolltop+"px";
+		newmousewheelvideo.style.left = position.x+tempxmidvideo+tempscrollleft+"px";
+	}else if(videovolumeposb == true){
+		newmousewheelvideo.style.top = position.y+35+tempscrolltop+"px";
+		newmousewheelvideo.style.left = position.x+25+tempscrollleft+"px";
+	}else if(videovolumeposc == true){
+		newmousewheelvideo.style.top = position.y+35+tempscrolltop+"px";
+		newmousewheelvideo.style.left = position.x+myElement.offsetWidth-85+tempscrollleft+"px";
+	}
+
     document.body.appendChild(newmousewheelvideo);
 
     if(videovolumelabel == true){
     var newlabelvideo = document.createElement("div");
     newlabelvideo.setAttribute("id","lblvolume"+i);
-    newlabelvideo.setAttribute("class","totlvideovolumelabel");
+	if(videovolumeposb == true || videovolumeposc == true){
+		newlabelvideo.setAttribute("class","totlvideovolumelabellarge");
+	} else{
+		newlabelvideo.setAttribute("class","totlvideovolumelabel");
+	}
     newmousewheelvideo.appendChild(newlabelvideo);
     }
 
@@ -2872,47 +3355,170 @@ for(var i = 0; i < volumevideos.length; i++){
     newprogress.setAttribute("id","volumecontrol"+i);
     newprogress.setAttribute("value","100");
     newprogress.setAttribute("max","100");
-    newmousewheelvideo.appendChild(newprogress);
+	newmousewheelvideo.appendChild(newprogress);
+	if(videovolumeposb == true || videovolumeposc == true){
+		newprogress.setAttribute("class","totlvideovolumeprogresshidden");
+	}
 
-    volumevideos[i].addEventListener("mousewheel", doscroll, false);
+	// inside video - scroll mouse action
+	if(videovolume == true){
+		volumevideos[i].addEventListener("wheel", doscroll, false);
+		volumevideos[i].addEventListener("DOMMouseScroll", doscroll, false);
+	}
+
+	// inside video - mouse click hold action
+	if(videovolumehold == true){
+		var last_position = {};
+		var myListener = function(event) {
+			if (event.button === 0 || event.button === 1) {
+			var pop = 0;//current video player only
+
+				//check to make sure there is data to compare against
+				if (typeof(last_position.x) != 'undefined') {
+
+					//get the change from last position to this position
+					var deltaX = last_position.x - event.clientX,
+						deltaY = last_position.y - event.clientY;
+
+					//check which direction had the highest amplitude and then figure out direction by checking if the value is greater or less than zero
+					if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX > 0) {
+						if(document.getElementsByTagName("video")[pop].volume > 0.00){document.getElementsByTagName("video")[pop].volume-=videovolumesteps;document.getElementsByTagName("video")[pop].volume=Math.round(document.getElementsByTagName("video")[pop].volume * 100) / 100}
+						//left
+					} else if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX < 0) {
+						if(document.getElementsByTagName("video")[pop].volume <= 0.99){document.getElementsByTagName("video")[pop].volume+=videovolumesteps;document.getElementsByTagName("video")[pop].volume=Math.round(document.getElementsByTagName("video")[pop].volume * 100) / 100}
+						//right
+					} else if (Math.abs(deltaY) > Math.abs(deltaX) && deltaY > 0) {
+						if(document.getElementsByTagName("video")[pop].volume <= 0.99){document.getElementsByTagName("video")[pop].volume+=videovolumesteps;document.getElementsByTagName("video")[pop].volume=Math.round(document.getElementsByTagName("video")[pop].volume * 100) / 100}
+						//up
+					} else if (Math.abs(deltaY) > Math.abs(deltaX) && deltaY < 0) {
+						if(document.getElementsByTagName("video")[pop].volume > 0.00){document.getElementsByTagName("video")[pop].volume-=videovolumesteps;document.getElementsByTagName("video")[pop].volume=Math.round(document.getElementsByTagName("video")[pop].volume * 100) / 100}
+						//down
+					}
+				}
+
+				document.getElementById("volumecontrol"+pop).value = Math.round(document.getElementsByTagName("video")[pop].volume * 100);
+				if(videovolumelabel == true){document.getElementById("lblvolume"+pop).textContent = Math.round(document.getElementsByTagName("video")[pop].volume * 100)+"%";}
+				if(document.getElementsByTagName("video")[pop].volume <= 0){document.getElementsByTagName("video")[pop].muted = true}else{document.getElementsByTagName("video")[pop].muted = false}
+				
+				var el = document.getElementsByClassName('totlmousewheelvideo');
+				el[pop].classList.remove('totlhidevolume');
+				el[pop].classList.add('totlvisiblevolume');
+		
+				if(scrollTimer != -1){window.clearTimeout(scrollTimer); }
+				scrollTimer = window.setTimeout(function () {
+				el[pop].classList.remove('totlvisiblevolume');
+				el[pop].classList.add('totlhidevolume');
+				}, 750);
+
+				event.preventDefault();
+
+				//set the new last position to the current for next time
+				last_position = {
+					x : event.clientX,
+					y : event.clientY
+				};
+			}
+		};
+
+		document.body.addEventListener("mousedown",function(){
+			document.body.addEventListener('mousemove', myListener, false);
+		}, false);
+
+		document.body.addEventListener("mouseup",function() {
+			document.body.removeEventListener('mousemove', myListener, false);
+		}, false);
+	}
+
 }
 }
 
 addvolume();
 
 window.addEventListener('resize', function(){
-    var volumevideos = document.getElementsByTagName("video");
-    for(var i = 0; i < volumevideos.length; i++){
-        volumevideos[i].removeEventListener('scroll', doscroll ,false);
-    }
+	var volumevideos = document.getElementsByTagName("video");
+	for(var i = 0; i < volumevideos.length; i++){
+		volumevideos[i].removeEventListener('wheel', doscroll ,false);
+		volumevideos[i].removeEventListener('DOMMouseScroll', doscroll ,false);				
+	}
 
-    var elements = document.getElementsByClassName("totlmousewheelvideo");
-    while(elements.length > 0){
-        elements[0].parentNode.removeChild(elements[0]);
-    }
-    addvolume();
+	var elements = document.getElementsByClassName("totlmousewheelvideo");
+	while(elements.length > 0){
+		elements[0].parentNode.removeChild(elements[0]);
+	}
+	addvolume();
 },false);
 
-// Observe a specific DOM element:
-if(window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
-	if(document.getElementById('player-api')){ // from youtube website
-        // for update later also
-		observeDOM( document.getElementById('player-api') ,function(){
-			var volumevideos = document.getElementsByTagName("video");
-			for(var i = 0; i < volumevideos.length; i++){
-				volumevideos[i].removeEventListener('scroll', doscroll ,false);
-			}
+function refreshvolume(){
+	adddatavideo(); // recheck remove and add video ID
 
-			var elements = document.getElementsByClassName("totlmousewheelvideo");
-			while(elements.length > 0){
-				elements[0].parentNode.removeChild(elements[0]);
-			}
-			addvolume();
-		});
+	var volumevideos = document.getElementsByTagName("video");
+	for(var i = 0; i < volumevideos.length; i++){
+		volumevideos[i].removeEventListener('wheel', doscroll ,false);
+		volumevideos[i].removeEventListener('DOMMouseScroll', doscroll ,false);				
 	}
-}
 
+	var elements = document.getElementsByClassName("totlmousewheelvideo");
+	while(elements.length > 0){
+		elements[0].parentNode.removeChild(elements[0]);
+	}
+	addvolume();
+}
 } // end videovolume
+
+// Observe a specific DOM element
+// New Mutation Summary API Reference
+var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+if(MutationObserver){
+		// setup MutationSummary observer
+		var videolist = document.body;
+		var observer = new MutationObserver(function (mutations, observer) {
+			mutations.forEach(function (mutation) {
+
+				if(mutation.target.tagName == "VIDEO") {
+					if(mutation.attributeName === "src" && mutation.target.currentSrc != ""){
+						if(videovolume == true || videovolumehold == true){
+							refreshvolume();
+						}
+					}
+				}
+				// dynamic add and remove video
+				if(mutation.type == 'childList'){
+					for (var i, i = 0; i < mutation.addedNodes.length; i++){
+						if(mutation.addedNodes[i].tagName == "VIDEO"){
+							if(videovolume == true || videovolumehold == true){
+								refreshvolume();
+							}
+						}
+					}
+					for (var i, i = 0; i < mutation.removedNodes.length; i++){
+						if(mutation.removedNodes[i].tagName == "VIDEO"){
+							if(videovolume == true || videovolumehold == true){
+								refreshvolume();
+							}
+						}
+					}
+				}
+				// detect change style - this for floating box in div detection
+				if(mutation.attributeName == 'style'){
+					if(mutation.target.tagName == "VIDEO") {
+						if(videovolume == true || videovolumehold == true){
+							refreshvolume();
+						}
+					}
+				}
+
+			});
+		});
+	
+		observer.observe(videolist, {
+			subtree: true,       // observe the subtree rooted at ...videolist...
+			childList: true,     // include childNode insertion/removals
+			characterData: false, // include textContent changes
+			attributes: true     // include changes to attributes within the subtree
+		});
+	
+}
+//---
 
 // YouTube embed iframe
 if (customqualityyoutube == true){
@@ -2993,13 +3599,13 @@ if (customqualityyoutube == true) {
 var ythdinit = function onYouTubePlayerReady(player) {
   try{
       donesetquality = false;
-      mplayer = player;
+	  mplayer = player;
       if(typeof mplayer == "string"){
     	  mplayer = document.getElementById(mplayer);
       }
       if(typeof movie_player != 'undefined'){
     	  mplayer = movie_player;
-      }
+	  }
       mplayer.addEventListener("onStateChange", "onytplayerStateChange");
 	  updateQuality();
   }
@@ -3018,12 +3624,19 @@ var ythdstatechange = function onytplayerStateChange(newState) {
 
 var ythduq = function updateQuality(){
 	var aq = mplayer.getAvailableQualityLevels();
-	//console.log("Available qualities: " + aq);
 	if(aq.indexOf(maxquality) == -1){
+		if(mplayer.setPlaybackQualityRange !== undefined)
+		{
+			mplayer.setPlaybackQualityRange(aq[0], aq[0]);
+		}
 		//console.log("Set to highest available level: " + aq[0]);
 		mplayer.setPlaybackQuality(aq[0]);
 	}
 	else{
+		if(mplayer.setPlaybackQualityRange !== undefined)
+		{
+			mplayer.setPlaybackQualityRange(maxquality, maxquality);
+		}
 		//console.log("Set to " + maxquality + " in accordance with user settings");
 		mplayer.setPlaybackQuality(maxquality);
 	}
@@ -3032,8 +3645,8 @@ var ythduq = function updateQuality(){
 
 function injectScript(codetext){
 var messagescript = $('ytScriptMessage');
-if(messagescript) {}
-else {		
+if(messagescript){}
+else {
 	var ythdscript = document.createElement("script");
 	ythdscript.setAttribute("id", "ytScriptMessage");
 	ythdscript.textContent = codetext;
@@ -3050,4 +3663,152 @@ injectScript(codetext);
 }
 
 } // end check youtube.com website
+
+chrome.runtime.onMessage.addListener(function(request, sender, sendMessage) {
+	if(request.action == "goinnightmode") {
+		if(request.value == "day"){
+			sun = false; gogonightmode(); // sun go up
+		}else if(request.value == "night"){
+			sun = true; gogonightmode(); // make it dark
+		}
+	}
+	if(request.action == "gorefreshlight") {
+		chrome.storage.sync.get(['eyea','eyen'], function(items){
+			if(items['eyea']){eyea = items['eyea'];}
+			else{eyea = items['eyea'];}
+			if(items['eyen']){eyen = items['eyen'];}
+			else{eyen = items['eyen'];}
+			gonighttime();
+		});
+	}
+	if(request.action == "gorefresheyedata") {
+		chrome.storage.sync.get(['eyea','eyen'], function(items){
+			if(items['eyea']){eyea = items['eyea'];}
+			else{eyea = items['eyea'];}
+			if(items['eyen']){eyen = items['eyen'];}
+			else{eyen = items['eyen'];}
+		});
+	}
+	if(request.action == "gonewecosavetime") {
+		ecosavertime = request.message;
+	}
+	if(request.action == "gonewnightmode") {
+		chrome.storage.sync.get(['nighttheme','nightmodebck','nightmodetxt','nightmodehyperlink'], function(items){
+			if(items['nightmodebck']){nightmodebck = items['nightmodebck'];}
+			else{nightmodebck = '#1e1e1e';}
+			if(items['nightmodetxt']){nightmodetxt = items['nightmodetxt'];}
+			else{nightmodetxt = '#ffffff';}
+			if(items['nightmodehyperlink']){nightmodehyperlink = items['nightmodehyperlink'];}
+			else{nightmodehyperlink = '#ffffff';}
+		});
+	}
+	if(request.action == "goenablenightmode") {
+		chrome.storage.sync.get(['nighttheme'], function(items){
+			if(items['nighttheme'] == true){
+				showswitchtricker();
+			}
+			else{
+				sun = true; isitdark = false;
+				if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
+					document.body.style.backgroundImage = oldbackgroundImage;
+					document.body.style.backgroundColor = oldbackgroundColor;
+					document.body.style.backgroundColor = oldbackground;
+					document.body.style.color = oldtextcolor;
+					document.querySelector("html").style.backgroundColor = oldbackgroundColorhtml;
+				 } else {
+					// search all elements and remove night class
+					var elems = document.querySelectorAll(".stefanvdnight");
+					[].forEach.call(elems, function (el) {
+						el.classList.remove("stefanvdnight");
+					});
+					
+					var elems = document.querySelectorAll(".stefanvdnightbck");
+					[].forEach.call(elems, function (el) {
+						el.classList.remove("stefanvdnightbck");
+					});
+				}
+
+				var elemstyle = document.getElementById("totlnightmodestyle");
+				if(elemstyle){elemstyle.parentElement.removeChild(elemstyle);}
+				var elemswitch = document.getElementById("stefanvdnighttheme");
+				if(elemswitch){elemswitch.parentElement.removeChild(elemswitch);}
+			}
+		});
+	}
+	if(request.action == "goenableatmos") {
+		chrome.storage.sync.get(['ambilight','ambilightfixcolor','ambilight4color','ambilightvarcolor','atmosvivid'], function(items){
+			if(items['ambilight']){
+				ambilight = true;
+				stop = false;
+				ambilightfunction();
+			}
+			else{
+				stop = true;
+				stopAnimation();
+
+				var htmlplayer = document.getElementsByTagName("video");
+				for(var j=0; j<htmlplayer.length; j++) {
+					if(htmlplayer[j]){
+						htmlplayer[j].style["boxShadow"] = "none";
+						if($("stefanvdvivideffect"+htmlplayer[j].getAttribute("data-video"))){
+							var stefanvdvivideffect = $("stefanvdvivideffect"+htmlplayer[j].getAttribute("data-video"));
+							stefanvdvivideffect.parentNode.removeChild(stefanvdvivideffect);
+						}
+					}
+				}
+				if(window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
+					var youtubewindow = $("movie_player") || document.getElementsByTagName("ytg-persistent-player")[0];
+					youtubewindow.style["boxShadow"] = "none";
+				}
+			}
+			if(items['ambilightfixcolor']){
+				ambilightfixcolor = true;
+				ambilight4color = false;
+				ambilightvarcolor = false;
+			}
+			if(items['ambilight4color']){
+				ambilightfixcolor = false;
+				ambilight4color = true;
+				ambilightvarcolor = false;
+			}
+			if(items['ambilightvarcolor']){
+				ambilightfixcolor = false;
+				ambilight4color = false;
+				ambilightvarcolor = true;
+			}
+			if(items['atmosvivid']){
+				atmosvivid = true;
+
+				var htmlplayer = document.getElementsByTagName("video");
+				for(var j=0; j<htmlplayer.length; j++) {
+					if(htmlplayer[j]){
+						htmlplayer[j].style["boxShadow"] = "none";
+						if($("stefanvdvivideffect"+htmlplayer[j].getAttribute("data-video"))){
+							var stefanvdvivideffect = $("stefanvdvivideffect"+htmlplayer[j].getAttribute("data-video"));
+							stefanvdvivideffect.parentNode.removeChild(stefanvdvivideffect);
+						}
+					}
+				}
+				if(window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
+					var youtubewindow = $("movie_player") || document.getElementsByTagName("ytg-persistent-player")[0];
+					youtubewindow.style["boxShadow"] = "none";
+				}
+			}
+			else{
+				atmosvivid = false;
+				var htmlplayer = document.getElementsByTagName("video");
+				for(var j=0; j<htmlplayer.length; j++) {
+					if(htmlplayer[j]){
+						if($("stefanvdvivideffect"+htmlplayer[j].getAttribute("data-video"))){
+							var stefanvdvivideffect = $("stefanvdvivideffect"+htmlplayer[j].getAttribute("data-video"));
+							stefanvdvivideffect.parentNode.removeChild(stefanvdvivideffect);
+						}
+					}
+				}
+
+			}
+		});
+	}
+})
+
 });

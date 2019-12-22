@@ -3,7 +3,7 @@
 
 Turn Off the Lights
 The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2017 Stefan vd
+Copyright (C) 2018 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -46,8 +46,6 @@ dynamic = response['dynamic'];
 		var readerontext;
 		var readeronrange;
 		var readerlargestyle;
-		var readerlargeimgclick;
-		var readerlargetitleclick;
 
 		readerontext = $('totlgammaVal');
 		readeronrange = $('totlrange');
@@ -55,17 +53,15 @@ dynamic = response['dynamic'];
 			chrome.storage.sync.set({"interval": readerontext.value});
 		}
 	
-		readerlargestyle = $('__totl-tidbit-box');
-		readerlargeimgclick = $('__totl-min');
-		readerlargetitleclick = $('__totl-box-info');
-		if (readerlargestyle != null && readerlargeimgclick != null && readerlargetitleclick != null) {
-			if(readerlargestyle.style.width == '24px'){chrome.storage.sync.set({"readerlargestyle": false});}
+		readerlargestyle = $('stefanvdreaderbar');
+		if (readerlargestyle != null) {
+			if(readerlargestyle.style.width == '30px'){chrome.storage.sync.set({"readerlargestyle": false});}
 			else{chrome.storage.sync.set({"readerlargestyle": true});}
-		}	
+		}
 		}
 	
-		var totlreaderbar = $('totlreaderbar');
-		if(totlreaderbar) {document.body.removeChild(totlreaderbar);}
+		var stefanvdreaderbar = $('stefanvdreaderbar');
+		if(stefanvdreaderbar){document.body.removeChild(stefanvdreaderbar);}
 		
 		// remove help div
 		var stefanvdlightareoffcustom = $('stefanvdlightareoffcustom');
@@ -77,65 +73,61 @@ dynamic = response['dynamic'];
 		
         // Set everything back to the default YouTube theme
         if (window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
-            // update YouTube material 21 march 2017
-            var ytmaterialinfo = document.querySelector("ytd-video-secondary-info-renderer");
-            if(ytmaterialinfo){ytmaterialinfo.style.background = "";}
+			// update YouTube material 6 August 2017
+			var ytmaterialinfo = document.querySelector("ytd-video-secondary-info-renderer");
+			if(ytmaterialinfo){ytmaterialinfo.style.background = "";}
 
-            // update YouTube material 21 march 2017
-            var ytmateriallikebutton = document.querySelectorAll('ytd-toggle-button-renderer');
-            for(var i = 0; i < ytmateriallikebutton.length; i++ ){
-            var ytgetobject = ytmateriallikebutton[i].querySelector("paper-icon-button");
-            if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
-            if(ytgetstring != null){
-            if(ytgetstring.substring(0, 7) == "dislike"){ytmateriallikebutton[i].style.background = "";}
-            else if(ytgetstring.substring(0, 4) == "like"){ytmateriallikebutton[i].style.background = "";}
-            }}}
+			// YouTube like button
+			var ytmateriallikebutton = document.querySelectorAll('ytd-toggle-button-renderer');
+			for(var i = 0; i < ytmateriallikebutton.length; i++ ){
+			var ytgetobject = ytmateriallikebutton[i].getElementsByTagName('button')[0];
+			if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
+			if(ytgetstring != null){
+			if(ytgetstring.substring(0, 7) == "dislike"){ytmateriallikebutton[i].style.background = "";}
+			else if(ytgetstring.substring(0, 4) == "like"){ytmateriallikebutton[i].style.background = "";}
+			}}}
 
-            // update YouTube material 21 march 2017
-            var ytmaterialsharebutton = document.querySelectorAll('ytd-button-renderer');
-            for(var i = 0; i < ytmaterialsharebutton.length; i++ ){
-            var ytgetobject = ytmaterialsharebutton[i].querySelector("paper-icon-button");
-            if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
-            if(ytgetstring != null){
-            if(ytgetstring.substring(0, 5) == "Share"){ytmaterialsharebutton[i].style.background = "";}
-            }}}
+			// YouTube share button
+			var ytmaterialsharebutton = document.querySelectorAll('ytd-button-renderer');
+			for(var i = 0; i < ytmaterialsharebutton.length; i++ ){
+			var ytgetobject = ytmaterialsharebutton[i].getElementsByTagName('button')[0];
+			if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
+			if(ytgetstring != null){
+			if(ytgetstring.substring(0, 5) == "Share"){ytmaterialsharebutton[i].style.background = "";}
+			}}}
 		
-            // update YouTube material 21 march 2017
-            var ytmaterialsharebutton = document.querySelectorAll('ytd-button-renderer');
-            for(var i = 0; i < ytmaterialsharebutton.length; i++ ){
-            var ytgetobject = ytmaterialsharebutton[i].querySelector("paper-icon-button");
-            if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
-            if(ytgetstring != null){
-            if(ytgetstring.substring(0, 6) == "Add to"){ytmaterialsharebutton[i].style.background = "";}
-            }}}
-          
-            // update YouTube material 21 march 2017
-            var ytmaterialhead = document.querySelector("ytd-video-owner-renderer");
-            if(ytmaterialhead){ytmaterialhead.style.background = "";}
+			// YouTube add button
+			var ytmaterialsharebutton = document.querySelectorAll('ytd-button-renderer');
+			for(var i = 0; i < ytmaterialsharebutton.length; i++ ){
+			var ytgetobject = ytmaterialsharebutton[i].getElementsByTagName('button')[0];
+			if(ytgetobject != null){var ytgetstring = ytgetobject.getAttribute("aria-label");
+			if(ytgetstring != null){
+			if(ytgetstring.substring(0, 6) == "Add to"){ytmaterialsharebutton[i].style.background = "";}
+			}}}
+		
+			// YouTube head
+			var ytmaterialhead = document.querySelector("ytd-video-owner-renderer");
+			if(ytmaterialhead){ytmaterialhead.style.background = "";}
 
-            // update YouTube material 21 march 2017
-            var ytmaterialsuggestions = document.querySelector("ytd-watch-next-secondary-results-renderer");
-            if(ytmaterialsuggestions){ytmaterialsuggestions.style.background = "";}
+			// YouTube suggestions
+			var ytmaterialsuggestions = document.querySelector("ytd-watch-next-secondary-results-renderer");
+			if(ytmaterialsuggestions){ytmaterialsuggestions.style.background = "";}
 
-            // update YouTube material 21 march 2017
-            var ytmaterialvideotitle = document.querySelector("ytd-video-primary-info-renderer");
-            if(ytmaterialvideotitle){
-            var ytgeth = ytmaterialvideotitle.querySelector("h1");
-            if(ytgeth != null){ytgeth.style.color = "";}
-            }
+			// YouTube video title
+			var ytmaterialvideotitle = document.querySelector("ytd-video-primary-info-renderer");
+			if(ytmaterialvideotitle){
+			var ytgeth = ytmaterialvideotitle.querySelector("h1");
+			if(ytgeth != null){ytgeth.style.color = "";}
+			}
 
-            // update YouTube material 21 march 2017
-            var ytmaterialviewcount = document.querySelector("yt-view-count-renderer");
-            if(ytmaterialviewcount){ytmaterialviewcount.style.color = '';}
-
-            // update YouTube material 21 march 2017
-            var ytmaterialviewcount = document.querySelector("yt-view-count-renderer");
-            if(ytmaterialviewcount){
-            var ytgetformat = ytmaterialviewcount.querySelector("yt-formatted-string");
-            if(ytgetformat != null){ytgetformat.style.color = '';}
-            }
-            
-            // old YouTube -----
+			// YouTube view count
+			var ytmaterialviewcount = document.querySelector("yt-view-count-renderer");
+			if(ytmaterialviewcount){
+			var ytgetformat = ytmaterialviewcount.querySelector(".view-count");
+			if(ytgetformat != null){ytgetformat.style.color = '';}
+			}
+			
+			// old YouTube -----
             // YouTube video suggestions (set back to default)
             var watch7sidebar = $('watch7-sidebar');
             if(watch7sidebar){watch7sidebar.style.zIndex = 'auto';}
@@ -174,7 +166,7 @@ dynamic = response['dynamic'];
             var watchviewcount = document.querySelector('.watch-view-count');
             if(watchviewcount){watchviewcount.style.zIndex = 'auto';watchviewcount.style.color = '#333';}
             
-            // YouTube video view count (set back to default)
+            // YouTube video add button (set back to default)
             var addtobutton = document.querySelector('.addto-button');
             if(addtobutton){addtobutton.style.zIndex = 'auto';addtobutton.style.position = 'relative';addtobutton.style.background = 'transparent';}
     
@@ -194,11 +186,46 @@ dynamic = response['dynamic'];
 		if(stefanvdlightareoff3) {document.body.removeChild(stefanvdlightareoff3);}
 		if(stefanvdlightareoff4) {document.body.removeChild(stefanvdlightareoff4);}
 		
+		var stefanvdeastereggs = $('stefanvdtheater');
+		if(stefanvdeastereggs) {document.body.removeChild(stefanvdeastereggs);}
+
 		var stefanvdblurimage = $('stefanvdblurimage');
 		if(stefanvdblurimage) {document.body.removeChild(stefanvdblurimage);}
 
 		var stefanvdlightcorner = $('stefanvdlightcorner');
 		if(stefanvdlightcorner) {document.body.removeChild(stefanvdlightcorner);}
+
+		var csstotlpseudo = $('csstotlpseudo');
+		if(csstotlpseudo) {document.getElementsByTagName("head")[0].removeChild(csstotlpseudo);}
+
+		// remove video player on top
+		var div = document.querySelectorAll('.stefanvdvideotop');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdvideotop"); }
+		var div = document.querySelectorAll('.stefanvditemtop');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvditemtop"); }
+		var div = document.querySelectorAll('.stefanvdvideoauto');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdvideoauto"); }
+		var div = document.querySelectorAll('.stefanvdotherdown');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdotherdown"); }
+		var div = document.querySelectorAll('.stefanvdcontainauto');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdcontainauto"); }
+		var div = document.querySelectorAll('.stefanvdtransformauto');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdtransformauto"); }
+		var div = document.querySelectorAll('.stefanvdvideocontrolsitem');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdvideocontrolsitem"); }
+		var div = document.querySelectorAll('.stefanvdvideocontrolstop');
+		for (var i = 0; i < div.length; i++) { div[i].classList.remove("stefanvdvideocontrolstop"); }
+	
+		// inside the root
+		var q = document.getElementsByTagName('*');
+		for(var i = 0; i < q.length; i++ ) {
+			if(q[i].shadowRoot){
+				if(q[i].shadowRoot.querySelector('#rootstefan')){q[i].shadowRoot.removeChild(q[i].shadowRoot.querySelector('#rootstefan'));}
+
+				var rootdiv = q[i].shadowRoot.querySelectorAll('.stefanvdotherdown');
+				for(var k = 0; k < rootdiv.length; k++){rootdiv[k].classList.remove("stefanvdotherdown");}
+			}
+		}
 	}
 	
 	function removenewdynamic() {
@@ -296,7 +323,7 @@ try {
     ReducingFinished = true;
 
     //  When finished, make sure the DIVElementById is set to remove element
-    if (DIVElementById.style.opacity = '0')
+    if (DIVElementById.style.opacity <= 0)
     {document.body.removeChild(DIVElementById);removenewframe();}
   }
 //control opacity for all <div>

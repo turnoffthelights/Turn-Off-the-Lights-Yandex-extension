@@ -1,1056 +1,1377 @@
 {
-  "pagehelp":{
-    "message":"допомога"
+  "pagehelp": {
+    "message": "допомога"
   },
-  "titelimage":{
-    "message":"Фонове зображення"
+  "titelimage": {
+    "message": "Фонове зображення"
   },
-  "shortcutalllights":{
-    "message":"щоб увімкнути або вимкнути світло для всіх відкритих вкладок"
+  "shortcutalllights": {
+    "message": "щоб увімкнути або вимкнути світло для всіх відкритих вкладок"
   },
-  "lastchecked":{
-    "message":"Остання перевірка оновлення відбулась"
+  "lastchecked": {
+    "message": "Остання перевірка оновлення відбулась"
   },
-  "visualeffects":{
-    "message":"Візуальні ефекти"
+  "visualeffects": {
+    "message": "Візуальні ефекти"
   },
-  "titelshortcutlight":{
-    "message":"Клавіша швидкого виклику"
+  "titelshortcutlight": {
+    "message": "Клавіша швидкого виклику"
   },
-  "titledonatebutton":{
-    "message":"Підтримати проект"
+  "titledonatebutton": {
+    "message": "Підтримати проект"
   },
-  "titellikebar":{
-    "message":"Панель \"лайків\""
+  "titellikebar": {
+    "message": "Панель \"лайків\""
   },
-  "desmousespotlightt":{
-    "message":"Ввімкнути можливість клікати на посилання, коли екран затемнений"
+  "desmousespotlightt": {
+    "message": "Ввімкнути можливість клікати на посилання, коли екран затемнений"
   },
-  "desmousespotlights":{
-    "message":"Увімкнути затемнювач екрану, що завжди є активним та можно натискати через нього"
+  "desmousespotlights": {
+    "message": "Увімкнути затемнювач екрану, що завжди є активним та можно натискати через нього"
   },
-  "desambilight4color":{
-    "message":"4 довільних кольори навколо відео:"
+  "desambilight4color": {
+    "message": "Чотири довільних кольори навколо відео"
   },
-  "lockentername":{
-    "message":"Будь ласка, введіть ваш пароль"
+  "lockentername": {
+    "message": "Будь ласка, введіть ваш пароль"
   },
-  "desnoflash":{
-    "message":"Не використовуйте дану функцію."
+  "desnoflash": {
+    "message": "Не використовуйте дану функцію."
   },
-  "desdynamicblocks":{
-    "message":"Блоки"
+  "desdynamicblocks": {
+    "message": "Блоки"
   },
-  "titeleye":{
-    "message":"Захист очей"
+  "titeleye": {
+    "message": "Захист очей"
   },
-  "titelcinemaontop":{
-    "message":"Режим кінотеатр: показує кнопку \"вимкнути світло\" тільки у верхній частині екрану"
+  "titelcinemaontop": {
+    "message": "Режим кінотеатр: показує кнопку \"вимкнути світло\" тільки у верхній частині екрану"
   },
-  "desmousespotlightc":{
-    "message":"Якщо затемнення активне, ви можете вибрати область для виділення потрібного елементу."
+  "desmousespotlightc": {
+    "message": "Якщо затемнення активне, ви можете вибрати область для виділення потрібного елементу."
   },
-  "titelrememberpage":{
-    "message":"Сторінка нагадування"
+  "titelrememberpage": {
+    "message": "Сторінка нагадування"
   },
-  "desmousespotlighta":{
-    "message":"Якщо затемнення активне, показувати світіння навколо курсору."
+  "desmousespotlighta": {
+    "message": "Якщо затемнення активне, показувати світіння навколо курсору."
   },
-  "desmousespotlighto":{
-    "message":"Встановити поведінку миші за замовчуванням (відключає налаштування миші нижче)"
+  "desmousespotlighto": {
+    "message": "Встановити поведінку миші за замовчуванням (відключає налаштування миші нижче)"
   },
-  "desplaylist":{
-    "message":"Відображати плейліст на веб-сайті YouTube."
+  "desplaylist": {
+    "message": "Відображати плейліст на веб-сайті YouTube."
   },
-  "desambilightfixcolor":{
-    "message":"Суцільна заливка:"
+  "desambilightfixcolor": {
+    "message": "Лише один колір"
   },
-  "desuntil":{
-    "message":"поки"
+  "desuntil": {
+    "message": "поки"
   },
-  "desconfirmpassword":{
-    "message":"Підтвердити пароль"
+  "desconfirmpassword": {
+    "message": "Підтвердити пароль"
   },
-  "desautoplayonly":{
-    "message":"Затемнювати тільки слідуючі відео-сайти:"
+  "desautoplayonly": {
+    "message": "Затемнювати тільки слідуючі відео-сайти:"
   },
-  "helpeyeprotection":{
-    "message":"Активація функції \"Захист очей\" автоматично деактивує функцію автопрогравання."
+  "helpeyeprotection": {
+    "message": "Активація функції \"Захист очей\" автоматично деактивує функцію автопрогравання."
   },
-  "skipremember":{
-    "message":"Пропустити це та відкрити сторінку з параметрами"
+  "skipremember": {
+    "message": "Пропустити це та відкрити сторінку з параметрами"
   },
-  "optiontimesaved":{
-    "message":"Зміна часу успішно збережена!"
+  "optiontimesaved": {
+    "message": "Зміна часу успішно збережена!"
   },
-  "titelvideoheadline":{
-    "message":"Назва відео"
+  "titelvideoheadline": {
+    "message": "Назва відео"
   },
-  "translateme":{
-    "message":"Допомога з перекладом"
+  "translateme": {
+    "message": "Допомога з перекладом"
   },
-  "despassword":{
-    "message":"Запитувати пароль перед включенням світла."
+  "despassword": {
+    "message": "Запитувати пароль перед включенням світла."
   },
-  "helpautoplay":{
-    "message":"Активована опція 'Захист очей'. Щоб використовувати дану функцію, спочатку деактивуйте опцію 'Захист очей'."
+  "helpautoplay": {
+    "message": "Активована опція 'Захист очей'. Щоб використовувати дану функцію, спочатку деактивуйте опцію 'Захист очей'."
   },
-  "name":{
-    "message":"Turn Off the Lights"
+  "name": {
+    "message": "Turn Off the Lights"
   },
-  "changelog":{
-    "message":"Список змін"
+  "changelog": {
+    "message": "Список змін"
   },
-  "optionpagetitle":{
-    "message":"Turn Off the Lights - Налаштування"
+  "optionpagetitle": {
+    "message": "Turn Off the Lights - Налаштування"
   },
-  "optionpasswordsaved":{
-    "message":"Пароль успішно збережено!"
+  "optionpasswordsaved": {
+    "message": "Пароль успішно збережено!"
   },
-  "desdynamicspace":{
-    "message":"Всесвіт"
+  "desdynamicspace": {
+    "message": "Всесвіт"
   },
-  "deseastereggs":{
-    "message":"Натиснувши клавішу T додає завіса театру до темного шару"
+  "deseastereggs": {
+    "message": "Натиснувши клавішу T додає завіса театру до темного шару"
   },
-  "settings":{
-    "message":"Налаштування"
+  "settings": {
+    "message": "Налаштування"
   },
-  "desspotlightradius":{
-    "message":"Діаметр прожектора:"
+  "desspotlightradius": {
+    "message": "Діаметр прожектора:"
   },
-  "titelsync":{
-    "message":"Синхронізація"
+  "titelsync": {
+    "message": "Синхронізація"
   },
-  "right":{
-    "message":"справа"
+  "right": {
+    "message": "Справа"
   },
-  "titeldynamic":{
-    "message":"Динамічний фон"
+  "titeldynamic": {
+    "message": "Динамічний фон"
   },
-  "deslikebutton":{
-    "message":"Відображати кнопки Like & Dislike (Подобається & Не подобається) для цього відео на сайті YouTube."
+  "deslikebutton": {
+    "message": "Відображати кнопки Like & Dislike (Подобається & Не подобається) для цього відео на сайті YouTube."
   },
-  "titelmouse":{
-    "message":"Миша"
+  "titelmouse": {
+    "message": "Миша"
   },
-  "titellessmore":{
-    "message":"Менше"
+  "titellessmore": {
+    "message": "Менше"
   },
-  "desshortcutlight":{
-    "message":"Активувати наступні клавіші швидкого доступу."
+  "desshortcutlight": {
+    "message": "Активувати наступні клавіші швидкого доступу."
   },
-  "titelinfobar":{
-    "message":"Панель інформації"
+  "titelinfobar": {
+    "message": "Панель інформації"
   },
-  "descontextmenus":{
-    "message":"Показувати контекстне меню при правому кліку."
+  "descontextmenus": {
+    "message": "Показувати контекстне меню при правому кліку."
   },
-  "titelcontextmenus":{
-    "message":"Контекстне меню"
+  "titelcontextmenus": {
+    "message": "Контекстне меню"
   },
-  "titelplaylist":{
-    "message":"Плейліст"
+  "titelplaylist": {
+    "message": "Плейліст"
   },
-  "desatmosphereonly":{
-    "message":"Використовувати Ambilight-ефект тільки для наступних сайтів:"
+  "desatmosphereonly": {
+    "message": "Використовувати функцію природнього освітлення лише для наступних сайтів:"
   },
-  "recflash":{
-    "message":"Рекомендуємо"
+  "recflash": {
+    "message": "Рекомендуємо"
   },
-  "desenterpassword":{
-    "message":"Введіть пароль у поле нижче:"
+  "desenterpassword": {
+    "message": "Введіть пароль у поле нижче:"
   },
-  "titelblurradius":{
-    "message":"Радіус розмиття:"
+  "titelblurradius": {
+    "message": "Радіус розмиття:"
   },
-  "version":{
-    "message":"Версія"
+  "version": {
+    "message": "Версія"
   },
-  "shortcutdark":{
-    "message":"щоб затемнити екран (збільшення прозорості)"
+  "shortcutdark": {
+    "message": "щоб затемнити екран (збільшення прозорості)"
   },
-  "dessharebutton":{
-    "message":"Показувати кнопки Share (поділитися) для цього відео на сайті YouTube."
+  "dessharebutton": {
+    "message": "Показувати кнопки Share (поділитися) для цього відео на сайті YouTube."
   },
-  "shortcutbright":{
-    "message":"щоб висвітлити екран (зменшення прозорості)"
+  "shortcutbright": {
+    "message": "щоб висвітлити екран (зменшення прозорості)"
   },
-  "titelalllightsoff":{
-    "message":"Всі відкриті вкладки"
+  "titelalllightsoff": {
+    "message": "Всі відкриті вкладки"
   },
-  "desreadera":{
-    "message":"Завжди показувати рівень затемнення."
+  "desreadera": {
+    "message": "Завжди показувати рівень затемнення."
   },
-  "rememberrate":{
-    "message":"Оцінка"
+  "rememberrate": {
+    "message": "Оцінка"
   },
-  "desautoplay":{
-    "message":"Автоматично включати затемнення, коли ви натискаєте на кнопку Play, і навпаки."
+  "desautoplay": {
+    "message": "Автоматично включати затемнення, коли ви натискаєте на кнопку Play, і навпаки."
   },
-  "titelscreen":{
-    "message":"Затемнення"
+  "titelscreen": {
+    "message": "Затемнення"
   },
-  "desflash":{
-    "message":"Показати всі об'єкти Flash."
+  "desflash": {
+    "message": "Показати всі об'єкти Flash."
   },
-  "titelhead":{
-    "message":"Канал"
+  "titelhead": {
+    "message": "Канал"
   },
-  "pageatitle":{
-    "message":"Вимкнути світло"
+  "pageatitle": {
+    "message": "Вимкнути світло"
   },
-  "desaddvideobutton":{
-    "message":"Показувати кнопку Додати для YouTube відео."
+  "desaddvideobutton": {
+    "message": "Показувати кнопку Додати для YouTube відео."
   },
-  "shortcuteyeprotection":{
-    "message":"щоб увімкнути або вимкнути функцію захисту очей"
+  "shortcuteyeprotection": {
+    "message": "щоб увімкнути або вимкнути функцію захисту очей"
   },
-  "titelfadein":{
-    "message":"Затемнення"
+  "titelfadein": {
+    "message": "Затемнення"
   },
-  "desreadern":{
-    "message":"Приховувати рівень затемнення."
+  "desreadern": {
+    "message": "Приховувати рівень затемнення."
   },
-  "titelmaxqualityyoutube":{
-    "message":"Автоматично встановити роздільну здатність:"
+  "titelmaxqualityyoutube": {
+    "message": "Автоматично встановити роздільну здатність:"
   },
-  "desambilightrangespreadradius":{
-    "message":"Збільшення значення збільшує розмір тіні."
+  "desambilightrangespreadradius": {
+    "message": "Збільшення значення збільшує розмір тіні."
   },
-  "titelon":{
-    "message":"Вкл."
+  "titelon": {
+    "message": "Вкл."
   },
-  "videotitle":{
-    "message":"Фокус на цьому відео"
+  "videotitle": {
+    "message": "Фокус на цьому відео"
   },
-  "warningtextambilight":{
-    "message":"Коли не в змозі отримати дані  щодо відео через правила безпеки сайту, буде використано обраний вами суцільний колір."
+  "warningtextambilight": {
+    "message": "Коли не в змозі отримати дані  щодо відео через правила безпеки сайту, буде використано обраний вами суцільний колір."
   },
-  "desdynamiccloud":{
-    "message":"Анімовані хмарки"
+  "desdynamiccloud": {
+    "message": "Анімовані хмарки"
   },
-  "desconfirmtimesaver":{
-    "message":"Задати час"
+  "desconfirmtimesaver": {
+    "message": "Задати час"
   },
-  "deslikebar":{
-    "message":"Показувати Подобається/Не подобається-панель під відеороликами YouTube."
+  "deslikebar": {
+    "message": "Показувати Подобається/Не подобається-панель під відеороликами YouTube."
   },
-  "titelautoplay":{
-    "message":"Автовідтворення"
+  "titelautoplay": {
+    "message": "Автовідтворення"
   },
-  "top":{
-    "message":"зверху"
+  "top": {
+    "message": "Згори"
   },
-  "titelspreadradius":{
-    "message":"Радіус поширення:"
+  "titelspreadradius": {
+    "message": "Радіус поширення:"
   },
-  "installadblocker":{
-    "message":"Якщо Ви не хочете бачити рекламу, то використовуйте розширення, що її блокує."
+  "installadblocker": {
+    "message": "Якщо Ви не хочете бачити рекламу, то використовуйте розширення, що її блокує."
   },
-  "titelsharebutton":{
-    "message":"Соціальна кнопка"
+  "titelsharebutton": {
+    "message": "Соціальна кнопка"
   },
-  "titelcolor":{
-    "message":"Колір"
+  "titelcolor": {
+    "message": "Колір"
   },
-  "titeldownloadbutton":{
-    "message":"Завантажити це оновлення!"
+  "titeldownloadbutton": {
+    "message": "Завантажити це оновлення!"
   },
-  "pagetitle":{
-    "message":"Затемнити цю сторінку"
+  "pagetitle": {
+    "message": "Затемнити цю сторінку"
   },
-  "titelambilight":{
-    "message":"Ambilight (Динамічне фонове освітлення)"
+  "titelambilight": {
+    "message": "Ambilight (Динамічне фонове освітлення)"
   },
-  "titelshowmore":{
-    "message":"Більше"
+  "titelshowmore": {
+    "message": "Більше"
   },
-  "desviewcount":{
-    "message":"Показати число переглядів для цього відео."
+  "desviewcount": {
+    "message": "Показати число переглядів для цього відео."
   },
-  "titelautowidthyoutube":{
-    "message":"Автоматично встановлювати більший розмір для YouTube плеєра."
+  "titelautowidthyoutube": {
+    "message": "Автоматично встановлювати більший розмір для YouTube плеєра."
   },
-  "desconfirmtime":{
-    "message":"Задати час"
+  "desconfirmtime": {
+    "message": "Задати час"
   },
-  "titelupgrade":{
-    "message":"Оновлення"
+  "titelupgrade": {
+    "message": "Оновлення"
   },
-  "lockwrongpassword":{
-    "message":"Невірний пароль. Будь ласка, спробуйте ще раз."
+  "lockwrongpassword": {
+    "message": "Невірний пароль. Будь ласка, спробуйте ще раз."
   },
-  "titelsyncbrowser":{
-    "message":"Синхронізація налаштувань розширення з іншим браузером."
+  "titelsyncbrowser": {
+    "message": "Синхронізація налаштувань розширення з іншим браузером."
   },
-  "deletebutton":{
-    "message":"Видалити"
+  "deletebutton": {
+    "message": "Видалити"
   },
-  "eyedivon":{
-    "message":"ВКЛ."
+  "eyedivon": {
+    "message": "ВКЛ."
   },
-  "eyedivoff":{
-    "message":"ВИКЛ."
+  "eyedivoff": {
+    "message": "ВИКЛ."
   },
-  "deshead":{
-    "message":"Відображати панель каналів від YouTube або ім'я."
+  "deshead": {
+    "message": "Відображати панель каналів від YouTube або ім'я."
   },
-  "shortcutsavingopacity":{
-    "message":"щоб зберегти текуче значення прозорості"
+  "shortcutsavingopacity": {
+    "message": "щоб зберегти текуче значення прозорості"
   },
-  "desinfobar":{
-    "message":"Показувати інформацію про відео."
+  "desinfobar": {
+    "message": "Показувати інформацію про відео."
   },
-  "titellamp":{
-    "message":"Лампочка"
+  "titellamp": {
+    "message": "Лампочка"
   },
-  "desambilightvarcolor":{
-    "message":"Брати колір з відео."
+  "desambilightvarcolor": {
+    "message": "Взяти коліз з відео"
   },
-  "showremember":{
-    "message":"Більше не показувати цю сторінку нагадування при відкритті налаштувань"
+  "showremember": {
+    "message": "Більше не показувати цю сторінку нагадування при відкритті налаштувань"
   },
-  "donatepromotext":{
-    "message":"Якщо Ви можете зробити пожертвування будь-якої суми, я буду дуже вдячний!"
+  "donatepromotext": {
+    "message": "Якщо Ви можете зробити пожертвування будь-якої суми, я буду дуже вдячний!"
   },
-  "titelblur":{
-    "message":"Розмити все інше"
+  "titelblur": {
+    "message": "Розмити все інше"
   },
-  "desdynamicraindrops":{
-    "message":"Краплі дощу"
+  "desdynamicraindrops": {
+    "message": "Краплі дощу"
   },
-  "desalllightsoff":{
-    "message":"Натискання на клавішу лампи увімкне або  вимкне світло в усіх відкритих вкладках"
+  "desalllightsoff": {
+    "message": "Натискання на клавішу лампи увімкне або  вимкне світло в усіх відкритих вкладках"
   },
-  "optionecosaversaved":{
-    "message":"Зміни успішно збережено!"
+  "optionecosaversaved": {
+    "message": "Зміни успішно збережено!"
   },
-  "titelreader":{
-    "message":"Панель регулятора затемнення"
+  "titelreader": {
+    "message": "Панель регулятора затемнення"
   },
-  "deseyen":{
-    "message":"Налаштування по-замовчуванню (затемнення з'являється тоді, коли ви клікаєте іконку з лампою)"
+  "deseyen": {
+    "message": "Налаштування по-замовчуванню (затемнення з'являється тоді, коли ви клікаєте іконку з лампою)"
   },
-  "enjoyshare":{
-    "message":"Насолоджуйтесь цим розширенням та поділіться інформацією про нього з усіма, хто, на вашу думку, його оцінить."
+  "enjoyshare": {
+    "message": "Насолоджуйтесь цим розширенням та поділіться інформацією про нього з усіма, хто, на вашу думку, його оцінить."
   },
-  "shortcuttotl":{
-    "message":"щоб увімкнути або вимкнути світло"
+  "shortcuttotl": {
+    "message": "щоб увімкнути або вимкнути світло"
   },
-  "deseyea":{
-    "message":"Автоматично затемнювати фон при відкритті сторінки"
+  "deseyea": {
+    "message": "Автоматично затемнювати фон при відкритті сторінки"
   },
-  "basicsettings":{
-    "message":"Базові"
+  "basicsettings": {
+    "message": "Базові"
   },
-  "hoveroptionapply":{
-    "message":"застосовувати"
+  "hoveroptionapply": {
+    "message": "застосовувати"
   },
-  "reportbug":{
-    "message":"Повідомити про проблему"
+  "reportbug": {
+    "message": "Повідомити про проблему"
   },
-  "destime":{
-    "message":"Вимикати світло в певний час:"
+  "destime": {
+    "message": "Вимикати світло в певний час:"
   },
-  "guide":{
-    "message":"Стартова інструкція"
+  "guide": {
+    "message": "Стартова інструкція"
   },
-  "deseyealist":{
-    "message":"Автоматично затемнювати фон на наступних веб сайтах:"
+  "deseyealist": {
+    "message": "Автоматично затемнювати фон на наступних веб сайтах:"
   },
-  "titellikebutton":{
-    "message":"Кнопки Like & Dislike"
+  "titellikebutton": {
+    "message": "Кнопки Like & Dislike"
   },
-  "titelpageaction":{
-    "message":"Сховати іконку з лампою"
+  "titelpageaction": {
+    "message": "Сховати іконку з лампою"
   },
-  "friendlyremember":{
-    "message":"Дружнє нагадування..."
+  "friendlyremember": {
+    "message": "Дружнє нагадування..."
   },
-  "desfadein":{
-    "message":"Використовувати поступове затемнення."
+  "desfadein": {
+    "message": "Використовувати поступове затемнення."
   },
-  "warning":{
-    "message":"Увага!"
+  "warning": {
+    "message": "Увага!"
   },
-  "deseyetimesaver":{
-    "message":"Коли сторінка залишається неактивною (не вводяться дані за допомогою мишки чи клавіатури) на час зазначений нижче, вона автоматично затемняється."
+  "deseyetimesaver": {
+    "message": "Коли сторінка залишається неактивною (не вводяться дані за допомогою мишки чи клавіатури) на час зазначений нижче, вона автоматично затемняється."
   },
-  "titelsuggestions":{
-    "message":"Пропозиції"
+  "titelsuggestions": {
+    "message": "Пропозиції"
   },
-  "advancedoptions":{
-    "message":"Просунуті налаштування"
+  "advancedoptions": {
+    "message": "Просунуті налаштування"
   },
-  "dessuggestions":{
-    "message":"Показати рекомендації на сайті YouTube."
+  "dessuggestions": {
+    "message": "Показати рекомендації на сайті YouTube."
   },
-  "titelflash":{
-    "message":"Автоматичне виявлення Flash"
+  "titelflash": {
+    "message": "Автоматичне виявлення Flash"
   },
-  "desambilight":{
-    "message":"Включити Ambilight-ефект під час відтворення відео."
+  "desambilight": {
+    "message": "Включити Ambilight-ефект під час відтворення відео."
   },
-  "productshare":{
-    "message":"Поділитись"
+  "productshare": {
+    "message": "Поділитись"
   },
-  "addbutton":{
-    "message":"Додати"
+  "addbutton": {
+    "message": "Додати"
   },
-  "reportlist":{
-    "message":"(див. список)"
+  "reportlist": {
+    "message": "(див. список)"
   },
-  "desdynamicfishtank":{
-    "message":"Акваріум"
+  "desdynamicfishtank": {
+    "message": "Акваріум"
   },
-  "longdonatetext":{
-    "message":"Я буду вам вдячний, якщо ви допоможете мені підтримувати це розширення для браузера. Не має значення, чи це буде $$1, чи $$100, - ваша підтрика дуже високо цінується!"
+  "longdonatetext": {
+    "message": "Я буду вам вдячний, якщо ви допоможете мені підтримувати це розширення для браузера. Не має значення, чи це буде $$1, чи $$100, - ваша підтрика дуже високо цінується!"
   },
-  "deshardflash":{
-    "message":"Показати всі об'єкти Flash, пропускаючи фільтр URL-адрес. Це допоможе вирішити проблему, коли деякі відео-плеєри не видно на сторінці, проте може викликати появу небажаної реклами."
+  "deshardflash": {
+    "message": "Показати всі об'єкти Flash, пропускаючи фільтр URL-адрес. Це допоможе вирішити проблему, коли деякі відео-плеєри не видно на сторінці, проте може викликати появу небажаної реклами."
   },
-  "desfadeout":{
-    "message":"Використовувати поступове висвітлення."
+  "desfadeout": {
+    "message": "Використовувати поступове висвітлення."
   },
-  "optionwrongimg":{
-    "message":"Невалідний файл зображення!"
+  "optionwrongimg": {
+    "message": "Невалідний файл зображення!"
   },
-  "desvideoheadline":{
-    "message":"Показати та інвертувати колір заголовку відео-ролика."
+  "desvideoheadline": {
+    "message": "Показати та інвертувати колір заголовку відео-ролика."
   },
-  "desrememberpage":{
-    "message":"Не показувати сторінку нагадування"
+  "desrememberpage": {
+    "message": "Не показувати сторінку нагадування"
   },
-  "description":{
-    "message":"Вся сторінка буде затемнена для комфортного перегляду відео, як у кінотеатрі. Працює для YouTube™ та йому подібних."
+  "description": {
+    "message": "The entire page will be fading to dark, so you can watch the videos as if you were in the cinema. Works for YouTube™ and beyond."
   },
-  "titelviewcount":{
-    "message":"Кількість переглядів"
+  "titelviewcount": {
+    "message": "Кількість переглядів"
   },
-  "titelopacity":{
-    "message":"Прозорість"
+  "titelopacity": {
+    "message": "Прозорість"
   },
-  "titelqualityyoutube":{
-    "message":"Автоматично встановлювати якість відео для YouTube."
+  "titelqualityyoutube": {
+    "message": "Автоматично встановлювати якість відео для YouTube."
   },
-  "shortcutopacity":{
-    "message":"щоб відновити налаштування рівня затемнення"
+  "shortcutopacity": {
+    "message": "щоб відновити налаштування рівня затемнення"
   },
-  "desambilightrangeblurradius":{
-    "message":"Менші значення зроблять тінь різкішою, а вищі — більш розмитою."
+  "desambilightrangeblurradius": {
+    "message": "Менші значення зроблять тінь різкішою, а вищі — більш розмитою."
   },
-  "titeladdvideobutton":{
-    "message":"Додати кнопку"
+  "titeladdvideobutton": {
+    "message": "Додати кнопку"
   },
-  "titelpassword":{
-    "message":"Захист паролем"
+  "titelpassword": {
+    "message": "Захист паролем"
   },
-  "titeldownloadupgrade":{
-    "message":"Оновлення додає підтримку фокусування вибраних зображень і буде відображати галерею зображень на сайті."
+  "titeldownloadupgrade": {
+    "message": "Оновлення додає підтримку фокусування вибраних зображень і буде відображати галерею зображень на сайті."
   },
-  "titelfadeout":{
-    "message":"Висвітлення"
+  "titelfadeout": {
+    "message": "Висвітлення"
   },
-  "eastereggsquestion":{
-    "message":"Вам подобається справжній кінотеатр?"
+  "eastereggsquestion": {
+    "message": "Вам подобається справжній кінотеатр?"
   },
-  "bottom":{
-    "message":"знизу"
+  "bottom": {
+    "message": "Знизу"
   },
-  "dessaver":{
-    "message":"Заставка:"
+  "dessaver": {
+    "message": "Заставка:"
   },
-  "hoveroptiondyn5":{
-    "message":"з літаючих"
+  "hoveroptiondyn5": {
+    "message": "з літаючих"
   },
-  "pagestillloading":{
-    "message":"Сторінка все ще завантажується?"
+  "pagestillloading": {
+    "message": "Сторінка все ще завантажується?"
   },
-  "titeloff":{
-    "message":"Вимк."
+  "titeloff": {
+    "message": "Вимк."
   },
-  "titeleastereggs":{
-    "message":"Сюрпризи"
+  "titeleastereggs": {
+    "message": "Сюрпризи"
   },
-  "textfoot":{
-    "message":"Це програмне забезпечення поширюється на умовах ліцензії CC-GNU GPL. Щоб переглянути копію цієї ліцензії, відвідайте"
+  "textfoot": {
+    "message": "Це програмне забезпечення поширюється на умовах ліцензії CC-GNU GPL. Щоб переглянути копію цієї ліцензії, відвідайте"
   },
-  "left":{
-    "message":"зліва"
+  "left": {
+    "message": "Зліва"
   },
-  "titelnighttheme":{
-    "message":"Нічний режим"
+  "titelnighttheme": {
+    "message": "Нічний режим"
   },
-  "desnighttheme":{
-    "message":"Відображати кнопку перемикання в нічний режим, яка робить сторінку темною або світлою, в нижній частині веб-сторінки."
+  "desnighttheme": {
+    "message": "Відображати кнопку перемикання в нічний режим, яка робить сторінку темною або світлою, в нижній частині веб-сторінки."
   },
-  "nightoptions":{
-    "message":"Нічний режим"
+  "nightoptions": {
+    "message": "Нічний режим"
   },
-  "desnightonly":{
-    "message":"Активувати нічний режим лише для наступних сайтів:"
+  "desnightonly": {
+    "message": "Активувати нічний режим лише для наступних сайтів:"
   },
-  "desnightenabletheme":{
-    "message":"Коли ви відкриваєте нову сторінку, вона автоматично перейде в нічний режим."
+  "desnightenabletheme": {
+    "message": "Коли ви відкриваєте нову сторінку, вона автоматично перейде в нічний режим."
   },
-  "titellampregular":{
-    "message":"Завжди показувати іконку лампочки в адресному рядку"
+  "titellampregular": {
+    "message": "Завжди показувати іконку лампочки в адресному рядку"
   },
-  "titellampvideo":{
-    "message":"Показувати іконку лампочки тільки при наявності відео-плеєра"
+  "titellampvideo": {
+    "message": "Показувати іконку лампочки тільки при наявності відео-плеєра"
   },
-  "upgradecontexttitle":{
-    "message":"Ми додали для вас кілька нових можливостей"
+  "ratetitle": {
+    "message": "Дякуємо за використання Turn Off the Lights"
   },
-  "upgradecontextmessage":{
-    "message":"Що робить це розширення ще дивовижнішим"
+  "ratedes": {
+    "message": "Please rate and review the extension on the Store. Your support is really appreciated."
   },
-  "upgradecontextitemta":{
-    "message":"Рух камери"
+  "rateitema": {
+    "message": "Оцініть нас 5-ма зірками"
   },
-  "upgradecontextitemma":{
-    "message":"приглушіть світло рукою"
+  "titelreset": {
+    "message": "Скинути параметри"
   },
-  "upgradecontextitemtb":{
-    "message":"Розпізнавання мови"
+  "resetbrowserextension": {
+    "message": "Скинути налаштування Turn Off the Lights"
   },
-  "upgradecontextitemmb":{
-    "message":"Більш точне управління веб-сторінкою"
+  "desautoplaydelay": {
+    "message": "Прояснити фон знову, після того як відео закінчилось"
   },
-  "upgradefbshare":{
-    "message":"Поділитись в Facebook"
+  "desautoplaydelayend": {
+    "message": "секунд"
   },
-  "upgradetwshare":{
-    "message":"Твітнути"
+  "motionoptions": {
+    "message": "Рух камери"
   },
-  "ratetitle":{
-    "message":"Будь ласка, оцініть моє розширення та відгукніться про нього"
+  "desmotion": {
+    "message": "Увімкнути Рух Кмери"
   },
-  "ratedes":{
-    "message":"І нехай кожен дізнається про це чудове розширення!"
+  "desspeech": {
+    "message": "Enable the Speech Recognition"
   },
-  "rateitema":{
-    "message":"Оцініть нас 5-ма зірками"
+  "trymotion": {
+    "message": "Спробуйте самі!"
   },
-  "titelreset":{
-    "message":"Скинути параметри"
+  "destrymotion": {
+    "message": "Це просто супер, і найкраще всього те, що воно працює всюди. Навіть на YouTube, сайтах новин і т.д."
   },
-  "resetbrowserextension":{
-    "message":"Скинути налаштування Turn Off the Lights"
+  "howworkmotion": {
+    "message": "Як це працює?"
   },
-  "desautoplaydelay":{
-    "message":"Прояснити фон знову, після того як відео закінчилось"
+  "nightstep1description": {
+    "message": "Увімкнути функцію нічний режим"
   },
-  "desautoplaydelayend":{
-    "message":"секунд"
+  "nightstep2description": {
+    "message": "Open any web page, and you see this night switch"
   },
-  "motionoptions":{
-    "message":"Рух камери"
+  "nightstep3description": {
+    "message": "Click on the switch to see the web page in a dark theme"
   },
-  "desmotion":{
-    "message":"Увімкнути Рух Кмери"
+  "speechstep1description": {
+    "message": "Enable the Speech Recognition feature"
   },
-  "trymotion":{
-    "message":"Спробуйте самі!"
+  "speechstep2description": {
+    "message": "When you enable this option, you can talk to the browser lamp using the following commands:"
   },
-  "destrymotion":{
-    "message":"Це просто супер, і найкраще всього те, що воно працює всюди. Навіть на YouTube, сайтах новин і т.д."
+  "camstep1description": {
+    "message": "Активувати функцію Рух камери"
   },
-  "howworkmotion":{
-    "message":"Як це працює?"
+  "camstep2description": {
+    "message": "Зробіть рух рукою зверху донизу."
   },
-  "step1description":{
-    "message":"Активувати функцію Рух камери"
+  "camstep3description": {
+    "message": "Чорний шар буде автоматично ковзати вниз."
   },
-  "step2description":{
-    "message":"Зробіть рух рукою (або кистю) зверху вниз"
+  "desmotionChecklist": {
+    "message": "Контрольний перелік:"
   },
-  "step3description":{
-    "message":"Чорний шар буде автоматично ковзати вниз."
+  "des1checkmotion": {
+    "message": "Переконайтеся, що в кімнаті не темно і вистачає світла."
   },
-  "desmotionChecklist":{
-    "message":"Контрольний перелік:"
+  "des2checkmotion": {
+    "message": "На вашу камеру не падає пряме сонячне світло."
   },
-  "des1checkmotion":{
-    "message":"Переконайтеся, що в кімнаті не темно і вистачає світла."
+  "des3checkmotion": {
+    "message": "Використовується фронтальна камера."
   },
-  "des2checkmotion":{
-    "message":"На вашу камеру не падає пряме сонячне світло."
+  "titellinear": {
+    "message": "Лінійний"
   },
-  "des3checkmotion":{
-    "message":"Використовується фронтальна камера."
+  "titelcolora": {
+    "message": "Колір А:"
   },
-  "titellinear":{
-    "message":"Лінійний"
+  "titelcolorb": {
+    "message": "Колір Б:",
+    "description": "Колір Б:"
   },
-  "titelcolora":{
-    "message":"Колір А:"
+  "speechoption": {
+    "message": "Розпізнавання мови"
   },
-  "titelcolorb":{
-    "message":"Колір Б:",
-    "description":"Колір Б:"
+  "titelspeech": {
+    "message": "Мовлення"
   },
-  "speechoption":{
-    "message":"Розпізнавання мови"
+  "desspeech1command": {
+    "message": "вимкнути світло"
   },
-  "titelspeech":{
-    "message":"Мовлення"
+  "desspeech2command": {
+    "message": "увімкнути світло"
   },
-  "desspeech":{
-    "message":"При активації даної опції, ви зможете голосом керувати освітленням у браузері. Ви зможете подавати слідуючі команди:"
+  "desspeech3command": {
+    "message": "відтворити відео"
   },
-  "desspeech1command":{
-    "message":"вимкнути світло"
+  "desspeech4command": {
+    "message": "призупинити відео"
   },
-  "desspeech2command":{
-    "message":"увімкнути світло"
+  "desspeechdialect": {
+    "message": "Оберіть ваш розмовний діалект:"
   },
-  "desspeech3command":{
-    "message":"відтворити відео"
+  "desatmosvivid": {
+    "message": "Vivid atmosphere effects"
   },
-  "desspeech4command":{
-    "message":"призупинити відео"
+  "help": {
+    "message": "Допомога"
   },
-  "desspeechdialect":{
-    "message":"Оберіть ваш розмовний діалект:"
+  "about": {
+    "message": "Про додаток"
   },
-  "desatmosvivid":{
-    "message":"Яскраві ефекти атмосфери, вимагають"
+  "desspeechonly": {
+    "message": "Активувати Розпізнавання мови тільки для слідуючих сайтів:"
   },
-  "help":{
-    "message":"Допомога"
+  "descammotiononly": {
+    "message": "Активувати Рух камери тільки для наступних сайтів:"
   },
-  "about":{
-    "message":"Про додаток"
+  "titelcamera": {
+    "message": "Камера"
   },
-  "desspeechonly":{
-    "message":"Активувати Розпізнавання мови тільки для слідуючих сайтів:"
+  "titelautoplaywhitelist": {
+    "message": "Білий список"
   },
-  "descammotiononly":{
-    "message":"Активувати Рух камери тільки для наступних сайтів:"
+  "titelautoplayblacklist": {
+    "message": "Чорний список"
   },
-  "titelcamera":{
-    "message":"Камера"
+  "titeldownloadthemeupgrade": {
+    "message": "прикрасьте ваш браузкр, додавши до нього темну тему. Тема з'являється навколо країв вікна браузера."
   },
-  "titelautoplaywhitelist":{
-    "message":"Білий список"
+  "desbrowsersupport": {
+    "message": "Цей браузер поки що не підтримує дану функцію. Переконайтеся, що ви встановили найновішу версію веб-браузера."
   },
-  "titelautoplayblacklist":{
-    "message":"Чорний список"
+  "titelsupportatmos": {
+    "message": "Підтримується лише HTML5 програвач <video>. Крім того використовується GPU Вашого пристрою."
   },
-  "titeldownloadthemeupgrade":{
-    "message":"прикрасьте ваш браузкр, додавши до нього темну тему. Тема з'являється навколо країв вікна браузера."
+  "titelseeonline": {
+    "message": "Перегляньте інші приклади онлайн"
   },
-  "desbrowsersupport":{
-    "message":"Цей браузер поки що не підтримує дану функцію. Переконайтеся, що ви встановили найновішу версію веб-браузера."
+  "titelvideosample": {
+    "message": "Зразок відео"
   },
-  "titelsupportatmos":{
-    "message":"Підтримує тільки HTML5 <video> та HTML5 програвач YouTube. Він також використовує GPU вашоi графічноi карти."
+  "titelwebsite": {
+    "message": "Сайт"
   },
-  "titelseeonline":{
-    "message":"Перегляньте інші приклади онлайн"
+  "titeldeveloper": {
+    "message": "Розробник"
   },
-  "titelvideosample":{
-    "message":"Зразок відео"
+  "titelrightsreserved": {
+    "message": "Деякі права захищені."
   },
-  "titelwebsite":{
-    "message":"Сайт"
+  "desbrowserextension": {
+    "message": "розширення браузера"
   },
-  "titeldeveloper":{
-    "message":"Розробник"
+  "desapitext": {
+    "message": "Вікі-API для розробника сайтів"
   },
-  "titelrightsreserved":{
-    "message":"Деякі права захищені."
+  "desbrowsertheme": {
+    "message": "тема браузера"
   },
-  "desbrowserextension":{
-    "message":"розширення браузера"
+  "desproject": {
+    "message": "проект"
   },
-  "desapitext":{
-    "message":"Вікі-API для розробника сайтів"
+  "titelapideveloper": {
+    "message": "Розробник API"
   },
-  "desbrowsertheme":{
-    "message":"тема браузера"
+  "titelwikiatmos": {
+    "message": "Wiki про функції атмосферного освітлення"
   },
-  "desproject":{
-    "message":"проект"
+  "sharemenusharetitle": {
+    "message": "Поділитись з друзями"
   },
-  "titelapideveloper":{
-    "message":"Розробник API"
+  "sharemenuwelcomeguidetitle": {
+    "message": "Стартова інструкція"
   },
-  "titelwikiatmos":{
-    "message":"Wiki про функції атмосферного освітлення"
+  "sharemenutellafriend": {
+    "message": "Розповісти другові"
   },
-  "sharemenusharetitle":{
-    "message":"Поділитись з друзями"
+  "sharemenusendatweet": {
+    "message": "Твітнути"
   },
-  "sharemenuwelcomeguidetitle":{
-    "message":"Стартова інструкція"
+  "sharemenupostonfacebook": {
+    "message": "Запостити в Facebook"
   },
-  "sharemenutellafriend":{
-    "message":"Розповісти другові"
+  "sharemenupostongoogleplus": {
+    "message": "Запостити в Google+"
   },
-  "sharemenusendatweet":{
-    "message":"Твітнути"
+  "sharemenuratetitle": {
+    "message": "Оцінити це розширення"
   },
-  "sharemenupostonfacebook":{
-    "message":"Запостити в Facebook"
+  "sharemenudonatetitle": {
+    "message": "Підтримати розробку"
   },
-  "sharemenupostongoogleplus":{
-    "message":"Запостити в Google+"
+  "titelautostop": {
+    "message": "Автостоп"
   },
-  "sharemenuratetitle":{
-    "message":"Оцінити це розширення"
+  "desautostop": {
+    "message": "Зупинити автоматичне відтворення відео, коли я відкриваю веб-сторінки."
   },
-  "sharemenudonatetitle":{
-    "message":"Підтримати розробку"
+  "areyouhappy": {
+    "message": "Ви задоволені додатком Turn Off the Lights?"
   },
-  "titelautostop":{
-    "message":"Автостоп"
+  "tellothers": {
+    "message": "Гарантує, що ваша думка має значення"
   },
-  "desautostop":{
-    "message":"Зупинити автоматичне відтворення відео, коли я відкриваю веб-сторінки."
+  "nothanks": {
+    "message": "Ні, дякую"
   },
-  "areyouhappy":{
-    "message":"Ви задоволені додатком Turn Off the Lights?"
+  "writeareview": {
+    "message": "Написати відгук"
   },
-  "tellothers":{
-    "message":"Гарантує, що ваша думка має значення"
+  "desauroraplayer": {
+    "message": "Для Вашого комп’ютера також доступний програвач з можливістю розсіяного освітлення."
   },
-  "nothanks":{
-    "message":"Ні, дякую"
+  "downloadtheapp": {
+    "message": "Завантажте додаток зараз"
   },
-  "writeareview":{
-    "message":"Написати відгук"
+  "titeldownloadupgradezoom": {
+    "message": "Збільшити або зменшити вміст сторінки за допомогою кнопки масштабування для зручнішого читання."
   },
-  "desauroraplayer":{
-    "message":"Для Вашого комп’ютера також доступний програвач з можливістю розсіяного освітлення."
+  "titeldownloadupgradepropermenubar": {
+    "message": "Повернути чорну панель меню на сайті Google."
   },
-  "downloadtheapp":{
-    "message":"Завантажте додаток зараз"
+  "titeldownloadupgradefinancetoolbar": {
+    "message": "Показує в режимі реального часу інформацію про фондовий ринок."
   },
-  "titeldownloadupgradezoom":{
-    "message":"Збільшити або зменшити вміст сторінки за допомогою кнопки масштабування для зручнішого читання."
+  "titelnightmodeposition": {
+    "message": "Змінити положення"
   },
-  "titeldownloadupgradepropermenubar":{
-    "message":"Повернути чорну панель меню на сайті Google."
+  "nmtopleft": {
+    "message": "Зверху зліва"
   },
-  "titeldownloadupgradefinancetoolbar":{
-    "message":"Показує в режимі реального часу інформацію про фондовий ринок."
+  "nmtopright": {
+    "message": "Зверху справа"
   },
-  "titelnightmodeposition":{
-    "message":"Змінити положення"
+  "nmbottomright": {
+    "message": "Внизу справа"
   },
-  "nmtopleft":{
-    "message":"Зверху зліва"
+  "nmbottomleft": {
+    "message": "Внизу зліва"
   },
-  "nmtopright":{
-    "message":"Зверху справа"
+  "nmcustom": {
+    "message": "Власне (натисніть, утримуйте та рухайте перемикач до бажаного місця на екрані)"
   },
-  "nmbottomright":{
-    "message":"Внизу справа"
+  "desnighthover": {
+    "message": "Показувати прозорий перемикач на сторінці."
   },
-  "nmbottomleft":{
-    "message":"Внизу зліва"
+  "titelnightmodewhitelist": {
+    "message": "Білий список"
   },
-  "nmcustom":{
-    "message":"Власне (натисніть, утримуйте та рухайте перемикач до бажаного місця на екрані)"
+  "titelnightmodeblacklist": {
+    "message": "Чорний список"
   },
-  "desnighthover":{
-    "message":"Показувати прозорий перемикач на сторінці."
+  "desautostoponly": {
+    "message": "Активувати автостоп відео тільки для наступних сайтів:"
   },
-  "titelnightmodewhitelist":{
-    "message":"Білий список"
+  "titelautostopwhitelist": {
+    "message": "Білий список"
   },
-  "titelnightmodeblacklist":{
-    "message":"Чорний список"
+  "titelautostopblacklist": {
+    "message": "Чорний список"
   },
-  "desautostoponly":{
-    "message":"Активувати автостоп відео тільки для наступних сайтів:"
+  "desnightactivetime": {
+    "message": "Перемикач буде видно в певний час:"
   },
-  "titelautostopwhitelist":{
-    "message":"Білий список"
+  "deslampandnightmode": {
+    "message": "Активуйте опцію „Нічний режим“ натиснувши на кнопку з сірою лампочкою."
   },
-  "titelautostopblacklist":{
-    "message":"Чорний список"
+  "titeleyewhitelist": {
+    "message": "Білий список"
   },
-  "desnightactivetime":{
-    "message":"Перемикач буде видно в певний час:"
+  "titeleyeblacklist": {
+    "message": "Чорний список"
   },
-  "deslampandnightmode":{
-    "message":"Активуйте опцію „Нічний режим“ натиснувши на кнопку з сірою лампочкою."
+  "desspeech5command": {
+    "message": "лампа браузера"
   },
-  "titeleyewhitelist":{
-    "message":"Білий список"
+  "html5andyoutube": {
+    "message": "HTML5 і YouTube™ відео"
   },
-  "titeleyeblacklist":{
-    "message":"Чорний список"
+  "flashembedobject": {
+    "message": "Підтримка: <object>, <embed>, <applet>, <iframe>."
   },
-  "desspeech5command":{
-    "message":"лампа браузера"
+  "titelnightmodebck": {
+    "message": "Колір фону"
   },
-  "html5andyoutube":{
-    "message":"HTML5 і YouTube™ відео"
+  "titelnightmodetxt": {
+    "message": "Колір тексту"
   },
-  "flashembedobject":{
-    "message":"Підтримка: <object>, <embed>, <applet>, <iframe>."
+  "desdynamicsmoke": {
+    "message": "Дим"
   },
-  "titelnightmodebck":{
-    "message":"Колір фону"
+  "desdynamicdotscolor": {
+    "message": "Колорьові крапки"
   },
-  "titelnightmodetxt":{
-    "message":"Колір тексту"
+  "desdynamicstorm": {
+    "message": "Буря",
+    "description": "Буря"
   },
-  "desdynamicsmoke":{
-    "message":"Дим"
+  "desdynamictriangulation": {
+    "message": "Тріангуляція"
   },
-  "desdynamicdotscolor":{
-    "message":"Колорьові крапки"
+  "desdynamicstars": {
+    "message": "Зірок"
   },
-  "desdynamicstorm":{
-    "message":"Буря",
-    "description":"Буря"
+  "desmobileapp": {
+    "message": "Turn Off the Lights також доступний для Вашого мобільного пристрою."
   },
-  "desdynamictriangulation":{
-    "message":"Тріангуляція"
+  "titel360youtube": {
+    "message": "Показує 360-градусне відео з YouTube в одному кадрі."
   },
-  "desdynamicstars":{
-    "message":"Зірок"
+  "titelvideotool": {
+    "message": "Панель відео-інструментів"
   },
-  "desmobileapp":{
-    "message":"Turn Off the Lights також доступний для Вашого мобільного пристрою."
+  "desvideotool": {
+    "message": "Відображати панель для налаштування активного відео-програвача в нижній частині екрану"
   },
-  "titel360youtube":{
-    "message":"Показує 360-градусне відео з YouTube в одному кадрі."
+  "vtoolfullscreen": {
+    "message": "Кнопка для встановлення відео-плеєра в повноекранний режим"
   },
-  "titelvideotool":{
-    "message":"Панель відео-інструментів"
+  "vtoolfilter": {
+    "message": "Кнопка для додавання фільтру в програвач відео"
   },
-  "desvideotool":{
-    "message":"Відображати панель для налаштування активного відео-програвача в нижній частині екрану"
+  "vtoolreplay": {
+    "message": "Кнопка для повтору відео в плеєрі"
   },
-  "vtoolfullscreen":{
-    "message":"Кнопка для встановлення відео-плеєра в повноекранний режим"
+  "vtoolscreenshot": {
+    "message": "Кнопка щоб зробити знімок діючого відеоплеєру"
   },
-  "vtoolfilter":{
-    "message":"Кнопка для додавання фільтру в програвач відео"
+  "vtoolalign": {
+    "message": "Кнопка для центрування відеоплеєру у вікні браузера"
   },
-  "vtoolreplay":{
-    "message":"Кнопка для повтору відео в плеєрі"
+  "titelvideotoolgrayscale": {
+    "message": "відтінки сірого"
   },
-  "vtoolscreenshot":{
-    "message":"Кнопка щоб зробити знімок діючого відеоплеєру"
+  "titelvideotoolsepia": {
+    "message": "сепія"
   },
-  "vtoolalign":{
-    "message":"Кнопка для центрування відеоплеєру у вікні браузера"
+  "titelvideotoolinvert": {
+    "message": "інвертування"
   },
-  "titelvideotoolgrayscale":{
-    "message":"відтінки сірого"
+  "titelvideotoolcontrast": {
+    "message": "контраст"
   },
-  "titelvideotoolsepia":{
-    "message":"сепія"
+  "titelvideotoolsaturate": {
+    "message": "насиченість"
   },
-  "titelvideotoolinvert":{
-    "message":"інвертування"
+  "titelvideotoolhueroration": {
+    "message": "повернути відтінки на 90 градусів"
   },
-  "titelvideotoolcontrast":{
-    "message":"контраст"
+  "titelvideotoolbrightness": {
+    "message": "яскравість 50%"
   },
-  "titelvideotoolsaturate":{
-    "message":"насиченість"
+  "titelvideotoolnormal": {
+    "message": "нормально"
   },
-  "titelvideotoolhueroration":{
-    "message":"повернути відтінки на 90 градусів"
+  "titelvideotoollike": {
+    "message": "Мені подобається"
   },
-  "titelvideotoolbrightness":{
-    "message":"яскравість 50%"
+  "titelvideotoolsubscribe": {
+    "message": "Підписатися"
   },
-  "titelvideotoolnormal":{
-    "message":"нормально"
+  "titelvideotoolrepeat": {
+    "message": "Повтор"
   },
-  "titelvideotoollike":{
-    "message":"Мені подобається"
+  "titelvideotoolfilter": {
+    "message": "Фільтр"
   },
-  "titelvideotoolsubscribe":{
-    "message":"Підписатися"
+  "titelvideotoolfullwindow": {
+    "message": "На повний екран"
   },
-  "titelvideotoolrepeat":{
-    "message":"Повтор"
+  "titelvideotoolscreenshot": {
+    "message": "Зробити знімок екрана"
   },
-  "titelvideotoolfilter":{
-    "message":"Фільтр"
+  "titelreflection": {
+    "message": "Відображення"
   },
-  "titelvideotoolfullwindow":{
-    "message":"На повний екран"
+  "desreflection": {
+    "message": "Показувати ефект відображення на всіх відео"
   },
-  "titelvideotoolscreenshot":{
-    "message":"Зробити знімок екрана"
+  "desvideotoolonly": {
+    "message": "Активувати панель відео-інструментів тільки для наступних сайтів:"
   },
-  "titelreflection":{
-    "message":"Відображення"
+  "titelvideotoolwhitelist": {
+    "message": "Білий список"
   },
-  "desreflection":{
-    "message":"Показувати ефект відображення на всіх відео"
+  "titelvideotoolblacklist": {
+    "message": "Чорний список"
   },
-  "desvideotoolonly":{
-    "message":"Активувати панель відео-інструментів тільки для наступних сайтів:"
+  "titelnightmodehyperlink": {
+    "message": "Гіперпосилання",
+    "description": "Гіперпосилання"
   },
-  "titelvideotoolwhitelist":{
-    "message":"Білий список"
+  "titelblock60fps": {
+    "message": "Блокувати 60 к/с",
+    "description": "Блокувати 60 к/с"
   },
-  "titelvideotoolblacklist":{
-    "message":"Чорний список"
+  "titelvolume": {
+    "message": "Регулятор гучності відео"
   },
-  "titelnightmodehyperlink":{
-    "message":"Гіперпосилання",
-    "description":"Гіперпосилання"
+  "desvideovolume": {
+    "message": "Керувати гучність поточного відео програвача коліщатком миші"
   },
-  "titelblock60fps":{
-    "message":"Блокувати 60 к/с",
-    "description":"Блокувати 60 к/с"
+  "desvideovolumecolor": {
+    "message": "Колір регулятора"
   },
-  "titelvolume":{
-    "message":"Регулятор гучності відео"
+  "desvolumelabel": {
+    "message": "Показати ярлик гучності"
   },
-  "desvideovolume":{
-    "message":"Керувати гучність поточного відео програвача коліщатком миші"
+  "desvolumesteps": {
+    "message": "Number of volume steps (in %) for each scroll wheel notch"
   },
-  "desvideovolumecolor":{
-    "message":"Колір регулятора"
+  "sharetexta": {
+    "message": "Отримайте чудове розширення для браузера Turn Off the Lights"
   },
-  "desvolumelabel":{
-    "message":"Показати ярлик гучності"
+  "sharetextb": {
+    "message": "Овва, це чудово. Сьогодні спробував розширення для браузера Turn Off the Lights "
   },
-  "desvolumesteps":{
-    "message":"Кількість кроків для кожного прокручування"
+  "sharetextc": {
+    "message": "Найкраще чудове розширення для браузера Turn Off the Lights"
   },
-  "sharetexta":{
-    "message":"Отримайте чудове розширення для браузера Turn Off the Lights"
+  "sharetextd": {
+    "message": "Розширення для браузера Turn Off the Lights - найкраще пасує для YouTube. Завантажте і спробуйте самі!"
   },
-  "sharetextb":{
-    "message":"Овва, це чудово. Сьогодні спробував розширення для браузера Turn Off the Lights "
+  "titelsharethis": {
+    "message": "Поділитися цим:"
   },
-  "sharetextc":{
-    "message":"Найкраще чудове розширення для браузера Turn Off the Lights"
+  "titellampchoose": {
+    "message": "Виберіть ваш улюблений стиль лампи"
   },
-  "sharetextd":{
-    "message":"Розширення для браузера Turn Off the Lights - найкраще пасує для YouTube. Завантажте і спробуйте самі!"
+  "titeldoesntwork": {
+    "message": "Turn Off the Lights не працює на цій сторінці. Спробуйте іншу."
   },
-  "titelsharethis":{
-    "message":"Поділитися цим:"
+  "titelpopupvideo": {
+    "message": "YouTube"
   },
-  "titellampchoose":{
-    "message":"Виберіть ваш улюблений стиль лампи"
+  "titelpopupwelcomeguide": {
+    "message": "Стартова інструкція"
   },
-  "titeldoesntwork":{
-    "message":"Turn Off the Lights не працює на цій сторінці. Спробуйте іншу."
+  "titelpopupsupport": {
+    "message": "Підтримка"
   },
-  "titelpopupvideo":{
-    "message":"YouTube"
+  "titelpopupoptions": {
+    "message": "Налаштування"
   },
-  "titelpopupwelcomeguide":{
-    "message":"Стартова інструкція"
+  "titelpopupratestars": {
+    "message": "Оцініть нас 5-ма зірками"
   },
-  "titelpopupsupport":{
-    "message":"Підтримка"
+  "titelvisenable": {
+    "message": "Увімкнути/вимкнути Візуалізацію Аудіо"
   },
-  "titelpopupoptions":{
-    "message":"Налаштування"
+  "titelvischoose": {
+    "message": "Виберіть свій стиль Візуалізації Аудіо"
   },
-  "titelpopupratestars":{
-    "message":"Оцініть нас 5-ма зірками"
+  "titelvisblocks": {
+    "message": "Блоки"
   },
-  "titelvisenable":{
-    "message":"Увімкнути/вимкнути Візуалізацію Аудіо"
+  "titelvisfrequency": {
+    "message": "Частота"
   },
-  "titelvischoose":{
-    "message":"Виберіть свій стиль Візуалізації Аудіо"
+  "titelvistunnel": {
+    "message": "Музичний тунель"
   },
-  "titelvisblocks":{
-    "message":"Блоки"
+  "titelvisualization": {
+    "message": "Візуалізація Аудіо"
   },
-  "titelvisfrequency":{
-    "message":"Частота"
+  "desvisopacity": {
+    "message": "Значення непрозорості фону для візуалізації аудіо"
   },
-  "titelvistunnel":{
-    "message":"Музичний тунель"
+  "vtoolvisualization": {
+    "message": "Кнопка показу візуалізації аудіо для поточного програвача відео"
   },
-  "titelvisualization":{
-    "message":"Візуалізація Аудіо"
+  "desvideotoolcolor": {
+    "message": "Колір панелі інструментів"
   },
-  "desvisopacity":{
-    "message":"Значення непрозорості фону для візуалізації аудіо"
+  "titelhovervideo": {
+    "message": "Наведення на відео"
   },
-  "vtoolvisualization":{
-    "message":"Кнопка показу візуалізації аудіо для поточного програвача відео"
+  "deshovervideo": {
+    "message": "Наведіть курсор миші на відео елемент на декілька секунд, а потім веб-сторінка автоматичнопотемніє"
   },
-  "desvideotoolcolor":{
-    "message":"Колір панелі інструментів"
+  "promotitle": {
+    "message": "Порада дня"
   },
-  "titelhovervideo":{
-    "message":"Наведення на відео"
+  "desremyoutube": {
+    "message": "Підписатись на YouTube"
   },
-  "deshovervideo":{
-    "message":"Наведіть курсор миші на відео елемент на декілька секунд, а потім веб-сторінка автоматичнопотемніє"
+  "desremfacebook": {
+    "message": "Рекомендувати це на Facebook"
   },
-  "promotitle":{
-    "message":"Порада дня"
+  "titleuserprofile": {
+    "message": "Нижче виберіть параметри, які Ви хочете використовувати при натисканні на сіру кнопку з лампочкою. Кожен профіль має індивідуальні налаштування."
   },
-  "desremyoutube":{
-    "message":"Підписатись на YouTube"
+  "titleregularuser": {
+    "message": "Любитель Відео"
   },
-  "desremfacebook":{
-    "message":"Рекомендувати це на Facebook"
+  "titlenightowl": {
+    "message": "Нічна Сова"
   },
-  "titleuserprofile":{
-    "message":"Below, choose the settings you want to use when clicking the gray lamp button. Each profile has its own features."
+  "titlescreenprotection": {
+    "message": "Захист очей"
   },
-  "titleregularuser":{
-    "message":"Любитель Відео"
+  "desregularuser": {
+    "message": "Це значення за замовчуванням, типове для нових користувачів. При натисканні сірої кнопки з лампочкою цей стиль буде застосовано до поточної веб-сторінки."
   },
-  "titlenightowl":{
-    "message":"Нічна Сова"
+  "desnightowl": {
+    "message": "Один клік переводить сторінку прямо у нічну тему з клікабельним гіперпосиланням. Натисніть знову, щоб повернутися до нормального перегляду. Ще раз натисніть кнопку з лампочкою, щоб вимкнути цю функцію."
   },
-  "titlescreenprotection":{
-    "message":"Захист очей"
+  "desscreenprotection": {
+    "message": "Один клік затіняє сторінку до м'якого оранжевого кольору, щоб зменшити напругу очей від усіх відкритих вкладок. Натисніть кнопку з лампочкою ще раз, що вимкнути цю функцію."
   },
-  "desregularuser":{
-    "message":"This is default and the regular setting for new users. When clicking the gray lamp button, this style will be applied to the current web page."
+  "titleprofilevideofocus": {
+    "message": "Відео фокус ввімкнено"
   },
-  "desnightowl":{
-    "message":"One click converts the page directly into a night theme with a clickable hyperlink. Click it again to return to normal view. Click the lamp button again to disable this feature."
+  "titleprofilenovideofocus": {
+    "message": "Відео фокус вимкуто"
   },
-  "desscreenprotection":{
-    "message":"One click shades the page to a soothing orange color to decrease eye strain on all open tabs. Click the lamp button again to disable this feature."
+  "titleprofilealwaysscreentab": {
+    "message": "Завжди увімкнено для всіх відкритих вкладок"
   },
-  "titleprofilevideofocus":{
-    "message":"Відео фокус ввімкнено"
+  "titleprofilescreenclick": {
+    "message": "Ввімкнути можливість клікати на посилання, коли екран затемнений"
   },
-  "titleprofilenovideofocus":{
-    "message":"Відео фокус вимкуто"
+  "titleprofilesubmit": {
+    "message": "Виберіть ці параметри"
   },
-  "titleprofilealwaysscreentab":{
-    "message":"Завжди увімкнено для всіх відкритих вкладок"
+  "titlelearnmore": {
+    "message": "Детальніше"
   },
-  "titleprofilescreenclick":{
-    "message":"Ввімкнути можливість клікати на посилання, коли екран затемнений"
+  "optionprofilesaved": {
+    "message": "Нова дія лампи збережена успішно!"
   },
-  "titleprofilesubmit":{
-    "message":"Виберіть ці параметри"
+  "desaplay": {
+    "message": "відтворити"
   },
-  "titlelearnmore":{
-    "message":"Детальніше"
+  "desapause": {
+    "message": "пауза"
   },
-  "optionprofilesaved":{
-    "message":"Нова дія лампи збережена успішно!"
+  "desastop": {
+    "message": "стоп"
   },
-  "desaplay":{
-    "message":"play"
+  "desvideozoom": {
+    "message": "Збільшити або зменшити відео, використовуючи кнопку масштабу"
   },
-  "desapause":{
-    "message":"pause"
+  "titlevideoplayrate": {
+    "message": "Швидкість відео"
   },
-  "desastop":{
-    "message":"stop"
+  "desplayrate": {
+    "message": "Типова швидкість відтворення"
+  },
+  "desspeedtoolbar": {
+    "message": "Показувати панель керування відтворенням у поточному відео-програвачі"
+  },
+  "desatmosontotlmode": {
+    "message": "Показати атмостферний світловий ефект лише при увімкненому режимі TOtL"
+  },
+  "desdarkbrowsertheme": {
+    "message": "Switch to a dark browser theme"
+  },
+  "desautostopfeaturewhite": {
+    "message": "BLOCKS below websites, but ALLOWS automatic playing on any other website."
+  },
+  "desautostopfeatureblack": {
+    "message": "ALLOWS below websites, but BLOCKS automatic playing on any other website."
+  },
+  "autostopbannerred": {
+    "message": "Show a red banner"
+  },
+  "autostopbannertrans": {
+    "message": "Show a transparent banner"
+  },
+  "titleanalytics": {
+    "message": "Аналітика"
+  },
+  "desbadgeanalytics": {
+    "message": "Show the badge with the number of clicks you have dimmed the webpage"
+  },
+  "shareanalyticenergy": {
+    "message": "I saved $product$ kWh thanks to Turn Off the Lights",
+    "placeholders": {
+      "product": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "analyticsoption": {
+    "message": "Аналітика"
+  },
+  "activelayertoday": {
+    "message": "Кількість кліків сьогодні"
+  },
+  "totalenergysaved": {
+    "message": "Total electrical energy saved"
+  },
+  "resetlampanalytic": {
+    "message": "Reset your Turn Off the Lights Analytics Data"
+  },
+  "titlesiteengagement": {
+    "message": "Site Engagement"
+  },
+  "titleorigin": {
+    "message": "Джерело"
+  },
+  "titletime": {
+    "message": "Time (minutes)"
+  },
+  "titleavgdayschedule": {
+    "message": "Average daily schedule"
+  },
+  "titlesharestats": {
+    "message": "Share Your Stats"
+  },
+  "btnsharestats": {
+    "message": "Share Stats"
+  },
+  "charttitletotaltime": {
+    "message": "Total time the dark layer is active (minutes)"
+  },
+  "charttitlelayeractive": {
+    "message": "Dark layer active (#)"
+  },
+  "charttitleavgday": {
+    "message": "Average daily schedule (when the lights turn off frequently)"
+  },
+  "charttitle30dayssaved": {
+    "message": "Energy saved this last 30 days"
+  },
+  "charttitlelblwebsiteused": {
+    "message": "Websites used this last 30 days"
+  },
+  "charttitlelblenergytotal": {
+    "message": "Total used Energy"
+  },
+  "charttitlelblenergysaved": {
+    "message": "Total saved Energy"
+  },
+  "titlelanalyticprivacy": {
+    "message": "Turn Off the Lights browser extension takes your privacy very seriously. The Turn Off the Lights Analytics you are seeing on this page is only stored locally on your computer. Your personal site engagement information will not be sold and not transferred to unaffiliated third parties."
+  },
+  "shareanalyticlove": {
+    "message": "The website I most love is $product$ with Turn Off the Lights",
+    "placeholders": {
+      "product": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "desvolumeposa": {
+    "message": "Show the volume meter in center of the current video player"
+  },
+  "desvolumeposb": {
+    "message": "Show the volume value on top left of the current video player"
+  },
+  "desvolumeposc": {
+    "message": "Показувати значення гучності зверху справа поточного відео-плеєра"
+  },
+  "desvideovolumhold": {
+    "message": "Утримуючи ліву або праву кнопки миші, перемістіть мишу для зміни гучності"
+  },
+  "desvideovolumalt": {
+    "message": "Тільки якщо натиснуто клавішу Alt"
+  },
+  "speechheybrowser": {
+    "message": "Hey Browser"
+  },
+  "speechokbrowser": {
+    "message": "ok, браузер"
+  },
+  "functionactive": {
+    "message": "This function is activated when you click on a tab, or when you refresh the web page. However, this function stops automatically after 15 seconds."
+  },
+  "cardtexsubscribe": {
+    "message": "Підписатися зараз!"
+  },
+  "cardtextfavdayweek": {
+    "message": "Favorite day of the week"
+  },
+  "cardtextyestime": {
+    "message": "Yesterday total time (in minutes)"
+  },
+  "cardavgprevweektime": {
+    "message": "Previous total week time (in minutes)"
+  },
+  "sunday": {
+    "message": "Неділя"
+  },
+  "monday": {
+    "message": "Понеділок"
+  },
+  "tuesday": {
+    "message": "Вівторок"
+  },
+  "wednesday": {
+    "message": "Середа"
+  },
+  "thursday": {
+    "message": "Thursday"
+  },
+  "friday": {
+    "message": "Friday"
+  },
+  "saturday": {
+    "message": "Saturday"
+  },
+  "titlemultiopacity": {
+    "message": "Each website, its own opacity"
+  },
+  "desmultiopacitynormal": {
+    "message": "All websites have the same opacity value"
+  },
+  "desmultiopacitysel": {
+    "message": "The websites in the list here below have that chosen opacities"
+  },
+  "desmultiopacitynot": {
+    "message": "If a website it not in the list, the default opacity value will apply."
+  },
+  "titleok": {
+    "message": "Гаразд"
+  },
+  "titlecancel": {
+    "message": "Скасувати"
+  },
+  "titledarkmodeon": {
+    "message": "Dark Mode ON"
+  },
+  "titledarkmodeoff": {
+    "message": "Dark Mode OFF"
+  },
+  "titlelprivacy": {
+    "message": "Політика конфіденційності"
+  },
+  "titleprofile": {
+    "message": "Profile"
+  },
+  "descolorfixcolor": {
+    "message": "Choose your dark layer color"
+  },
+  "desatmossolidcolor": {
+    "message": "Choose your one solid glow effect color"
+  },
+  "titlelratenow": {
+    "message": "Оцінити зараз"
+  },
+  "titleratelater": {
+    "message": "Пізніше"
+  },
+  "desremrate": {
+    "message": "If you like Turn Off the Lights™, please do not hesitate to rate this extension to five stars now. This gives us courage to continue to maintain and improve this product for you. Writing a review is recommended, but not mandatory. If you do not have the time to write a review, you can rate it anonymously. It is important to give it ★★★★★. Thank you!"
+  },
+  "titelnightmodedomain": {
+    "message": "Домен"
+  },
+  "titelnightmodepage": {
+    "message": "Веб-сторінка"
+  },
+  "titelintroduce": {
+    "message": "Introducing the new Turn Off the Lights!"
+  },
+  "desintroduce": {
+    "message": "All the features you're used to, with a brand new look and feel, and personalized to you."
+  },
+  "econothingthisyear": {
+    "message": "Nothing this year. Keeps the lights off to save energy"
+  },
+  "ecothirtyminutes": {
+    "message": "30 minutes of light saved"
+  },
+  "ecowatchtvfortwo": {
+    "message": "Watch TV for 2 hours"
+  },
+  "ecotoastermaking": {
+    "message": "Toaster making two loaves of toast"
+  },
+  "ecochargeiphone": {
+    "message": "Charge your iPhone"
+  },
+  "ecobrewsomecoffee": {
+    "message": "Brew some Coffee, brewing one pot of coffee"
+  },
+  "ecoplayingxbox": {
+    "message": "Playing Xbox 360 for one hour"
+  },
+  "ecovacuumingfor": {
+    "message": "Vacuuming for 15 minutes"
+  },
+  "ecoblowdrying": {
+    "message": "Blow-drying your hair for 10 minutes uses approximately"
+  },
+  "ecowashingclothes": {
+    "message": "Washing your clothes in a cold-rinse cycle uses approximately"
+  },
+  "ecowififoraday": {
+    "message": "Wi-Fi for a day"
+  },
+  "ecorunningdishwasher": {
+    "message": "Running your dishwasher in energy-saver mode will use"
+  },
+  "ecochargelaptop": {
+    "message": "Charge your laptop"
+  },
+  "ecokeeplightonforsix": {
+    "message": "Keep the Lights on for 6 hours"
+  },
+  "ecokeepfridgeday": {
+    "message": "Keep the Fridge Running for a day"
+  },
+  "ecoloadlaundry": {
+    "message": "One load of laundry in the dryer"
+  },
+  "ecoheatingtenshower": {
+    "message": "Heating enough water for a 10-minute shower"
+  },
+  "ecotwentyfourghome": {
+    "message": "Enough to run Google Home for 24h"
+  },
+  "ecochargeteslacar": {
+    "message": "Charge your Tesla car for 20 miles"
+  },
+  "ecochargeteslacarhundred": {
+    "message": "Charge your Tesla electric vehicle to 100%"
+  },
+  "ecochargeteslathreetimes": {
+    "message": "Charge 3 times your Tesla electric vehicle to 100%"
+  },
+  "ecopowerhawaiimonth": {
+    "message": "Enough electric energy for 1 month in Hawaii"
+  },
+  "ecopowernwymonth": {
+    "message": "Enough electric energy for 1 month in New York"
+  },
+  "ecopowercamonth": {
+    "message": "Enough electric energy for 1 month in California"
+  },
+  "ecopowerbaseballgame": {
+    "message": "To power 1 jumbotron for a baseball game"
+  },
+  "ecopowereiffeltower": {
+    "message": "To illuminate the Eiffel Tower for 1 day"
+  },
+  "ecopowereurostar": {
+    "message": "For a Eurostar trip from Brussels to London"
+  },
+  "ecopowereurostarparis": {
+    "message": "For a Eurostar trip from Paris to London"
+  },
+  "ecoeiffeltoweryear": {
+    "message": "To illuminate the Eiffel Tower for 1 year"
+  },
+  "ecosfoyear": {
+    "message": "To power San Francisco for 1 year"
+  },
+  "ecolayear": {
+    "message": "To power Los Angeles for 1 year"
+  },
+  "ecoplanetearth": {
+    "message": "Ready to save the planet Earth"
+  },
+  "autostopdetails": {
+    "message": "ДЕТАЛІ"
+  },
+  "autostopblocked": {
+    "message": "Blocked by Turn Off the Lights™ - www.turnoffthelights.com"
+  },
+  "autostopclickme": {
+    "message": "Click on me to play this HTML5 video"
+  },
+  "autostopenabled": {
+    "message": "AutoStop is enabled!"
   }
 }

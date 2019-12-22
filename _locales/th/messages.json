@@ -27,7 +27,7 @@
     "message":"เปิดใช้การคลิกเพื่อเชื่อมโยงหลายมิติเมื่อหน้าจอมืดลงแล้ว"
   },
   "desmousespotlights":{
-    "message":"Enable the screen shade, with the possibility to click on the hyperlinks"
+    "message":"เปิดโหมด Screen Shade โดยให้สามารถคลิกบนไฮเปอร์ลิงก์ได้"
   },
   "desambilight4color":{
     "message":"มี4 สีให้เลือกรอบๆวิดีโอ:"
@@ -42,7 +42,7 @@
     "message":"บล็อก"
   },
   "titeleye":{
-    "message":"อุปกรณ์ป้องกันดวงตา"
+    "message":"ปกป้องดวงตา"
   },
   "titelcinemaontop":{
     "message":"โหมดโรงภาพยนตร์: 'ไฟปิด' และแสดงเฉพาะเลเยอร์ของวิดีโอเท่านั้น"
@@ -111,7 +111,7 @@
     "message":"อวกาศจักรวาล"
   },
   "deseastereggs":{
-    "message":"Pressing the T key adds a theater curtain to the dark layer"
+    "message":"การกดแป้น T จะเพิ่มม่านโรงภาพยนตร์ลงบนเลเยอร์สีเข้ม"
   },
   "settings":{
     "message":"การตั้งค่า"
@@ -225,7 +225,7 @@
     "message":"โฟกัสภาพนี้"
   },
   "warningtextambilight":{
-    "message":"When unable to receive video data because of a website's security rule, the chosen solid color will be used instead."
+    "message":"เมื่อไม่สามารถรับข้อมูลวิดีโอเนื่องจากกฎความปลอดภัยของเว็บไซต์ สีทึบที่เลือกจะถูกใช้แทน"
   },
   "desdynamiccloud":{
     "message":"เมฆแบบเคลื่อนไหว"
@@ -321,7 +321,7 @@
     "message":"ฝนตก"
   },
   "desalllightsoff":{
-    "message":"Clicking the lamp button will toggle the lights on/off on all open tabs"
+    "message":"การคลิกปุ่มโคมไฟจะเปิด/ปิดแท็บที่เปิดอยู่ทั้งหมด"
   },
   "optionecosaversaved":{
     "message":"บันทึกเวลาเรียบร้อยแล้ว!"
@@ -330,7 +330,7 @@
     "message":"บาร์ระดับความดำมืด"
   },
   "deseyen":{
-    "message":"Normal use (lights go out when you click on the lamp icon)"
+    "message":"การใช้งานแบบปกติ (ไฟจะปิดเมื่อคุณคลิกบนไอคอนโคมไฟ)"
   },
   "enjoyshare":{
     "message":"เพลิดเพลินกับส่วนขยายนี้ และแชร์ให้กับคนที่คุณคิดว่าเขาจะประทับใจกับมัน"
@@ -375,7 +375,7 @@
     "message":"คำเตือน"
   },
   "deseyetimesaver":{
-    "message":"When a page is inactive (no mouse or keyboard input) for the time specified below, it automatically goes dark."
+    "message":"เมื่อมีเพจที่ไม่ได้ใช้งานอยู่ (ไม่มีการใช้เมาส์หรือแป้นพิมพ์ในการป้อนข้อมูล) เป็นเวลาที่ระบุไว้ด้านล่างนี้ เพจนั้นจะมืดลงโดยอัตโนมัติ"
   },
   "titelsuggestions":{
     "message":"ข้อเสนอแนะ"
@@ -405,7 +405,7 @@
     "message":"ตู้ปลา"
   },
   "longdonatetext":{
-    "message":"I'd truly appreciate if you can donate me to keep this browser extension alive for other new users. Whether it's $$1 or $$100, your support is immensely appreciated!"
+    "message":"ฉันจะขอบคุณจริงๆ ถ้าคุณช่วยบริจาคให้ฉันเพื่อช่วยให้ส่วนขยายสำหรับเบราว์เซอร์นี้คงอยู่สำหรับผู้ใช้คนอื่นๆ ไม่ว่าคุณจะบริจาคฉันเพียง $$1 หรือเพียง $$100 ฉันก็ขอขอบคุณคุณที่ช่วยกันสนับสนุน!"
   },
   "deshardflash":{
     "message":"แสดงวัตถุ Flash ทั้งหมด ข้ามกรอง URL นี้จะแก้ไขปัญหากับบางเครื่องเล่นวิดีโอที่ถูกซ่อน แต่ยังจะแสดงโฆษณา"
@@ -420,10 +420,10 @@
     "message":"การแสดงและสลับสีของชื่อวิดีโอ"
   },
   "desrememberpage":{
-    "message":"Do not show reminder page"
+    "message":"ไม่ต้องแสดงหน้าเตือน"
   },
   "description":{
-    "message":"The entire page will be fading to dark, so you can watch the videos as if you were in the cinema. Works for YouTube™ and Beyond."
+    "message":"เพจทั้งเพจจะมืดลง ทำให้คุณสามารถดูวิดีโอได้เสมือนกับที่คุณดูในโรงภาพยนตร์ ใช้ได้กับ YouTube™️ และ Beyond"
   },
   "titelviewcount":{
     "message":"จำนวนผู้เข้าชม"
@@ -435,10 +435,10 @@
     "message":"ตั้งค่าคุณภาพของวิดีโอ YouTube โดยอัตโนมัติ"
   },
   "shortcutopacity":{
-    "message":"to restore to the set darkness (opacity) setting"
+    "message":"คืนค่าการตั้งค่าความมืด (ความทึบแสง)"
   },
   "desambilightrangeblurradius":{
-    "message":"Lower values will sharpen the shadow, higher values will make them more blurred."
+    "message":"ค่าที่ต่ำจะทำให้เงาคมชัดขึ้น ค่าที่สูงกว่านั้นจะทำให้เบลอมากขึ้น"
   },
   "titeladdvideobutton":{
     "message":"เพิ่มปุ่ม"
@@ -474,7 +474,7 @@
     "message":"ไข่อีสเตอร์"
   },
   "textfoot":{
-    "message":"This software is licensed under the CC-GNU GPL. To view a copy of this license, view the"
+    "message":"ซอฟต์แวร์นี้ได้รับการอนุญาตให้ใช้งานภายใต้ใบอนุญาต CC-GNU GPL เมื่อต้องการดูสำเนาของใบอนุญาตนี้ ดูที่"
   },
   "left":{
     "message":"ซ้าย"
@@ -504,7 +504,7 @@
     "message":"เราได้เพิ่มคุณลักษณะใหม่บางอย่างสำหรับคุณ"
   },
   "upgradecontextmessage":{
-    "message":"That makes this extension even more amazing"
+    "message":"นั่นทำให้ส่วนขยายนี้น่าทึ่งมากขึ้น"
   },
   "upgradecontextitemta":{
     "message":"การเคลื่อนไหวกล้อง"
@@ -540,7 +540,7 @@
     "message":"ตั้งค่า Turn Off the Lights ใหม่"
   },
   "desautoplaydelay":{
-    "message":"Brighten the background again when the video has ended after"
+    "message":"ทำให้พื้นหลังสว่างอีกครั้งเมื่อวิดีโอเล่นจบหลังจาก"
   },
   "desautoplaydelayend":{
     "message":"วินาที"
@@ -549,7 +549,7 @@
     "message":"การเคลื่อนไหวกล้อง"
   },
   "desmotion":{
-    "message":"Enable the Camera Motion"
+    "message":"เปิดใช้งาน Camera Motion"
   },
   "trymotion":{
     "message":"ลองด้วยตัวคุณเอง!"
@@ -567,7 +567,7 @@
     "message":"ย้ายมือของคุณ (หรือกำปั้น) จากด้านบนลงล่าง"
   },
   "step3description":{
-    "message":"The black layer will automatically slide down."
+    "message":"เลเยอร์สีดำจะเลื่อนลงโดยอัตโนมัติ"
   },
   "desmotionChecklist":{
     "message":"รายการตรวจสอบ:"
@@ -585,11 +585,11 @@
     "message":"เส้นตรง"
   },
   "titelcolora":{
-    "message":"Color A:"
+    "message":"สี A:"
   },
   "titelcolorb":{
-    "message":"Color B:",
-    "description":"Color B:"
+    "message":"สี B:",
+    "description":"สี B:"
   },
   "speechoption":{
     "message":"การเรียนรู้จดจำเสียง"
@@ -616,7 +616,7 @@
     "message":"เลือกภาษาของเสียง:"
   },
   "desatmosvivid":{
-    "message":"Vivid atmosphere effects, require"
+    "message":"ลักษณะพิเศษแบบสดใส ต้องใช้"
   },
   "help":{
     "message":"ช่วยเหลือ"
@@ -646,7 +646,7 @@
     "message":"เบราว์เซอร์นี้ไม่สนับสนุนคุณลักษณะนี้ กรุณาตรวจสอบให้แน่ใจว่าคุณใช้รุ่นล่าสุดของเบราว์เซอร์นี้บนคอมพิวเตอร์ของคุณ"
   },
   "titelsupportatmos":{
-    "message":"Supports only the HTML5 <video> and YouTube HTML5 player. It also uses the GPU from your graphics card."
+    "message":"สนับสนุนเฉพาะ HTML5 <video> และตัวเล่น Youtube แบบ HTML5 นอกจากนี้ยังใช้ GPU ช่วยในการแสดงผล"
   },
   "titelseeonline":{
     "message":"ดูออนไลน์สำหรับตัวอย่างเพิ่มเติม"
@@ -706,58 +706,58 @@
     "message":"สนับสนุนการพัฒนา"
   },
   "titelautostop":{
-    "message":"AutoStop"
+    "message":"หยุดอัตโนมัติ"
   },
   "desautostop":{
-    "message":"Stop playing the video automatically when I open a web page"
+    "message":"หยุดการเล่นวิดีโอโดยอัตโนมัติเมื่อฉันเปิดหน้าเว็บ"
   },
   "areyouhappy":{
-    "message":"Are you happy about Turn Off the Lights?"
+    "message":"คุณรู้สึกดีรึป่าว ? เกี่ยวกับการปิดแสงสว่าง"
   },
   "tellothers":{
-    "message":"Ensure that your opinion counts"
+    "message":"ให้รับรองว่าตวามติดเห็นของคุณมีค่า"
   },
   "nothanks":{
-    "message":"No thanks"
+    "message":"ไม่ล่ะ ขอบคุณ"
   },
   "writeareview":{
-    "message":"Write a review"
+    "message":"แสดงความคิดเห็น"
   },
   "desauroraplayer":{
-    "message":"The ambient lighting player is also available for your computer."
+    "message":"เครื่องเล่นแสงของบรรยากาศรอบๆ สามารถใช้บนคอมพิวเตอร์คุณได้"
   },
   "downloadtheapp":{
-    "message":"Download the app now"
+    "message":"ดาวน์โหลดแอป"
   },
   "titeldownloadupgradezoom":{
-    "message":"Zooms in or out on web content using the zoom button for more comfortable reading."
+    "message":"\"ย่อ\" หรือ \"ขยาย\" เนื้อหาเว็บ โดยใช้ปุ่มซูมสำหรับการอ่านที่สะดวกสบายมากขึ้น"
   },
   "titeldownloadupgradepropermenubar":{
-    "message":"Adds back the black menubar on the Google website."
+    "message":"เพิ่มการย้อนกลับบนเมนูของ Google เว็บไซต์"
   },
   "titeldownloadupgradefinancetoolbar":{
-    "message":"This shows you the real time stock market information."
+    "message":"แสดงข้อมูลของตลาดหุ้นแบบเรียลไทม์"
   },
   "titelnightmodeposition":{
-    "message":"Position of switch"
+    "message":"ตำแหน่งของสวิตช์"
   },
   "nmtopleft":{
-    "message":"Top left"
+    "message":"บนซ้าย"
   },
   "nmtopright":{
-    "message":"Top right"
+    "message":"บนขวา"
   },
   "nmbottomright":{
-    "message":"Bottom right"
+    "message":"ล่างขวา"
   },
   "nmbottomleft":{
-    "message":"Bottom left"
+    "message":"ล่างซ้าย"
   },
   "nmcustom":{
-    "message":"Custom (click, hold and move the switch to the desired screen location)"
+    "message":"กำหนด (คลิกค้าง เพื่อขยับสลับตำแหน่งหน้าจอตามที่ต้องการ)"
   },
   "desnighthover":{
-    "message":"Shows a transparent switch on the web page"
+    "message":"แสดงรูปแบบโปร่งใส บนหน้าเว็บ"
   },
   "titelnightmodewhitelist":{
     "message":"Whitelist"
@@ -766,7 +766,7 @@
     "message":"Blacklist"
   },
   "desautostoponly":{
-    "message":"Only activate stop playing the video automatically on the following site(s):"
+    "message":"เปิดการใช้งานหยุดเล่นวิดีโออัตโนมัติ ในเว็บไซต์ต่อไปนี้(s):"
   },
   "titelautostopwhitelist":{
     "message":"Whitelist"
@@ -778,7 +778,7 @@
     "message":"The switch will be visible between the following times:"
   },
   "deslampandnightmode":{
-    "message":"Activate the 'Night Mode' option when you click on the gray lamp button"
+    "message":"เปิดใช้งาน \"โหมดกลางคืน\" เมื่อคุณคลิกปุ่มหลอดไฟสีเทา"
   },
   "titeleyewhitelist":{
     "message":"Whitelist"
@@ -790,104 +790,104 @@
     "message":"browser lamp"
   },
   "html5andyoutube":{
-    "message":"HTML5 & YouTube™ video"
+    "message":"วิดีโอ HTML5 & YouTube™"
   },
   "flashembedobject":{
-    "message":"Supports: <object>, <embed>, <applet>, <iframe>."
+    "message":"สนับสนุน: <object>, <embed>, <applet>, <iframe>"
   },
   "titelnightmodebck":{
-    "message":"Background color"
+    "message":"สีพื้นหลัง"
   },
   "titelnightmodetxt":{
-    "message":"Text color"
+    "message":"สีตัวอักษร"
   },
   "desdynamicsmoke":{
-    "message":"Smoke"
+    "message":"ควัน"
   },
   "desdynamicdotscolor":{
-    "message":"Color Dots"
+    "message":"จุดสี"
   },
   "desdynamicstorm":{
-    "message":"Storm",
-    "description":"Storm"
+    "message":"พายุ",
+    "description":"พายุ"
   },
   "desdynamictriangulation":{
-    "message":"Triangulation"
+    "message":"การตรวจสอบสามเส้า"
   },
   "desdynamicstars":{
     "message":"ดาว"
   },
   "desmobileapp":{
-    "message":"Turn Off the Lights is also available for your mobile device."
+    "message":"ปิดการใช้แสง สำหรับอุปกรณ์เคลื่อนที่"
   },
   "titel360youtube":{
-    "message":"Shows the full 360 degrees YouTube video in one frame"
+    "message":"แสดงวิดีโอแบบ 360 องศา ใน YouTube ในทุกเฟรม"
   },
   "titelvideotool":{
-    "message":"Video Toolbar"
+    "message":"แถบวิดีโอ"
   },
   "desvideotool":{
-    "message":"Show the toolbar below your screen to customize the current video player"
+    "message":"แสดงแถบเครื่องมือด้านล่างของหน้าจอไปยังเครื่องเล่นวิดีโอปัจจุบัน"
   },
   "vtoolfullscreen":{
-    "message":"A button to set the video player to the full window size"
+    "message":"ตั้งค่าปุ่มของเครื่องเล่นวิดีโอไปยังขนาดเต็มหน้าจอ"
   },
   "vtoolfilter":{
-    "message":"A button to add a filter in the current video player"
+    "message":"ปุ่มตั้งค่าตัวกรองในเครื่องเล่นวิดีโอปัจจุบัน"
   },
   "vtoolreplay":{
-    "message":"A button to replay the current video player"
+    "message":"ปุ่มรีเพลย์สำหรับเครื่องเล่นวิดีโอ"
   },
   "vtoolscreenshot":{
-    "message":"A button to take a screenshot of the current video player"
+    "message":"ปุ่มจับภาพของเครื่องเล่นวิดีโอปัจจุบัน"
   },
   "vtoolalign":{
-    "message":"A button to center the video player in your browser window"
+    "message":"ปุ่มกลางเล่นวิดีโอในหน้าต่างเบราเซอร์"
   },
   "titelvideotoolgrayscale":{
-    "message":"grayscale"
+    "message":"โทนสีเทา"
   },
   "titelvideotoolsepia":{
-    "message":"sepia"
+    "message":"ซีเปีย"
   },
   "titelvideotoolinvert":{
-    "message":"invert"
+    "message":"สีกลับ"
   },
   "titelvideotoolcontrast":{
-    "message":"contrast"
+    "message":"ความคมชัด"
   },
   "titelvideotoolsaturate":{
-    "message":"saturation"
+    "message":"ความอิ่มตัว"
   },
   "titelvideotoolhueroration":{
-    "message":"hue rotation"
+    "message":"การหมุนสี"
   },
   "titelvideotoolbrightness":{
-    "message":"brightness"
+    "message":"ความสว่าง"
   },
   "titelvideotoolnormal":{
-    "message":"normal"
+    "message":"ปกติ"
   },
   "titelvideotoollike":{
-    "message":"Like"
+    "message":"ชอบ"
   },
   "titelvideotoolsubscribe":{
     "message":"สมัครสมาชิก"
   },
   "titelvideotoolrepeat":{
-    "message":"Repeat"
+    "message":"เล่นซ้ำ"
   },
   "titelvideotoolfilter":{
-    "message":"Filter"
+    "message":"ตัวกรอง"
   },
   "titelvideotoolfullwindow":{
-    "message":"Full window"
+    "message":"โหมดหน้าต่าง"
   },
   "titelvideotoolscreenshot":{
-    "message":"Take a screenshot"
+    "message":"ถ่ายภาพหน้าจอ"
   },
   "titelreflection":{
-    "message":"Reflection"
+    "message":"สะท้อน"
   },
   "desreflection":{
     "message":"Show the reflection effect on all videos"
@@ -902,33 +902,33 @@
     "message":"Blacklist"
   },
   "titelnightmodehyperlink":{
-    "message":"Hyperlink",
-    "description":"Hyperlink"
+    "message":"ไฮเปอร์ลิงก์",
+    "description":"ไฮเปอร์ลิงก์"
   },
   "titelblock60fps":{
-    "message":"Block 60fps",
-    "description":"Block 60fps"
+    "message":"บล็อก 60fps",
+    "description":"บล็อก 60fps"
   },
   "titelvolume":{
-    "message":"Video Volume Slider"
+    "message":"แถบเลื่อนระดับเสียง"
   },
   "desvideovolume":{
-    "message":"Control the volume of the current video player with a mouse scroll"
+    "message":"ควบคุมระดับเสียงของโปรแกรมเล่นวิดีโอปัจจุบัน โดยการสกอร์เมาส์"
   },
   "desvideovolumecolor":{
-    "message":"Color of the slider"
+    "message":"แถบเลื่อนของสี"
   },
   "desvolumelabel":{
-    "message":"Show volume label"
+    "message":"แสดงระดับเสียง"
   },
   "desvolumesteps":{
-    "message":"The number of levels for each 360° wheel scroll"
+    "message":"ปรับขนาดระดับตัวเลข 360 องศา"
   },
   "sharetexta":{
     "message":"Get this Cool Turn Off the Lights Browser Extension"
   },
   "sharetextb":{
-    "message":"Hey, This is amazing. I just tried today this Turn Off the Lights Browser extension "
+    "message":"เฮ้ ยอดไปเลย เราเพิ่งได้ลองส่วนขยายเบราว์เซอร์ Turn Off the Lights นี่เอง"
   },
   "sharetextc":{
     "message":"The Best and Amazing Turn Off the Lights Browser extension"
@@ -937,13 +937,13 @@
     "message":"Turn Off the Lights extension is the Best Tool for use on YouTube. Download it and try it yourself!"
   },
   "titelsharethis":{
-    "message":"Share this:"
+    "message":"แชร์สิ่งนี้"
   },
   "titellampchoose":{
-    "message":"Choose your favorite lamp style"
+    "message":"เลือกสไตล์แสงสว่าง ลงรายการโปรด"
   },
   "titeldoesntwork":{
-    "message":"Turn Off the Lights doesn't work on this web page. Please try another page."
+    "message":"ปิดการใช้งานแสงเมื่อไม่ได้ทำงานบนหน้าเว็บ โปรดลองใหม่ในหน้าอื่น"
   },
   "titelpopupvideo":{
     "message":"YouTube"
@@ -961,31 +961,31 @@
     "message":"ให้คะแนน 5 ดาว"
   },
   "titelvisenable":{
-    "message":"Enable/disable the Audio Visualization"
+    "message":"เปิดใช้งาน/ปิดใช้งาน ภาพและเสียง"
   },
   "titelvischoose":{
-    "message":"Choose your Audio Visualization"
+    "message":"เลือกภาพและเสียงของคุณ"
   },
   "titelvisblocks":{
     "message":"บล็อก"
   },
   "titelvisfrequency":{
-    "message":"Frequency"
+    "message":"ความถี่"
   },
   "titelvistunnel":{
     "message":"Music Tunnel"
   },
   "titelvisualization":{
-    "message":"Audio Visualization"
+    "message":"ภาพและเสียง"
   },
   "desvisopacity":{
     "message":"The opacity value of the audio visualization background"
   },
   "vtoolvisualization":{
-    "message":"A button for displaying the audio-visualization for the current video player"
+    "message":"ปุ่มสำหรับแสดงภาพและเสียงของโปรแกรมเล่นวิดีโอปัจจุบัน"
   },
   "desvideotoolcolor":{
-    "message":"Color of the toolbar"
+    "message":"แถบเครื่องมือของสี"
   },
   "titelhovervideo":{
     "message":"Video Hover"
@@ -994,13 +994,13 @@
     "message":"Hover your mouse on the video element for certain number of seconds, after which the webpage automatically dims"
   },
   "promotitle":{
-    "message":"Tip of the day"
+    "message":"คำแนะนำประจำวันนี้"
   },
   "desremyoutube":{
     "message":"กดติดตามเราบน Youtube"
   },
   "desremfacebook":{
-    "message":"Recommend this on Facebook"
+    "message":"แนะนำตัวนี้บน Facebook"
   },
   "titleuserprofile":{
     "message":"Below, choose the settings you want to use when clicking the gray lamp button. Each profile has its own features."
@@ -1009,10 +1009,10 @@
     "message":"Video Lover"
   },
   "titlenightowl":{
-    "message":"Night Owl"
+    "message":"นกฮูกกลางคืน"
   },
   "titlescreenprotection":{
-    "message":"อุปกรณ์ป้องกันดวงตา"
+    "message":"ปกป้องดวงตา"
   },
   "desregularuser":{
     "message":"This is default and the regular setting for new users. When clicking the gray lamp button, this style will be applied to the current web page."
@@ -1021,36 +1021,51 @@
     "message":"One click converts the page directly into a night theme with a clickable hyperlink. Click it again to return to normal view. Click the lamp button again to disable this feature."
   },
   "desscreenprotection":{
-    "message":"One click shades the page to a soothing orange color to decrease eye strain on all open tabs. Click the lamp button again to disable this feature."
+    "message":"One click shades the page to a soothing orange color to decrease eye strain to all open tabs. Click the lamp button again to disable this feature."
   },
   "titleprofilevideofocus":{
-    "message":"Video focus is enabled"
+    "message":"โฟกัสวิดีโอเปิดใช้งาน"
   },
   "titleprofilenovideofocus":{
-    "message":"Video focus is disabled"
+    "message":"โฟกัสวิดีโอปิดใช้งาน"
   },
   "titleprofilealwaysscreentab":{
-    "message":"Always enabled for all open tabs"
+    "message":"เปิดใช้งานสำหรับแท็บทั้งหมดเสมอ"
   },
   "titleprofilescreenclick":{
     "message":"เปิดใช้การคลิกเพื่อเชื่อมโยงหลายมิติเมื่อหน้าจอมืดลงแล้ว"
   },
   "titleprofilesubmit":{
-    "message":"Choose this settings"
+    "message":"เลือกการตั้งค่านี้"
   },
   "titlelearnmore":{
-    "message":"Learn more"
+    "message":"เรียนรู้เพิ่มเติม"
   },
   "optionprofilesaved":{
     "message":"New lamp action is saved successfully!"
   },
   "desaplay":{
-    "message":"play"
+    "message":"เล่น"
   },
   "desapause":{
-    "message":"pause"
+    "message":"หยุดชั่วคราว"
   },
   "desastop":{
-    "message":"stop"
+    "message":"หยุด"
+  },
+  "desvideozoom":{
+    "message":"\"ขยาย\" หรือ \"ย่อ\" บนเนื้อหาวิดีโอโดยใช้ปุ่มซูม"
+  },
+  "titlevideoplayrate":{
+    "message":"ความเร็ววิดีโอ"
+  },
+  "desplayrate":{
+    "message":"ค่าเริ่มต้นความเร็วการเล่น"
+  },
+  "desspeedtoolbar":{
+    "message":"แสดงเครื่องมือเล่นในวิดีโอเพลย์เยอร์ปัจจุบัน"
+  },
+  "desatmosontotlmode":{
+    "message":"แสดงอโตมอสเฟียร์เอฟเฟ็กต์เท่านั้น เมื่อโหมด TOtL ทำงานอยู่"
   }
 }

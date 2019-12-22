@@ -1,1056 +1,1377 @@
 {
-  "pagehelp":{
-    "message":"Ayuda"
+  "pagehelp": {
+    "message": "Ayuda"
   },
-  "titelimage":{
-    "message":"Imagen de fondo"
+  "titelimage": {
+    "message": "Imagen de fondo"
   },
-  "shortcutalllights":{
-    "message":"para encender/apagar las luces en todas las pestañas abiertas"
+  "shortcutalllights": {
+    "message": "para encender/apagar las luces en todas las pestañas abiertas"
   },
-  "lastchecked":{
-    "message":"Última versión verificada"
+  "lastchecked": {
+    "message": "Última versión verificada"
   },
-  "visualeffects":{
-    "message":"Efectos visuales"
+  "visualeffects": {
+    "message": "Efectos visuales"
   },
-  "titelshortcutlight":{
-    "message":"Tecla de acceso rápido"
+  "titelshortcutlight": {
+    "message": "Tecla de acceso rápido"
   },
-  "titledonatebutton":{
-    "message":"Donar"
+  "titledonatebutton": {
+    "message": "Donar"
   },
-  "titellikebar":{
-    "message":"Barra de votaciones"
+  "titellikebar": {
+    "message": "Barra de votaciones"
   },
-  "desmousespotlightt":{
-    "message":"Permitir hacer clic en hipervínculos cuando la pantalla está oscurecida"
+  "desmousespotlightt": {
+    "message": "Permitir hacer clic en hipervínculos cuando la pantalla está oscurecida"
   },
-  "desmousespotlights":{
-    "message":"Activa el sombreado de pantalla, siempre está activado y podrás hacer clic a través de la capa."
+  "desmousespotlights": {
+    "message": "Activa el sombreado de pantalla, siempre está activado y podrás hacer clic a través de la capa."
   },
-  "desambilight4color":{
-    "message":"4 colores elegidos alrededor del vídeo:"
+  "desambilight4color": {
+    "message": "Cuatro colores elegidos alrededor del vídeo"
   },
-  "lockentername":{
-    "message":"Por favor, introduce tu contraseña"
+  "lockentername": {
+    "message": "Por favor, introduce tu contraseña"
   },
-  "desnoflash":{
-    "message":"No utilizar esta función."
+  "desnoflash": {
+    "message": "No utilizar esta función."
   },
-  "desdynamicblocks":{
-    "message":"Bloques"
+  "desdynamicblocks": {
+    "message": "Bloques"
   },
-  "titeleye":{
-    "message":"Protección ocular"
+  "titeleye": {
+    "message": "Protección ocular"
   },
-  "titelcinemaontop":{
-    "message":"Modo cine: muestra la capa de \"luces apagadas\" solamente en la parte superior de la ventana"
+  "titelcinemaontop": {
+    "message": "Modo cine: muestra la capa de \"luces apagadas\" solamente en la parte superior de la ventana"
   },
-  "desmousespotlightc":{
-    "message":"Si la luz está apagada, puedes seleccionar un área para enfocar algo."
+  "desmousespotlightc": {
+    "message": "Si la luz está apagada, puedes seleccionar un área para enfocar algo."
   },
-  "titelrememberpage":{
-    "message":"Página de recordatorio"
+  "titelrememberpage": {
+    "message": "Página de recordatorio"
   },
-  "desmousespotlighta":{
-    "message":"Si la luz está apagada, se mostrará un foco alrededor del cursor del ratón."
+  "desmousespotlighta": {
+    "message": "Si la luz está apagada, se mostrará un foco alrededor del cursor del ratón."
   },
-  "desmousespotlighto":{
-    "message":"Uso normal (desactiva los siguiente ajustes del ratón)."
+  "desmousespotlighto": {
+    "message": "Uso normal (desactiva los siguiente ajustes del ratón)."
   },
-  "desplaylist":{
-    "message":"Mostrar la lista de reproducción en YouTube."
+  "desplaylist": {
+    "message": "Mostrar la lista de reproducción en YouTube."
   },
-  "desambilightfixcolor":{
-    "message":"Color sólido:"
+  "desambilightfixcolor": {
+    "message": "Sólo un color"
   },
-  "desuntil":{
-    "message":"hasta"
+  "desuntil": {
+    "message": "hasta"
   },
-  "desconfirmpassword":{
-    "message":"Confirmar contraseña"
+  "desconfirmpassword": {
+    "message": "Confirmar contraseña"
   },
-  "desautoplayonly":{
-    "message":"Oscurecer solo en los siguientes sitios:"
+  "desautoplayonly": {
+    "message": "Oscurecer solo en los siguientes sitios:"
   },
-  "helpeyeprotection":{
-    "message":"Al activar la protección ocular se desactivará la reproducción automática."
+  "helpeyeprotection": {
+    "message": "Al activar la protección ocular se desactivará la reproducción automática."
   },
-  "skipremember":{
-    "message":"Omitir esto y abrir la página de opciones ya"
+  "skipremember": {
+    "message": "Omitir esto y abrir la página de opciones ya"
   },
-  "optiontimesaved":{
-    "message":"¡Tiempo guardado correctamente!"
+  "optiontimesaved": {
+    "message": "¡Tiempo guardado correctamente!"
   },
-  "titelvideoheadline":{
-    "message":"Título del vídeo"
+  "titelvideoheadline": {
+    "message": "Título del vídeo"
   },
-  "translateme":{
-    "message":"Ayuda a traducir"
+  "translateme": {
+    "message": "Ayuda a traducir"
   },
-  "despassword":{
-    "message":"Es necesario introducir una contraseña antes de volver a encender las luces."
+  "despassword": {
+    "message": "Es necesario introducir una contraseña antes de volver a encender las luces."
   },
-  "helpautoplay":{
-    "message":"La 'protección ocular' está activada. Para utilizar la función de abajo, desactiva la 'protección ocular'."
+  "helpautoplay": {
+    "message": "La 'protección ocular' está activada. Para utilizar la función de abajo, desactiva la 'protección ocular'."
   },
-  "name":{
-    "message":"Turn Off the Lights"
+  "name": {
+    "message": "Turn Off the Lights"
   },
-  "changelog":{
-    "message":"Cambios"
+  "changelog": {
+    "message": "Cambios"
   },
-  "optionpagetitle":{
-    "message":"Opciones de Turn Off the Lights"
+  "optionpagetitle": {
+    "message": "Opciones de Turn Off the Lights"
   },
-  "optionpasswordsaved":{
-    "message":"¡Contraseña guardada correctamente!"
+  "optionpasswordsaved": {
+    "message": "¡Contraseña guardada correctamente!"
   },
-  "desdynamicspace":{
-    "message":"Espacio exterior"
+  "desdynamicspace": {
+    "message": "Espacio exterior"
   },
-  "deseastereggs":{
-    "message":"Pulsando la tecla T se añade un telón de teatro a la capa oscura"
+  "deseastereggs": {
+    "message": "Pulsando la tecla T se añade un telón de teatro a la capa oscura"
   },
-  "settings":{
-    "message":"Ajustes"
+  "settings": {
+    "message": "Ajustes"
   },
-  "desspotlightradius":{
-    "message":"Diámetro del foco:"
+  "desspotlightradius": {
+    "message": "Diámetro del foco:"
   },
-  "titelsync":{
-    "message":"Sincronización"
+  "titelsync": {
+    "message": "Sincronización"
   },
-  "right":{
-    "message":"derecha"
+  "right": {
+    "message": "Derecha"
   },
-  "titeldynamic":{
-    "message":"Fondo dinámico"
+  "titeldynamic": {
+    "message": "Fondo dinámico"
   },
-  "deslikebutton":{
-    "message":"Mostrar los botones 'Me gusta' y 'No me gusta' en este vídeo de YouTube."
+  "deslikebutton": {
+    "message": "Mostrar los botones 'Me gusta' y 'No me gusta' en este vídeo de YouTube."
   },
-  "titelmouse":{
-    "message":"Ratón"
+  "titelmouse": {
+    "message": "Ratón"
   },
-  "titellessmore":{
-    "message":"Mostrar menos"
+  "titellessmore": {
+    "message": "Mostrar menos"
   },
-  "desshortcutlight":{
-    "message":"Activa los atajos de teclado más abajo."
+  "desshortcutlight": {
+    "message": "Activa los atajos de teclado más abajo."
   },
-  "titelinfobar":{
-    "message":"Barra de información"
+  "titelinfobar": {
+    "message": "Barra de información"
   },
-  "descontextmenus":{
-    "message":"Mostrar el menú de contexto para enfocar un elemento."
+  "descontextmenus": {
+    "message": "Mostrar el menú de contexto para enfocar un elemento."
   },
-  "titelcontextmenus":{
-    "message":"Menú de contexto"
+  "titelcontextmenus": {
+    "message": "Menú de contexto"
   },
-  "titelplaylist":{
-    "message":"Lista de reproducción"
+  "titelplaylist": {
+    "message": "Lista de reproducción"
   },
-  "desatmosphereonly":{
-    "message":"Usar la función de iluminación ambiental solo en los siguientes sitios:"
+  "desatmosphereonly": {
+    "message": "Usar la función de iluminación ambiental solo en los siguientes sitios:"
   },
-  "recflash":{
-    "message":"Se recomienda"
+  "recflash": {
+    "message": "Se recomienda"
   },
-  "desenterpassword":{
-    "message":"Introduce tu contraseña en el siguiente cuadro:"
+  "desenterpassword": {
+    "message": "Introduce tu contraseña en el siguiente cuadro:"
   },
-  "titelblurradius":{
-    "message":"Radio de desenfoque:"
+  "titelblurradius": {
+    "message": "Radio de desenfoque:"
   },
-  "version":{
-    "message":"Versión"
+  "version": {
+    "message": "Versión"
   },
-  "shortcutdark":{
-    "message":"para oscurecer la pantalla (aumento de opacidad)"
+  "shortcutdark": {
+    "message": "para oscurecer la pantalla (aumento de opacidad)"
   },
-  "dessharebutton":{
-    "message":"Mostrar el botón compartir en este vídeo de YouTube."
+  "dessharebutton": {
+    "message": "Mostrar el botón compartir en este vídeo de YouTube."
   },
-  "shortcutbright":{
-    "message":"para iluminar la pantalla (disminución de opacidad)"
+  "shortcutbright": {
+    "message": "para iluminar la pantalla (disminución de opacidad)"
   },
-  "titelalllightsoff":{
-    "message":"Todas las pestañas abiertas"
+  "titelalllightsoff": {
+    "message": "Todas las pestañas abiertas"
   },
-  "desreadera":{
-    "message":"Mostrar siempre la barra de oscuridad al apagar las luces."
+  "desreadera": {
+    "message": "Mostrar siempre la barra de oscuridad al apagar las luces."
   },
-  "rememberrate":{
-    "message":"Valorar"
+  "rememberrate": {
+    "message": "Valorar"
   },
-  "desautoplay":{
-    "message":"Oscurecer automáticamente el fondo cuando haces clic en el botón reproducir y viceversa."
+  "desautoplay": {
+    "message": "Oscurecer automáticamente el fondo cuando haces clic en el botón reproducir y viceversa."
   },
-  "titelscreen":{
-    "message":"Pantalla"
+  "titelscreen": {
+    "message": "Pantalla"
   },
-  "desflash":{
-    "message":"Mostrar todos los elementos con contenido flash."
+  "desflash": {
+    "message": "Mostrar todos los elementos con contenido flash."
   },
-  "titelhead":{
-    "message":"Canal"
+  "titelhead": {
+    "message": "Canal"
   },
-  "pageatitle":{
-    "message":"Turn Off the Lights"
+  "pageatitle": {
+    "message": "Turn Off the Lights"
   },
-  "desaddvideobutton":{
-    "message":"Mostrar el botón añadir en este vídeo de YouTube."
+  "desaddvideobutton": {
+    "message": "Mostrar el botón añadir en este vídeo de YouTube."
   },
-  "shortcuteyeprotection":{
-    "message":"para activar/desactivar la protección ocular"
+  "shortcuteyeprotection": {
+    "message": "para activar/desactivar la protección ocular"
   },
-  "titelfadein":{
-    "message":"Entrada"
+  "titelfadein": {
+    "message": "Entrada"
   },
-  "desreadern":{
-    "message":"No mostrar la barra de oscuridad."
+  "desreadern": {
+    "message": "No mostrar la barra de oscuridad."
   },
-  "titelmaxqualityyoutube":{
-    "message":"Establecer automáticamente en esta resolución:"
+  "titelmaxqualityyoutube": {
+    "message": "Establecer automáticamente en esta resolución:"
   },
-  "desambilightrangespreadradius":{
-    "message":"Los valores positivos aumentan el tamaño de la sombra, los valores negativos lo disminuyen."
+  "desambilightrangespreadradius": {
+    "message": "Los valores positivos aumentan el tamaño de la sombra, los valores negativos lo disminuyen."
   },
-  "titelon":{
-    "message":"On"
+  "titelon": {
+    "message": "On"
   },
-  "videotitle":{
-    "message":"Enfocar este vídeo"
+  "videotitle": {
+    "message": "Enfocar este vídeo"
   },
-  "warningtextambilight":{
-    "message":"Cuando no sea posible recibir datos de vídeo debido a las normas de seguridad de la web, se utilizará el color sólido elegido."
+  "warningtextambilight": {
+    "message": "Cuando no sea posible recibir datos de vídeo debido a las normas de seguridad de la web, se utilizará el color sólido elegido."
   },
-  "desdynamiccloud":{
-    "message":"Nubes animadas"
+  "desdynamiccloud": {
+    "message": "Nubes animadas"
   },
-  "desconfirmtimesaver":{
-    "message":"Confirmar tiempo de salvapantallas"
+  "desconfirmtimesaver": {
+    "message": "Confirmar tiempo de salvapantallas"
   },
-  "deslikebar":{
-    "message":"Mostrar la barra de 'Me gusta'/'No me gusta' bajo los vídeos de YouTube."
+  "deslikebar": {
+    "message": "Mostrar la barra de 'Me gusta'/'No me gusta' bajo los vídeos de YouTube."
   },
-  "titelautoplay":{
-    "message":"Reproducción automática"
+  "titelautoplay": {
+    "message": "Reproducción automática"
   },
-  "top":{
-    "message":"arriba"
+  "top": {
+    "message": "Arriba"
   },
-  "titelspreadradius":{
-    "message":"Radio de pixelización:"
+  "titelspreadradius": {
+    "message": "Radio de pixelización:"
   },
-  "installadblocker":{
-    "message":"Si no quieres ver anuncios, usa una extensión de adblock."
+  "installadblocker": {
+    "message": "Si no quieres ver anuncios, usa una extensión de adblock."
   },
-  "titelsharebutton":{
-    "message":"Botón de compartir"
+  "titelsharebutton": {
+    "message": "Botón de compartir"
   },
-  "titelcolor":{
-    "message":"Color"
+  "titelcolor": {
+    "message": "Color"
   },
-  "titeldownloadbutton":{
-    "message":"¡Descargar esta actualización!"
+  "titeldownloadbutton": {
+    "message": "¡Descargar esta actualización!"
   },
-  "pagetitle":{
-    "message":"Oscurecer más"
+  "pagetitle": {
+    "message": "Oscurecer más"
   },
-  "titelambilight":{
-    "message":"Iluminación ambiental"
+  "titelambilight": {
+    "message": "Iluminación ambiental"
   },
-  "titelshowmore":{
-    "message":"Mostrar más"
+  "titelshowmore": {
+    "message": "Mostrar más"
   },
-  "desviewcount":{
-    "message":"Mostrar el número de vistas de este vídeo."
+  "desviewcount": {
+    "message": "Mostrar el número de vistas de este vídeo."
   },
-  "titelautowidthyoutube":{
-    "message":"Establecer automáticamente el reproductor de YouTube en un tamaño mayor."
+  "titelautowidthyoutube": {
+    "message": "Establecer automáticamente el reproductor de YouTube en un tamaño mayor."
   },
-  "desconfirmtime":{
-    "message":"Confirmar tiempo"
+  "desconfirmtime": {
+    "message": "Confirmar tiempo"
   },
-  "titelupgrade":{
-    "message":"Actualizar"
+  "titelupgrade": {
+    "message": "Actualizar"
   },
-  "lockwrongpassword":{
-    "message":"Contraseña incorrecta. Por favor, vuelve a intentarlo."
+  "lockwrongpassword": {
+    "message": "Contraseña incorrecta. Por favor, vuelve a intentarlo."
   },
-  "titelsyncbrowser":{
-    "message":"Sincroniza los ajustes de la extensión con el otro navegador."
+  "titelsyncbrowser": {
+    "message": "Sincroniza los ajustes de la extensión con el otro navegador."
   },
-  "deletebutton":{
-    "message":"Eliminar"
+  "deletebutton": {
+    "message": "Eliminar"
   },
-  "eyedivon":{
-    "message":"ON"
+  "eyedivon": {
+    "message": "ON"
   },
-  "eyedivoff":{
-    "message":"OFF"
+  "eyedivoff": {
+    "message": "OFF"
   },
-  "deshead":{
-    "message":"Mostrar la barra o el nombre del canal de YouTube."
+  "deshead": {
+    "message": "Mostrar la barra o el nombre del canal de YouTube."
   },
-  "shortcutsavingopacity":{
-    "message":"para guardar este nivel de opacidad."
+  "shortcutsavingopacity": {
+    "message": "para guardar este nivel de opacidad."
   },
-  "desinfobar":{
-    "message":"Mostrar la descripción del vídeo."
+  "desinfobar": {
+    "message": "Mostrar la descripción del vídeo."
   },
-  "titellamp":{
-    "message":"Bombilla"
+  "titellamp": {
+    "message": "Bombilla"
   },
-  "desambilightvarcolor":{
-    "message":"Tomar el color del vídeo."
+  "desambilightvarcolor": {
+    "message": "Tomar el color del vídeo"
   },
-  "showremember":{
-    "message":"No volver a mostrar este recordatorio al abrir opciones"
+  "showremember": {
+    "message": "No volver a mostrar este recordatorio al abrir opciones"
   },
-  "donatepromotext":{
-    "message":"Si pudieras hacer una donación de cualquier cantidad, ¡te lo agradecería inmensamente!"
+  "donatepromotext": {
+    "message": "Si pudieras hacer una donación de cualquier cantidad, ¡te lo agradecería inmensamente!"
   },
-  "titelblur":{
-    "message":"Difuminar lo de más"
+  "titelblur": {
+    "message": "Difuminar lo de más"
   },
-  "desdynamicraindrops":{
-    "message":"Gotas de agua"
+  "desdynamicraindrops": {
+    "message": "Gotas de agua"
   },
-  "desalllightsoff":{
-    "message":"Al hacer clic en el botón de la bombilla se encenderán/apagarán las luces de todas las pestañas abiertas"
+  "desalllightsoff": {
+    "message": "Al hacer clic en el botón de la bombilla se encenderán/apagarán las luces de todas las pestañas abiertas"
   },
-  "optionecosaversaved":{
-    "message":"¡Segundos guardados correctamente!"
+  "optionecosaversaved": {
+    "message": "¡Segundos guardados correctamente!"
   },
-  "titelreader":{
-    "message":"Barra de oscuridad"
+  "titelreader": {
+    "message": "Barra de oscuridad"
   },
-  "deseyen":{
-    "message":"Uso normal (las luces se apagan al hacer clic en el icono)"
+  "deseyen": {
+    "message": "Uso normal (las luces se apagan al hacer clic en el icono)"
   },
-  "enjoyshare":{
-    "message":"Disfruta de esta extensión y compártela con otras personas que creas que les gustará."
+  "enjoyshare": {
+    "message": "Disfruta de esta extensión y compártela con otras personas que creas que les gustará."
   },
-  "shortcuttotl":{
-    "message":"para encender/apagar las luces"
+  "shortcuttotl": {
+    "message": "para encender/apagar las luces"
   },
-  "deseyea":{
-    "message":"Oscurecer automáticamente el fondo al abrir una página"
+  "deseyea": {
+    "message": "Oscurecer automáticamente el fondo al abrir una página"
   },
-  "basicsettings":{
-    "message":"Conceptos básicos"
+  "basicsettings": {
+    "message": "Conceptos básicos"
   },
-  "hoveroptionapply":{
-    "message":"aplicar"
+  "hoveroptionapply": {
+    "message": "aplicar"
   },
-  "reportbug":{
-    "message":"Informar de un problema"
+  "reportbug": {
+    "message": "Informar de un problema"
   },
-  "destime":{
-    "message":"Apagar las luces a las siguientes horas:"
+  "destime": {
+    "message": "Apagar las luces a las siguientes horas:"
   },
-  "guide":{
-    "message":"Bienvenido a la guía de TOtL"
+  "guide": {
+    "message": "Bienvenido a la guía de TOtL"
   },
-  "deseyealist":{
-    "message":"Oscurecer automáticamente el fondo en esta(s) web(s):"
+  "deseyealist": {
+    "message": "Oscurecer automáticamente el fondo en esta(s) web(s):"
   },
-  "titellikebutton":{
-    "message":"Botones de 'Me gusta' y 'No me gusta'"
+  "titellikebutton": {
+    "message": "Botones de 'Me gusta' y 'No me gusta'"
   },
-  "titelpageaction":{
-    "message":"Ocultar el icono de la bombilla"
+  "titelpageaction": {
+    "message": "Ocultar el icono de la bombilla"
   },
-  "friendlyremember":{
-    "message":"Recordatorio amistoso..."
+  "friendlyremember": {
+    "message": "Recordatorio amistoso..."
   },
-  "desfadein":{
-    "message":"Mostrar el efecto de entrada."
+  "desfadein": {
+    "message": "Mostrar el efecto de entrada."
   },
-  "warning":{
-    "message":"¡Advertencia!"
+  "warning": {
+    "message": "¡Advertencia!"
   },
-  "deseyetimesaver":{
-    "message":"La página se oscurecerá cuando esté inactiva (sin movimiento del teclado o ratón) durante el tiempo especificado abajo."
+  "deseyetimesaver": {
+    "message": "La página se oscurecerá cuando esté inactiva (sin movimiento del teclado o ratón) durante el tiempo especificado abajo."
   },
-  "titelsuggestions":{
-    "message":"Sugerencias"
+  "titelsuggestions": {
+    "message": "Sugerencias"
   },
-  "advancedoptions":{
-    "message":"Opciones avanzadas"
+  "advancedoptions": {
+    "message": "Opciones avanzadas"
   },
-  "dessuggestions":{
-    "message":"Mostrar las sugerencias de YouTube."
+  "dessuggestions": {
+    "message": "Mostrar las sugerencias de YouTube."
   },
-  "titelflash":{
-    "message":"Detección de flash"
+  "titelflash": {
+    "message": "Detección de flash"
   },
-  "desambilight":{
-    "message":"Te muestra el efecto de iluminación ambiental del vídeo que se está reproduciendo."
+  "desambilight": {
+    "message": "Te muestra el efecto de iluminación ambiental del vídeo que se está reproduciendo."
   },
-  "productshare":{
-    "message":"Compartir"
+  "productshare": {
+    "message": "Compartir"
   },
-  "addbutton":{
-    "message":"Añadir"
+  "addbutton": {
+    "message": "Añadir"
   },
-  "reportlist":{
-    "message":"(ver lista)"
+  "reportlist": {
+    "message": "(ver lista)"
   },
-  "desdynamicfishtank":{
-    "message":"Pecera"
+  "desdynamicfishtank": {
+    "message": "Pecera"
   },
-  "longdonatetext":{
-    "message":"Te agradeceríamos que realizaras una donación a esta extensión para contribuir a mantenerla disponible. Ya sea 1€ o 100€, ¡te lo agradeceremos!"
+  "longdonatetext": {
+    "message": "Te agradeceríamos que realizaras una donación a esta extensión para contribuir a mantenerla disponible. Ya sea 1€ o 100€, ¡te lo agradeceremos!"
   },
-  "deshardflash":{
-    "message":"Mostrar todos los elementos Flash, omitiendo el filtro URL. Esto solucionará los problemas con algunos reproductores de vídeo que quedan ocultos, pero también mostrará anuncios."
+  "deshardflash": {
+    "message": "Mostrar todos los elementos Flash, omitiendo el filtro URL. Esto solucionará los problemas con algunos reproductores de vídeo que quedan ocultos, pero también mostrará anuncios."
   },
-  "desfadeout":{
-    "message":"Mostrar el efecto de salida."
+  "desfadeout": {
+    "message": "Mostrar el efecto de salida."
   },
-  "optionwrongimg":{
-    "message":"¡Archivo de imagen no válido!"
+  "optionwrongimg": {
+    "message": "¡Archivo de imagen no válido!"
   },
-  "desvideoheadline":{
-    "message":"Mostrar e invertir el color del título del vídeo."
+  "desvideoheadline": {
+    "message": "Mostrar e invertir el color del título del vídeo."
   },
-  "desrememberpage":{
-    "message":"No mostrar página de recordatorio"
+  "desrememberpage": {
+    "message": "No mostrar página de recordatorio"
   },
-  "description":{
-    "message":"Toda la página se oscurecerá, así podrás ver los vídeos como si estuvieras en el cine. Funciona con YouTube™ y mucho más."
+  "description": {
+    "message": "Toda la página se oscurecerá, así podrás ver los vídeos como si estuvieras en el cine. Funciona con YouTube™ y mucho más."
   },
-  "titelviewcount":{
-    "message":"Número de vistas"
+  "titelviewcount": {
+    "message": "Número de vistas"
   },
-  "titelopacity":{
-    "message":"Opacidad"
+  "titelopacity": {
+    "message": "Opacidad"
   },
-  "titelqualityyoutube":{
-    "message":"Establecer automáticamente la calidad de los vídeos de YouTube."
+  "titelqualityyoutube": {
+    "message": "Establecer automáticamente la calidad de los vídeos de YouTube."
   },
-  "shortcutopacity":{
-    "message":"para restaurar a la oscuridad establecida (opacidad)"
+  "shortcutopacity": {
+    "message": "para restaurar a la oscuridad establecida (opacidad)"
   },
-  "desambilightrangeblurradius":{
-    "message":"Los valores más bajos agudizarán la sombra, los valores más altos la harán más borrosa."
+  "desambilightrangeblurradius": {
+    "message": "Los valores más bajos agudizarán la sombra, los valores más altos la harán más borrosa."
   },
-  "titeladdvideobutton":{
-    "message":"Añadir botón"
+  "titeladdvideobutton": {
+    "message": "Añadir botón"
   },
-  "titelpassword":{
-    "message":"Protección por contraseña"
+  "titelpassword": {
+    "message": "Protección por contraseña"
   },
-  "titeldownloadupgrade":{
-    "message":"La actualización añade soporte para enfocar las imágenes seleccionadas y mostrará una galería de imágenes en la web."
+  "titeldownloadupgrade": {
+    "message": "La actualización añade soporte para enfocar las imágenes seleccionadas y mostrará una galería de imágenes en la web."
   },
-  "titelfadeout":{
-    "message":"Salida"
+  "titelfadeout": {
+    "message": "Salida"
   },
-  "eastereggsquestion":{
-    "message":"¿Te gusta el cine de verdad?"
+  "eastereggsquestion": {
+    "message": "¿Te gusta el cine de verdad?"
   },
-  "bottom":{
-    "message":"abajo"
+  "bottom": {
+    "message": "Abajo"
   },
-  "dessaver":{
-    "message":"Salvapantallas:"
+  "dessaver": {
+    "message": "Salvapantallas:"
   },
-  "hoveroptiondyn5":{
-    "message":"en vuelo"
+  "hoveroptiondyn5": {
+    "message": "en vuelo"
   },
-  "pagestillloading":{
-    "message":"¿La página sigue cargando?"
+  "pagestillloading": {
+    "message": "¿La página sigue cargando?"
   },
-  "titeloff":{
-    "message":"Off"
+  "titeloff": {
+    "message": "Off"
   },
-  "titeleastereggs":{
-    "message":"Huevos de pascua"
+  "titeleastereggs": {
+    "message": "Huevos de pascua"
   },
-  "textfoot":{
-    "message":"Este software está licenciado bajo el CC-GNU GPL. Para obtener una copia de esta licencia, visita"
+  "textfoot": {
+    "message": "Este software está licenciado bajo el CC-GNU GPL. Para obtener una copia de esta licencia, visita"
   },
-  "left":{
-    "message":"izquierda"
+  "left": {
+    "message": "Izquierda"
   },
-  "titelnighttheme":{
-    "message":"Modo nocturno"
+  "titelnighttheme": {
+    "message": "Modo nocturno"
   },
-  "desnighttheme":{
-    "message":"Mostrar el botón del modo nocturno en la parte inferior de la página web para hacer la página oscura o clara."
+  "desnighttheme": {
+    "message": "Mostrar el botón del modo nocturno en la parte inferior de la página web para hacer la página oscura o clara."
   },
-  "nightoptions":{
-    "message":"Modo nocturno"
+  "nightoptions": {
+    "message": "Modo nocturno"
   },
-  "desnightonly":{
-    "message":"Mostrar el modo nocturno solo en los siguientes sitios:"
+  "desnightonly": {
+    "message": "Mostrar el modo nocturno solo en los siguientes sitios:"
   },
-  "desnightenabletheme":{
-    "message":"Al abrir una página nueva, pasará al modo nocturno automáticamente."
+  "desnightenabletheme": {
+    "message": "Al abrir una página nueva, pasará al modo nocturno automáticamente."
   },
-  "titellampregular":{
-    "message":"Mostrar siempre la bombilla en el cuadro multifunción"
+  "titellampregular": {
+    "message": "Mostrar siempre la bombilla en el cuadro multifunción"
   },
-  "titellampvideo":{
-    "message":"Mostrar la bombilla solo si se detecta un reproductor de vídeo"
+  "titellampvideo": {
+    "message": "Mostrar la bombilla solo si se detecta un reproductor de vídeo"
   },
-  "upgradecontexttitle":{
-    "message":"Hemos añadido algunas características nuevas"
+  "ratetitle": {
+    "message": "Gracias por utilizar Turn Off the Lights"
   },
-  "upgradecontextmessage":{
-    "message":"Eso hace a esta extensión aún más impresionante"
+  "ratedes": {
+    "message": "Por favor, calificá y comentá la extensión en el local virtual de aplicaciones. Tu apoyo es muy bienvenido."
   },
-  "upgradecontextitemta":{
-    "message":"Camera Motion"
+  "rateitema": {
+    "message": "Valórenos con 5 estrellas"
   },
-  "upgradecontextitemma":{
-    "message":"apagar las luces con tu mano"
+  "titelreset": {
+    "message": "Restablecer ajustes"
   },
-  "upgradecontextitemtb":{
-    "message":"Reconocimiento de voz"
+  "resetbrowserextension": {
+    "message": "Restablecer ajustes de Turn Off the Lights"
   },
-  "upgradecontextitemmb":{
-    "message":"Controla la web con mayor precisión"
+  "desautoplaydelay": {
+    "message": "Volver a iluminar el fondo cuando el vídeo haya finalizado"
   },
-  "upgradefbshare":{
-    "message":"Compartir en Facebook"
+  "desautoplaydelayend": {
+    "message": "segundos"
   },
-  "upgradetwshare":{
-    "message":"Tuitear"
+  "motionoptions": {
+    "message": "Camera Motion"
   },
-  "ratetitle":{
-    "message":"Por favor, valora y revisa mi extensión"
+  "desmotion": {
+    "message": "Activar \"Camera Motion\""
   },
-  "ratedes":{
-    "message":"¡Haz que todos sepan acerca de esta gran extensión!"
+  "desspeech": {
+    "message": "Habilitar el reconocimiento de voz"
   },
-  "rateitema":{
-    "message":"Valórenos con 5 estrellas"
+  "trymotion": {
+    "message": "¡Compruébalo tú mismo!"
   },
-  "titelreset":{
-    "message":"Restablecer ajustes"
+  "destrymotion": {
+    "message": "Es genial y lo mejor de todo es que funciona en todas partes. Incluso en YouTube, sitios web de noticias, etc."
   },
-  "resetbrowserextension":{
-    "message":"Restablecer ajustes de Turn Off the Lights"
+  "howworkmotion": {
+    "message": "¿Cómo funciona?"
   },
-  "desautoplaydelay":{
-    "message":"Volver a iluminar el fondo cuando el vídeo haya finalizado"
+  "nightstep1description": {
+    "message": "Habilitar la función de Modo Nocturno"
   },
-  "desautoplaydelayend":{
-    "message":"segundos"
+  "nightstep2description": {
+    "message": "Abrí cualquier página web, y vas a ver este interruptor nocturno"
   },
-  "motionoptions":{
-    "message":"Camera Motion"
+  "nightstep3description": {
+    "message": "Hacé clic en el interruptor para ver la página web en un tema oscuro"
   },
-  "desmotion":{
-    "message":"Activar \"Camera Motion\""
+  "speechstep1description": {
+    "message": "Habilitar la función de reconocimiento de voz"
   },
-  "trymotion":{
-    "message":"¡Compruébalo tú mismo!"
+  "speechstep2description": {
+    "message": "Cuando tenés habilitada esta opción, podés hablar con la lámpara del navegador web, usando los siguientes comandos:"
   },
-  "destrymotion":{
-    "message":"Es genial y lo mejor de todo es que funciona en todas partes. Incluso en YouTube, sitios web de noticias, etc."
+  "camstep1description": {
+    "message": "Activa la característica 'Camera Motion'."
   },
-  "howworkmotion":{
-    "message":"¿Cómo funciona?"
+  "camstep2description": {
+    "message": "Mueve tu mano (o puño) de arriba hacia abajo."
   },
-  "step1description":{
-    "message":"Activa la opción 'Camera Motion'"
+  "camstep3description": {
+    "message": "La capa negra se deslizará hacia abajo automáticamente."
   },
-  "step2description":{
-    "message":"Mueve la mano (o puño) desde arriba hacia abajo"
+  "desmotionChecklist": {
+    "message": "Lista de comprobación:"
   },
-  "step3description":{
-    "message":"La capa negra se deslizará hacia abajo automáticamente."
+  "des1checkmotion": {
+    "message": "Asegúrate de que tu habitación está lo suficientemente iluminada."
   },
-  "desmotionChecklist":{
-    "message":"Lista de comprobación:"
+  "des2checkmotion": {
+    "message": "Tu cámara no recibe luz solar directa."
   },
-  "des1checkmotion":{
-    "message":"Asegúrate de que tu habitación está lo suficientemente iluminada."
+  "des3checkmotion": {
+    "message": "Estás utilizando una cámara frontal."
   },
-  "des2checkmotion":{
-    "message":"Tu cámara no recibe luz solar directa."
+  "titellinear": {
+    "message": "Lineal"
   },
-  "des3checkmotion":{
-    "message":"Estás utilizando una cámara frontal."
+  "titelcolora": {
+    "message": "Color A:"
   },
-  "titellinear":{
-    "message":"Lineal"
+  "titelcolorb": {
+    "message": "Color B:",
+    "description": "Color B:"
   },
-  "titelcolora":{
-    "message":"Color A:"
+  "speechoption": {
+    "message": "Reconocimiento de voz"
   },
-  "titelcolorb":{
-    "message":"Color B:",
-    "description":"Color B:"
+  "titelspeech": {
+    "message": "Voz"
   },
-  "speechoption":{
-    "message":"Reconocimiento de voz"
+  "desspeech1command": {
+    "message": "apaga las luces"
   },
-  "titelspeech":{
-    "message":"Voz"
+  "desspeech2command": {
+    "message": "enciende las luces"
   },
-  "desspeech":{
-    "message":"Cuando activas esta opción, puedes hablar a la bombilla del navegador. Y puedes darle las siguientes órdenes:"
+  "desspeech3command": {
+    "message": "reproducir vídeo"
   },
-  "desspeech1command":{
-    "message":"apaga las luces"
+  "desspeech4command": {
+    "message": "pausar video"
   },
-  "desspeech2command":{
-    "message":"enciende las luces"
+  "desspeechdialect": {
+    "message": "Elige tu dialecto de voz:"
   },
-  "desspeech3command":{
-    "message":"reproducir vídeo"
+  "desatmosvivid": {
+    "message": "Efectos ambientales vívidos"
   },
-  "desspeech4command":{
-    "message":"pausar video"
+  "help": {
+    "message": "Ayuda"
   },
-  "desspeechdialect":{
-    "message":"Elige tu dialecto de voz:"
+  "about": {
+    "message": "Acerca de"
   },
-  "desatmosvivid":{
-    "message":"Efectos ambientales vívidos, necesitas"
+  "desspeechonly": {
+    "message": "Activar el reconocimiento de voz solo en los siguientes sitios:"
   },
-  "help":{
-    "message":"Ayuda"
+  "descammotiononly": {
+    "message": "Activar 'Camera Motion' solo en los siguientes sitios:"
   },
-  "about":{
-    "message":"Acerca de"
+  "titelcamera": {
+    "message": "Cámara"
   },
-  "desspeechonly":{
-    "message":"Activar el reconocimiento de voz solo en los siguientes sitios:"
+  "titelautoplaywhitelist": {
+    "message": "Lista blanca"
   },
-  "descammotiononly":{
-    "message":"Activar 'Camera Motion' solo en los siguientes sitios:"
+  "titelautoplayblacklist": {
+    "message": "Lista negra"
   },
-  "titelcamera":{
-    "message":"Cámara"
+  "titeldownloadthemeupgrade": {
+    "message": "Añade un tema oscuro a tu navegador para suavizarlo. El tema rodea los bordes del navegador."
   },
-  "titelautoplaywhitelist":{
-    "message":"Lista blanca"
+  "desbrowsersupport": {
+    "message": "Este navegador no es compatible con esta característica aún. Asegúrate de que tienes la última versión del navegador instalada en tu ordenador."
   },
-  "titelautoplayblacklist":{
-    "message":"Lista negra"
+  "titelsupportatmos": {
+    "message": "Sólo soporta la etiqueta <video> de HTML5. También utiliza la GPU de tu dispositivo."
   },
-  "titeldownloadthemeupgrade":{
-    "message":"Añade un tema oscuro a tu navegador para suavizarlo. El tema rodea los bordes del navegador."
+  "titelseeonline": {
+    "message": "Mira más ejemplos en línea"
   },
-  "desbrowsersupport":{
-    "message":"Este navegador no es compatible con esta característica aún. Asegúrate de que tienes la última versión del navegador instalada en tu ordenador."
+  "titelvideosample": {
+    "message": "Video de muestra"
   },
-  "titelsupportatmos":{
-    "message":"Compatible solo con HTML5 <video> y reproductor HTML5 de YouTube. También utiliza la GPU de tu tarjeta gráfica."
+  "titelwebsite": {
+    "message": "Página web"
   },
-  "titelseeonline":{
-    "message":"Mira más ejemplos en línea"
+  "titeldeveloper": {
+    "message": "Desarrollador"
   },
-  "titelvideosample":{
-    "message":"Video de muestra"
+  "titelrightsreserved": {
+    "message": "Algunos derechos reservados."
   },
-  "titelwebsite":{
-    "message":"Página web"
+  "desbrowserextension": {
+    "message": "extensión para navegadores"
   },
-  "titeldeveloper":{
-    "message":"Desarrollador"
+  "desapitext": {
+    "message": "API Wiki para desarrolladores web"
   },
-  "titelrightsreserved":{
-    "message":"Algunos derechos reservados."
+  "desbrowsertheme": {
+    "message": "tema de navegador"
   },
-  "desbrowserextension":{
-    "message":"extensión para navegadores"
+  "desproject": {
+    "message": "proyecto"
   },
-  "desapitext":{
-    "message":"API Wiki para desarrolladores web"
+  "titelapideveloper": {
+    "message": "Desarrollador API"
   },
-  "desbrowsertheme":{
-    "message":"tema de navegador"
+  "titelwikiatmos": {
+    "message": "Wiki sobre la función de iluminación de ambiente"
   },
-  "desproject":{
-    "message":"proyecto"
+  "sharemenusharetitle": {
+    "message": "Compartir esto"
   },
-  "titelapideveloper":{
-    "message":"Desarrollador API"
+  "sharemenuwelcomeguidetitle": {
+    "message": "Guía de bienvenida"
   },
-  "titelwikiatmos":{
-    "message":"Wiki sobre la función de iluminación de ambiente"
+  "sharemenutellafriend": {
+    "message": "Enviar a un amigo"
   },
-  "sharemenusharetitle":{
-    "message":"Compartir esto"
+  "sharemenusendatweet": {
+    "message": "Enviar un Tweet"
   },
-  "sharemenuwelcomeguidetitle":{
-    "message":"Guía de bienvenida"
+  "sharemenupostonfacebook": {
+    "message": "Publicar en Facebook"
   },
-  "sharemenutellafriend":{
-    "message":"Enviar a un amigo"
+  "sharemenupostongoogleplus": {
+    "message": "Publicar en Google+"
   },
-  "sharemenusendatweet":{
-    "message":"Enviar un Tweet"
+  "sharemenuratetitle": {
+    "message": "Califica esta extensión"
   },
-  "sharemenupostonfacebook":{
-    "message":"Publicar en Facebook"
+  "sharemenudonatetitle": {
+    "message": "Apoyar el desarrollo"
   },
-  "sharemenupostongoogleplus":{
-    "message":"Publicar en Google+"
+  "titelautostop": {
+    "message": "Autodetención"
   },
-  "sharemenuratetitle":{
-    "message":"Califica esta extensión"
+  "desautostop": {
+    "message": "Deja de reproducir automáticamente el vídeo al abrir una página web."
   },
-  "sharemenudonatetitle":{
-    "message":"Apoyar el desarrollo"
+  "areyouhappy": {
+    "message": "¿Estás contento con Turn Off the Lights?"
   },
-  "titelautostop":{
-    "message":"Autodetención"
+  "tellothers": {
+    "message": "Asegúrate de que tu opinión cuenta"
   },
-  "desautostop":{
-    "message":"Deja de reproducir automáticamente el vídeo al abrir una página web."
+  "nothanks": {
+    "message": "No, gracias"
   },
-  "areyouhappy":{
-    "message":"¿Estás contento con Turn Off the Lights?"
+  "writeareview": {
+    "message": "Escribir una reseña"
   },
-  "tellothers":{
-    "message":"Asegúrate de que tu opinión cuenta"
+  "desauroraplayer": {
+    "message": "El reproductor de luz ambiental también está disponible para tu ordenador."
   },
-  "nothanks":{
-    "message":"No, gracias"
+  "downloadtheapp": {
+    "message": "Descargar la aplicación ahora"
   },
-  "writeareview":{
-    "message":"Escribir una reseña"
+  "titeldownloadupgradezoom": {
+    "message": "Aumenta o disminuye el zoom de esta web usando el botón de zoom para una lectura más cómoda."
   },
-  "desauroraplayer":{
-    "message":"El reproductor de luz ambiental también está disponible para tu ordenador."
+  "titeldownloadupgradepropermenubar": {
+    "message": "Añade de nuevo la barra del menú negra a la web de Google."
   },
-  "downloadtheapp":{
-    "message":"Descargar la aplicación ahora"
+  "titeldownloadupgradefinancetoolbar": {
+    "message": "Esto te muestra información bursátil en tiempo real."
   },
-  "titeldownloadupgradezoom":{
-    "message":"Aumenta o disminuye el zoom de esta web usando el botón de zoom para una lectura más cómoda."
+  "titelnightmodeposition": {
+    "message": "Posición del interruptor"
   },
-  "titeldownloadupgradepropermenubar":{
-    "message":"Añade de nuevo la barra del menú negra a la web de Google."
+  "nmtopleft": {
+    "message": "Arriba a la izquierda"
   },
-  "titeldownloadupgradefinancetoolbar":{
-    "message":"Esto te muestra información bursátil en tiempo real."
+  "nmtopright": {
+    "message": "Arriba a la derecha"
   },
-  "titelnightmodeposition":{
-    "message":"Posición del interruptor"
+  "nmbottomright": {
+    "message": "Abajo a la derecha"
   },
-  "nmtopleft":{
-    "message":"Arriba a la izquierda"
+  "nmbottomleft": {
+    "message": "Abajo a la izquierda"
   },
-  "nmtopright":{
-    "message":"Arriba a la derecha"
+  "nmcustom": {
+    "message": "Personalizado (haz clic, mantén pulsado y mueve el interruptor a donde quieras)"
   },
-  "nmbottomright":{
-    "message":"Abajo a la derecha"
+  "desnighthover": {
+    "message": "Mostrar el interruptor transparente en la página web."
   },
-  "nmbottomleft":{
-    "message":"Abajo a la izquierda"
+  "titelnightmodewhitelist": {
+    "message": "Lista blanca"
   },
-  "nmcustom":{
-    "message":"Personalizado (haz clic, mantén pulsado y mueve el interruptor a donde quieras)"
+  "titelnightmodeblacklist": {
+    "message": "Lista negra"
   },
-  "desnighthover":{
-    "message":"Mostrar el interruptor transparente en la página web."
+  "desautostoponly": {
+    "message": "Activar la detención de la reproducción automática del vídeo solo en los siguientes sitios:"
   },
-  "titelnightmodewhitelist":{
-    "message":"Lista blanca"
+  "titelautostopwhitelist": {
+    "message": "Lista blanca"
   },
-  "titelnightmodeblacklist":{
-    "message":"Lista negra"
+  "titelautostopblacklist": {
+    "message": "Lista negra"
   },
-  "desautostoponly":{
-    "message":"Activar la detención de la reproducción automática del vídeo solo en los siguientes sitios:"
+  "desnightactivetime": {
+    "message": "El interruptor estará visible entre las siguientes horas:"
   },
-  "titelautostopwhitelist":{
-    "message":"Lista blanca"
+  "deslampandnightmode": {
+    "message": "Activar el modo nocturno al hacer clic en el botón de la bombilla gris."
   },
-  "titelautostopblacklist":{
-    "message":"Lista negra"
+  "titeleyewhitelist": {
+    "message": "Lista blanca"
   },
-  "desnightactivetime":{
-    "message":"El interruptor estará visible entre las siguientes horas:"
+  "titeleyeblacklist": {
+    "message": "Lista negra"
   },
-  "deslampandnightmode":{
-    "message":"Activar el modo nocturno al hacer clic en el botón de la bombilla gris."
+  "desspeech5command": {
+    "message": "bombilla del navegador"
   },
-  "titeleyewhitelist":{
-    "message":"Lista blanca"
+  "html5andyoutube": {
+    "message": "Vídeos HTML5 y de YouTube™"
   },
-  "titeleyeblacklist":{
-    "message":"Lista negra"
+  "flashembedobject": {
+    "message": "Compatible con: <object>, <embed>, <applet>, <iframe>."
   },
-  "desspeech5command":{
-    "message":"bombilla del navegador"
+  "titelnightmodebck": {
+    "message": "Color de fondo"
   },
-  "html5andyoutube":{
-    "message":"Vídeos HTML5 y de YouTube™"
+  "titelnightmodetxt": {
+    "message": "Color del texto"
   },
-  "flashembedobject":{
-    "message":"Compatible con: <object>, <embed>, <applet>, <iframe>."
+  "desdynamicsmoke": {
+    "message": "Humo"
   },
-  "titelnightmodebck":{
-    "message":"Color de fondo"
+  "desdynamicdotscolor": {
+    "message": "Puntos de colores"
   },
-  "titelnightmodetxt":{
-    "message":"Color del texto"
+  "desdynamicstorm": {
+    "message": "Tormenta",
+    "description": "Tormenta"
   },
-  "desdynamicsmoke":{
-    "message":"Humo"
+  "desdynamictriangulation": {
+    "message": "Triangulación"
   },
-  "desdynamicdotscolor":{
-    "message":"Puntos de colores"
+  "desdynamicstars": {
+    "message": "Estrellas"
   },
-  "desdynamicstorm":{
-    "message":"Tormenta",
-    "description":"Tormenta"
+  "desmobileapp": {
+    "message": "Turn Off the Lights también está disponible para dispositivos móviles."
   },
-  "desdynamictriangulation":{
-    "message":"Triangulación"
+  "titel360youtube": {
+    "message": "Muestra los 360 grados de un vídeo de YouTube en un solo fotograma"
   },
-  "desdynamicstars":{
-    "message":"Estrellas"
+  "titelvideotool": {
+    "message": "Barra de herramientas de vídeo"
   },
-  "desmobileapp":{
-    "message":"Turn Off the Lights también está disponible para dispositivos móviles."
+  "desvideotool": {
+    "message": "Mostrar la barra de herramientas debajo de la pantalla para personalizar el reproductor de vídeo actual"
   },
-  "titel360youtube":{
-    "message":"Muestra los 360 grados de un vídeo de YouTube en un solo fotograma"
+  "vtoolfullscreen": {
+    "message": "Un botón para ajustar el reproductor de vídeo al tamaño de la ventana completa"
   },
-  "titelvideotool":{
-    "message":"Barra de herramientas de vídeo"
+  "vtoolfilter": {
+    "message": "Un botón para añadir un filtro al reproductor de vídeo actual"
   },
-  "desvideotool":{
-    "message":"Mostrar la barra de herramientas debajo de la pantalla para personalizar el reproductor de vídeo actual"
+  "vtoolreplay": {
+    "message": "Un botón para reproducir el vídeo actual"
   },
-  "vtoolfullscreen":{
-    "message":"Un botón para ajustar el reproductor de vídeo al tamaño de la ventana completa"
+  "vtoolscreenshot": {
+    "message": "Un botón para sacar una captura del reproductor actual"
   },
-  "vtoolfilter":{
-    "message":"Un botón para añadir un filtro al reproductor de vídeo actual"
+  "vtoolalign": {
+    "message": "Un botón para centrar el reproductor en tu navegador"
   },
-  "vtoolreplay":{
-    "message":"Un botón para reproducir el vídeo actual"
+  "titelvideotoolgrayscale": {
+    "message": "escala de grises"
   },
-  "vtoolscreenshot":{
-    "message":"Un botón para sacar una captura del reproductor actual"
+  "titelvideotoolsepia": {
+    "message": "sepia"
   },
-  "vtoolalign":{
-    "message":"Un botón para centrar el reproductor en tu navegador"
+  "titelvideotoolinvert": {
+    "message": "invertido"
   },
-  "titelvideotoolgrayscale":{
-    "message":"escala de grises"
+  "titelvideotoolcontrast": {
+    "message": "contraste"
   },
-  "titelvideotoolsepia":{
-    "message":"sepia"
+  "titelvideotoolsaturate": {
+    "message": "saturación"
   },
-  "titelvideotoolinvert":{
-    "message":"invertido"
+  "titelvideotoolhueroration": {
+    "message": "90 grados"
   },
-  "titelvideotoolcontrast":{
-    "message":"contraste"
+  "titelvideotoolbrightness": {
+    "message": "brillo"
   },
-  "titelvideotoolsaturate":{
-    "message":"saturación"
+  "titelvideotoolnormal": {
+    "message": "normal"
   },
-  "titelvideotoolhueroration":{
-    "message":"90 grados"
+  "titelvideotoollike": {
+    "message": "Me gusta"
   },
-  "titelvideotoolbrightness":{
-    "message":"brillo"
+  "titelvideotoolsubscribe": {
+    "message": "Suscribirse"
   },
-  "titelvideotoolnormal":{
-    "message":"normal"
+  "titelvideotoolrepeat": {
+    "message": "Repetir"
   },
-  "titelvideotoollike":{
-    "message":"Me gusta"
+  "titelvideotoolfilter": {
+    "message": "Filtro"
   },
-  "titelvideotoolsubscribe":{
-    "message":"Suscribirse"
+  "titelvideotoolfullwindow": {
+    "message": "Ventana completa"
   },
-  "titelvideotoolrepeat":{
-    "message":"Repetir"
+  "titelvideotoolscreenshot": {
+    "message": "Capturar pantalla"
   },
-  "titelvideotoolfilter":{
-    "message":"Filtro"
+  "titelreflection": {
+    "message": "Reflexión"
   },
-  "titelvideotoolfullwindow":{
-    "message":"Ventana completa"
+  "desreflection": {
+    "message": "Mostrar el efecto de reflexión en todos los vídeos"
   },
-  "titelvideotoolscreenshot":{
-    "message":"Capturar pantalla"
+  "desvideotoolonly": {
+    "message": "Activar la barra de herramientas de vídeo en las siguientes webs:"
   },
-  "titelreflection":{
-    "message":"Reflexión"
+  "titelvideotoolwhitelist": {
+    "message": "Lista blanca"
   },
-  "desreflection":{
-    "message":"Mostrar el efecto de reflexión en todos los vídeos"
+  "titelvideotoolblacklist": {
+    "message": "Lista negra"
   },
-  "desvideotoolonly":{
-    "message":"Activar la barra de herramientas de vídeo en las siguientes webs:"
+  "titelnightmodehyperlink": {
+    "message": "Hipervínculo",
+    "description": "Hipervínculo"
   },
-  "titelvideotoolwhitelist":{
-    "message":"Lista blanca"
+  "titelblock60fps": {
+    "message": "Bloquear 60fps",
+    "description": "Bloquear 60fps"
   },
-  "titelvideotoolblacklist":{
-    "message":"Lista negra"
+  "titelvolume": {
+    "message": "Control de volumen del vídeo"
   },
-  "titelnightmodehyperlink":{
-    "message":"Hipervínculo",
-    "description":"Hipervínculo"
+  "desvideovolume": {
+    "message": "Controle el volumen del vídeo en reproducción con la ruda del ratón"
   },
-  "titelblock60fps":{
-    "message":"Bloquear 60fps",
-    "description":"Bloquear 60fps"
+  "desvideovolumecolor": {
+    "message": "Color del control"
   },
-  "titelvolume":{
-    "message":"Control de volumen del vídeo"
+  "desvolumelabel": {
+    "message": "Mostrar la etiqueta de volumen"
   },
-  "desvideovolume":{
-    "message":"Controle el volumen del vídeo en reproducción con la ruda del ratón"
+  "desvolumesteps": {
+    "message": "Número de niveles de volumen (en %) para cada movimiento de desplazamiento"
   },
-  "desvideovolumecolor":{
-    "message":"Color del control"
+  "sharetexta": {
+    "message": "Consigue esta extensión del navegador Turn Off the Lights"
   },
-  "desvolumelabel":{
-    "message":"Mostrar la etiqueta de volumen"
+  "sharetextb": {
+    "message": "Ey, esto es maravilloso. He probado justo hoy la extensión Turn Off the Lights para el navegador "
   },
-  "desvolumesteps":{
-    "message":"Número de pasos con la rueda"
+  "sharetextc": {
+    "message": "La mejor e impresionante extensión para el navegador Turn Off the Lights"
   },
-  "sharetexta":{
-    "message":"Consigue esta extensión del navegador Turn Off the Lights"
+  "sharetextd": {
+    "message": "La extensión Turn Off the Lights es la mejor herramienta para YouTube. ¡Descárguela y pruébela usted mismo!"
   },
-  "sharetextb":{
-    "message":"Ey, esto es maravilloso. He probado justo hoy la extensión Turn Off the Lights para el navegador "
+  "titelsharethis": {
+    "message": "Compartir esto:"
   },
-  "sharetextc":{
-    "message":"La mejor e impresionante extensión para el navegador Turn Off the Lights"
+  "titellampchoose": {
+    "message": "Escoja su estilo de bombilla preferido"
   },
-  "sharetextd":{
-    "message":"La extensión Turn Off the Lights es la mejor herramienta para YouTube. ¡Descárguela y pruébela usted mismo!"
+  "titeldoesntwork": {
+    "message": "Turn Off the Lights no funciona en esta página web. Pruebe en otra página."
   },
-  "titelsharethis":{
-    "message":"Compartir esto:"
+  "titelpopupvideo": {
+    "message": "YouTube"
   },
-  "titellampchoose":{
-    "message":"Escoja su estilo de bombilla preferido"
+  "titelpopupwelcomeguide": {
+    "message": "Guía de bienvenida"
   },
-  "titeldoesntwork":{
-    "message":"Turn Off the Lights no funciona en esta página web. Pruebe en otra página."
+  "titelpopupsupport": {
+    "message": "Soporte"
   },
-  "titelpopupvideo":{
-    "message":"YouTube"
+  "titelpopupoptions": {
+    "message": "Opciones"
   },
-  "titelpopupwelcomeguide":{
-    "message":"Guía de bienvenida"
+  "titelpopupratestars": {
+    "message": "Valórenos con 5 estrellas"
   },
-  "titelpopupsupport":{
-    "message":"Soporte"
+  "titelvisenable": {
+    "message": "Activa/desactiva la visualización de audio"
   },
-  "titelpopupoptions":{
-    "message":"Opciones"
+  "titelvischoose": {
+    "message": "Escoja su visualización de audio"
   },
-  "titelpopupratestars":{
-    "message":"Valórenos con 5 estrellas"
+  "titelvisblocks": {
+    "message": "Bloques"
   },
-  "titelvisenable":{
-    "message":"Activa/desactiva la visualización de audio"
+  "titelvisfrequency": {
+    "message": "Frecuencia"
   },
-  "titelvischoose":{
-    "message":"Escoja su visualización de audio"
+  "titelvistunnel": {
+    "message": "Túnel musical"
   },
-  "titelvisblocks":{
-    "message":"Bloques"
+  "titelvisualization": {
+    "message": "Visualización de audio"
   },
-  "titelvisfrequency":{
-    "message":"Frecuencia"
+  "desvisopacity": {
+    "message": "Valor de la opacidad del fondo de la visualización de audio"
   },
-  "titelvistunnel":{
-    "message":"Túnel musical"
+  "vtoolvisualization": {
+    "message": "Un botón para mostrar la visualización de audio en el reproductor de vídeo actual"
   },
-  "titelvisualization":{
-    "message":"Visualización de audio"
+  "desvideotoolcolor": {
+    "message": "Color de la barra de herramientas"
   },
-  "desvisopacity":{
-    "message":"Valor de la opacidad del fondo de la visualización de audio"
+  "titelhovervideo": {
+    "message": "Vídeo flotante"
   },
-  "vtoolvisualization":{
-    "message":"Un botón para mostrar la visualización de audio en el reproductor de vídeo actual"
+  "deshovervideo": {
+    "message": "Coloca el ratón sobre el vídeo unos segundos y se atenuará automáticamente con la página web"
   },
-  "desvideotoolcolor":{
-    "message":"Color de la barra de herramientas"
+  "promotitle": {
+    "message": "Consejo del día"
   },
-  "titelhovervideo":{
-    "message":"Vídeo flotante"
+  "desremyoutube": {
+    "message": "Suscríbete en YouTube"
   },
-  "deshovervideo":{
-    "message":"Coloca el ratón sobre el vídeo unos segundos y se atenuará automáticamente con la página web"
+  "desremfacebook": {
+    "message": "Recomendar esto en Facebook"
   },
-  "promotitle":{
-    "message":"Consejo del día"
+  "titleuserprofile": {
+    "message": "Elige aquí los ajustes que quieres aplicar al hacer clic en el botón de la bombilla gris. Cada perfil tiene sus propias características."
   },
-  "desremyoutube":{
-    "message":"Suscríbete en YouTube"
+  "titleregularuser": {
+    "message": "Amante de vídeos"
   },
-  "desremfacebook":{
-    "message":"Recomendar esto en Facebook"
+  "titlenightowl": {
+    "message": "Búho nocturno"
   },
-  "titleuserprofile":{
-    "message":"Elige aquí los ajustes que quieres aplicar al hacer clic en el botón de la bombilla gris. Cada perfil tiene sus propias características."
+  "titlescreenprotection": {
+    "message": "Protección ocular"
   },
-  "titleregularuser":{
-    "message":"Amante de vídeos"
+  "desregularuser": {
+    "message": "Esta es la configuración por defecto de usuario. Al hacer clic en el botón de la bombilla gris, se aplicará este estilo a la web actual."
   },
-  "titlenightowl":{
-    "message":"Búho nocturno"
+  "desnightowl": {
+    "message": "Con un solo clic se puede cambiar el fondo de la página, creando un efecto nocturno con enlace seleccionable. Haga clic de nuevo para volver a la pantalla normal. Para desactivar esta función, haga clic en el botón de la lámpara."
   },
-  "titlescreenprotection":{
-    "message":"Protección ocular"
+  "desscreenprotection": {
+    "message": "Haga clic para crear un sombreado de color naranja relajante para disminuir la fatiga de los ojos de todas las pestañas abiertas. Para desactivar este efecto, haga clic de nuevo en el botón de la lámpara."
   },
-  "desregularuser":{
-    "message":"Esta es la configuración por defecto de usuario. Al hacer clic en el botón de la bombilla gris, se aplicará este estilo a la web actual."
+  "titleprofilevideofocus": {
+    "message": "Se ha activado el enfoque de vídeo"
   },
-  "desnightowl":{
-    "message":"Con un solo clic se puede cambiar el fondo de la página, creando un efecto nocturno con enlace seleccionable. Haga clic de nuevo para volver a la pantalla normal. Para desactivar esta función, haga clic en el botón de la lámpara."
+  "titleprofilenovideofocus": {
+    "message": "Se ha desactivado el enfoque de vídeo"
   },
-  "desscreenprotection":{
-    "message":"Haga clic para crear un sombreado de color naranja relajante para disminuir la fatiga de los ojos de todas las pestañas abiertas. Para desactivar este efecto, haga clic de nuevo en el botón de la lámpara."
+  "titleprofilealwaysscreentab": {
+    "message": "Siempre activado para todas las pestañas abiertas"
   },
-  "titleprofilevideofocus":{
-    "message":"Se ha activado el enfoque de vídeo"
+  "titleprofilescreenclick": {
+    "message": "Permitir hacer clic en hipervínculos cuando la pantalla está oscurecida"
   },
-  "titleprofilenovideofocus":{
-    "message":"Se ha desactivado el enfoque de vídeo"
+  "titleprofilesubmit": {
+    "message": "Elegir estos ajustes"
   },
-  "titleprofilealwaysscreentab":{
-    "message":"Siempre activado para todas las pestañas abiertas"
+  "titlelearnmore": {
+    "message": "Más información"
   },
-  "titleprofilescreenclick":{
-    "message":"Permitir hacer clic en hipervínculos cuando la pantalla está oscurecida"
+  "optionprofilesaved": {
+    "message": "¡Se ha guardado la nueva acción de bombilla!"
   },
-  "titleprofilesubmit":{
-    "message":"Elegir estos ajustes"
+  "desaplay": {
+    "message": "reproducir"
   },
-  "titlelearnmore":{
-    "message":"Más información"
+  "desapause": {
+    "message": "pausar"
   },
-  "optionprofilesaved":{
-    "message":"¡Se ha guardado la nueva acción de bombilla!"
+  "desastop": {
+    "message": "detener"
   },
-  "desaplay":{
-    "message":"reproducir"
+  "desvideozoom": {
+    "message": "Aumenta o aleja el vídeo con el botón de zoom"
   },
-  "desapause":{
-    "message":"pausar"
+  "titlevideoplayrate": {
+    "message": "Velocidad de vídeo"
   },
-  "desastop":{
-    "message":"detener"
+  "desplayrate": {
+    "message": "Velocidad de reproducción por defecto"
+  },
+  "desspeedtoolbar": {
+    "message": "Mostrar barra de reproducción en el reproductor de vídeo"
+  },
+  "desatmosontotlmode": {
+    "message": "Mostrar iluminación ambiental solo cuando TOtL esté activado"
+  },
+  "desdarkbrowsertheme": {
+    "message": "Pasar a tema de navegador oscuro"
+  },
+  "desautostopfeaturewhite": {
+    "message": "BLOQUEA los sitios web a continuación, pero PERMITE la reproducción automática en cualquier otro sitio."
+  },
+  "desautostopfeatureblack": {
+    "message": "PERMITE los sitios web a continuación, pero BLOQUEA la reproducción automática en cualquier otro sitio."
+  },
+  "autostopbannerred": {
+    "message": "Mostrar un báner rojo"
+  },
+  "autostopbannertrans": {
+    "message": "Mostrar un báner transparente"
+  },
+  "titleanalytics": {
+    "message": "Analítica"
+  },
+  "desbadgeanalytics": {
+    "message": "Mostrar la insignia con el número de clic sque atenuaste la página web"
+  },
+  "shareanalyticenergy": {
+    "message": "Vengo ahorrando $product$ KWh gracias a Turn Off the Lights",
+    "placeholders": {
+      "product": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "analyticsoption": {
+    "message": "Analítica"
+  },
+  "activelayertoday": {
+    "message": "Número de clics hoy"
+  },
+  "totalenergysaved": {
+    "message": "Total de energía eléctrica ahorrada"
+  },
+  "resetlampanalytic": {
+    "message": "Restablecer los datos analíticos de Turn Off the Lights"
+  },
+  "titlesiteengagement": {
+    "message": "Compromiso del sitio"
+  },
+  "titleorigin": {
+    "message": "Origen"
+  },
+  "titletime": {
+    "message": "Tiempo (minutos)"
+  },
+  "titleavgdayschedule": {
+    "message": "Programación diaria promedio"
+  },
+  "titlesharestats": {
+    "message": "Comparte tus estadísticas"
+  },
+  "btnsharestats": {
+    "message": "Compartir estadísticas"
+  },
+  "charttitletotaltime": {
+    "message": "Tiempo total de capa oscura activada (minutos)"
+  },
+  "charttitlelayeractive": {
+    "message": "Capa oscura activa (#)"
+  },
+  "charttitleavgday": {
+    "message": "Programación diaria promedio (cuando las luces se apagan con frecuencia)"
+  },
+  "charttitle30dayssaved": {
+    "message": "Energía ahorrada en los últimos 30 días"
+  },
+  "charttitlelblwebsiteused": {
+    "message": "Los sitios web usaron esto en los últimos 30 días"
+  },
+  "charttitlelblenergytotal": {
+    "message": "Energía usada en total"
+  },
+  "charttitlelblenergysaved": {
+    "message": "Energía ahorrada en total"
+  },
+  "titlelanalyticprivacy": {
+    "message": "La extensión Turn Off The Lights se toma muy en serio la privacidad. La analítica de Turn Off The Lights que estás viendo en esta página sólo se almacena localmente en tu computadora. Tu información personal sobre compromiso de sitio no será vendida ni transferida a terceros no afiliados."
+  },
+  "shareanalyticlove": {
+    "message": "El sitio web que más me gusta es $product$ con Turn Off the Lights",
+    "placeholders": {
+      "product": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "desvolumeposa": {
+    "message": "Mostrar el control de volumen en el centro del reproductor del video actual"
+  },
+  "desvolumeposb": {
+    "message": "Mostrar el control de volumen en el ángulo superior izquierdo del reproductor del video actual"
+  },
+  "desvolumeposc": {
+    "message": "Mostrar el control de volumen en el ángulo superior derecho del reproductor del video actual"
+  },
+  "desvideovolumhold": {
+    "message": "Para cambiar el volumen, mantené pulsado el botón izquierdo o derecho del mouse, mientras lo movés"
+  },
+  "desvideovolumalt": {
+    "message": "Sólo si se mantiene presionada la tecla \"Alt\""
+  },
+  "speechheybrowser": {
+    "message": "Hola Navegador"
+  },
+  "speechokbrowser": {
+    "message": "ok Navegador"
+  },
+  "functionactive": {
+    "message": "Esta función se activa cuando hacés clic en una pestaña, o cuando recargás la página web. Sin embargo, se detiene automáticamente luego de 15 segundos."
+  },
+  "cardtexsubscribe": {
+    "message": "¡Suscríbete ahora!"
+  },
+  "cardtextfavdayweek": {
+    "message": "Día favorito de la semana"
+  },
+  "cardtextyestime": {
+    "message": "Tiempo total de ayer (en minutos)"
+  },
+  "cardavgprevweektime": {
+    "message": "Tiempo total de la semana pasada (en minutos)"
+  },
+  "sunday": {
+    "message": "Domingo"
+  },
+  "monday": {
+    "message": "Lunes"
+  },
+  "tuesday": {
+    "message": "Martes"
+  },
+  "wednesday": {
+    "message": "Miércoles"
+  },
+  "thursday": {
+    "message": "Jueves"
+  },
+  "friday": {
+    "message": "Viernes"
+  },
+  "saturday": {
+    "message": "Sábado"
+  },
+  "titlemultiopacity": {
+    "message": "Cada sitio web con su propia opacidad"
+  },
+  "desmultiopacitynormal": {
+    "message": "Todos los sitios web tienen el mismo valor de opacidad"
+  },
+  "desmultiopacitysel": {
+    "message": "Los sitios web en la lista de abajo tienen sus propias opacidades"
+  },
+  "desmultiopacitynot": {
+    "message": "Si un sitio web no está en la lista, entonces se aplicará el valor de opacidad predeterminado."
+  },
+  "titleok": {
+    "message": "Aceptar"
+  },
+  "titlecancel": {
+    "message": "Cancelar"
+  },
+  "titledarkmodeon": {
+    "message": "Modo oscuro ON"
+  },
+  "titledarkmodeoff": {
+    "message": "Modo oscuro OFF"
+  },
+  "titlelprivacy": {
+    "message": "Política de privacidad"
+  },
+  "titleprofile": {
+    "message": "Perfíl"
+  },
+  "descolorfixcolor": {
+    "message": "Elige el color de tu capa oscura"
+  },
+  "desatmossolidcolor": {
+    "message": "Elegí el único color sólido para el efecto de resplandor"
+  },
+  "titlelratenow": {
+    "message": "¡Califícanos ahora!"
+  },
+  "titleratelater": {
+    "message": "Después"
+  },
+  "desremrate": {
+    "message": "Si te gusta Turn Off the Lights™, por favor, no dudés en calificar esta extensión con cinco estrellas. Esto nos alienta a continuar con su desarrollo y mejorarlo para vos. Si bien no es obligatorio escribir un comentario, apreciamos mucho que le dediqués unos segundos a hacerlo. Si no preferís hacerlo, simplemente podés calificar la extensión anónimamente. Nos gusta recibir ★★★★★. ¡Muchas gracias!"
+  },
+  "titelnightmodedomain": {
+    "message": "Dominio"
+  },
+  "titelnightmodepage": {
+    "message": "Página web"
+  },
+  "titelintroduce": {
+    "message": "¡Introducción al nuevo Turn Off the Lights!"
+  },
+  "desintroduce": {
+    "message": "Todas las funciones que solías usar, con un nuevo diseño personalizable según tus gustos."
+  },
+  "econothingthisyear": {
+    "message": "Nada este año. Mantén las luces apagadas para ahorrar energía"
+  },
+  "ecothirtyminutes": {
+    "message": "30 minutos de luz ahorrada"
+  },
+  "ecowatchtvfortwo": {
+    "message": "Ver TV durante 2 horas"
+  },
+  "ecotoastermaking": {
+    "message": "Dos barras de pan tostado en la tostadora"
+  },
+  "ecochargeiphone": {
+    "message": "Carga tu iPhone"
+  },
+  "ecobrewsomecoffee": {
+    "message": "Preparación de una taza de café"
+  },
+  "ecoplayingxbox": {
+    "message": "Juego en Xbox 360 durante una hora"
+  },
+  "ecovacuumingfor": {
+    "message": "Usar la aspiradora por 15 minutos"
+  },
+  "ecoblowdrying": {
+    "message": "Secar tu cabello unos 10 minutos usa aproximadamente"
+  },
+  "ecowashingclothes": {
+    "message": "Lavar tu ropa en un ciclo frío de enjuage usa aproximadamente"
+  },
+  "ecowififoraday": {
+    "message": "Wi-Fi por un día"
+  },
+  "ecorunningdishwasher": {
+    "message": "Usar tu lavavajilla en el modo de ahorro de energía usará"
+  },
+  "ecochargelaptop": {
+    "message": "Carga tu ordenador portátil"
+  },
+  "ecokeeplightonforsix": {
+    "message": "Mantener las luces encendidas durante 6 horas"
+  },
+  "ecokeepfridgeday": {
+    "message": "Mantener la heladera encendida durante un día"
+  },
+  "ecoloadlaundry": {
+    "message": "Una muda de ropa en el secador"
+  },
+  "ecoheatingtenshower": {
+    "message": "Agua suficientemente caliente para una ducha de 10 minutos"
+  },
+  "ecotwentyfourghome": {
+    "message": "Lo suficiente para hacer funcionar Google Home durante 24 horas"
+  },
+  "ecochargeteslacar": {
+    "message": "Cargar tu auto Tesla lo suficiente para 32 kilómetros"
+  },
+  "ecochargeteslacarhundred": {
+    "message": "Cargar tu auto Tesla al 100%"
+  },
+  "ecochargeteslathreetimes": {
+    "message": "Cargar 3 veces tu auto Tesla al 100%"
+  },
+  "ecopowerhawaiimonth": {
+    "message": "Suficiente energía eléctrica para 1 mes en Hawái"
+  },
+  "ecopowernwymonth": {
+    "message": "Suficiente energía eléctrica para 1 mes en New York"
+  },
+  "ecopowercamonth": {
+    "message": "Suficiente energía eléctrica para 1 mes en California"
+  },
+  "ecopowerbaseballgame": {
+    "message": "Iluminar 1 jumbotrón en un juego de béisbol"
+  },
+  "ecopowereiffeltower": {
+    "message": "Para iluminar la Torre Eiffel durante 1 día"
+  },
+  "ecopowereurostar": {
+    "message": "Un viaje en el Eurostar, de Bruselas a Londres"
+  },
+  "ecopowereurostarparis": {
+    "message": "Un viaje en el Eurostar, de París a Londres"
+  },
+  "ecoeiffeltoweryear": {
+    "message": "Para iluminar la Torre Eiffel durante 1 año"
+  },
+  "ecosfoyear": {
+    "message": "Para iluminar San Francisco durante 1 año"
+  },
+  "ecolayear": {
+    "message": "Para iluminar Los Ángeles durante 1 año"
+  },
+  "ecoplanetearth": {
+    "message": "Preparado para salvar la Tierra"
+  },
+  "autostopdetails": {
+    "message": "DETALLES"
+  },
+  "autostopblocked": {
+    "message": "Bloqueado por Turn Off the Lights™ - www.turnoffthelights.com"
+  },
+  "autostopclickme": {
+    "message": "Haz clic para reproducir este vídeo HTML5"
+  },
+  "autostopenabled": {
+    "message": "¡Se ha activado la autodetención!"
   }
 }

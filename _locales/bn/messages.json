@@ -9,7 +9,7 @@
     "message":"to toggle the lights on/off for all open tabs"
   },
   "lastchecked":{
-    "message":"Latest version check on"
+    "message":"নতুন সংস্করন পরীক্ষা করুন"
   },
   "visualeffects":{
     "message":"Visual Effects"
@@ -30,67 +30,67 @@
     "message":"Enable the screen shade, with the possibility to click on the hyperlinks"
   },
   "desambilight4color":{
-    "message":"Four chosen colors around the video:"
+    "message":"ভিডিও এর চারদিকে ৪ টি নির্বাচিত রং:"
   },
   "lockentername":{
-    "message":"Please enter your password"
+    "message":"অনুগ্রহ করে আপনার পাসওয়ার্ড লিখুন"
   },
   "desnoflash":{
-    "message":"Don't use this feature"
+    "message":"এই ফিচারটি ব্যাবহার করবেন না"
   },
   "desdynamicblocks":{
     "message":"Blocks"
   },
   "titeleye":{
-    "message":"Eye Protection"
+    "message":"চোখের সুরক্ষা"
   },
   "titelcinemaontop":{
-    "message":"Movie theater mode: it shows the 'lights off' layer only on the top of the window"
+    "message":"সিনেমা থিয়েটারে মোডঃ এইটি উইন্ডো এর উপরে \"বাতি বন্ধ'\" স্তরটি দেখায়"
   },
   "desmousespotlightc":{
     "message":"Enable area selection to focus on an item when the lights are off"
   },
   "titelrememberpage":{
-    "message":"Reminder page"
+    "message":"উপদেশ পাতা"
   },
   "desmousespotlighta":{
     "message":"When the lights are off, it shows a spotlight around the mouse cursor."
   },
   "desmousespotlighto":{
-    "message":"Normal use (disables the mouse settings below)"
+    "message":"সাধারণ ব্যাবহার ( নিচের মাউস বিন্যাস নিষ্ক্রিয় করুন)"
   },
   "desplaylist":{
-    "message":"Show the YouTube playlist on the YouTube website"
+    "message":"ইউটিউব ওয়েবসাইট এ ইউটিউব প্লে- তালিকা দেখান"
   },
   "desambilightfixcolor":{
-    "message":"Only one color:"
+    "message":"সুধুমাত্র একটি রংঃ:"
   },
   "desuntil":{
-    "message":"until"
+    "message":"যে পর্যন্ত"
   },
   "desconfirmpassword":{
-    "message":"Confirm password"
+    "message":"পাসওয়ার্ড নিশ্চিত করুন"
   },
   "desautoplayonly":{
     "message":"Dim only the following video site(s):"
   },
   "helpeyeprotection":{
-    "message":"Enabling 'Eye protection' will automatically disable the 'Auto play' feature."
+    "message":"\"চোখের সুরক্ষা\" সক্রিয় করলে \"অটো প্লে\" নিষ্ক্রিয় হয়ে যাবে স্বয়ংক্রিয় ভাবে."
   },
   "skipremember":{
-    "message":"Skip this, and open the options page now"
+    "message":"এটি এড়িয়ে জান, এবং এখন বিকল্পগুলোর পাতা খুলুন"
   },
   "optiontimesaved":{
-    "message":"Time is saved successfully!"
+    "message":"সময় সফলভাবে সংরক্ষিত হয়েছে!"
   },
   "titelvideoheadline":{
-    "message":"Video Title"
+    "message":"ভিডিও টাইটেল"
   },
   "translateme":{
-    "message":"Help Translate"
+    "message":"অনুবাদ করতে সাহায্য করুন"
   },
   "despassword":{
-    "message":"Require a password to be entered before turning the lights back on."
+    "message":"বাতি জ্বালানর আগেই প্রবেশ করার জন্য পাসওয়ার্ড প্রয়োজন।."
   },
   "helpautoplay":{
     "message":"The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option."
@@ -616,7 +616,7 @@
     "message":"Choose your speech dialect:"
   },
   "desatmosvivid":{
-    "message":"Vivid atmosphere effects, require"
+    "message":"Vivid atmosphere effects, requires"
   },
   "help":{
     "message":"সাহায্য"
@@ -815,7 +815,7 @@
     "message":"Triangulation"
   },
   "desdynamicstars":{
-    "message":"Stars"
+    "message":"তারকা"
   },
   "desmobileapp":{
     "message":"Turn Off the Lights is also available for your mobile device."
@@ -872,7 +872,7 @@
     "message":"Like"
   },
   "titelvideotoolsubscribe":{
-    "message":"Subscribe"
+    "message":"সাবস্ক্রাইব করুন"
   },
   "titelvideotoolrepeat":{
     "message":"Repeat"
@@ -1012,7 +1012,7 @@
     "message":"Night Owl"
   },
   "titlescreenprotection":{
-    "message":"Eye Protection"
+    "message":"চোখের সুরক্ষা"
   },
   "desregularuser":{
     "message":"This is default and the regular setting for new users. When clicking the gray lamp button, this style will be applied to the current web page."
@@ -1021,7 +1021,7 @@
     "message":"One click converts the page directly into a night theme with a clickable hyperlink. Click it again to return to normal view. Click the lamp button again to disable this feature."
   },
   "desscreenprotection":{
-    "message":"One click shades the page to a soothing orange color to decrease eye strain on all open tabs. Click the lamp button again to disable this feature."
+    "message":"One click shades the page to a soothing orange color to decrease eye strain to all open tabs. Click the lamp button again to disable this feature."
   },
   "titleprofilevideofocus":{
     "message":"Video focus is enabled"
@@ -1052,5 +1052,20 @@
   },
   "desastop":{
     "message":"stop"
+  },
+  "desvideozoom":{
+    "message":"Zoom in or out on video content using the zoom button"
+  },
+  "titlevideoplayrate":{
+    "message":"Video Speed"
+  },
+  "desplayrate":{
+    "message":"Default playback speed"
+  },
+  "desspeedtoolbar":{
+    "message":"Show the playback toolbar in the current video player"
+  },
+  "desatmosontotlmode":{
+    "message":"Show the atmosphere lighting effect only when TOtL mode is enabled"
   }
 }

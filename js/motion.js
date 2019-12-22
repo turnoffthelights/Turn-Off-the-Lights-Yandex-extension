@@ -3,7 +3,7 @@
 
 Turn Off the Lights
 The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2017 Stefan vd
+Copyright (C) 2018 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -28,7 +28,61 @@ To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.
 //================================================
 
 document.addEventListener('DOMContentLoaded', function() { cameramotionlights(); },false);
-chrome.storage.onChanged.addListener(function() { cameramotionlights(); });
+chrome.storage.onChanged.addListener(function(changes, namespace) {
+    for (key in changes) {
+         var storageChange = changes[key];
+         if(changes['motion']){
+             if(changes['motion'].newValue == true){
+             //enable this
+             cameramotionlights();
+             }else{
+                 //disable this
+                 try{ // stop it
+                    if(localMediaStream){ // stop it
+                        document.getElementById('motionvideo').pause();
+                        document.getElementById('motionvideo').src = "";
+                        localMediaStream.getTracks().forEach(track => track.stop());
+                        localMediaStream = null;
+                        document.getElementById('motionvideo').load();
+                        canvas = document.getElementById('motioncanvas');
+                        canvasgetcont = canvas.getContext('2d');
+                        canvasgetcont.clearRect(0,0,canvas.width,canvas.height);
+                        ccanvas = document.getElementById('motioncomp');
+                        ccgetcont = ccanvas.getContext('2d');
+                        ccgetcont.clearRect(0,0,ccanvas.width,ccanvas.height);
+                        window.clearInterval(intervalID);
+                    }
+                }
+                catch(e){}
+             }
+         }
+         if(changes['cammotiononly']){
+             if(changes['cammotiononly'].newValue == true){
+                 //disable this
+                 try{ // stop it
+                    if(localMediaStream){ // stop it
+                        document.getElementById('motionvideo').pause();
+                        document.getElementById('motionvideo').src = "";
+                        localMediaStream.getTracks().forEach(track => track.stop());
+                        localMediaStream = null;
+                        document.getElementById('motionvideo').load();
+                        canvas = document.getElementById('motioncanvas');
+                        canvasgetcont = canvas.getContext('2d');
+                        canvasgetcont.clearRect(0,0,canvas.width,canvas.height);
+                        ccanvas = document.getElementById('motioncomp');
+                        ccgetcont = ccanvas.getContext('2d');
+                        ccgetcont.clearRect(0,0,ccanvas.width,ccanvas.height);
+                        window.clearInterval(intervalID);
+                    }
+                }
+                catch(e){}
+             }else{
+                 //enable this
+                 cameramotionlights();
+             }
+         }
+     }
+ });
 
 var cammotionDomains = null;
 
@@ -49,7 +103,6 @@ var hsv;
 var delt;
 
 window.URL = window.URL || window.webkitURL;
-navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
 
 function cameramotionlights(){
 chrome.storage.sync.get(['motion', 'cammotiononly', 'cammotionDomains'], function(response){
@@ -60,26 +113,31 @@ if(motion == true){
 chrome.runtime.onSuspend.addListener(function() { location.reload(); });
 }
 
+var foundtheurlcamera = false;
 function onlycammotionfunction(tab){
 	var currenturl = tab;
-	if(currenturl.substr(-1) == '/') {
-        currenturl = currenturl.substr(0, currenturl.length - 1);
-    }
-
-	cammotionDomains  = response['cammotionDomains']; // get latest setting
-	if(typeof cammotionDomains == "string") {
-		cammotionDomains = JSON.parse(cammotionDomains);
-		var cmbuf = [];
-		for(var domain in cammotionDomains)
-			cmbuf.push(domain);
-			cmbuf.sort();
-		for(var i = 0; i < cmbuf.length; i++)
-			if(currenturl == cmbuf[i]){cammotionstartfunction();}
-			else {
+	var thatwebsite = new URL(currenturl);
+    var thatpage = thatwebsite.protocol + '//' + thatwebsite.hostname;
+	speechDomains  = response['cammotionDomains']; // get latest setting
+	if(typeof speechDomains == "string") {
+		speechDomains = JSON.parse(speechDomains);
+		var sbuf = [];
+		for(var domain in speechDomains)
+			sbuf.push(domain);
+			sbuf.sort();
+		for(var i = 0; i < sbuf.length; i++){
+            if(foundtheurlcamera == false){
+                if(thatpage == sbuf[i]){cammotionstartfunction();foundtheurlcamera = true;}
+            }
+        }
+		}
+		// stop
+		if(foundtheurlcamera == false){
+			try{ // stop it
 				if(localMediaStream){ // stop it
 					document.getElementById('motionvideo').pause();
 					document.getElementById('motionvideo').src = "";
-					localMediaStream.stop();
+                    localMediaStream.getTracks().forEach(track => track.stop());
 					localMediaStream = null;
 					document.getElementById('motionvideo').load();
 					canvas = document.getElementById('motioncanvas');
@@ -88,36 +146,49 @@ function onlycammotionfunction(tab){
 					ccanvas = document.getElementById('motioncomp');
 					ccgetcont = ccanvas.getContext('2d');
 					ccgetcont.clearRect(0,0,ccanvas.width,ccanvas.height);
-					clearInterval(intervalID);
+					window.clearInterval(intervalID);
 				}
 			}
+			catch(e){}
 		}
-
+		// reset
+        foundtheurlcamera = false;
 }
 
 if(motion == true){
 
 	if(cammotiononly == true){
-	// get current tab website
-	chrome.tabs.onActivated.addListener(function(info) {
-    var tab = chrome.tabs.get(info.tabId, function(tab) {
-
-		onlycammotionfunction(tab.url);
-			
-    });
-	});
-		
+		// on page update
+		chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+			if(tab.url){
+				if(tab.url.match(/^http/i)||tab.url.match(/^https/i)||tab.url.match(/^file/i)||tab.url==browsernewtab) {
+					if(tabId != null){
+						onlycammotionfunction(tab.url);
+					}
+				}
+			}
+        });
+    	// on highlight
+		chrome.tabs.onHighlighted.addListener(function(o) { tabId = o.tabIds[0];
+			chrome.tabs.get(tabId, function(tab) {
+				if(tab.url){
+					if(tab.url.match(/^http/i)||tab.url.match(/^https/i)||tab.url.match(/^file/i)||tab.url==browsernewtab) {
+					    onlycammotionfunction(tab.url);
+					}
+				}
+			});
+		});
 	} else {
-	cammotionstartfunction();
-	}
+        cammotionstartfunction();
 
+	}
 
 } else {
 
 	if(localMediaStream){
 		document.getElementById('motionvideo').pause();
 		document.getElementById('motionvideo').src = "";
-		localMediaStream.stop();
+        localMediaStream.getTracks().forEach(track => track.stop());
 		localMediaStream = null;
 		document.getElementById('motionvideo').load();
 		canvas = document.getElementById('motioncanvas');
@@ -128,10 +199,28 @@ if(motion == true){
 		ccgetcont.clearRect(0,0,ccanvas.width,ccanvas.height);
 		clearInterval(intervalID);
 		location.reload(); // to make sure everything is removed of the motion camera
-	}
-	
+    }
+
 }
 });
+}
+
+function PopupCenter(url, title, w, h) {
+    // Fixes dual-screen position                         Most browsers      Firefox
+    var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : window.screenX;
+    var dualScreenTop = window.screenTop != undefined ? window.screenTop : window.screenY;
+
+    var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+    var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+    var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+    var top = ((height / 2) - (h / 2)) + dualScreenTop;
+    var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+
+    // Puts focus on the newWindow
+    if (window.focus) {
+        newWindow.focus();
+    }
 }
 
 function cammotionstartfunction(){
@@ -146,7 +235,7 @@ var ccgetcont = ccanvas.getContext('2d');
 if(localMediaStream){
 document.getElementById('motionvideo').pause();
 document.getElementById('motionvideo').src = "";
-localMediaStream.stop();
+localMediaStream.getTracks().forEach(track => track.stop());
 localMediaStream = null;
 document.getElementById('motionvideo').load();
 canvas = document.getElementById('motioncanvas');
@@ -157,11 +246,22 @@ ccgetcont = ccanvas.getContext('2d');
 ccgetcont.clearRect(0,0,ccanvas.width,ccanvas.height);
 }
 
-navigator.getUserMedia({audio:false,video:true},function(stream){
+if (navigator.mediaDevices.getUserMedia) {
+    navigator.mediaDevices.getUserMedia({  audio: false, video: true })
+    .then(function (stream) {
+        //Display the video stream in the video object
         localMediaStream = stream; // Store the video stream
-        video.src = window.URL.createObjectURL(stream);
+        video.srcObject = stream;
         video.addEventListener('play', function(){ intervalID = window.setInterval(dump,1000/25); });
-},function(){ console.log('Something is wrong here! Check your camera!'); })
+     })
+     .catch(function (e) {
+          //console.log(e.name + ": " + e.message);
+          if(e.name == "NotAllowedError"){
+            var motionpermissionpage = chrome.extension.getURL('motion.html');
+            PopupCenter(motionpermissionpage,'stefanpemmotion','685','380');
+          }
+         });
+}
 
 var compression = 5;
 width = height = 0;
@@ -341,25 +441,25 @@ huemin = 0.0; huemax = 0.10; satmin = 0.0; satmax = 1.0; valmin = 0.4; valmax = 
 							chrome.storage.sync.set({"slideeffect": true});
                             chrome.tabs.query({active: true}, function (tabs) {
                                 for (var i = 0; i < tabs.length; i++) {
-                                    if (tabs.url.match(/^http/i)){
-                                    chrome.tabs.executeScript(tab.id, {file: "js/light.js"});
+                                    var protocol = tabs[i].url.split(":")[0];
+                                    if(protocol == "http" || protocol == "https"){
+                                    chrome.tabs.executeScript(tabs[i].id, {file: "js/light.js"});
                                     }
                                 }
-						    }
-					        );
+                            });
                         }
                         else{
 							// console.log('up');
 							// to enable the fall down effect
 							chrome.storage.sync.set({"slideeffect": true});
-							chrome.tabs.query({active: true}, function (tabs) {
+                            chrome.tabs.query({active: true}, function (tabs) {
                                 for (var i = 0; i < tabs.length; i++) {
-                                    if (tabs.url.match(/^http/i)){
-                                    chrome.tabs.executeScript(tab.id, {file: "js/light.js"});
+                                    var protocol = tabs[i].url.split(":")[0];
+                                    if(protocol == "http" || protocol == "https"){
+                                    chrome.tabs.executeScript(tabs[i].id, {file: "js/light.js"});
                                     }
                                 }
-						    }
-					        );
+                            });
                         }
                     } else if (dy < -movethresh && !dirx) {
                         if (davg > overthresh) {

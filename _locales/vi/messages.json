@@ -1,1056 +1,1377 @@
 {
-  "pagehelp":{
-    "message":"trợ giúp"
+  "pagehelp": {
+    "message": "trợ giúp"
   },
-  "titelimage":{
-    "message":"Hình ảnh nền"
+  "titelimage": {
+    "message": "Hình ảnh nền"
   },
-  "shortcutalllights":{
-    "message":"để bật/tắt đèn cho tất cả các thẻ đang mở"
+  "shortcutalllights": {
+    "message": "để bật/tắt đèn cho tất cả các tab đang mở"
   },
-  "lastchecked":{
-    "message":"Phiên bản mới nhất kiểm tra lúc"
+  "lastchecked": {
+    "message": "Phiên bản mới nhất đã được kiểm tra lúc"
   },
-  "visualeffects":{
-    "message":"Hiệu ứng trực quan"
+  "visualeffects": {
+    "message": "Hiệu ứng trực quan"
   },
-  "titelshortcutlight":{
-    "message":"Phím tắt"
+  "titelshortcutlight": {
+    "message": "Phím tắt"
   },
-  "titledonatebutton":{
-    "message":"Quyên góp"
+  "titledonatebutton": {
+    "message": "Quyên góp"
   },
-  "titellikebar":{
-    "message":"Thanh thích"
+  "titellikebar": {
+    "message": "Thanh thích"
   },
-  "desmousespotlightt":{
-    "message":"Cho phép nhấp vào siêu liên kết khi màn hình tối"
+  "desmousespotlightt": {
+    "message": "Cho phép nhấp vào siêu liên kết khi màn hình tối"
   },
-  "desmousespotlights":{
-    "message":"Enable the screen shade, with the possibility to click on the hyperlinks"
+  "desmousespotlights": {
+    "message": "Sử bóng màn hình, với khả năng bấm vào các siêu liên kết"
   },
-  "desambilight4color":{
-    "message":"Bốn màu sắc được chọn xung quanh video:"
+  "desambilight4color": {
+    "message": "Viền màu bo quanh video"
   },
-  "lockentername":{
-    "message":"Vui lòng nhập mật khẩu của bạn"
+  "lockentername": {
+    "message": "Vui lòng nhập mật khẩu của bạn"
   },
-  "desnoflash":{
-    "message":"Không sử dụng tính năng này."
+  "desnoflash": {
+    "message": "Không sử dụng tính năng này"
   },
-  "desdynamicblocks":{
-    "message":"Khối"
+  "desdynamicblocks": {
+    "message": "Khối"
   },
-  "titeleye":{
-    "message":"Bảo vệ mắt"
+  "titeleye": {
+    "message": "Bảo vệ mắt"
   },
-  "titelcinemaontop":{
-    "message":"Chế độ nhà hát phim: nó chỉ hiện lớp 'đèn tắt' trên đỉnh cửa sổ"
+  "titelcinemaontop": {
+    "message": "Chế độ nhà hát phim: nó chỉ hiện lớp 'đèn tắt' trên đỉnh cửa sổ"
   },
-  "desmousespotlightc":{
-    "message":"Cho phép lựa chọn khu vực để tập trung vào một vật khi ánh sáng bị tắt"
+  "desmousespotlightc": {
+    "message": "Cho phép lựa chọn khu vực để tập trung vào một vật khi ánh sáng bị tắt"
   },
-  "titelrememberpage":{
-    "message":"Nhắc nhở trang"
+  "titelrememberpage": {
+    "message": "Nhắc nhở trang"
   },
-  "desmousespotlighta":{
-    "message":"Khi tất cả ánh sáng bị tắt, xung quanh con trỏ chuột sẽ hiển thị một ánh sáng nổi bật."
+  "desmousespotlighta": {
+    "message": "Khi tất cả ánh sáng bị tắt, xung quanh con trỏ chuột sẽ hiển thị một ánh sáng nổi bật."
   },
-  "desmousespotlighto":{
-    "message":"Sử dụng bình thường (vô hiệu hóa thiết đặt chuột bên dưới)"
+  "desmousespotlighto": {
+    "message": "Sử dụng bình thường (vô hiệu hóa thiết đặt chuột bên dưới)"
   },
-  "desplaylist":{
-    "message":"Hiện playlist trên Youtube."
+  "desplaylist": {
+    "message": "Hiện playlist trên Youtube."
   },
-  "desambilightfixcolor":{
-    "message":"Chỉ một màu:"
+  "desambilightfixcolor": {
+    "message": "Chỉ chọn 1 màu"
   },
-  "desuntil":{
-    "message":"cho đến khi"
+  "desuntil": {
+    "message": "cho đến khi"
   },
-  "desconfirmpassword":{
-    "message":"Xác nhận mật khẩu"
+  "desconfirmpassword": {
+    "message": "Xác nhận mật khẩu"
   },
-  "desautoplayonly":{
-    "message":"Mờ chỉ là các trang web video sau đây:"
+  "desautoplayonly": {
+    "message": "Mờ chỉ là các trang web video sau đây:"
   },
-  "helpeyeprotection":{
-    "message":"Kích hoạt 'Bảo vệ mắt' sẽ tự động tắt tính năng 'Tự động xem'."
+  "helpeyeprotection": {
+    "message": "Kích hoạt 'Bảo vệ mắt' sẽ tự động tắt tính năng 'Tự động xem'."
   },
-  "skipremember":{
-    "message":"Bỏ qua điều này, và mở trang tuỳ chọn bây giờ"
+  "skipremember": {
+    "message": "Bỏ qua điều này, và mở trang tuỳ chọn bây giờ"
   },
-  "optiontimesaved":{
-    "message":"Tiết kiệm thời gian thành công!"
+  "optiontimesaved": {
+    "message": "Tiết kiệm thời gian thành công!"
   },
-  "titelvideoheadline":{
-    "message":"Tiêu đề Video"
+  "titelvideoheadline": {
+    "message": "Tiêu đề Video"
   },
-  "translateme":{
-    "message":"Giúp chúng tôi dịch"
+  "translateme": {
+    "message": "Giúp chúng tôi dịch"
   },
-  "despassword":{
-    "message":"Yêu cầu nhập một mật khẩu trước khi bật đèn trở lại."
+  "despassword": {
+    "message": "Yêu cầu nhập một mật khẩu trước khi bật đèn trở lại."
   },
-  "helpautoplay":{
-    "message":"'Bảo vệ mắt' đã được kích hoạt. Để sử dụng tính năng dưới đây, vô hiệu hóa tùy chọn 'Bảo vệ mắt'."
+  "helpautoplay": {
+    "message": "'Bảo vệ mắt' đã được kích hoạt. Để sử dụng tính năng dưới đây, vô hiệu hóa tùy chọn 'Bảo vệ mắt'."
   },
-  "name":{
-    "message":"Tắt đèn"
+  "name": {
+    "message": "Tắt đèn"
   },
-  "changelog":{
-    "message":"Nhật ký thay đổi"
+  "changelog": {
+    "message": "Nhật ký thay đổi"
   },
-  "optionpagetitle":{
-    "message":"Tùy trọn tên trang"
+  "optionpagetitle": {
+    "message": "Tùy trọn tên trang"
   },
-  "optionpasswordsaved":{
-    "message":"Mật khẩu được lưu thành công!"
+  "optionpasswordsaved": {
+    "message": "Mật khẩu được lưu thành công!"
   },
-  "desdynamicspace":{
-    "message":"Vũ trụ"
+  "desdynamicspace": {
+    "message": "Space"
   },
-  "deseastereggs":{
-    "message":"Nhấn phím T thêm một bức màn sân khấu vào lớp tối"
+  "deseastereggs": {
+    "message": "Nhấn phím T thêm một bức màn sân khấu vào lớp tối"
   },
-  "settings":{
-    "message":"Thiết đặt"
+  "settings": {
+    "message": "Thiết đặt"
   },
-  "desspotlightradius":{
-    "message":"Đường kính của đèn chiếu:"
+  "desspotlightradius": {
+    "message": "Đường kính của đèn chiếu:"
   },
-  "titelsync":{
-    "message":"Đồng bộ"
+  "titelsync": {
+    "message": "Đồng bộ"
   },
-  "right":{
-    "message":"bên phải"
+  "right": {
+    "message": "Bên phải"
   },
-  "titeldynamic":{
-    "message":"Năng động nền"
+  "titeldynamic": {
+    "message": "Năng động nền"
   },
-  "deslikebutton":{
-    "message":"Hiện nút like & dislike cho video này."
+  "deslikebutton": {
+    "message": "Hiện nút like & dislike cho video này."
   },
-  "titelmouse":{
-    "message":"Chuột"
+  "titelmouse": {
+    "message": "Chuột"
   },
-  "titellessmore":{
-    "message":"Hiển thị ít hơn"
+  "titellessmore": {
+    "message": "Hiển thị ít hơn"
   },
-  "desshortcutlight":{
-    "message":"Cho phép các phím tắt bàn phím bên dưới."
+  "desshortcutlight": {
+    "message": "Cho phép các phím tắt bàn phím bên dưới"
   },
-  "titelinfobar":{
-    "message":"Thanh thông tin"
+  "titelinfobar": {
+    "message": "Thanh thông tin"
   },
-  "descontextmenus":{
-    "message":"Hiển thị menu để tập trung vào một mục."
+  "descontextmenus": {
+    "message": "Hiển thị menu để tập trung vào một mục."
   },
-  "titelcontextmenus":{
-    "message":"Trình đơn ngữ cảnh"
+  "titelcontextmenus": {
+    "message": "Trình đơn ngữ cảnh"
   },
-  "titelplaylist":{
-    "message":"Danh sách bài hát"
+  "titelplaylist": {
+    "message": "Danh sách bài hát"
   },
-  "desatmosphereonly":{
-    "message":"Sử dụng tính năng chiếu sáng bầu khí quyển chỉ là trang web video sau đây:"
+  "desatmosphereonly": {
+    "message": "Sử dụng hiệu ứng ánh sáng bắt mắt trên trang web video sau đây:"
   },
-  "recflash":{
-    "message":"Khuyến cáo"
+  "recflash": {
+    "message": "Khuyến cáo"
   },
-  "desenterpassword":{
-    "message":"Nhập mật khẩu của bạn vào hộp dưới đây:"
+  "desenterpassword": {
+    "message": "Nhập mật khẩu của bạn vào hộp dưới đây:"
   },
-  "titelblurradius":{
-    "message":"Bán kính mờ:"
+  "titelblurradius": {
+    "message": "Bán kính mờ:"
   },
-  "version":{
-    "message":"Phiên bản"
+  "version": {
+    "message": "Phiên bản"
   },
-  "shortcutdark":{
-    "message":"để làm tối màn hình (tăng độ mờ)"
+  "shortcutdark": {
+    "message": "để làm tối màn hình (tăng độ mờ)"
   },
-  "dessharebutton":{
-    "message":"Hiện nút Share cho video này."
+  "dessharebutton": {
+    "message": "Hiện nút Share cho video này."
   },
-  "shortcutbright":{
-    "message":"để làm sáng màn hình (giảm độ mờ)"
+  "shortcutbright": {
+    "message": "để làm sáng màn hình (giảm độ mờ)"
   },
-  "titelalllightsoff":{
-    "message":"Tất cả các tab mở"
+  "titelalllightsoff": {
+    "message": "Tất cả các tab mở"
   },
-  "desreadera":{
-    "message":"Luôn hiện cấp độ mờ dần khi đèn bị tắt."
+  "desreadera": {
+    "message": "Luôn hiện cấp độ mờ dần khi đèn bị tắt."
   },
-  "rememberrate":{
-    "message":"Xếp hạng"
+  "rememberrate": {
+    "message": "Xếp hạng"
   },
-  "desautoplay":{
-    "message":"Tự động mờ dần khi nhấn nút play và ngược lại"
+  "desautoplay": {
+    "message": "Tự động mờ dần khi nhấn nút play và ngược lại"
   },
-  "titelscreen":{
-    "message":"Màn hình"
+  "titelscreen": {
+    "message": "Màn hình"
   },
-  "desflash":{
-    "message":"Hiện cho tất cả Flash."
+  "desflash": {
+    "message": "Hiện cho tất cả Flash."
   },
-  "titelhead":{
-    "message":"Kênh"
+  "titelhead": {
+    "message": "Kênh"
   },
-  "pageatitle":{
-    "message":"Tắt đèn"
+  "pageatitle": {
+    "message": "Tắt đèn"
   },
-  "desaddvideobutton":{
-    "message":"Hiển thị nút Thêm từ này video YouTube."
+  "desaddvideobutton": {
+    "message": "Hiển thị nút Thêm từ này video YouTube."
   },
-  "shortcuteyeprotection":{
-    "message":"để bật/tắt tính năng bảo vệ mắt"
+  "shortcuteyeprotection": {
+    "message": "để bật/tắt tính năng bảo vệ mắt"
   },
-  "titelfadein":{
-    "message":"Rõ dần"
+  "titelfadein": {
+    "message": "Rõ dần"
   },
-  "desreadern":{
-    "message":"Không bao giờ hiện thanh cấp độ mờ dần."
+  "desreadern": {
+    "message": "Không bao giờ hiện thanh cấp độ mờ dần."
   },
-  "titelmaxqualityyoutube":{
-    "message":"Tự động thiết lập để giải quyết này:"
+  "titelmaxqualityyoutube": {
+    "message": "Tự động thiết lập để giải quyết này:"
   },
-  "desambilightrangespreadradius":{
-    "message":"Tích cực giá trị tăng kích thước của bóng tối, tiêu cực giá trị giảm kích thước."
+  "desambilightrangespreadradius": {
+    "message": "Tích cực giá trị tăng kích thước của bóng tối, tiêu cực giá trị giảm kích thước."
   },
-  "titelon":{
-    "message":"Bật"
+  "titelon": {
+    "message": "Bật"
   },
-  "videotitle":{
-    "message":"Tập trung vào video này"
+  "videotitle": {
+    "message": "Tập trung vào video này"
   },
-  "warningtextambilight":{
-    "message":"Khi không thể nhận được dữ liệu video vì một quy tắc bảo mật web, màu đặc đã chọn sẽ được dùng để thay thế."
+  "warningtextambilight": {
+    "message": "Khi không thể nhận được dữ liệu video vì một quy tắc bảo mật web, màu đặc đã chọn sẽ được dùng để thay thế."
   },
-  "desdynamiccloud":{
-    "message":"Đám mây hoạt hình"
+  "desdynamiccloud": {
+    "message": "Đám mây hoạt hình"
   },
-  "desconfirmtimesaver":{
-    "message":"Xác nhận màn hình tiết kiệm thời gian"
+  "desconfirmtimesaver": {
+    "message": "Xác nhận màn hình tiết kiệm thời gian"
   },
-  "deslikebar":{
-    "message":"Hiển thị các giống như/không thích thanh theo YouTube video."
+  "deslikebar": {
+    "message": "Hiển thị các giống như/không thích thanh theo YouTube video"
   },
-  "titelautoplay":{
-    "message":"Thiết lập"
+  "titelautoplay": {
+    "message": "Thiết lập"
   },
-  "top":{
-    "message":"đầu trang"
+  "top": {
+    "message": "Trên đầu"
   },
-  "titelspreadradius":{
-    "message":"Bán kính lan tỏa:"
+  "titelspreadradius": {
+    "message": "Bán kính lan tỏa:"
   },
-  "installadblocker":{
-    "message":"Nếu bạn không muốn xem quảng cáo, sử dụng một phần mở rộng chặn quảng cáo."
+  "installadblocker": {
+    "message": "Nếu bạn không muốn xem quảng cáo, sử dụng một phần mở rộng chặn quảng cáo."
   },
-  "titelsharebutton":{
-    "message":"Nút chia sẻ"
+  "titelsharebutton": {
+    "message": "Nút chia sẻ"
   },
-  "titelcolor":{
-    "message":"Màu nền"
+  "titelcolor": {
+    "message": "Màu nền"
   },
-  "titeldownloadbutton":{
-    "message":"Tải về nâng cấp này!"
+  "titeldownloadbutton": {
+    "message": "Tải về nâng cấp này!"
   },
-  "pagetitle":{
-    "message":"Làm tối trang này"
+  "pagetitle": {
+    "message": "Làm tối trang này"
   },
-  "titelambilight":{
-    "message":"Chiếu sáng bầu khí quyển"
+  "titelambilight": {
+    "message": "Chiếu sáng bầu khí quyển"
   },
-  "titelshowmore":{
-    "message":"Hiển thị thêm"
+  "titelshowmore": {
+    "message": "Hiển thị thêm"
   },
-  "desviewcount":{
-    "message":"Hiện số lượng xem cho video này."
+  "desviewcount": {
+    "message": "Hiện số lượng xem cho video này."
   },
-  "titelautowidthyoutube":{
-    "message":"Tự động thiết lập trình phát YouTube để kích thước lớn hơn."
+  "titelautowidthyoutube": {
+    "message": "Tự động thiết lập trình phát YouTube để kích thước lớn hơn"
   },
-  "desconfirmtime":{
-    "message":"Xác nhận thời gian"
+  "desconfirmtime": {
+    "message": "Xác nhận thời gian"
   },
-  "titelupgrade":{
-    "message":"Nâng cấp"
+  "titelupgrade": {
+    "message": "Nâng cấp"
   },
-  "lockwrongpassword":{
-    "message":"Sai mật khẩu, xin hãy thử lại."
+  "lockwrongpassword": {
+    "message": "Sai mật khẩu, xin hãy thử lại."
   },
-  "titelsyncbrowser":{
-    "message":"Đồng bộ các thiết lập tiện ích mở rộng với các trình duyệt khác của bạn."
+  "titelsyncbrowser": {
+    "message": "Đồng bộ các thiết lập tiện ích mở rộng với các trình duyệt khác của bạn"
   },
-  "deletebutton":{
-    "message":"Xóa"
+  "deletebutton": {
+    "message": "Xóa"
   },
-  "eyedivon":{
-    "message":"BẬT"
+  "eyedivon": {
+    "message": "BẬT"
   },
-  "eyedivoff":{
-    "message":"TẮT"
+  "eyedivoff": {
+    "message": "TẮT"
   },
-  "deshead":{
-    "message":"Hiện thanh Youtube Channel hoặc tên."
+  "deshead": {
+    "message": "Hiện thanh Youtube Channel hoặc tên."
   },
-  "shortcutsavingopacity":{
-    "message":"để tiết kiệm giá trị opacity này"
+  "shortcutsavingopacity": {
+    "message": "để tiết kiệm giá trị opacity này"
   },
-  "desinfobar":{
-    "message":"Hiện mô tả về video."
+  "desinfobar": {
+    "message": "Hiện mô tả về video."
   },
-  "titellamp":{
-    "message":"Bóng đèn"
+  "titellamp": {
+    "message": "Bóng đèn"
   },
-  "desambilightvarcolor":{
-    "message":"Có màu sắc từ video."
+  "desambilightvarcolor": {
+    "message": "Trích xuất màu từ video"
   },
-  "showremember":{
-    "message":"Không hiển thị trang nhắc nhở này nữa khi tôi mở các tùy chọn"
+  "showremember": {
+    "message": "Không hiển thị trang nhắc nhở này nữa khi tôi mở các tùy chọn"
   },
-  "donatepromotext":{
-    "message":"Nếu bạn có thể ủng hộ cho tôi một số tiền cho tính năng này, tôi vô cùng cảm kích!"
+  "donatepromotext": {
+    "message": "Nếu bạn có thể ủng hộ cho tôi một số tiền cho tính năng này, tôi vô cùng cảm kích!"
   },
-  "titelblur":{
-    "message":"Mờ phần còn lại"
+  "titelblur": {
+    "message": "Mờ phần còn lại"
   },
-  "desdynamicraindrops":{
-    "message":"Giọt mưa"
+  "desdynamicraindrops": {
+    "message": "Giọt mưa"
   },
-  "desalllightsoff":{
-    "message":"Nhấp vào nút đèn sẽ bật/tắt đèn trên tất cả các thẻ đang mở"
+  "desalllightsoff": {
+    "message": "Nhấp vào nút đèn sẽ bật/tắt đèn trên tất cả các thẻ đang mở"
   },
-  "optionecosaversaved":{
-    "message":"Giây được lưu thành công!"
+  "optionecosaversaved": {
+    "message": "Giây được lưu thành công!"
   },
-  "titelreader":{
-    "message":"Cấp độ mờ dần"
+  "titelreader": {
+    "message": "Cấp độ mờ dần"
   },
-  "deseyen":{
-    "message":"Sử dụng bình thường (đèn tắt khi bạn nhấp vào biểu tượng đèn)"
+  "deseyen": {
+    "message": "Sử dụng bình thường (đèn tắt khi bạn nhấp vào biểu tượng đèn)"
   },
-  "enjoyshare":{
-    "message":"Thưởng thức phần mở rộng này và chia sẻ nó với những người khác những người bạn nghĩ rằng sẽ đánh giá cao nó."
+  "enjoyshare": {
+    "message": "Thưởng thức phần mở rộng này và chia sẻ nó với những người khác những người bạn nghĩ rằng sẽ đánh giá cao nó."
   },
-  "shortcuttotl":{
-    "message":"để bật/tắt đèn"
+  "shortcuttotl": {
+    "message": "để bật/tắt đèn"
   },
-  "deseyea":{
-    "message":"Tự động mờ nền khi mở một trang web"
+  "deseyea": {
+    "message": "Tự động mờ nền khi mở một trang web"
   },
-  "basicsettings":{
-    "message":"Khái niệm cơ bản"
+  "basicsettings": {
+    "message": "Khái niệm cơ bản"
   },
-  "hoveroptionapply":{
-    "message":"áp dụng"
+  "hoveroptionapply": {
+    "message": "áp dụng"
   },
-  "reportbug":{
-    "message":"Báo lỗi"
+  "reportbug": {
+    "message": "Báo lỗi"
   },
-  "destime":{
-    "message":"Đèn tắt giữa các lần sau:"
+  "destime": {
+    "message": "Đèn tắt giữa các lần sau:"
   },
-  "guide":{
-    "message":"Chào mừng bạn đến TOtL hướng dẫn"
+  "guide": {
+    "message": "Chào mừng bạn đến TOtL hướng dẫn"
   },
-  "deseyealist":{
-    "message":"Tự động mờ nền trên (những) trang web sau:"
+  "deseyealist": {
+    "message": "Tự động mờ nền trên (những) trang web sau:"
   },
-  "titellikebutton":{
-    "message":"Nút Like & Dislike"
+  "titellikebutton": {
+    "message": "Nút Like & Dislike"
   },
-  "titelpageaction":{
-    "message":"Ẩn biểu tượng đèn"
+  "titelpageaction": {
+    "message": "Ẩn biểu tượng đèn"
   },
-  "friendlyremember":{
-    "message":"Nhắc nhở thân thiện..."
+  "friendlyremember": {
+    "message": "Nhắc nhở thân thiện..."
   },
-  "desfadein":{
-    "message":"Hiện hiệu ứng rõ dần."
+  "desfadein": {
+    "message": "Hiện hiệu ứng rõ dần."
   },
-  "warning":{
-    "message":"Cảnh báo!"
+  "warning": {
+    "message": "Cảnh báo!"
   },
-  "deseyetimesaver":{
-    "message":"Khi một trang là không hoạt động (không có chuột hoặc nhập bàn phím) trong thời gian được chỉ ra dưới đây, nó tự động làm tối."
+  "deseyetimesaver": {
+    "message": "Khi một trang là không hoạt động (không có chuột hoặc nhập bàn phím) trong thời gian được chỉ ra dưới đây, nó tự động làm tối."
   },
-  "titelsuggestions":{
-    "message":"Gợi ý"
+  "titelsuggestions": {
+    "message": "Gợi ý"
   },
-  "advancedoptions":{
-    "message":"Tùy chọn Nâng cao"
+  "advancedoptions": {
+    "message": "Tùy chọn Nâng cao"
   },
-  "dessuggestions":{
-    "message":"Hiển thị các gợi ý của Youtube."
+  "dessuggestions": {
+    "message": "Hiển thị các gợi ý của Youtube."
   },
-  "titelflash":{
-    "message":"Phát hiện Flash"
+  "titelflash": {
+    "message": "Phát hiện Flash"
   },
-  "desambilight":{
-    "message":"Hiển thị bạn hiệu quả chiếu sáng bầu khí quyển của playing video hiện tại."
+  "desambilight": {
+    "message": "Hiển thị bạn hiệu quả chiếu sáng bầu khí quyển của playing video hiện tại"
   },
-  "productshare":{
-    "message":"Chia sẻ"
+  "productshare": {
+    "message": "Chia sẻ"
   },
-  "addbutton":{
-    "message":"Thêm"
+  "addbutton": {
+    "message": "Thêm"
   },
-  "reportlist":{
-    "message":"Xem danh sách lỗi"
+  "reportlist": {
+    "message": "Xem danh sách lỗi"
   },
-  "desdynamicfishtank":{
-    "message":"Bể cá"
+  "desdynamicfishtank": {
+    "message": "Bể cá"
   },
-  "longdonatetext":{
-    "message":"Tôi thực sự đánh giá cao nếu bạn có thể tặng tôi để giữ cho phần mở rộng trình duyệt này còn tồn tại cho người dùng mới khác. Cho dù đó là 1$ hoặc 100$, hỗ trợ của bạn được đánh giá cao vô cùng!"
+  "longdonatetext": {
+    "message": "Tôi thực sự đánh giá cao nếu bạn có thể tặng tôi để giữ cho phần mở rộng trình duyệt này còn tồn tại cho người dùng mới khác. Cho dù đó là 1$ hoặc 100$, hỗ trợ của bạn được đánh giá cao vô cùng!"
   },
-  "deshardflash":{
-    "message":"Hiển thị tất cả các đối tượng Flash, bỏ qua các bộ lọc URL. Điều này sẽ sửa chữa các vấn đề với một số người chơi video được ẩn, nhưng cũng sẽ hiển thị quảng cáo."
+  "deshardflash": {
+    "message": "Hiển thị tất cả các đối tượng Flash, bỏ qua các bộ lọc URL. Điều này sẽ sửa chữa các vấn đề với một số người chơi video được ẩn, nhưng cũng sẽ hiển thị quảng cáo."
   },
-  "desfadeout":{
-    "message":"Hiện hiệu ứng mờ dần."
+  "desfadeout": {
+    "message": "Hiện hiệu ứng mờ dần."
   },
-  "optionwrongimg":{
-    "message":"Tập tin hình ảnh không hợp lệ!"
+  "optionwrongimg": {
+    "message": "Tập tin hình ảnh không hợp lệ!"
   },
-  "desvideoheadline":{
-    "message":"Hiển thị và đảo ngược màu sắc của các tiêu đề video."
+  "desvideoheadline": {
+    "message": "Hiển thị và đảo ngược màu sắc của các tiêu đề video."
   },
-  "desrememberpage":{
-    "message":"Không hiển thị lời nhắc nhở trang"
+  "desrememberpage": {
+    "message": "Không hiển thị lời nhắc nhở trang"
   },
-  "description":{
-    "message":"The entire page will be fading to dark, so you can watch the videos as if you were in the cinema. Works for YouTube™ and Beyond."
+  "description": {
+    "message": "Toàn bộ trang sẽ được làm tối dần, nên bạn có thể xem video như thể bạn đang ở trong rạp chiếu phim. Hoạt động tốt trên YouTube™ và một số ứng dụng riêng biệt."
   },
-  "titelviewcount":{
-    "message":"Số lần xem"
+  "titelviewcount": {
+    "message": "Số lần xem"
   },
-  "titelopacity":{
-    "message":"Độ mờ"
+  "titelopacity": {
+    "message": "Độ mờ"
   },
-  "titelqualityyoutube":{
-    "message":"Tự động đặt chất lượng video YouTube."
+  "titelqualityyoutube": {
+    "message": "Tự động đặt chất lượng video YouTube"
   },
-  "shortcutopacity":{
-    "message":"để khôi phục lại thiết đặt bóng tối (độ mờ) đã đặt"
+  "shortcutopacity": {
+    "message": "để khôi phục lại thiết đặt bóng tối (độ mờ) đã đặt"
   },
-  "desambilightrangeblurradius":{
-    "message":"Giá trị thấp hơn sẽ làm sắc nét bóng tối, giá trị cao hơn sẽ làm cho chúng bị mờ hơn."
+  "desambilightrangeblurradius": {
+    "message": "Giá trị thấp hơn sẽ làm sắc nét bóng tối, giá trị cao hơn sẽ làm cho chúng bị mờ hơn."
   },
-  "titeladdvideobutton":{
-    "message":"Thêm nút"
+  "titeladdvideobutton": {
+    "message": "Thêm nút"
   },
-  "titelpassword":{
-    "message":"Bảo vệ mật khẩu"
+  "titelpassword": {
+    "message": "Bảo vệ mật khẩu"
   },
-  "titeldownloadupgrade":{
-    "message":"Nâng cấp thêm hỗ trợ cho tập trung hình ảnh được chọn, và sẽ hiển thị một bộ sưu tập các hình ảnh trên trang web."
+  "titeldownloadupgrade": {
+    "message": "Nâng cấp thêm hỗ trợ cho tập trung hình ảnh được chọn, và sẽ hiển thị một bộ sưu tập các hình ảnh trên trang web."
   },
-  "titelfadeout":{
-    "message":"Mờ dần"
+  "titelfadeout": {
+    "message": "Mờ dần"
   },
-  "eastereggsquestion":{
-    "message":"Bạn có thích một rạp chiếu phim thực sự?"
+  "eastereggsquestion": {
+    "message": "Bạn có thích một rạp chiếu phim thực sự?"
   },
-  "bottom":{
-    "message":"dưới cùng"
+  "bottom": {
+    "message": "Bên dưới"
   },
-  "dessaver":{
-    "message":"Bộ bảo vệ màn hình:"
+  "dessaver": {
+    "message": "Bộ bảo vệ màn hình:"
   },
-  "hoveroptiondyn5":{
-    "message":"bay"
+  "hoveroptiondyn5": {
+    "message": "bay"
   },
-  "pagestillloading":{
-    "message":"Trang đang tải vẫn?"
+  "pagestillloading": {
+    "message": "Trang đang tải vẫn?"
   },
-  "titeloff":{
-    "message":"Tắt"
+  "titeloff": {
+    "message": "Tắt"
   },
-  "titeleastereggs":{
-    "message":"Trứng Phục Sinh"
+  "titeleastereggs": {
+    "message": "Trứng Phục Sinh"
   },
-  "textfoot":{
-    "message":"Phần mềm này được cấp phép theo CC-GNU GPL. Để xem một bản sao của giấy phép này, xem"
+  "textfoot": {
+    "message": "Phần mềm này được cấp phép theo CC-GNU GPL. Để xem một bản sao của giấy phép này, xem"
   },
-  "left":{
-    "message":"trái"
+  "left": {
+    "message": "Bên trái"
   },
-  "titelnighttheme":{
-    "message":"Chế độ ban đêm"
+  "titelnighttheme": {
+    "message": "Chế độ ban đêm"
   },
-  "desnighttheme":{
-    "message":"Hiển thị nút chuyển đổi đêm bên dưới trang web để làm cho trang tối hoặc ánh sáng."
+  "desnighttheme": {
+    "message": "Hiển thị nút chuyển đổi đêm bên dưới trang web để làm cho trang tối hoặc ánh sáng"
   },
-  "nightoptions":{
-    "message":"Chế độ ban đêm"
+  "nightoptions": {
+    "message": "Chế độ ban đêm"
   },
-  "desnightonly":{
-    "message":"Hiển thị chế độ ban đêm chỉ là các trang web sau đây:"
+  "desnightonly": {
+    "message": "Hiển thị chế độ ban đêm chỉ là các trang web sau đây:"
   },
-  "desnightenabletheme":{
-    "message":"Khi bạn mở một trang mới nó đi tự động đến chế độ ban đêm."
+  "desnightenabletheme": {
+    "message": "Khi bạn mở một trang mới nó đi tự động đến chế độ ban đêm"
   },
-  "titellampregular":{
-    "message":"Luôn hiện biểu tượng đèn trong thanh địa chỉ"
+  "titellampregular": {
+    "message": "Luôn hiện biểu tượng đèn trong thanh địa chỉ"
   },
-  "titellampvideo":{
-    "message":"Chỉ hiển thị biểu tượng đèn nếu bạn tìm thấy một trình chơi video"
+  "titellampvideo": {
+    "message": "Chỉ hiển thị biểu tượng đèn nếu bạn tìm thấy một trình chơi video"
   },
-  "upgradecontexttitle":{
-    "message":"Chúng tôi đã thêm vào một số tính năng mới cho bạn"
+  "ratetitle": {
+    "message": "Cảm ơn bạn đã sử dụng Turn Off the Lights"
   },
-  "upgradecontextmessage":{
-    "message":"Cái đó làm cho phần mở rộng này tuyệt vời hơn"
+  "ratedes": {
+    "message": "Hãy đánh giá và review tính năng này trên Store. Chúng tôi thực sự cảm kích vì sự hỗ trợ tuyệt vời của bạn."
   },
-  "upgradecontextitemta":{
-    "message":"Chuyển động camera"
+  "rateitema": {
+    "message": "Đánh giá 5 sao"
   },
-  "upgradecontextitemma":{
-    "message":"Tắt ánh sáng với bàn tay của bạn"
+  "titelreset": {
+    "message": "Đặt lại thiết đặt"
   },
-  "upgradecontextitemtb":{
-    "message":"Nhận dạng tiếng nói"
+  "resetbrowserextension": {
+    "message": "Đặt lại các thiết đặt Turn Off the Lights"
   },
-  "upgradecontextitemmb":{
-    "message":"Điều khiển trang web chính xác hơn"
+  "desautoplaydelay": {
+    "message": "Làm sáng nền trở lại khi video đã kết thúc sau"
   },
-  "upgradefbshare":{
-    "message":"Chia sẻ Facebook"
+  "desautoplaydelayend": {
+    "message": "vài giây"
   },
-  "upgradetwshare":{
-    "message":"Tweet"
+  "motionoptions": {
+    "message": "Chuyển động camera"
   },
-  "ratetitle":{
-    "message":"Vui lòng đánh giá & xem lại tiện ích mở rộng của tôi"
+  "desmotion": {
+    "message": "Kích hoạt Chuyển động Camera"
   },
-  "ratedes":{
-    "message":"Và để cho mọi người biết về phần mở rộng tuyệt vời này!"
+  "desspeech": {
+    "message": "Kích hoạt phân tích giọng nói"
   },
-  "rateitema":{
-    "message":"Đánh giá 5 sao"
+  "trymotion": {
+    "message": "Tự thử nó!"
   },
-  "titelreset":{
-    "message":"Đặt lại thiết đặt"
+  "destrymotion": {
+    "message": "Đó chỉ là tuyệt vời, và tốt nhất của tất cả là nó hoạt động ở khắp mọi nơi. Thậm chí trên YouTube, trang web tin tức, vv."
   },
-  "resetbrowserextension":{
-    "message":"Đặt lại các thiết đặt Turn Off the Lights"
+  "howworkmotion": {
+    "message": "Nó hoạt động như thế nào?"
   },
-  "desautoplaydelay":{
-    "message":"Làm sáng nền trở lại khi video đã kết thúc sau"
+  "nightstep1description": {
+    "message": "Kích hoạt tính năng chế độ ban đêm"
   },
-  "desautoplaydelayend":{
-    "message":"vài giây"
+  "nightstep2description": {
+    "message": "Mở bất kì trang web nào đó, và bạn sẽ cảm nhận được"
   },
-  "motionoptions":{
-    "message":"Chuyển động camera"
+  "nightstep3description": {
+    "message": "Bấm vào để chuyển chế độ tối nền khi xem trang web"
   },
-  "desmotion":{
-    "message":"Kích hoạt Chuyển động Camera"
+  "speechstep1description": {
+    "message": "Kích hoạt tính năng phân tích giọng nói"
   },
-  "trymotion":{
-    "message":"Tự thử nó!"
+  "speechstep2description": {
+    "message": "Khi bạn kích hoạt chức năng này, bạn có thể giao tiếp với đèn nền trình duyệt bằng các câu lệnh sau đây:"
   },
-  "destrymotion":{
-    "message":"Đó chỉ là tuyệt vời, và tốt nhất của tất cả là nó hoạt động ở khắp mọi nơi. Thậm chí trên YouTube, trang web tin tức, vv."
+  "camstep1description": {
+    "message": "Kích hoạt tính năng máy ảnh chuyển động"
   },
-  "howworkmotion":{
-    "message":"Nó hoạt động như thế nào?"
+  "camstep2description": {
+    "message": "Di chuyển bàn tay của bạn (hoặc đầu tiên hãy trượt) từ trên xuống."
   },
-  "step1description":{
-    "message":"Kích hoạt tính năng máy ảnh chuyển động"
+  "camstep3description": {
+    "message": "Lớp màu đen sẽ tự động trượt xuống."
   },
-  "step2description":{
-    "message":"Di chuyển bàn tay của bạn (hoặc nắm tay) từ trên xuống"
+  "desmotionChecklist": {
+    "message": "Kiểm tra danh sách:"
   },
-  "step3description":{
-    "message":"Lớp màu đen sẽ tự động trượt xuống."
+  "des1checkmotion": {
+    "message": "Đảm bảo căn phòng của bạn không phải là bóng tối và rằng nó có đủ ánh sáng."
   },
-  "desmotionChecklist":{
-    "message":"Kiểm tra danh sách:"
+  "des2checkmotion": {
+    "message": "Máy ảnh của bạn không nhận được ánh sáng mặt trời trực tiếp."
   },
-  "des1checkmotion":{
-    "message":"Đảm bảo căn phòng của bạn không phải là bóng tối và rằng nó có đủ ánh sáng."
+  "des3checkmotion": {
+    "message": "Bạn sử dụng một mặt trước của máy ảnh."
   },
-  "des2checkmotion":{
-    "message":"Máy ảnh của bạn không nhận được ánh sáng mặt trời trực tiếp."
+  "titellinear": {
+    "message": "Tuyến tính"
   },
-  "des3checkmotion":{
-    "message":"bạn sử dụng một mặt trước của máy ảnh."
+  "titelcolora": {
+    "message": "Màu A:"
   },
-  "titellinear":{
-    "message":"Tuyến tính"
+  "titelcolorb": {
+    "message": "Màu B:",
+    "description": "Màu B:"
   },
-  "titelcolora":{
-    "message":"Màu A:"
+  "speechoption": {
+    "message": "Nhận dạng tiếng nói"
   },
-  "titelcolorb":{
-    "message":"Màu B:",
-    "description":"Màu B:"
+  "titelspeech": {
+    "message": "Lời nói"
   },
-  "speechoption":{
-    "message":"Nhận dạng tiếng nói"
+  "desspeech1command": {
+    "message": "tắt đèn"
   },
-  "titelspeech":{
-    "message":"Lời nói"
+  "desspeech2command": {
+    "message": "bật đèn"
   },
-  "desspeech":{
-    "message":"Khi bạn đã kích hoạt tùy chọn này, bạn có thể nói chuyện với đèn trình duyệt. Và bạn có thể nói các lệnh sau đây:"
+  "desspeech3command": {
+    "message": "chơi video"
   },
-  "desspeech1command":{
-    "message":"tắt đèn"
+  "desspeech4command": {
+    "message": "tạm dừng video"
   },
-  "desspeech2command":{
-    "message":"bật đèn"
+  "desspeechdialect": {
+    "message": "Chọn ngôn ngữ nói của bạn:"
   },
-  "desspeech3command":{
-    "message":"chơi video"
+  "desatmosvivid": {
+    "message": "Hiệu ứng ánh sáng sinh động"
   },
-  "desspeech4command":{
-    "message":"tạm dừng video"
+  "help": {
+    "message": "Trợ giúp"
   },
-  "desspeechdialect":{
-    "message":"Chọn ngôn ngữ nói của bạn:"
+  "about": {
+    "message": "Giới thiệu"
   },
-  "desatmosvivid":{
-    "message":"Vivid atmosphere effects, require"
+  "desspeechonly": {
+    "message": "Kích hoạt nhận dạng tiếng nói chỉ là các trang web sau đây:"
   },
-  "help":{
-    "message":"Trợ giúp"
+  "descammotiononly": {
+    "message": "Kích hoạt chuyển động máy ảnh chỉ trên các trang web sau đây:"
   },
-  "about":{
-    "message":"Giới thiệu"
+  "titelcamera": {
+    "message": "Máy ảnh"
   },
-  "desspeechonly":{
-    "message":"Kích hoạt nhận dạng tiếng nói chỉ là các trang web sau đây:"
+  "titelautoplaywhitelist": {
+    "message": "Danh sách trắng"
   },
-  "descammotiononly":{
-    "message":"Kích hoạt chuyển động máy ảnh chỉ trên các trang web sau đây:"
+  "titelautoplayblacklist": {
+    "message": "Danh sách đen"
   },
-  "titelcamera":{
-    "message":"Máy ảnh"
+  "titeldownloadthemeupgrade": {
+    "message": "Thêm một chủ đề tối để trình duyệt của bạn để mang nó lên. Chủ đề xuất hiện xung quanh viền của trình duyệt."
   },
-  "titelautoplaywhitelist":{
-    "message":"Danh sách trắng"
+  "desbrowsersupport": {
+    "message": "Trình duyệt này hiện không hỗ trợ tính năng này. Đảm bảo rằng bạn có phiên bản trình duyệt mới nhất được cài đặt trên máy tính của bạn."
   },
-  "titelautoplayblacklist":{
-    "message":"Danh sách đen"
+  "titelsupportatmos": {
+    "message": "Chỉ hỗ trợ trình phát <video> HTML5. Nó cũng đồng thời sử dụng GPU từ thiết bị của bạn."
   },
-  "titeldownloadthemeupgrade":{
-    "message":"Thêm một chủ đề tối để trình duyệt của bạn để mang nó lên. Chủ đề xuất hiện xung quanh viền của trình duyệt."
+  "titelseeonline": {
+    "message": "Xem trực tuyến cho các ví dụ"
   },
-  "desbrowsersupport":{
-    "message":"Trình duyệt này hiện không hỗ trợ tính năng này. Đảm bảo rằng bạn có phiên bản trình duyệt mới nhất được cài đặt trên máy tính của bạn."
+  "titelvideosample": {
+    "message": "Video mẫu"
   },
-  "titelsupportatmos":{
-    "message":"Chỉ hỗ trợ <video> HTML5 và trình phát YouTube HTML5. Nó sử dụng GPU từ card đồ hoạ của bạn."
+  "titelwebsite": {
+    "message": "Trang mạng"
   },
-  "titelseeonline":{
-    "message":"Xem trực tuyến cho các ví dụ"
+  "titeldeveloper": {
+    "message": "Nhà phát triển"
   },
-  "titelvideosample":{
-    "message":"Video mẫu"
+  "titelrightsreserved": {
+    "message": "Một số quyền."
   },
-  "titelwebsite":{
-    "message":"Trang mạng"
+  "desbrowserextension": {
+    "message": "tiện ích của trình duyệt"
   },
-  "titeldeveloper":{
-    "message":"Nhà phát triển"
+  "desapitext": {
+    "message": "Wiki API cho phát triển trang web"
   },
-  "titelrightsreserved":{
-    "message":"Một số quyền."
+  "desbrowsertheme": {
+    "message": "chủ đề trình duyệt"
   },
-  "desbrowserextension":{
-    "message":"Tiện ích của trình duyệt"
+  "desproject": {
+    "message": "dự án"
   },
-  "desapitext":{
-    "message":"Wiki API cho phát triển trang web"
+  "titelapideveloper": {
+    "message": "Nhà phát triển API"
   },
-  "desbrowsertheme":{
-    "message":"Chủ đề trình duyệt"
+  "titelwikiatmos": {
+    "message": "Wiki về các tính năng chiếu sáng bầu không khí"
   },
-  "desproject":{
-    "message":"dự án"
+  "sharemenusharetitle": {
+    "message": "Chia sẻ điều này"
   },
-  "titelapideveloper":{
-    "message":"Nhà phát triển API"
+  "sharemenuwelcomeguidetitle": {
+    "message": "Chào mừng bạn đến với mục hướng dẫn"
   },
-  "titelwikiatmos":{
-    "message":"Wiki về các tính năng chiếu sáng bầu không khí"
+  "sharemenutellafriend": {
+    "message": "Giới thiệu với bạn bè"
   },
-  "sharemenusharetitle":{
-    "message":"Chia sẻ điều này"
+  "sharemenusendatweet": {
+    "message": "Gửi một Tweet"
   },
-  "sharemenuwelcomeguidetitle":{
-    "message":"Chào mừng bạn đến với mục hướng dẫn"
+  "sharemenupostonfacebook": {
+    "message": "Đăng trên Facebook"
   },
-  "sharemenutellafriend":{
-    "message":"Giới thiệu với bạn bè"
+  "sharemenupostongoogleplus": {
+    "message": "Đăng trên Google +"
   },
-  "sharemenusendatweet":{
-    "message":"Gửi một Tweet"
+  "sharemenuratetitle": {
+    "message": "Đánh giá tiện ích mở rộng này"
   },
-  "sharemenupostonfacebook":{
-    "message":"Đăng trên Facebook"
+  "sharemenudonatetitle": {
+    "message": "Hỗ trợ người phát triển"
   },
-  "sharemenupostongoogleplus":{
-    "message":"Đăng trên Google +"
+  "titelautostop": {
+    "message": "Tự động dừng"
   },
-  "sharemenuratetitle":{
-    "message":"Đánh giá tiện ích mở rộng này"
+  "desautostop": {
+    "message": "Tự động dừng phát video khi tôi mở một trang web"
   },
-  "sharemenudonatetitle":{
-    "message":"Hỗ trợ người phát triển"
+  "areyouhappy": {
+    "message": "Bạn có hài lòng về Turn Off the Lights?"
   },
-  "titelautostop":{
-    "message":"Tự động dừng"
+  "tellothers": {
+    "message": "Đảm bảo ý kiến của bạn được quan tâm"
   },
-  "desautostop":{
-    "message":"Tự động dừng phát video khi tôi mở một trang web"
+  "nothanks": {
+    "message": "Không, cảm ơn"
   },
-  "areyouhappy":{
-    "message":"Bạn có hài lòng về Turn Off the Lights?"
+  "writeareview": {
+    "message": "Viết đánh giá"
   },
-  "tellothers":{
-    "message":"Đảm bảo ý kiến của bạn được quan tâm"
+  "desauroraplayer": {
+    "message": "Trình phát ánh sáng mô trường xung quanh cũng khả dụng cho máy tính này."
   },
-  "nothanks":{
-    "message":"Không, cảm ơn"
+  "downloadtheapp": {
+    "message": "Tải ứng dụng bây giờ"
   },
-  "writeareview":{
-    "message":"Viết đánh giá"
+  "titeldownloadupgradezoom": {
+    "message": "Phóng lớn hoặc nhỏ trên nội dung web bằng nút thu phóng để đọc thoải mái hơn."
   },
-  "desauroraplayer":{
-    "message":"Trình phát ánh sáng mô trường xung quanh cũng khả dụng cho máy tính này."
+  "titeldownloadupgradepropermenubar": {
+    "message": "Thêm lại thanh menu đen trên website Google."
   },
-  "downloadtheapp":{
-    "message":"Tải ứng dụng bây giờ"
+  "titeldownloadupgradefinancetoolbar": {
+    "message": "Điều này cho thấy bạn thông tin thị trường chứng khoán thời gian thực."
   },
-  "titeldownloadupgradezoom":{
-    "message":"Phóng lớn hoặc nhỏ trên nội dung web bằng nút thu phóng để đọc thoải mái hơn."
+  "titelnightmodeposition": {
+    "message": "Vị trí của công tắc"
   },
-  "titeldownloadupgradepropermenubar":{
-    "message":"Thêm lại thanh menu đen trên website Google."
+  "nmtopleft": {
+    "message": "Trên cùng bên trái"
   },
-  "titeldownloadupgradefinancetoolbar":{
-    "message":"This shows you the real time stock market information."
+  "nmtopright": {
+    "message": "Trên cùng bên phải"
   },
-  "titelnightmodeposition":{
-    "message":"Position of switch"
+  "nmbottomright": {
+    "message": "Dưới cùng bên phải"
   },
-  "nmtopleft":{
-    "message":"Trên cùng bên trái"
+  "nmbottomleft": {
+    "message": "Dưới cùng bên trái"
   },
-  "nmtopright":{
-    "message":"Trên cùng bên phải"
+  "nmcustom": {
+    "message": "Tuỳ chỉnh (nhấp, giữ và di chuyển chuyển đổi sang vị trí màn hình mong muốn)"
   },
-  "nmbottomright":{
-    "message":"Dưới cùng bên phải"
+  "desnighthover": {
+    "message": "Hiển thị chuyển đổi minh bạch trên trang web"
   },
-  "nmbottomleft":{
-    "message":"Dưới cùng bên trái"
+  "titelnightmodewhitelist": {
+    "message": "Danh sách trắng"
   },
-  "nmcustom":{
-    "message":"Custom (click, hold and move the switch to the desired screen location)"
+  "titelnightmodeblacklist": {
+    "message": "Danh sách đen"
   },
-  "desnighthover":{
-    "message":"Shows a transparent switch on the web page"
+  "desautostoponly": {
+    "message": "Chỉ kích hoạt dừng phát video tự động trên (các) trang web sau:"
   },
-  "titelnightmodewhitelist":{
-    "message":"Danh sách trắng"
+  "titelautostopwhitelist": {
+    "message": "Danh sách trắng"
   },
-  "titelnightmodeblacklist":{
-    "message":"Danh sách đen"
+  "titelautostopblacklist": {
+    "message": "Danh sách đen"
   },
-  "desautostoponly":{
-    "message":"Only activate stop playing the video automatically on the following site(s):"
+  "desnightactivetime": {
+    "message": "Việc chuyển đổi sẽ được hiển thị giữa các lần sau:"
   },
-  "titelautostopwhitelist":{
-    "message":"Danh sách trắng"
+  "deslampandnightmode": {
+    "message": "Kích hoạt tùy chọn 'Chế độ Đêm' khi bạn nhấp vào nút đèn màu xám"
   },
-  "titelautostopblacklist":{
-    "message":"Danh sách đen"
+  "titeleyewhitelist": {
+    "message": "Danh sách trắng"
   },
-  "desnightactivetime":{
-    "message":"The switch will be visible between the following times:"
+  "titeleyeblacklist": {
+    "message": "Danh sách đen"
   },
-  "deslampandnightmode":{
-    "message":"Activate the 'Night Mode' option when you click on the gray lamp button"
+  "desspeech5command": {
+    "message": "đèn trình duyệt"
   },
-  "titeleyewhitelist":{
-    "message":"Danh sách trắng"
+  "html5andyoutube": {
+    "message": "Video HTML5 & YouTube ™"
   },
-  "titeleyeblacklist":{
-    "message":"Danh sách đen"
+  "flashembedobject": {
+    "message": "Hỗ trợ: <object>, <embed>, <applet>, <iframe>."
   },
-  "desspeech5command":{
-    "message":"browser lamp"
+  "titelnightmodebck": {
+    "message": "Màu nền"
   },
-  "html5andyoutube":{
-    "message":"HTML5 & YouTube™ video"
+  "titelnightmodetxt": {
+    "message": "Màu chữ"
   },
-  "flashembedobject":{
-    "message":"Supports: <object>, <embed>, <applet>, <iframe>."
+  "desdynamicsmoke": {
+    "message": "Hút thuốc"
   },
-  "titelnightmodebck":{
-    "message":"Background color"
+  "desdynamicdotscolor": {
+    "message": "Điểm màu"
   },
-  "titelnightmodetxt":{
-    "message":"Text color"
+  "desdynamicstorm": {
+    "message": "Cơn bão",
+    "description": "Cơn bão"
   },
-  "desdynamicsmoke":{
-    "message":"Smoke"
+  "desdynamictriangulation": {
+    "message": "Triangulation"
   },
-  "desdynamicdotscolor":{
-    "message":"Color Dots"
+  "desdynamicstars": {
+    "message": "Sao"
   },
-  "desdynamicstorm":{
-    "message":"Storm",
-    "description":"Storm"
+  "desmobileapp": {
+    "message": "Tắt đèn cũng có sẵn cho thiết bị di động của bạn."
   },
-  "desdynamictriangulation":{
-    "message":"Triangulation"
+  "titel360youtube": {
+    "message": "Hiển thị video toàn cảnh 360 độ YouTube trong một khung"
   },
-  "desdynamicstars":{
-    "message":"Sao"
+  "titelvideotool": {
+    "message": "Thanh công cụ video"
   },
-  "desmobileapp":{
-    "message":"Turn Off the Lights is also available for your mobile device."
+  "desvideotool": {
+    "message": "Hiển thị thanh công cụ bên dưới màn hình của bạn để tùy chỉnh trình phát video hiện tại"
   },
-  "titel360youtube":{
-    "message":"Shows the full 360 degrees YouTube video in one frame"
+  "vtoolfullscreen": {
+    "message": "Một nút để thiết lập trình phát video với kích thước cửa sổ đầy đủ"
   },
-  "titelvideotool":{
-    "message":"Video Toolbar"
+  "vtoolfilter": {
+    "message": "Nút để thêm bộ lọc trong trình phát video hiện tại"
   },
-  "desvideotool":{
-    "message":"Show the toolbar below your screen to customize the current video player"
+  "vtoolreplay": {
+    "message": "Nút để thêm bộ lọc trong trình phát video hiện tại"
   },
-  "vtoolfullscreen":{
-    "message":"A button to set the video player to the full window size"
+  "vtoolscreenshot": {
+    "message": "Nút để thêm bộ lọc trong trình phát video hiện tại"
   },
-  "vtoolfilter":{
-    "message":"A button to add a filter in the current video player"
+  "vtoolalign": {
+    "message": "Nút để căn giữa trình phát video trong cửa sổ trình duyệt của bạn"
   },
-  "vtoolreplay":{
-    "message":"A button to replay the current video player"
+  "titelvideotoolgrayscale": {
+    "message": "màu xám"
   },
-  "vtoolscreenshot":{
-    "message":"A button to take a screenshot of the current video player"
+  "titelvideotoolsepia": {
+    "message": "nâu đỏ"
   },
-  "vtoolalign":{
-    "message":"A button to center the video player in your browser window"
+  "titelvideotoolinvert": {
+    "message": "đảo ngược"
   },
-  "titelvideotoolgrayscale":{
-    "message":"grayscale"
+  "titelvideotoolcontrast": {
+    "message": "độ tương phản"
   },
-  "titelvideotoolsepia":{
-    "message":"sepia"
+  "titelvideotoolsaturate": {
+    "message": "độ bão hoà"
   },
-  "titelvideotoolinvert":{
-    "message":"invert"
+  "titelvideotoolhueroration": {
+    "message": "sự luân chuyển màu"
   },
-  "titelvideotoolcontrast":{
-    "message":"contrast"
+  "titelvideotoolbrightness": {
+    "message": "độ sáng"
   },
-  "titelvideotoolsaturate":{
-    "message":"saturation"
+  "titelvideotoolnormal": {
+    "message": "bình thường"
   },
-  "titelvideotoolhueroration":{
-    "message":"hue rotation"
+  "titelvideotoollike": {
+    "message": "Thích"
   },
-  "titelvideotoolbrightness":{
-    "message":"brightness"
+  "titelvideotoolsubscribe": {
+    "message": "Đăng ký"
   },
-  "titelvideotoolnormal":{
-    "message":"normal"
+  "titelvideotoolrepeat": {
+    "message": "Lặp lại"
   },
-  "titelvideotoollike":{
-    "message":"Like"
+  "titelvideotoolfilter": {
+    "message": "Bộ lọc"
   },
-  "titelvideotoolsubscribe":{
-    "message":"Đăng ký"
+  "titelvideotoolfullwindow": {
+    "message": "Bật toàn màn hình"
   },
-  "titelvideotoolrepeat":{
-    "message":"Repeat"
+  "titelvideotoolscreenshot": {
+    "message": "Chụp ảnh màn hình"
   },
-  "titelvideotoolfilter":{
-    "message":"Filter"
+  "titelreflection": {
+    "message": "Phản ánh"
   },
-  "titelvideotoolfullwindow":{
-    "message":"Full window"
+  "desreflection": {
+    "message": "Hiển thị hiệu ứng phản chiếu trên tất cả các video"
   },
-  "titelvideotoolscreenshot":{
-    "message":"Take a screenshot"
+  "desvideotoolonly": {
+    "message": "Kích hoạt chuyển động máy ảnh chỉ trên các trang web sau đây:"
   },
-  "titelreflection":{
-    "message":"Reflection"
+  "titelvideotoolwhitelist": {
+    "message": "Danh sách trắng"
   },
-  "desreflection":{
-    "message":"Show the reflection effect on all videos"
+  "titelvideotoolblacklist": {
+    "message": "Danh sách đen"
   },
-  "desvideotoolonly":{
-    "message":"Activate the Video Tool Bar only on the following site(s):"
+  "titelnightmodehyperlink": {
+    "message": "Siêu liên kết",
+    "description": "Siêu liên kết"
   },
-  "titelvideotoolwhitelist":{
-    "message":"Danh sách trắng"
+  "titelblock60fps": {
+    "message": "Chặn 60 khung hình / giây",
+    "description": "Chặn 60 khung hình / giây"
   },
-  "titelvideotoolblacklist":{
-    "message":"Danh sách đen"
+  "titelvolume": {
+    "message": "Thanh trượt Khối lượng Video"
   },
-  "titelnightmodehyperlink":{
-    "message":"Hyperlink",
-    "description":"Hyperlink"
+  "desvideovolume": {
+    "message": "Kiểm soát âm lượng của trình phát video hiện tại bằng một cuộn chuột"
   },
-  "titelblock60fps":{
-    "message":"Block 60fps",
-    "description":"Block 60fps"
+  "desvideovolumecolor": {
+    "message": "Màu của thanh trượt"
   },
-  "titelvolume":{
-    "message":"Video Volume Slider"
+  "desvolumelabel": {
+    "message": "Hiển thị nhãn âm lượng"
   },
-  "desvideovolume":{
-    "message":"Control the volume of the current video player with a mouse scroll"
+  "desvolumesteps": {
+    "message": "Số (%) cho mỗi nấc cuộn trỏ chuột"
   },
-  "desvideovolumecolor":{
-    "message":"Color of the slider"
+  "sharetexta": {
+    "message": "Tiện ích trình duyệt Turn Off the Lights"
   },
-  "desvolumelabel":{
-    "message":"Show volume label"
+  "sharetextb": {
+    "message": "Hey, Điều này là tuyệt vời. Tôi chỉ thử ngày hôm nay mở rộng Turn off the Lights Browser "
   },
-  "desvolumesteps":{
-    "message":"The number of levels for each 360° wheel scroll"
+  "sharetextc": {
+    "message": "Tiện ích mở rộng trình duyệt tốt nhất và tuyệt vời nhất của Turn off the Lights"
   },
-  "sharetexta":{
-    "message":"Get this Cool Turn Off the Lights Browser Extension"
+  "sharetextd": {
+    "message": "Tắt tiện ích mở rộng Lights là công cụ tốt nhất để sử dụng trên YouTube. Tải về nó và thử nó cho mình!"
   },
-  "sharetextb":{
-    "message":"Hey, This is amazing. I just tried today this Turn Off the Lights Browser extension "
+  "titelsharethis": {
+    "message": "Chia sẻ điều này:"
   },
-  "sharetextc":{
-    "message":"The Best and Amazing Turn Off the Lights Browser extension"
+  "titellampchoose": {
+    "message": "Chọn trò chơi yêu thích ngay bây giờ"
   },
-  "sharetextd":{
-    "message":"Turn Off the Lights extension is the Best Tool for use on YouTube. Download it and try it yourself!"
+  "titeldoesntwork": {
+    "message": "Tắt đèn không hoạt động trên trang web này. Hãy thử một trang khác."
   },
-  "titelsharethis":{
-    "message":"Share this:"
+  "titelpopupvideo": {
+    "message": "YouTube"
   },
-  "titellampchoose":{
-    "message":"Choose your favorite lamp style"
+  "titelpopupwelcomeguide": {
+    "message": "Chào mừng bạn đến với mục hướng dẫn"
   },
-  "titeldoesntwork":{
-    "message":"Turn Off the Lights doesn't work on this web page. Please try another page."
+  "titelpopupsupport": {
+    "message": "Hỗ trợ"
   },
-  "titelpopupvideo":{
-    "message":"YouTube"
+  "titelpopupoptions": {
+    "message": "Tùy chọn"
   },
-  "titelpopupwelcomeguide":{
-    "message":"Chào mừng bạn đến với mục hướng dẫn"
+  "titelpopupratestars": {
+    "message": "Đánh giá 5 sao"
   },
-  "titelpopupsupport":{
-    "message":"Hỗ trợ"
+  "titelvisenable": {
+    "message": "Bật / tắt Visualization Âm thanh"
   },
-  "titelpopupoptions":{
-    "message":"Tùy chọn"
+  "titelvischoose": {
+    "message": "Chọn hiện thị âm thanh của bạn"
   },
-  "titelpopupratestars":{
-    "message":"Đánh giá 5 sao"
+  "titelvisblocks": {
+    "message": "Khối"
   },
-  "titelvisenable":{
-    "message":"Enable/disable the Audio Visualization"
+  "titelvisfrequency": {
+    "message": "Tần suất"
   },
-  "titelvischoose":{
-    "message":"Choose your Audio Visualization"
+  "titelvistunnel": {
+    "message": "Đường hầm âm nhạc"
   },
-  "titelvisblocks":{
-    "message":"Khối"
+  "titelvisualization": {
+    "message": "Hình ảnh minh hoạ"
   },
-  "titelvisfrequency":{
-    "message":"Frequency"
+  "desvisopacity": {
+    "message": "Giá trị độ mờ đục của nền hiển thị âm thanh"
   },
-  "titelvistunnel":{
-    "message":"Music Tunnel"
+  "vtoolvisualization": {
+    "message": "Nút hiển thị âm thanh cho trình phát video hiện tại"
   },
-  "titelvisualization":{
-    "message":"Audio Visualization"
+  "desvideotoolcolor": {
+    "message": "Màu của thanh trượt"
   },
-  "desvisopacity":{
-    "message":"The opacity value of the audio visualization background"
+  "titelhovervideo": {
+    "message": "Di chuột video"
   },
-  "vtoolvisualization":{
-    "message":"A button for displaying the audio-visualization for the current video player"
+  "deshovervideo": {
+    "message": "Di chuột qua phần tử video trong một số giây nhất định, sau đó trang web sẽ tự động làm mờ"
   },
-  "desvideotoolcolor":{
-    "message":"Color of the toolbar"
+  "promotitle": {
+    "message": "Ứng dụng của Ngày"
   },
-  "titelhovervideo":{
-    "message":"Video Hover"
+  "desremyoutube": {
+    "message": "Đăng ký kênh Youtube của chúng tôi"
   },
-  "deshovervideo":{
-    "message":"Hover your mouse on the video element for certain number of seconds, after which the webpage automatically dims"
+  "desremfacebook": {
+    "message": "Đề nghị trên Facebook"
   },
-  "promotitle":{
-    "message":"Tip of the day"
+  "titleuserprofile": {
+    "message": "Bên dưới, chọn cài đặt bạn muốn sử dụng khi nhấp vào nút đèn màu xám. Mỗi tiểu sử đều có các tính năng riêng."
   },
-  "desremyoutube":{
-    "message":"Đăng ký kênh Youtube của chúng tôi"
+  "titleregularuser": {
+    "message": "Di chuột video"
   },
-  "desremfacebook":{
-    "message":"Recommend this on Facebook"
+  "titlenightowl": {
+    "message": "Cú đêm"
   },
-  "titleuserprofile":{
-    "message":"Below, choose the settings you want to use when clicking the gray lamp button. Each profile has its own features."
+  "titlescreenprotection": {
+    "message": "Bảo vệ mắt"
   },
-  "titleregularuser":{
-    "message":"Video Lover"
+  "desregularuser": {
+    "message": "Đây là cài đặt mặc định và thường xuyên cho người dùng mới. Khi nhấp vào nút đèn màu xám, kiểu này sẽ được áp dụng cho trang web hiện tại."
   },
-  "titlenightowl":{
-    "message":"Night Owl"
+  "desnightowl": {
+    "message": "Một cú nhấp chuột sẽ chuyển đổi trang trực tiếp thành một chủ đề ban đêm với một liên kết có thể nhấp. Nhấp lại lần nữa để trở lại màn hình bình thường. Nhấp vào nút đèn một lần nữa để tắt tính năng này."
   },
-  "titlescreenprotection":{
-    "message":"Bảo vệ mắt"
+  "desscreenprotection": {
+    "message": "Một cú nhấp chuột sẽ làm cho trang này trở nên màu cam nhẹ nhàng để giảm căng thẳng mắt cho tất cả các tab đang mở. Nhấp vào nút đèn một lần nữa để vô hiệu hóa này tính năng."
   },
-  "desregularuser":{
-    "message":"This is default and the regular setting for new users. When clicking the gray lamp button, this style will be applied to the current web page."
+  "titleprofilevideofocus": {
+    "message": "ビデオプレーヤーを検出する"
   },
-  "desnightowl":{
-    "message":"One click converts the page directly into a night theme with a clickable hyperlink. Click it again to return to normal view. Click the lamp button again to disable this feature."
+  "titleprofilenovideofocus": {
+    "message": "動画を表示しない"
   },
-  "desscreenprotection":{
-    "message":"One click shades the page to a soothing orange color to decrease eye strain on all open tabs. Click the lamp button again to disable this feature."
+  "titleprofilealwaysscreentab": {
+    "message": "Luôn bật cho tất cả các tab đang mở"
   },
-  "titleprofilevideofocus":{
-    "message":"Video focus is enabled"
+  "titleprofilescreenclick": {
+    "message": "Cho phép nhấp vào siêu liên kết khi màn hình tối"
   },
-  "titleprofilenovideofocus":{
-    "message":"Video focus is disabled"
+  "titleprofilesubmit": {
+    "message": "Chọn cài đặt này"
   },
-  "titleprofilealwaysscreentab":{
-    "message":"Always enabled for all open tabs"
+  "titlelearnmore": {
+    "message": "Tìm hiểu thêm"
   },
-  "titleprofilescreenclick":{
-    "message":"Cho phép nhấp vào siêu liên kết khi màn hình tối"
+  "optionprofilesaved": {
+    "message": "Hành động của đèn mới được lưu thành công!"
   },
-  "titleprofilesubmit":{
-    "message":"Choose this settings"
+  "desaplay": {
+    "message": "play"
   },
-  "titlelearnmore":{
-    "message":"Learn more"
+  "desapause": {
+    "message": "tạm ngừng"
   },
-  "optionprofilesaved":{
-    "message":"New lamp action is saved successfully!"
+  "desastop": {
+    "message": "dừng lại"
   },
-  "desaplay":{
-    "message":"play"
+  "desvideozoom": {
+    "message": "Phóng to hoặc thu nhỏ nội dung video bằng cách sử dụng nút thu phóng"
   },
-  "desapause":{
-    "message":"pause"
+  "titlevideoplayrate": {
+    "message": "Tốc độ video"
   },
-  "desastop":{
-    "message":"stop"
+  "desplayrate": {
+    "message": "Tốc độ phát video mặc định"
+  },
+  "desspeedtoolbar": {
+    "message": "Hiển thị thanh công cụ phát video trong trình phát video hiện tại"
+  },
+  "desatmosontotlmode": {
+    "message": "Chỉ hiện thị hiệu ứng chiếu sáng chỉ khi chế độ TOtL được kích hoạt"
+  },
+  "desdarkbrowsertheme": {
+    "message": "Chuyển trình duyệt sang nền tối"
+  },
+  "desautostopfeaturewhite": {
+    "message": "CHẶN những trang web dưới đây, nhưng CHO PHÉP tự động phát trên các trang web khác."
+  },
+  "desautostopfeatureblack": {
+    "message": "CHO PHÉP các trang web dưới đây, nhưng CHẶN tự động phát trên các trang web khác."
+  },
+  "autostopbannerred": {
+    "message": "Hiện banner màu đỏ"
+  },
+  "autostopbannertrans": {
+    "message": "Hiện banner trong suốt"
+  },
+  "titleanalytics": {
+    "message": "Phân tích - Thống kê"
+  },
+  "desbadgeanalytics": {
+    "message": "Hiện nhãn hiển thị kèm số lần click mà bạn đã làm mờ nền trang web"
+  },
+  "shareanalyticenergy": {
+    "message": "Tôi đã tiết kiệm được $product$ kWh nhờ có Turn Off the Lights",
+    "placeholders": {
+      "product": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "analyticsoption": {
+    "message": "Phân tích - Thống kê"
+  },
+  "activelayertoday": {
+    "message": "Số lần click hôm nay"
+  },
+  "totalenergysaved": {
+    "message": "Tổng số điện năng được tiết kiệm"
+  },
+  "resetlampanalytic": {
+    "message": "Đặt lại phân tích thống kê dữ liệu của bạn"
+  },
+  "titlesiteengagement": {
+    "message": "Site Engagement"
+  },
+  "titleorigin": {
+    "message": "Origin"
+  },
+  "titletime": {
+    "message": "Thời gian (bằng phút)"
+  },
+  "titleavgdayschedule": {
+    "message": "Lịch trình trung bình hàng ngày"
+  },
+  "titlesharestats": {
+    "message": "Chia sẻ số liệu của bạn"
+  },
+  "btnsharestats": {
+    "message": "Chia sẻ số liệu"
+  },
+  "charttitletotaltime": {
+    "message": "Tổng số thời gian lớp nền tối hoạt động (bằng phút)"
+  },
+  "charttitlelayeractive": {
+    "message": "Lớp nền tối hoạt động (#)"
+  },
+  "charttitleavgday": {
+    "message": "Average daily schedule (when the lights turn off frequently)"
+  },
+  "charttitle30dayssaved": {
+    "message": "Energy saved this last 30 days"
+  },
+  "charttitlelblwebsiteused": {
+    "message": "Websites used this last 30 days"
+  },
+  "charttitlelblenergytotal": {
+    "message": "Total used Energy"
+  },
+  "charttitlelblenergysaved": {
+    "message": "Total saved Energy"
+  },
+  "titlelanalyticprivacy": {
+    "message": "Turn Off the Lights browser extension takes your privacy very seriously. The Turn Off the Lights Analytics you are seeing on this page is only stored locally on your computer. Your personal site engagement information will not be sold and not transferred to unaffiliated third parties."
+  },
+  "shareanalyticlove": {
+    "message": "The website I most love is $product$ with Turn Off the Lights",
+    "placeholders": {
+      "product": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "desvolumeposa": {
+    "message": "Show the volume meter in center of the current video player"
+  },
+  "desvolumeposb": {
+    "message": "Show the volume value on top left of the current video player"
+  },
+  "desvolumeposc": {
+    "message": "Show the volume value on top right of the current video player"
+  },
+  "desvideovolumhold": {
+    "message": "Hold down the left or right mouse button, and move your mouse to change the volume"
+  },
+  "desvideovolumalt": {
+    "message": "Only if the alt key is pressed"
+  },
+  "speechheybrowser": {
+    "message": "Hey Browser"
+  },
+  "speechokbrowser": {
+    "message": "ok Browser"
+  },
+  "functionactive": {
+    "message": "This function is activated when you click on a tab, or when you refresh the web page. However, this function stops automatically after 15 seconds."
+  },
+  "cardtexsubscribe": {
+    "message": "Đăng ký ngay!"
+  },
+  "cardtextfavdayweek": {
+    "message": "Ngày yêu thích trong tuần"
+  },
+  "cardtextyestime": {
+    "message": "Yesterday total time (in minutes)"
+  },
+  "cardavgprevweektime": {
+    "message": "Previous total week time (in minutes)"
+  },
+  "sunday": {
+    "message": "Chủ Nhật"
+  },
+  "monday": {
+    "message": "Thứ Hai"
+  },
+  "tuesday": {
+    "message": "Thứ Ba"
+  },
+  "wednesday": {
+    "message": "Thứ Tư"
+  },
+  "thursday": {
+    "message": "Thứ Năm"
+  },
+  "friday": {
+    "message": "Thứ Sáu"
+  },
+  "saturday": {
+    "message": "Thứ Bảy"
+  },
+  "titlemultiopacity": {
+    "message": "Each website, its own opacity"
+  },
+  "desmultiopacitynormal": {
+    "message": "All websites have the same opacity value"
+  },
+  "desmultiopacitysel": {
+    "message": "The websites in the list here below have that chosen opacities"
+  },
+  "desmultiopacitynot": {
+    "message": "If a website it not in the list, the default opacity value will apply."
+  },
+  "titleok": {
+    "message": "Đồng ý"
+  },
+  "titlecancel": {
+    "message": "Hủy bỏ"
+  },
+  "titledarkmodeon": {
+    "message": "Dark Mode ON"
+  },
+  "titledarkmodeoff": {
+    "message": "Dark Mode OFF"
+  },
+  "titlelprivacy": {
+    "message": "Chính sách riêng tư"
+  },
+  "titleprofile": {
+    "message": "Profile"
+  },
+  "descolorfixcolor": {
+    "message": "Choose your dark layer color"
+  },
+  "desatmossolidcolor": {
+    "message": "Choose your one solid glow effect color"
+  },
+  "titlelratenow": {
+    "message": "Đánh giá ngay!"
+  },
+  "titleratelater": {
+    "message": "Sau"
+  },
+  "desremrate": {
+    "message": "If you like Turn Off the Lights™, please do not hesitate to rate this extension to five stars now. This gives us courage to continue to maintain and improve this product for you. Writing a review is recommended, but not mandatory. If you do not have the time to write a review, you can rate it anonymously. It is important to give it ★★★★★. Thank you!"
+  },
+  "titelnightmodedomain": {
+    "message": "Domain"
+  },
+  "titelnightmodepage": {
+    "message": "Web page"
+  },
+  "titelintroduce": {
+    "message": "Introducing the new Turn Off the Lights!"
+  },
+  "desintroduce": {
+    "message": "All the features you're used to, with a brand new look and feel, and personalized to you."
+  },
+  "econothingthisyear": {
+    "message": "Nothing this year. Keeps the lights off to save energy"
+  },
+  "ecothirtyminutes": {
+    "message": "30 minutes of light saved"
+  },
+  "ecowatchtvfortwo": {
+    "message": "Watch TV for 2 hours"
+  },
+  "ecotoastermaking": {
+    "message": "Toaster making two loaves of toast"
+  },
+  "ecochargeiphone": {
+    "message": "Thay đổi iPhone của bạn"
+  },
+  "ecobrewsomecoffee": {
+    "message": "Brew some Coffee, brewing one pot of coffee"
+  },
+  "ecoplayingxbox": {
+    "message": "Playing Xbox 360 for one hour"
+  },
+  "ecovacuumingfor": {
+    "message": "Vacuuming for 15 minutes"
+  },
+  "ecoblowdrying": {
+    "message": "Blow-drying your hair for 10 minutes uses approximately"
+  },
+  "ecowashingclothes": {
+    "message": "Washing your clothes in a cold-rinse cycle uses approximately"
+  },
+  "ecowififoraday": {
+    "message": "Wi-Fi for a day"
+  },
+  "ecorunningdishwasher": {
+    "message": "Running your dishwasher in energy-saver mode will use"
+  },
+  "ecochargelaptop": {
+    "message": "Charge your laptop"
+  },
+  "ecokeeplightonforsix": {
+    "message": "Keep the Lights on for 6 hours"
+  },
+  "ecokeepfridgeday": {
+    "message": "Keep the Fridge Running for a day"
+  },
+  "ecoloadlaundry": {
+    "message": "One load of laundry in the dryer"
+  },
+  "ecoheatingtenshower": {
+    "message": "Heating enough water for a 10-minute shower"
+  },
+  "ecotwentyfourghome": {
+    "message": "Enough to run Google Home for 24h"
+  },
+  "ecochargeteslacar": {
+    "message": "Charge your Tesla car for 20 miles"
+  },
+  "ecochargeteslacarhundred": {
+    "message": "Charge your Tesla electric vehicle to 100%"
+  },
+  "ecochargeteslathreetimes": {
+    "message": "Charge 3 times your Tesla electric vehicle to 100%"
+  },
+  "ecopowerhawaiimonth": {
+    "message": "Enough electric energy for 1 month in Hawaii"
+  },
+  "ecopowernwymonth": {
+    "message": "Enough electric energy for 1 month in New York"
+  },
+  "ecopowercamonth": {
+    "message": "Enough electric energy for 1 month in California"
+  },
+  "ecopowerbaseballgame": {
+    "message": "To power 1 jumbotron for a baseball game"
+  },
+  "ecopowereiffeltower": {
+    "message": "To illuminate the Eiffel Tower for 1 day"
+  },
+  "ecopowereurostar": {
+    "message": "For a Eurostar trip from Brussels to London"
+  },
+  "ecopowereurostarparis": {
+    "message": "For a Eurostar trip from Paris to London"
+  },
+  "ecoeiffeltoweryear": {
+    "message": "To illuminate the Eiffel Tower for 1 year"
+  },
+  "ecosfoyear": {
+    "message": "To power San Francisco for 1 year"
+  },
+  "ecolayear": {
+    "message": "To power Los Angeles for 1 year"
+  },
+  "ecoplanetearth": {
+    "message": "Ready to save the planet Earth"
+  },
+  "autostopdetails": {
+    "message": "DETAILS"
+  },
+  "autostopblocked": {
+    "message": "Blocked by Turn Off the Lights™ - www.turnoffthelights.com"
+  },
+  "autostopclickme": {
+    "message": "Click on me to play this HTML5 video"
+  },
+  "autostopenabled": {
+    "message": "AutoStop is enabled!"
   }
 }

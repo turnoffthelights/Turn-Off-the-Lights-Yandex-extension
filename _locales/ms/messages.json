@@ -1021,7 +1021,7 @@
     "message":"One click converts the page directly into a night theme with a clickable hyperlink. Click it again to return to normal view. Click the lamp button again to disable this feature."
   },
   "desscreenprotection":{
-    "message":"One click shades the page to a soothing orange color to decrease eye strain on all open tabs. Click the lamp button again to disable this feature."
+    "message":"One click shades the page to a soothing orange color to decrease eye strain to all open tabs. Click the lamp button again to disable this feature."
   },
   "titleprofilevideofocus":{
     "message":"Pemfokusan video didayakan"
@@ -1045,12 +1045,27 @@
     "message":"Tindakan baharu lampu berjaya disimpan!"
   },
   "desaplay":{
-    "message":"play"
+    "message":"main"
   },
   "desapause":{
     "message":"pause"
   },
   "desastop":{
-    "message":"stop"
+    "message":"berhenti"
+  },
+  "desvideozoom":{
+    "message":"Zoom in or out on video content using the zoom button"
+  },
+  "titlevideoplayrate":{
+    "message":"Kelajuan video"
+  },
+  "desplayrate":{
+    "message":"Default playback speed"
+  },
+  "desspeedtoolbar":{
+    "message":"Show the playback toolbar in the current video player"
+  },
+  "desatmosontotlmode":{
+    "message":"Show the atmosphere lighting effect only when TOtL mode is enabled"
   }
 }
