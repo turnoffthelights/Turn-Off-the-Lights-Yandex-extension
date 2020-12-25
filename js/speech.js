@@ -3,7 +3,7 @@
 
 Turn Off the Lights
 The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2018 Stefan vd
+Copyright (C) 2020 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -27,9 +27,9 @@ To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.
 */
 //================================================
 
-document.addEventListener('DOMContentLoaded', function() { speechrecognition(); },false);
-chrome.storage.onChanged.addListener(function(changes, namespace) {
-   for (key in changes) {
+document.addEventListener('DOMContentLoaded', function(){ speechrecognition(); },false);
+chrome.storage.onChanged.addListener(function(changes, namespace){
+   for(key in changes){
         var storageChange = changes[key];
         if(changes['speech']){
 			if(changes['speech'].newValue == true){
@@ -61,15 +61,17 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
 var speechDomains = null;
 
 // Simple function that checks existence of s in str
-var userSaid = function(str, s) {return str.indexOf(s) > -1;}
+var userSaid = function(str, s){return str.indexOf(s) > -1;}
 
 function removespeechinfo(){
 // you are speaking now -- remove the bubble
 chrome.runtime.sendMessage({'name' : 'slidersave', 'value' : true});
-chrome.tabs.query({active: true}, function (tabs) {
-	for (var i = 0; i < tabs.length; i++) {
-		if (tabs[i].url.match(/^http/i)){
-			chrome.tabs.executeScript(tabs[i].id, {file: "js/speechbubbleremove.js"});
+chrome.tabs.query({active: true}, function(tabs){
+	var i;
+	var l = tabs.length;
+	for(i = 0; i < l; i++){
+		if(tabs[i].url.match(/^http/i)){
+			chrome.tabs.executeScript(tabs[i].id,{file: "js/speechbubbleremove.js"});
         }
 	}
 });
@@ -78,10 +80,12 @@ chrome.tabs.query({active: true}, function (tabs) {
 function addspeechinfo(){
 // you are speaking now -- add the bubble
 chrome.runtime.sendMessage({'name' : 'slidersave', 'value' : true});						
-chrome.tabs.query({active: true}, function (tabs) {
-	for (var i = 0; i < tabs.length; i++) {
-		if (tabs[i].url.match(/^http/i)){
-			chrome.tabs.executeScript(tabs[i].id, {file: "js/speechbubbleadd.js"});
+chrome.tabs.query({active: true}, function(tabs){
+	var i;
+	var l = tabs.length;
+	for(i = 0; i < l; i++){
+		if(tabs[i].url.match(/^http/i)){
+			chrome.tabs.executeScript(tabs[i].id,{file: "js/speechbubbleadd.js"});
         }
 	}
 });
@@ -90,12 +94,12 @@ chrome.tabs.query({active: true}, function (tabs) {
 function actiondone(){
 	document.getElementById('myAudio').src="images/chime-end.wav";
 	var playPromise = document.getElementById('myAudio').play();
-	if (playPromise !== undefined) {
-	  playPromise.then(_ => {
+	if(playPromise !== undefined){
+	  playPromise.then(_ =>{
 		// Automatic playback started!
 		// Show playing UI.
 	  })
-	  .catch(error => {
+	  .catch(error =>{
 		// Auto-play was prevented
 		// Show paused UI.
 	  });
@@ -104,9 +108,9 @@ function actiondone(){
 	removespeechinfo();
 }
 
-function startButton(event) {
+function startButton(event){
 	// Abort previous instances of recognition already running
-    if (recognition && recognition.abort) {
+    if(recognition && recognition.abort){
         recognition.abort();
     }
 	final_transcript = '';
@@ -119,7 +123,7 @@ function startButton(event) {
 	try{ start_timestamp = event.timeStamp; } catch(e){}
 }
 
-function PopupCenter(url, title, w, h) {
+function PopupCenter(url, title, w, h){
     // Fixes dual-screen position                         Most browsers      Firefox
     var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : window.screenX;
     var dualScreenTop = window.screenTop != undefined ? window.screenTop : window.screenY;
@@ -132,20 +136,22 @@ function PopupCenter(url, title, w, h) {
     var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
 
     // Puts focus on the newWindow
-    if (window.focus) {
+    if(window.focus){
         newWindow.focus();
     }
 }
 
-// Check for live API permissions  
+// Check for live API permissions
+try{
 navigator.permissions.query({name:'microphone'})
-.then(function(permissionStatus) {  
-  permissionStatus.onchange = function() {  
+.then(function(permissionStatus){
+  permissionStatus.onchange = function(){
 	if(this.state == "granted"){
 		speechrecognition();
 	}
   };
 });
+}catch(e){}
 
 var final_transcript = '';
 var recognizing = false;
@@ -153,31 +159,31 @@ var ignore_onend;
 var start_timestamp;
 var recognition;
 function speechrecognition(){
-	if (!('webkitSpeechRecognition' in window)) {
+	if(!('webkitSpeechRecognition' in window)){
 	// not supported
-	} else {
+	}else{
 		recognition = new webkitSpeechRecognition();
 		recognition.continuous = true;
 		recognition.interimResults = true;
 	
-		recognition.onstart = function() {
+		recognition.onstart = function(){
 			recognizing = true;
 			// console.log("speak now");
 		};
 	
-		recognition.onerror = function(event) {
-		if (event.error == 'no-speech') {
+		recognition.onerror = function(event){
+		if(event.error == 'no-speech'){
 			// No speech was detected.
 			ignore_onend = true;
 		}
-		if (event.error == 'audio-capture') {
+		if(event.error == 'audio-capture'){
 			// No microphone was found.
 			ignore_onend = true;
 		}
-		if (event.error == 'not-allowed') {
-			if (event.timeStamp - start_timestamp < 100) {
+		if(event.error == 'not-allowed'){
+			if(event.timeStamp - start_timestamp < 100){
 				// Permission to use microphone is blocked. 
-			} else {
+			}else{
 				var speechpermissionpage = chrome.extension.getURL('speech.html');
 				PopupCenter(speechpermissionpage,'stefanpemspeech','685','380');
 				// Permission to use microphone was denied.
@@ -186,17 +192,17 @@ function speechrecognition(){
 		}
 		};
 	
-		recognition.onend = function() {
+		recognition.onend = function(){
 			removespeechinfo();
 			recognizing = false;
 			// think you are ending, start it back up
 				//startButton();
 				// location.reload();
 				//recognition.start(); // bug alsways refresh -> to crash possible
-			if (ignore_onend) {
+			if(ignore_onend){
 			return;
 			}
-			if (!final_transcript) {
+			if(!final_transcript){
 			// console.log("Click on the microphone icon and begin speaking.");
 			return;
 			}
@@ -219,22 +225,24 @@ function speechrecognition(){
 	var i18nldesspeech5command = chrome.i18n.getMessage("desspeech5command"); // browser lamp
 	i18nldesspeech5command = i18nldesspeech5command.toLowerCase();
 	
-		recognition.onresult = function(event) {
+		recognition.onresult = function(event){
 		var interim_transcript = '';
-		for (var i = event.resultIndex; i < event.results.length; ++i) {
-			if (event.results[i].isFinal) {
+		var i;
+		var l = event.results.length;
+		for(i = event.resultIndex; i < l; ++i){
+			if(event.results[i].isFinal){
 				final_transcript = event.results[i][0].transcript;
 				//console.log("I said: "+final_transcript + " heybrowser= "+heybrowser);
 				if(userSaid(final_transcript, i18nlspeechheybrowser)||userSaid(final_transcript, i18nlspeechokbrowser)){
 					// play sound thing
 					document.getElementById('myAudio').src="images/chime-start.wav";
 					var playPromise = document.getElementById('myAudio').play();
-					if (playPromise !== undefined) {
-					  playPromise.then(_ => {
+					if(playPromise !== undefined){
+					  playPromise.then(_ =>{
 						// Automatic playback started!
 						// Show playing UI.
 					  })
-					  .catch(error => {
+					  .catch(error =>{
 						// Auto-play was prevented
 						// Show paused UI.
 					  });
@@ -250,7 +258,7 @@ function speechrecognition(){
 				}
 	
 				exitmode = window.setTimeout(function(){ heybrowser = false;removespeechinfo(); }, 15000);
-			} else {
+			}else{
 				interim_transcript += event.results[i][0].transcript;
 			}
 		}
@@ -259,47 +267,55 @@ function speechrecognition(){
 	
 	function actions(final_transcript){
 		chrome.storage.sync.set({"speechhistorysave": final_transcript});
-		if(userSaid(final_transcript, i18nldesspeech1command)) {
+		if(userSaid(final_transcript, i18nldesspeech1command)){
 		// console.log("yes: turn off the lights");
 		chrome.storage.sync.set({"slideeffect": true});
-		chrome.tabs.query({active: true}, function (tabs) {
-			for (var i = 0; i < tabs.length; i++) {
-				if (tabs[i].url.match(/^http/i)){
-					chrome.tabs.executeScript(tabs[i].id, {file: "js/light.js"});
+		chrome.tabs.query({active: true}, function(tabs){
+			var i;
+			var l = tabs.length;
+			for(i = 0; i < l; i++){
+				if(tabs[i].url.match(/^http/i)){
+					chrome.tabs.executeScript(tabs[i].id,{file: "js/light.js"});
 					actiondone();
 				}
 			}
 		});
 		}
-		else if (userSaid(final_transcript, i18nldesspeech2command)) {
+		else if(userSaid(final_transcript, i18nldesspeech2command)){
 		// console.log("yes: turn on the lights");
 		chrome.storage.sync.set({"slideeffect": true});
-		chrome.tabs.query({active: true}, function (tabs) {
-			for (var i = 0; i < tabs.length; i++) {
-				if (tabs[i].url.match(/^http/i)){
-					chrome.tabs.executeScript(tabs[i].id, {file: "js/light.js"});
+		chrome.tabs.query({active: true}, function(tabs){
+			var i;
+			var l = tabs.length;
+			for(i = 0; i < l; i++){
+				if(tabs[i].url.match(/^http/i)){
+					chrome.tabs.executeScript(tabs[i].id,{file: "js/light.js"});
 					actiondone();
 				}
 			}
 		});
 		}
 		// Play the video
-		else if (userSaid(final_transcript, i18nldesspeech3command)) {
-		chrome.tabs.query({active: true}, function (tabs) {
-			for (var i = 0; i < tabs.length; i++) {
-				if (tabs[i].url.match(/^http/i)){
-					chrome.tabs.executeScript(tabs[i].id, {file: "js/videoplay.js"});
+		else if(userSaid(final_transcript, i18nldesspeech3command)){
+		chrome.tabs.query({active: true}, function(tabs){
+			var i;
+			var l = tabs.length;
+			for(i = 0; i < l; i++){
+				if(tabs[i].url.match(/^http/i)){
+					chrome.tabs.executeScript(tabs[i].id,{file: "js/videoplay.js"});
 					actiondone();
 				}
 			}
 		});
 		}
 		// Stop the video
-		else if (userSaid(final_transcript, i18nldesspeech4command)) {
-		chrome.tabs.query({active: true}, function (tabs) {
-			for (var i = 0; i < tabs.length; i++) {
-				if (tabs[i].url.match(/^http/i)){
-					chrome.tabs.executeScript(tabs[i].id, {file: "js/videopause.js"});
+		else if(userSaid(final_transcript, i18nldesspeech4command)){
+		chrome.tabs.query({active: true}, function(tabs){
+			var i;
+			var l = tabs.length;
+			for(i = 0; i < l; i++){
+				if(tabs[i].url.match(/^http/i)){
+					chrome.tabs.executeScript(tabs[i].id,{file: "js/videopause.js"});
 					actiondone();
 				}
 			}
@@ -312,22 +328,22 @@ speech = response['speech'];
 speechonly  = response['speechonly'];
 
 //if(speech == true){
-//chrome.runtime.onSuspend.addListener(function() { location.reload(); });
+//chrome.runtime.onSuspend.addListener(function(){ location.reload(); });
 //}
 
 function speechstartfunction(){
 // start automatic up
-if (!recognizing) {startButton(event);}
+if(!recognizing){startButton(event);}
 }
 
-function extractHostname(url) {
+function extractHostname(url){
     var hostname;
     //find & remove protocol (http, ftp, etc.) and get hostname
 
-    if (url.indexOf("://") > -1) {
+    if(url.indexOf("://") > -1){
         hostname = url.split('/')[2];
     }
-    else {
+    else{
         hostname = url.split('/')[0];
     }
 
@@ -345,17 +361,20 @@ function onlyspeechfunction(tab){
 	var thatwebsite = new URL(currenturl);
 	var thatpage = thatwebsite.protocol + '//' + thatwebsite.hostname;
 	speechDomains  = response['speechDomains']; // get latest setting
-	if(typeof speechDomains == "string") {
+	if(typeof speechDomains == "string"){
 		speechDomains = JSON.parse(speechDomains);
 		var sbuf = [];
-		for(var domain in speechDomains)
+		var domain;
+		for(domain in speechDomains)
 			sbuf.push(domain);
 			sbuf.sort();
-		for(var i = 0; i < sbuf.length; i++){
-			if(foundtheurlspeech == false){
-				if(thatpage == sbuf[i]){speechstartfunction();foundtheurlspeech = true;}
+			var i;
+			var l = sbuf.length;
+			for(i = 0; i < l; i++){
+				if(foundtheurlspeech == false){
+					if(thatpage == sbuf[i]){speechstartfunction();foundtheurlspeech = true;}
+				}
 			}
-		}
 		}
 		// stop
 		if(foundtheurlspeech == false){
@@ -372,9 +391,9 @@ if(speech == true){
 
 	if(speechonly == true){
 		// on page update
-		chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+		chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
 			if(tab.url){
-				if((tab.url.match(/^http/i)||tab.url.match(/^https/i)||tab.url.match(/^file/i)||tab.url==browsernewtab)) {
+				if((tab.url.match(/^http/i)||tab.url.match(/^https/i)||tab.url.match(/^file/i)||tab.url==browsernewtab)){
 					if(tabId != null){
 						onlyspeechfunction(tab.url);
 					}
@@ -382,22 +401,22 @@ if(speech == true){
 			}
 		});
 		// on highlight
-		chrome.tabs.onHighlighted.addListener(function(o) { tabId = o.tabIds[0];
-			chrome.tabs.get(tabId, function(tab) {
+		chrome.tabs.onHighlighted.addListener(function(o){ tabId = o.tabIds[0];
+			chrome.tabs.get(tabId, function(tab){
 				if(tab.url){
-					if(tab.url.match(/^http/i)||tab.url.match(/^https/i)||tab.url.match(/^file/i)||tab.url==browsernewtab) {
+					if(tab.url.match(/^http/i)||tab.url.match(/^https/i)||tab.url.match(/^file/i)||tab.url==browsernewtab){
 						onlyspeechfunction(tab.url);
 					}
 				}
 			});
 		});
-	} else {
+	}else{
 	speechstartfunction();
 	}
 
-} else {
+}else{
 try{
-	if(recognizing) {recognition.stop(); recognizing = false;}
+	if(recognizing){recognition.stop(); recognizing = false;}
 }
 catch(e){}
 }

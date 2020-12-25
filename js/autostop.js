@@ -3,7 +3,7 @@
 
 Turn Off the Lights
 The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2018 Stefan vd
+Copyright (C) 2020 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -36,17 +36,20 @@ var autostopchecklistblack = response['autostopchecklistblack'];
 var autostopred = response['autostopred'];
 var autostoptrans = response['autostoptrans'];
 if(autostop == true){
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function(event){
 if(autostoponly == true){
 var currenturl = window.location.protocol + '//' + window.location.host;
 var stoprabbit = false;
-if(typeof autostopDomains == "string") {
+if(typeof autostopDomains == "string"){
 	autostopDomains = JSON.parse(autostopDomains);
 	var atbuf = [];
-	for(var domain in autostopDomains)
+	var domain;
+	for(domain in autostopDomains)
 		atbuf.push(domain);
-        atbuf.sort();
-		for(var i = 0; i < atbuf.length; i++){
+		atbuf.sort();
+		var i;
+		var l = atbuf.length;
+		for(i = 0; i < l; i++){
 			if(autostopchecklistwhite == true){
 				if(currenturl == atbuf[i]){autostopfunction();}
 			}
@@ -58,22 +61,10 @@ if(typeof autostopDomains == "string") {
 	if(autostopchecklistblack == true){
 		if(stoprabbit == false){autostopfunction();}
 	}
-} else {autostopfunction();}
+}else{autostopfunction();}
 }, false);
 
-function autostopvideo(video){
-	video.pause();
-	video.currentTime = 0;
-	video.autostart = false;
-	video.autoplay = false;
-	video.preload = "none";
-	video.setAttribute("data-stopvideo","true");
-}
-
-var tempvisscrollleft = window.pageXOffset || document.documentElement.scrollLeft;
-var tempvisscrolltop = window.pageYOffset || document.documentElement.scrollTop;
-
-function getPosition(el) {
+function getPosition(el){
 var xPos = 0;var yPos = 0;
 while (el){xPos += (el.offsetLeft - el.scrollLeft + el.clientLeft);yPos += (el.offsetTop - el.scrollTop + el.clientTop);el = el.offsetParent;}
 return{x:xPos,y:yPos};
@@ -87,66 +78,38 @@ function autostopfunction(){
 	if(MutationObserver){
 	// setup MutationSummary observer
 	var videolist = document.body;
-	var observer = new MutationObserver(function (mutations, observer) {
-		mutations.forEach(function (mutation) {
-			if(mutation.target.tagName == "VIDEO") {
-
+	var observer = new MutationObserver(function(mutations, observer){
+		mutations.forEach(function(mutation){
+			if(mutation.target.tagName == "VIDEO"){
 				if(mutation.attributeName === "src" && mutation.target.currentSrc != ""){
-					autostopvideo(mutation.target);
 					autostopdetectionstart();
-
-					var reqId;
-					var stopTracking = function () {
-						if(mutation.target.getAttribute("data-stopvideo") == "true"){
-							if (reqId) {
-							cancelAnimationFrame(reqId);
-							}
-						}
-					};
-					mutation.target.addEventListener('play', function() {
-						reqId = requestAnimationFrame(function play() {
-							if(mutation.target.getAttribute("data-stopvideo")){
-							}else{
-								mutation.target.setAttribute("data-stopvideo","true");
-							}
-							if(mutation.target.getAttribute("data-stopvideo")){
-								if(mutation.target.getAttribute("data-stopvideo") == "true"){
-									if(!mutation.target.paused){
-										mutation.target.pause();mutation.target.currentTime = 0;
-										stopTracking();
-									}
-									rock = mutation.target.getAttribute("data-video");
-									if(document.getElementById('stefanvdautostoppanel'+rock)){
-										document.getElementById('stefanvdautostoppanel'+rock).style.display = "block";
-										refreshsize();
-									}
-									//console.log(Math.round(mutation.target.currentTime * 1000));
-									reqId = requestAnimationFrame(play);
-								}
-							}
-						});
-					},false);
-					mutation.target.addEventListener('pause', stopTracking);
-
 				}
 			}
 			// dynamic add and remove video
 			if(mutation.type == 'childList'){
-				for (var i, i = 0; i < mutation.addedNodes.length; i++){
+				var i;
+				var la = mutation.addedNodes.length;
+				for(i = 0; i < la; i++){
 					if(mutation.addedNodes[i].tagName == "VIDEO"){
 						autostopdetectionstart();
 					}
 				}
-				for (var i, i = 0; i < mutation.removedNodes.length; i++){
-					if(mutation.removedNodes[i].tagName == "VIDEO"){
+				var j;
+				var lr = mutation.removedNodes.length;
+				for(j = 0; j < lr; j++){
+					if(mutation.removedNodes[j].tagName == "VIDEO"){
 						autostopdetectionstart();
 					}
 				}
 			}
 			// inside it
-			for (var i = 0; i < mutation.addedNodes.length; i++){
+			var i;
+			var l = mutation.addedNodes.length;
+			for(i = 0; i < l; i++){
 				if(mutation.addedNodes[i]){
-					for (var j = 0; j < mutation.addedNodes[i].childNodes.length; j++){
+					var j;
+					var lac = mutation.addedNodes[i].childNodes.length;
+					for(j = 0; j < lac; j++){
 						var detail = mutation.addedNodes[i].childNodes[j];
 						if(detail.nodeName == "VIDEO"){
 							autostopdetectionstart();
@@ -156,12 +119,15 @@ function autostopfunction(){
 			}
 			// detect change style - this for floating box in div detection
 			if(mutation.attributeName == 'style'){
-				refreshsize();
+				var currentClass = mutation.target.className;
+				if(currentClass!="stefanvdautostop"){
+					refreshsize();
+				}
 			}
 		});
 	});
 
-	observer.observe(videolist, {
+	observer.observe(videolist,{
 		subtree: true,       // observe the subtree rooted at ...videolist...
 		childList: true,     // include childNode insertion/removals
 		characterData: false, // include textContent changes
@@ -179,30 +145,62 @@ function autostopdetectionstart(){
 	}
 	
 	var visualvideos = document.getElementsByTagName("video");
-	for(var i = 0; i < visualvideos.length; i++){
+	var i;
+	var l = visualvideos.length;
+	for(i = 0; i < l; i++){
 		video = visualvideos[i];
-		video.setAttribute("data-video",i);
+		video.setAttribute("data-videonum",i);
+		video.setAttribute("data-stopvideo","true");
+
+		if(video.paused == false){
+			var playPromise = video.play();
+			if(playPromise !== undefined){
+			playPromise.then(_ => {
+				// Automatic playback started!
+				// Show playing UI.
+				// We can now safely pause video...
+				video.pause();video.currentTime = 0;
+			})
+			.catch(error => {
+				// Auto-play was prevented
+				// Show paused UI.
+			});
+			}
+		}
+
 		var reqId;
-		var stopTracking = function () {
+		var stopTracking = function(){
 			if(video.getAttribute("data-stopvideo") == "true"){
-				if (reqId) {
+				if(reqId){
 				cancelAnimationFrame(reqId);
 				}
 			}
 		};
-		video.addEventListener('play', function() {
-			reqId = requestAnimationFrame(function play() {
-				if(video.getAttribute("data-stopvideo")){
+		video.addEventListener('playing', function(ev){
+			reqId = requestAnimationFrame(function play(){
+				if(ev.target.getAttribute("data-stopvideo")){
 				}else{
-					video.setAttribute("data-stopvideo","true");
+					ev.target.setAttribute("data-stopvideo","true");
 				}
-				if(video.getAttribute("data-stopvideo")){
-					if(video.getAttribute("data-stopvideo") == "true"){
-						if(!video.paused){
-							video.pause();video.currentTime = 0;
-							stopTracking();
+				if(ev.target.getAttribute("data-stopvideo")){
+					if(ev.target.getAttribute("data-stopvideo") == "true"){
+						if(!ev.target.paused){
+							var playPromise = ev.target.play();
+							if(playPromise !== undefined){
+							playPromise.then(_ => {
+								// Automatic playback started!
+								// Show playing UI.
+								// We can now safely pause video...
+								ev.target.pause();ev.target.currentTime = 0;
+								stopTracking();
+							})
+							.catch(error => {
+								// Auto-play was prevented
+								// Show paused UI.
+							});
+							}							
 						}
-						rock = video.getAttribute("data-video");
+						rock = ev.target.getAttribute("data-videonum");
 						if(document.getElementById('stefanvdautostoppanel'+rock)){
 							document.getElementById('stefanvdautostoppanel'+rock).style.display = "block";
 							refreshsize();
@@ -219,49 +217,73 @@ function autostopdetectionstart(){
 		var myElement = document.getElementsByTagName("video")[i];
 		if(myElement.currentStyle){
 			var d = myElement.currentStyle["display"];
-			var v = myElement.currentStyle["visibility"];
 			var w = myElement.currentStyle["width"];
 			var h = myElement.currentStyle["height"];
+			var t = myElement.currentStyle["top"];
 		}
-		else if (window.getComputedStyle){
+		else if(window.getComputedStyle){
 			var st = document.defaultView.getComputedStyle(myElement, null);
 			var d = st.getPropertyValue("display");
-			var v = st.getPropertyValue("visibility");
 			var w = st.getPropertyValue("width");
 			var h = st.getPropertyValue("height");
+			var t = st.getPropertyValue("top");
 		}
 
 		var visposition = getPosition(myElement);
 
 		var newautostoppanel = document.createElement("div");
 		newautostoppanel.setAttribute("id","stefanvdautostoppanel"+i);
-		newautostoppanel.setAttribute("data-video",i);
+		newautostoppanel.setAttribute("data-videonum",i);
 
-		newautostoppanel.setAttribute("class","stefanvdautostop");
+		newautostoppanel.className = "stefanvdautostop";
 		if(autostopred == true){
 			newautostoppanel.setAttribute("style","background:rgba(165,8,0,0.88)!important");
 		}
 
-		if(myElement.currentSrc == ""){newautostoppanel.style.display = "none";}
+		// if previous path is none, then hide it too
+		var path = [];
+		do{
+			var qq = path.unshift(myElement.nodeName);
 
-		if(window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
-			if(parseInt(myElement.style.top, 10) < 0){myElement.style.top = "0px";}
+			if(myElement.currentStyle){
+				var adisplay = qq.currentStyle["display"];
+			}else{
+				var st = document.defaultView.getComputedStyle(myElement, null);
+				var adisplay = st.getPropertyValue("display");
+			}
+			if(adisplay == "none"){
+				newautostoppanel.style.display = "none";
+			}
+		}while((myElement.nodeName.toLowerCase() != 'html') && (myElement = myElement.parentNode))
+		//---
+		
+		// YouTube video top position negative value, then minus the height
+		if(parseInt(t, 10) < 0){
+			newautostoppanel.style.top = visposition.y-h+"px";
+		}else{
+			newautostoppanel.style.top = visposition.y+"px";
 		}
-		newautostoppanel.style.top = visposition.y+"px";
 		newautostoppanel.style.left = visposition.x+"px";
 		newautostoppanel.style.width = w;
 		newautostoppanel.style.height = h;
 		if(d == "none"){newautostoppanel.style.display = "none";}
-		else if(v == "hidden" || v == "collapse"){newautostoppanel.style.display = "none";}
 
 		newautostoppanel.addEventListener("click", function(event){
 			var templearn = event.target.id;
 			templearn = templearn.substr(0, 26);
 			if(templearn != "stefanvdautostoppanellearn"){
-			rock = this.getAttribute("data-video");
+			rock = this.getAttribute("data-videonum");
 			document.getElementById('stefanvdautostoppanel'+rock).style.display = "none";
 			document.getElementsByTagName("video")[rock].setAttribute("data-stopvideo","false");
-			document.getElementsByTagName("video")[rock].play();
+			var playPromise = document.getElementsByTagName("video")[rock].play();
+			if(playPromise !== undefined) {
+			  playPromise.then(_ => {
+				// Automatic playback started!
+			  })
+			  .catch(error => {
+				// Auto-play was prevented
+			  });
+			}
 			}
 		},false);
 		newautostoppanel.addEventListener('contextmenu', event => event.preventDefault());
@@ -269,18 +291,18 @@ function autostopdetectionstart(){
 
 		if(autostopred == true){
 		var newautostoptitel = document.createElement("div");
-		newautostoptitel.setAttribute("class","stefanvdautostoptitel");
+		newautostoptitel.className = "stefanvdautostoptitel";
 		newautostoptitel.innerText = chrome.i18n.getMessage("autostopenabled");
 		newautostoppanel.appendChild(newautostoptitel);
 
 		var newautostopdes = document.createElement("div");
-		newautostopdes.setAttribute("class","stefanvdautostopdes");
+		newautostopdes.className = "stefanvdautostopdes";
 		newautostopdes.innerText = chrome.i18n.getMessage("autostopclickme");
 		newautostoppanel.appendChild(newautostopdes);
 
 		var newautostoplearn = document.createElement("div");
 		newautostoplearn.setAttribute("id","stefanvdautostoppanellearn"+i);
-		newautostoplearn.setAttribute("class","stefanvdautostoplearn");
+		newautostoplearn.className = "stefanvdautostoplearn";
 		newautostoplearn.addEventListener("click", function(event){
 			window.open("https://www.turnoffthelights.com/support/browser-extension/what-is-the-autostop-feature/", "_blank");
 		},false);
@@ -288,7 +310,7 @@ function autostopdetectionstart(){
 		newautostoppanel.appendChild(newautostoplearn);
 
 		var newautostopfoot = document.createElement("div");
-		newautostopfoot.setAttribute("class","stefanvdautostopfoot");
+		newautostopfoot.className = "stefanvdautostopfoot";
 		newautostopfoot.innerText = chrome.i18n.getMessage("autostopblocked");
 		newautostoppanel.appendChild(newautostopfoot);
 		}
@@ -296,44 +318,62 @@ function autostopdetectionstart(){
 }
 
 function refreshsize(){
-tempvisscrollleft = window.pageXOffset || document.documentElement.scrollLeft;
-tempvisscrolltop = window.pageYOffset || document.documentElement.scrollTop;
-
 var cusid_ele = document.getElementsByClassName('stefanvdautostop');
-for (var i = 0; i < cusid_ele.length; ++i) {
+var i;
+var l = cusid_ele.length;
+for(i = 0; i < l; ++i){
 	var item = cusid_ele[i];  
 	myElement = document.getElementsByTagName("video")[i];
 	if(myElement){
 		if(myElement.currentStyle){
 			var d = myElement.currentStyle["display"];
-			var v = myElement.currentStyle["visibility"];
 			var w = myElement.currentStyle["width"];
 			var h = myElement.currentStyle["height"];
+			var t = myElement.currentStyle["top"];
 		}
-		else if (window.getComputedStyle){
+		else if(window.getComputedStyle){
 			var st = document.defaultView.getComputedStyle(myElement, null);
 			var d = st.getPropertyValue("display");
-			var v = st.getPropertyValue("visibility");
 			var w = st.getPropertyValue("width");
 			var h = st.getPropertyValue("height");
+			var t = st.getPropertyValue("top");
 		}
 
 		visposition = getPosition(myElement);
-		if(myElement.currentSrc == ""){item.style.display = "none";}
 
-		if(window.location.href.match(/((http:\/\/(.*youtube\.com\/.*))|(https:\/\/(.*youtube\.com\/.*)))/i)){
-		if(parseInt(myElement.style.top, 10) < 0){myElement.style.top = "0px";}
+		// if previous path is none, then hide it too
+		var path = [];
+		do{
+			var qq = path.unshift(myElement.nodeName);
+
+			if(myElement.currentStyle){
+				var adisplay = qq.currentStyle["display"];
+			}else{
+				var st = document.defaultView.getComputedStyle(myElement, null);
+				var adisplay = st.getPropertyValue("display");
+			}
+			if(adisplay == "none"){
+				item.style.display = "none";
+			}
+		}while((myElement.nodeName.toLowerCase() != 'html') && (myElement = myElement.parentNode))
+		//---
+
+		// YouTube video top position negative value, then minus the height
+		if(parseInt(t, 10) < 0){
+			item.style.top = visposition.y-h+"px";
+		}else{
+			item.style.top = visposition.y+"px";
 		}
-		item.style.top = visposition.y+"px";
 		item.style.left = visposition.x+"px";
 		item.style.width = w;
 		item.style.height = h;
 	
 		if(d == "none"){item.style.display = "none";}
-		else if(v == "hidden" || v == "collapse"){item.style.display = "none";}
-	} else{
+	}else{
 		// remove this stop layer
-		item.parentNode.removeChild(item);
+		if(item){
+			item.parentNode.removeChild(item);
+		}
 	}
 }
 }

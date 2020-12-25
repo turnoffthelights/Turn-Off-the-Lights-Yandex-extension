@@ -3,7 +3,7 @@
 
 Turn Off the Lights
 The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2018 Stefan vd
+Copyright (C) 2020 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -31,26 +31,26 @@ function $(id) { return document.getElementById(id); }
 
 var darkmode;
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function(){
+    // disable context menu 
+    document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+    }, false);
+
     chrome.storage.sync.get(['darkmode'], function(items){
         darkmode = items['darkmode'];if(darkmode == null)darkmode = false; // default darkmode false
 
         // dark mode
         if(darkmode == true){
             document.body.className = 'dark';
-        } else{
+        }else{
             document.body.className = 'light';
         }
     });
-$("opendonate").addEventListener('click', function() {chrome.tabs.create({url: donatewebsite, active:true})});
-$("openrate").addEventListener('click', function() {chrome.tabs.create({url: writereview, active:true})});
-$("openoptions").addEventListener('click', function() {chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});
+$("opentrywebsite").addEventListener('click', function(){chrome.tabs.create({url: linkyoutube, active:true})});
 
-$("opensupport").addEventListener('click', function() {chrome.tabs.create({url: linksupport, active:true})});
-$("openwelcomeguide").addEventListener('click', function() {chrome.tabs.create({url: linkguide, active:true})});
-$("openyoutube").addEventListener('click', function() {chrome.tabs.create({url: linkyoutube, active:true})});
+$("openoptions").addEventListener('click', function(){chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});
+$("opensupport").addEventListener('click', function(){chrome.tabs.create({url: linksupport, active:true})});
+$("openwelcomeguide").addEventListener('click', function(){chrome.tabs.create({url: linkguide, active:true})});
 
-$("opengoogleplus").addEventListener('click', function() {chrome.tabs.create({url: "https://plus.google.com/share?url="+turnoffthelightsproduct, active:true})});
-$("openfacebook").addEventListener('click', function() {chrome.tabs.create({url: "https://www.facebook.com/sharer/sharer.php?u="+turnoffthelightsproduct, active:true})});
-$("opentwitter").addEventListener('click', function() {var sturnoffthelightsproductcodeurl = encodeURIComponent(chrome.i18n.getMessage("sharetextc")+" "+turnoffthelightsproduct);chrome.tabs.create({url: "https://twitter.com/home?status="+sturnoffthelightsproductcodeurl, active:true})});
 });

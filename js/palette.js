@@ -3,7 +3,7 @@
 
 Turn Off the Lights
 The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2018 Stefan vd
+Copyright (C) 2020 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -29,27 +29,42 @@ To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.
 
 function $(id) { return document.getElementById(id); }
 
-var darkmode; var interval; var nighttheme; var lampandnightmode; var ambilight; var ambilightfixcolor; var ambilight4color; var ambilightvarcolor; var atmosvivid; var nightmodetxt; var nightmodebck; var nightmodehyperlink; var multiopacall; var multiopacsel; var multiopacityDomains;
+var darkmode; var interval; var nighttheme; var lampandnightmode; var ambilight; var ambilightfixcolor; var ambilight4color; var ambilightvarcolor; var atmosvivid; var nightmodetxt; var nightmodebck; var nightmodehyperlink; var multiopacall; var multiopacsel; var multiopacityDomains; var firstDate; var optionskipremember; var firstsawrate;
 
 function save_options(){
 	chrome.storage.sync.set({"nighttheme":$('nighttheme').checked,"lampandnightmode":$('lampandnightmode').checked,"ambilight":$('ambilight').checked,"ambilightfixcolor":$('ambilightfixcolor').checked,"ambilight4color":$('ambilight4color').checked,"ambilightvarcolor":$('ambilightvarcolor').checked,"atmosvivid":$('atmosvivid').checked,"badge":$('badge').checked});
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    chrome.storage.sync.get(['darkmode','interval','nighttheme','lampandnightmode','ambilight','ambilightfixcolor','ambilight4color','ambilightvarcolor','atmosvivid','nightmodebck','nightmodetxt','nightmodehyperlink','badge','multiopacall','multiopacsel','multiopacityDomains'], function(items){
-        darkmode = items['darkmode'];if(darkmode == null)darkmode = false; // default darkmode false
-        interval = items['interval'];if(interval == null)interval = 80; // default interval 80%
+document.addEventListener('DOMContentLoaded', function(){
+    // disable context menu 
+    document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+    }, false);
+
+    chrome.storage.sync.get(['darkmode','interval','nighttheme','lampandnightmode','ambilight','ambilightfixcolor','ambilight4color','ambilightvarcolor','atmosvivid','nightmodebck','nightmodetxt','nightmodehyperlink','badge','multiopacall','multiopacsel','multiopacityDomains','firstDate','optionskipremember','firstsawrate'], function(items){
+        darkmode = items['darkmode'];if(darkmode == null)darkmode = false; // default false
+        interval = items['interval'];if(interval == null)interval = 80; // default 80%
+        ambilight = items['ambilight'];if(ambilight == null)ambilight = false; // default false
         ambilightfixcolor = items['ambilightfixcolor'];if(ambilightfixcolor == null)ambilightfixcolor = true; // default true
         ambilight4color = items['ambilight4color'];if(ambilight4color == null)ambilight4color = false; // default false
         ambilightvarcolor = items['ambilightvarcolor'];if(ambilightvarcolor == null)ambilightvarcolor = false; // default false
+        atmosvivid = items['atmosvivid'];if(atmosvivid == null)atmosvivid = false; // default false
 
-        multiopacall = items['multiopacall'];if(multiopacall == null)multiopacall = true; // default multiopacall true
-        multiopacsel = items['multiopacsel'];if(multiopacsel == null)multiopacsel = false; // default multiopacsel false
+        multiopacall = items['multiopacall'];if(multiopacall == null)multiopacall = true; // default true
+        multiopacsel = items['multiopacsel'];if(multiopacsel == null)multiopacsel = false; // default false
         multiopacityDomains = items['multiopacityDomains'];
         if(typeof multiopacityDomains == "undefined" || multiopacityDomains == null){
             multiopacityDomains = JSON.stringify({'https://www.example.com': ["90"], 'https://www.nytimes.com': ["85"]});
         }
         multiopacityDomains = JSON.parse(multiopacityDomains);
+
+        nighttheme = items['nighttheme'];if(nighttheme == null)nighttheme = false; // default false
+        lampandnightmode = items['lampandnightmode'];if(lampandnightmode == null)lampandnightmode = false; // default false
+        nightmodebck = items['nightmodebck'];if(nightmodebck == null)nightmodebck = "#1e1e1e"; // default #1e1e1e
+        nightmodetxt = items['nightmodetxt'];if(nightmodetxt == null)nightmodetxt = "#ffffff"; // default #ffffff
+        nightmodehyperlink = items['nightmodehyperlink'];if(nightmodehyperlink == null)nightmodehyperlink = "#ffffff"; // default #ffffff
+
+        badge = items['badge'];if(badge == null)badge = false; // default false
 
         // dark mode
         if(darkmode == true){
@@ -68,12 +83,15 @@ document.addEventListener('DOMContentLoaded', function () {
         else{
             // multi opacity
             chrome.tabs.query({ active: true, currentWindow: true},
-            function (tabs) {
+            function(tabs){
                 var job = tabs[0].url;
                 var currentURL = job.match(/^[\w-]+:\/*\[?([\w\.:-]+)\]?(?::\d+)?/)[0];
                     var atbbuf = [];
-                    for(var domain in multiopacityDomains){atbbuf.push(domain);atbbuf.sort();}
-                    for(var i = 0; i < atbbuf.length; i++){
+                    var domain;
+                    for(domain in multiopacityDomains){atbbuf.push(domain);atbbuf.sort();}
+                    var i;
+                    var l = atbbuf.length;
+                    for(i = 0; i < l; i++){
                         if(atbbuf[i] == currentURL){
                             editzoom = multiopacityDomains[atbbuf[i]];
                             if($("oslider")){$("oslider").value = editzoom;}
@@ -90,30 +108,60 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
 
-        if(items['nighttheme'] == true)$('nighttheme').checked = true;
-        if(items['lampandnightmode'] == true)$('lampandnightmode').checked = true;
-        if(items['ambilight'] == true)$('ambilight').checked = true;
-        if(items['ambilightfixcolor'] == true)$('ambilightfixcolor').checked = true;
-        if(items['ambilight4color'] == true)$('ambilight4color').checked = true;
-		if(items['ambilightvarcolor'] == true)$('ambilightvarcolor').checked = true;
-        if(items['atmosvivid'] == true)$('atmosvivid').checked = true;
+        if(nighttheme == true)$('nighttheme').checked = true;
+        if(lampandnightmode == true)$('lampandnightmode').checked = true;
+        if(ambilight == true)$('ambilight').checked = true;
+        if(ambilightfixcolor == true)$('ambilightfixcolor').checked = true;
+        if(ambilight4color == true)$('ambilight4color').checked = true;
+		if(ambilightvarcolor == true)$('ambilightvarcolor').checked = true;
+        if(atmosvivid == true)$('atmosvivid').checked = true;
         
-        if(items['nightmodebck']){nightmodebck = items['nightmodebck'];}
-		else {nightmodebck = '#1e1e1e';}
-		if(items['nightmodetxt']){nightmodetxt = items['nightmodetxt'];}
-		else {nightmodetxt = '#ffffff';}
-		if(items['nightmodehyperlink']){nightmodehyperlink = items['nightmodehyperlink'];}
-        else {nightmodehyperlink = '#ffffff';}
+        if(nightmodebck){nightmodebck = items['nightmodebck'];}
+		else{nightmodebck = '#1e1e1e';}
+		if(nightmodetxt){nightmodetxt = items['nightmodetxt'];}
+		else{nightmodetxt = '#ffffff';}
+		if(nightmodehyperlink){nightmodehyperlink = items['nightmodehyperlink'];}
+        else{nightmodehyperlink = '#ffffff';}
 
-        if(items['badge'] == true)$('badge').checked = true;
+        if(badge == true)$('badge').checked = true;
+
+        if(optionskipremember){optionskipremember = items['optionskipremember'];}
+        if(firstDate){firstDate = items['firstDate'];}
+        if(firstsawrate){firstsawrate = items['firstsawrate'];}
 
         // final
         test();
+
+        // show remember page
+        var firstmonth = false;
+        var currentDate = new Date().getTime();
+        if(firstDate){
+            var datestart = firstDate;
+            var dateend = datestart + (30 * 24 * 60 * 60 * 1000);
+            if(currentDate>=dateend){firstmonth = false;}
+            else{firstmonth = true;}
+        }else{
+            chrome.storage.sync.set({"firstDate": currentDate});
+            firstmonth = true;
+        }
+
+        if(firstmonth){
+        // show nothing
+        }else{
+            if(optionskipremember != true){
+                if(firstsawrate != true){
+                    materialRateAlert(function(result){console.log(result)})
+                    chrome.storage.sync.set({"firstsawrate": true});
+                }
+            }
+        }
     });
 
     // Detect click / change to save the page and test it.
     var inputs = document.querySelectorAll('input');
-    for (var i = 0; i < inputs.length; i++) {inputs[i].addEventListener('change', test);inputs[i].addEventListener('change', save_options);}
+    var i;
+    var l = inputs.length;
+    for(i = 0; i < l; i++){inputs[i].addEventListener('change', test);inputs[i].addEventListener('change', save_options);}
 
     $("tab1").addEventListener('click', function(){
         $("basicspanel").className = "";
@@ -164,9 +212,9 @@ document.addEventListener('DOMContentLoaded', function () {
     },false);
 
     var tempcurrentpopup = "";
-    function handle(delta) {
+    function handle(delta){
         tempcurrentpopup = document.getElementById("oslider").value;
-        if (delta < 0) {
+        if(delta < 0){
             if(tempcurrentpopup != 0){ tempcurrentpopup -= Number(1); document.getElementById("oslider").value = tempcurrentpopup; }
 	    }
 	    else{
@@ -178,9 +226,9 @@ document.addEventListener('DOMContentLoaded', function () {
     function wheel(event){
     var delta = 0;
     delta = event.deltaY;
-    if (delta){ handle(delta); } // do the UP and DOWN job
+    if(delta){ handle(delta); } // do the UP and DOWN job
     // prevent the mouse default actions using scroll
-    if (event.preventDefault){ event.preventDefault(); }
+    if(event.preventDefault){ event.preventDefault(); }
 	event.returnValue = false;
     }
 
@@ -243,11 +291,11 @@ document.addEventListener('DOMContentLoaded', function () {
     $("color6g").addEventListener('click', colorchange);
     $("color6h").addEventListener('click', colorchange);
 
-    $("btnlights").addEventListener('click', function() {
+    $("btnlights").addEventListener('click', function(){
         chrome.tabs.query({
             active: true,
             currentWindow: true
-        }, function(tab) {
+        }, function(tab){
             chrome.tabs.executeScript(tab.id, {file: "js/light.js"});
         });
     });
@@ -279,14 +327,14 @@ document.addEventListener('DOMContentLoaded', function () {
     $("colortitelnightmodehyperlink7").addEventListener('click', nightmodelinkcolorchange);
     $("colortitelnightmodehyperlink8").addEventListener('click', nightmodelinkcolorchange);
 
-    $("btngonight").addEventListener('click', function () {
+    $("btngonight").addEventListener('click', function(){
         chrome.tabs.executeScript(null,{code:"if(document.getElementById('stefanvdnightthemecheckbox')){document.getElementById('stefanvdnightthemecheckbox').click();}"});
     });
-    $("btnoptions").addEventListener('click', function() {chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});
-    $("btndonate").addEventListener('click', function() {chrome.tabs.create({url: donatewebsite, active:true})});
-    $("btnauroraplayer").addEventListener('click', function() {chrome.tabs.create({url: "https://www.stefanvd.net/project/aurora-player/", active:true})});
-    $("analclick").addEventListener('click', function() {chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});
-    $("analtotal").addEventListener('click', function() {chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});
+    $("btnoptions").addEventListener('click', function(){chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});
+    $("btndonate").addEventListener('click', function(){chrome.tabs.create({url: donatewebsite, active:true})});
+    $("btnauroraplayer").addEventListener('click', function(){chrome.tabs.create({url: linkauroraplayerapp, active:true})});
+    $("analclick").addEventListener('click', function(){chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});
+    $("analtotal").addEventListener('click', function(){chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});
 
     var stefanvdurl = developerwebsite;
     var stefanvdaacodeurl = encodeURIComponent(stefanvdurl);
@@ -302,11 +350,13 @@ document.addEventListener('DOMContentLoaded', function () {
     var today = dd+'/'+mm+'/'+yyyy;
 
     function search(nameKey, myArray){
-    for (var i=0; i < myArray.length; i++) {
-        if (myArray[i].name === nameKey) {
-            return myArray[i];
+        var i;
+        var l = myArray.length;
+        for(i = 0; i < l; i++){
+            if(myArray[i].name === nameKey){
+                return myArray[i];
+            }
         }
-    }
     }
 
     var analytics;
@@ -316,24 +366,39 @@ document.addEventListener('DOMContentLoaded', function () {
         analytics = items["analytics"];
         var resultObject = search(today, analytics);
         var rest = JSON.stringify(resultObject["details"]["active"]);
+        if($("analclicktoday")){
         $("analclicktoday").innerText = rest;
-  
-        //var currentimeseconds = timevals.reduce(add, 0);
-        var currentimeseconds = 2400;
+        }
+
+        var timeeverything = analytics.map(function(a){
+            return a.details.time; // in minutes
+        });
+        var currentimeseconds = timeeverything.reduce(add, 0);
         function add(a,b){return a + b;}
         // current time
         var currenttimeinhours = currentimeseconds/3600;
         // default laptop 65W
         var kwhwithdark = currenttimeinhours * (65 * 0.6)/1000; // factor: power lower to 40%
         var kwhwithregu = currenttimeinhours * (65 * 1)/1000;
-        var currentkwh = Math.round((kwhwithregu - kwhwithdark) * 100) / 100;
+        var currentkwh = (kwhwithregu - kwhwithdark).toFixed(5);
+        if($("analtotalsavedkwh")){
+            var showwatt;
+            if(currentkwh<0.01){
+                currentkwh = currentkwh * 1000;
+                currentkwh = parseFloat(Math.round(currentkwh * 100) / 100).toFixed(2);
+                showwatt = currentkwh+"Wh";
+            }
+            else{
+                showwatt = currentkwh+"kWh";
+            }
+        $("analtotalsavedkwh").innerText = showwatt;
+        }
         sharetext = chrome.i18n.getMessage("shareanalyticenergy", ""+currentkwh+"");
-        $("analtotalsavedkwh").innerText = currentkwh;
-        
+
         //kWh/hr
         var resultcomparedenergy;
         var x = currentkwh;
-        switch (true) {
+        switch(true){
             case (x < 0.01):
             resultcomparedenergy = chrome.i18n.getMessage('econothingthisyear');
                 break;
@@ -436,133 +501,50 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 
-    $("shareboxgoogle").addEventListener("click", function() {window.open('https://plus.google.com/share?ur\l=' + stefanvdaacodeurl + '', 'Share to Google+','width=600,height=460,menubar=no,location=no,status=no');});
-    $("shareboxfacebook").addEventListener("click", function() {window.open("https://www.facebook.com/sharer.php?u="+ stefanvdurl + "&t=" + sharetext + "", 'Share to Facebook','width=600,height=460,menubar=no,location=no,status=no');});
-    $("shareboxtwitter").addEventListener("click", function() {window.open("https://twitter.com/share?url=" + stefanvdaacodeurl + "&text=" + sharetext + "&via=turnoffthelight", 'Share to Twitter','width=600,height=460,menubar=no,location=no,status=no');});
+    $("shareboxfacebook").addEventListener("click", function(){window.open("https://www.facebook.com/sharer.php?u="+ stefanvdurl + "&t=" + sharetext + "", 'Share to Facebook','width=600,height=460,menubar=no,location=no,status=no');});
+    $("shareboxtwitter").addEventListener("click", function(){window.open("https://twitter.com/share?url=" + stefanvdaacodeurl + "&text=" + sharetext + "&via=turnoffthelight", 'Share to Twitter','width=600,height=460,menubar=no,location=no,status=no');});
     
-    $("energybox").addEventListener('click', function() {chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});
+    $("energybox").addEventListener('click', function(){chrome.tabs.create({url: chrome.extension.getURL('options.html'), active:true})});
 
+    // rate
+    function materialRateAlert(callback){
+        document.getElementById('materialModalRate').className = 'show';
+        document.getElementById('materialModalRate').setAttribute('aria-disabled', "false");   
+    }
+    function closeMaterialRateAlert(e, result){
+        e.stopPropagation();
+        document.getElementById('materialModalRate').className = 'hide';
+        document.getElementById('materialModalRate').setAttribute('aria-disabled', "true");   
+    }
+
+    $("materialModalRateButtonOK").addEventListener('click', function(e){
+        closeMaterialRateAlert(e, true);
+        window.open(writereview);chrome.storage.sync.set({"reviewedlastonversion": chrome.runtime.getManifest().version});
+    });
+    $("materialModalRateButtonCANCEL").addEventListener('click', function(e){
+        closeMaterialRateAlert(e, false);
+        chrome.storage.sync.set({"firstsawrate": false});
+    });
 });
 
-chrome.storage.onChanged.addListener(function(changes, namespace) {
+chrome.storage.onChanged.addListener(function(changes, namespace){
         if(changes['nighttheme']){
-            if (changes['nighttheme'].newValue == true) {
+            if(changes['nighttheme'].newValue == true){
                 $('btngonight').disabled = false;
                 $('lampandnightmode').disabled = false;
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenablenightmode" });
-                    });
-                });
-            } else {
+            }else{
                 $('btngonight').disabled = true;
                 $('lampandnightmode').disabled = true;
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenablenightmode" });
-                    });
-                });
             }
         }
-        if(changes['lampandnightmode']){
-            if(changes['lampandnightmode'].newValue == true){
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenablenightmode" });
-                    });
-                });
-            }else{
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenablenightmode" });
-                    });
-                });
-            }
-        }
-
-        if(changes['ambilight']){
-            if(changes['ambilight'].newValue == true){
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenableatmos" });
-                    });
-                });
-            }else{
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenableatmos" });
-                    });
-                });
-            }
-        }
-        if(changes['ambilightfixcolor']){
-            if(changes['ambilightfixcolor'].newValue == true){
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenableatmos" });
-                    });
-                });
-            }else{
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenableatmos" });
-                    });
-                });
-            }
-        }
-        if(changes['ambilight4color']){
-            if(changes['ambilight4color'].newValue == true){
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenableatmos" });
-                    });
-                });
-            }else{
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenableatmos" });
-                    });
-                });
-            }
-        }
-        if(changes['ambilightvarcolor']){
-            if(changes['ambilightvarcolor'].newValue == true){
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenableatmos" });
-                    });
-                });
-            }else{
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenableatmos" });
-                    });
-                });
-            }
-        }
-        if(changes['atmosvivid']){
-            if(changes['atmosvivid'].newValue == true){
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenableatmos" });
-                    });
-                });
-            }else{
-                chrome.tabs.query({},function(tabs){
-                    tabs.forEach(function(tab){
-                      chrome.tabs.sendMessage(tab.id, { action: "goenableatmos" });
-                    });
-                });
-            }
-        }
- })
+ });
 
 function test(){
-    if ($('nighttheme').checked == true) {
+    if($('nighttheme').checked == true){
         $('btngonight').disabled = false;
         $('lampandnightmode').disabled = false;
     }
-    else {
+    else{
         $('btngonight').disabled = true;
         $('lampandnightmode').disabled = true;
     }
@@ -589,8 +571,8 @@ function colorchange(){
     chrome.tabs.query({
         active: true,
         currentWindow: true
-    }, function(tab) {
-        chrome.tabs.executeScript(tab.id,{code:"var div = document.getElementsByTagName('div');for(var i = 0; i < div.length; i++ ){if(div[i].className == ('stefanvdlightareoff')) {div[i].style.background = '"+bckbutton+"';}}"});
+    }, function(tab){
+        chrome.tabs.executeScript(tab.id,{code:"var div = document.getElementsByTagName('div');var i;var l = div.length;for(i = 0; i < l; i++){if(div[i].className == ('stefanvdlightareoff')){div[i].style.background = '"+bckbutton+"';}}"});
     });
 }
 
@@ -601,8 +583,8 @@ function opacitychange(e){
     chrome.tabs.query({
         active: true,
         currentWindow: true
-    }, function(tab) {
-        chrome.tabs.executeScript(tab.id,{code:"var div = document.getElementsByTagName('div');for(var i = 0; i < div.length; i++ ){if(div[i].className == ('stefanvdlightareoff')) {div[i].style.opacity = ("+thatvalue+"/100);}}"});
+    }, function(tab){
+        chrome.tabs.executeScript(tab.id,{code:"var div = document.getElementsByTagName('div');var i;var l = div.length;for(i = 0; i < l; i++){if(div[i].className == ('stefanvdlightareoff')){div[i].style.opacity = ("+thatvalue+"/100);}}"});
     });
 }
 
@@ -619,20 +601,6 @@ function nightmodebckcolorchange(){
     nightmodebck = window.getComputedStyle(elem, null).getPropertyValue("background-color");
 
     chrome.storage.sync.set({"nightmodebck": rgb2hex(nightmodebck)});
-    chrome.tabs.query({
-        active: true,
-        currentWindow: true
-    }, function(tab) {
-        chrome.tabs.executeScript(tab.id,{code:"if(document.getElementById('totlnightmodestyle')){document.getElementById('totlnightmodestyle').innerText = '.stefanvdnightbck{background:"+nightmodebck+"!important;background-color:"+nightmodebck+"!important;}.stefanvdnight{color:"+nightmodetxt+"!important;}.stefanvdnight a{color:"+nightmodehyperlink+"!important}.stefanvdnight a *{color:"+nightmodehyperlink+"!important}';};"});
-    });
-
-    // if something change
-    // update the Night Mode colors to content.js script
-    chrome.tabs.query({},function(tabs){
-        tabs.forEach(function(tab){
-          chrome.tabs.sendMessage(tab.id, { action: "gonewnightmode" });
-        });
-    });
 }
 
 function nightmodetextcolorchange(){
@@ -640,20 +608,6 @@ function nightmodetextcolorchange(){
     nightmodetxt = window.getComputedStyle(elem, null).getPropertyValue("background-color");
 
     chrome.storage.sync.set({"nightmodetxt": rgb2hex(nightmodetxt)});
-    chrome.tabs.query({
-        active: true,
-        currentWindow: true
-    }, function(tab) {
-        chrome.tabs.executeScript(tab.id,{code:"if(document.getElementById('totlnightmodestyle')){document.getElementById('totlnightmodestyle').innerText = '.stefanvdnightbck{background:"+nightmodebck+"!important;background-color:"+nightmodebck+"!important;}.stefanvdnight{color:"+nightmodetxt+"!important;}.stefanvdnight a{color:"+nightmodehyperlink+"!important}.stefanvdnight a *{color:"+nightmodehyperlink+"!important}';};"});
-    });
-
-    // if something change
-    // update the Night Mode colors to content.js script
-    chrome.tabs.query({},function(tabs){
-        tabs.forEach(function(tab){
-          chrome.tabs.sendMessage(tab.id, { action: "gonewnightmode" });
-        });
-    });
 }
 
 function nightmodelinkcolorchange(){
@@ -661,18 +615,4 @@ function nightmodelinkcolorchange(){
     nightmodehyperlink = window.getComputedStyle(elem, null).getPropertyValue("background-color");
 
     chrome.storage.sync.set({"nightmodehyperlink": rgb2hex(nightmodehyperlink)});
-    chrome.tabs.query({
-        active: true,
-        currentWindow: true
-    }, function(tab) {
-        chrome.tabs.executeScript(tab.id,{code:"if(document.getElementById('totlnightmodestyle')){document.getElementById('totlnightmodestyle').innerText = '.stefanvdnightbck{background:"+nightmodebck+"!important;background-color:"+nightmodebck+"!important;}.stefanvdnight{color:"+nightmodetxt+"!important;}.stefanvdnight a{color:"+nightmodehyperlink+"!important}.stefanvdnight a *{color:"+nightmodehyperlink+"!important}';};"});
-    });
-
-    // if something change
-    // update the Night Mode colors to content.js script
-    chrome.tabs.query({},function(tabs){
-        tabs.forEach(function(tab){
-          chrome.tabs.sendMessage(tab.id, { action: "gonewnightmode" });
-        });
-    });
 }

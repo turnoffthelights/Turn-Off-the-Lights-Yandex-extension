@@ -3,7 +3,7 @@
 
 Turn Off the Lights
 The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2018 Stefan vd
+Copyright (C) 2020 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -183,7 +183,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.
 html{overflow:hidden}
 body{min-width:1150px;min-height:800px;background:var(--totl-body-background);color:var(--totl-primary-font-color);font-family:Arial,sans-serif;cursor:default;font-size:13px}
 #main-content{display:-webkit-box;position:absolute;left:0;right:0;top:0;bottom:0}
-#mainview{padding-left:240px;margin:0;position:absolute;left:0;right:0;top:0;bottom:0;z-index:1;overflow:auto;margin-top:56px}
+#mainview{padding-left:240px;margin:0;position:fixed;left:0;right:0;top:0;bottom:0;z-index:1;overflow:auto;margin-top:56px}
 #mainview-content{box-sizing:border-box;max-width:1020px;min-width:600px;padding:0 24px;position:relative}
 #managed-prefs-banner{background:#FFF59D;height:31px;width:100%;margin:0;padding:0;-webkit-user-select:none;-moz-user-select:none;user-select:none;color:black;position:relative;display:flex;align-items:center}
 #managed-prefs-icon{float:left;display:inline-block;padding:8px 12px 2px 12px;height:21px;vertical-align:middle}
@@ -197,7 +197,7 @@ body{min-width:1150px;min-height:800px;background:var(--totl-body-background);co
 ul#navbar li a{display:flex;align-items:center;margin-right:0;padding:12px 24px 12px 24px;font-size:105%;cursor:pointer}
 ul#navbar li a svg{margin-right:24px;fill:var(--totl-sidebar-icon-background)}
 #settings{-webkit-padding-end:24px;-webkit-user-select:none;-moz-user-select:none;user-select:none;color:#333;cursor:pointer;font-size:200%;font-weight:400;margin:0;padding-bottom:14px;padding-top:13px;text-align:end}
-.page h1{-webkit-padding-end:24px;-webkit-user-select:none;-moz-user-select:none;user-select:none;color:var(--totl-title-color);font-size:200%;font-weight:400;margin:0;padding-bottom:4px;padding-top:13px}
+.page h2{-webkit-padding-end:24px;-webkit-user-select:none;-moz-user-select:none;user-select:none;color:var(--totl-title-color);font-size:200%;font-weight:400;margin:0;padding-bottom:4px;padding-top:13px}
 .page{height:100%;width:100%;position:relative}
 section{position:relative;-webkit-box-orient:horizontal;border-bottom:var(--totl-section-border);display:-webkit-box;margin-top:17px;padding-bottom:20px;width:100%}
 section>h3{font-size:105%;font-weight:700;margin:0;vertical-align:middle;width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -206,7 +206,7 @@ section>div:only-of-type{-webkit-box-flex:1}
 #lightdynamic{box-sizing:border-box;width:100%}
 #EyeWhitelist{margin-left:20px}
 .ecogreen{background-color:#43A047;color:white;border-radius:2px;margin-top:10px;padding:10px 120px 10px 10px}
-#Eyesaver{margin-left:18px}
+#Eyesaver{margin:16px 0 16px 30px}
 #logogreen{position:absolute;right:15px;color:green;vertical-align:top;padding:18px}
 #multiopacitylist input[type=url]{width:215px;float:left}
 #multiopacityDomainsBox{width:235px}
@@ -220,6 +220,19 @@ section>div:only-of-type{-webkit-box-flex:1}
 .grey-text{color:grey}
 .hidden{display:none}
 .item{font-style:italic}
+/* Search */
+.search{position:relative;display:flex;width:100%;-webkit-user-select:none;-moz-user-select:none;user-select:none;margin-left:247px;margin-right:65px;font-size:18px;cursor:pointer;outline:none}
+.search input{color:var(--totl-primary-font-color);background:var(--totl-primary-sidebar-background);border:0;border-radius:5px;height:35px;padding:10px 10px 10px 40px;box-sizing:border-box;outline:none;width:100%;max-width:975px;-webkit-appearance:none;-moz-appearance:none;appearance:none}
+.searchicon{position:absolute;top:5px;left:5px;height:20px;width:20px;padding:3px;border-radius:20px}
+.searchicon:hover{background:var(--totl-svg-fill-color-hover);cursor:pointer}
+.searchicon svg{fill:var(--totl-sidebar-icon-background)}
+.searchfoundnothing{display:none}
+/* playground */
+#stefanvdplayground{margin-top:20px}
+#stefanvdplayground canvas{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);width:100%}
+#stefanvdbtnplaygroundfacebook{background:url(/images/facebook@2x.png)left top no-repeat;background:-webkit-image-set(url(/images/facebook.png) 1x,url(/images/facebook@2x.png) 2x);width:18px;height:18px;display:inline-block;background-size:cover;margin-left:10px;margin-right:10px;cursor:pointer}
+#stefanvdbtnplaygroundtwitter{background:url(/images/twitter@2x.png)left top no-repeat;background:-webkit-image-set(url(/images/twitter.png) 1x,url(/images/twitter@2x.png) 2x);width:18px;height:18px;display:inline-block;background-size:cover;cursor:pointer}
+#stefanvdbtnplaygroundfacebook:hover,#stefanvdbtnplaygroundtwitter:hover{opacity:.8;cursor:pointer}
 /* Video frame */
 .youtubepreview{width:100%;height:380px;background:white;color:black;-webkit-user-select:none;-moz-user-select:none;user-select:none}
 .youtubeviewpanel{width:475px;padding-left:15px;padding-right:15px}
@@ -240,18 +253,23 @@ section>div:only-of-type{-webkit-box-flex:1}
 .youtubedislikebutton{display:flex;float:left;line-height:20px;min-height:18px;padding:7px 10px}
 .youtubedislikebutton svg{margin-right:10px}
 .youtubedislikebutton span{font-size:12px;color:#333}
-.youtubeaddtobutton{display:inline-block;float:right;margin-top:5px;min-height:18px;padding:4px 10px}
+.youtubeaddtobutton{width:35px;display:inline-block;float:right;margin-top:5px;min-height:18px;padding:4px 10px}
 .youtubeaddtobutton img{margin-left:0;margin-right:10px;vertical-align:middle;width:10px;height:10px}
 .youtubeaddtobutton span{font-size:12px;color:#333;padding:9px;background:#fff}
-.youtubesharebutton{width:35px;margin-top:5px;display:inline-block;float:right;min-height:18px;padding:4px 10px}
+.youtubesharebutton{display:inline-block;float:right;margin-top:5px;min-height:18px;padding:4px 10px}
 .youtubesharebutton span{font-size:12px;color:#333;padding:8px;background:#fff}
 .youtuberating{padding-left:75px;display:inline-block;width:140px;padding-top:16px;line-height:1;vertical-align:top;height:0}
-.youtuberatingsparkbarlikes{background-color:#2793e6;border:1px #fff solid}
+.youtuberatingsparkbarlikes{background-color:#2793e6;border:1px #fff solid;width:100%}
 .youtuberating sparkbardislikes{float:right;height:4px;margin-right:-1px;background:#C00}
 .youtuberating sparkbars,.youtuberatingsparkbarlikes,.youtuberatingsparkbardislikes{height:5px}
 .youtubeviewnumbers{padding-bottom:7px;padding-left:80px;width:50px;display:inline-block;font-size:13px;font-weight:700}
 .youtube_container_head{display:inline-block}
 .embedytsub{position:relative;top:0px;width:195px;margin:0px;left:0px;visibility:visible;height:50px;display:inline-block}
+.subchannelicon{line-height:45px;font-size:45px;font-family:serif;text-shadow:0 0 5px white;display:inline-block;float:left;width:40px;text-align:center;margin-right:20px}
+.subchanneldes{float:left;display:inline-block}
+.subchannelname{font-size:12px}
+.subaction{margin-top:6px}
+.subbtn{background:red;color:white;padding:5px 10px;border-radius:2px;display:inline-block;font-size:12px}
 .youtube_video_head{display:inline-block}
 .youtubevideobutton{vertical-align:top;width:55px;display:inline-block;min-height:30px;height:50px;float:left}
 .youtubevideobutton span{display:inline-block;font-size:10px;color:gray}
@@ -379,7 +397,7 @@ section>div:only-of-type{-webkit-box-flex:1}
 #stefanvddynamicbackground #stefanvdworld{position:absolute;height:380px;width:840px;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
 #stefanvddynamicbackground #stefanvdworld div{-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
 #stefanvddynamicbackground #stefanvdworld .stefanvdcloudBase{position:absolute;left:256px;top:256px;width:20px;height:20px;margin-left:-10px;margin-top:-10px}
-#stefanvddynamicbackground #stefanvdworld .stefanvdcloudLayer{position:absolute;left:50%;top:50%;width:256px;height:256px;margin-left:-128px;margin-top:-128px;-webkit-transition:opacity .5s ease-out;transition:opacity .5s ease-out;background-image:url(../images/cloud.png)}
+#stefanvddynamicbackground #stefanvdworld .stefanvdcloudLayer{position:absolute;left:50%;top:50%;width:256px;height:256px;margin-left:-128px;margin-top:-128px;-webkit-transition:opacity .5s ease-out;transition:opacity .5s ease-out;background-image:url(/images/cloud.png)}
 /* Dynamic Background Space */
 #stefanvddynamicbackground #stefanvddynamicspace div{position:absolute;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
 #stefanvddynamicbackground #stefanvddynamicspace{height:380px;width:840px;-webkit-perspective:700;perspective:700;background:-webkit-radial-gradient(rgba(119,106,127,0.15) 0,transparent 66%,rgba(127,18,148,0.2)98%);position:absolute;border-top-left-radius:5px 5px;border-top-right-radius:5px 5px;border-bottom-right-radius:0;border-bottom-left-radius:0}
@@ -708,7 +726,7 @@ section>div:only-of-type{-webkit-box-flex:1}
 .atmosbox{display:flex;height:480px;width:100%}
 #beeld{position:relative;z-index:101;margin:auto;width:486px;height:273px}
 .warning{font-weight:700}
-.warningambilight{border-radius:2px;background-color:#FFF59D;margin-top:7px;margin-bottom:10px;padding:10px;line-height:25px}
+.warningambilight{border-radius:2px;background-color:#FFF59D;color:black;margin-top:7px;margin-bottom:10px;padding:10px;line-height:25px}
 /* html */
 .sharemenu{position:absolute;right:0;margin-top:-27px;color:#666;font-size:11px}
 .sharemenu div{display:inline-block;vertical-align:middle}
@@ -717,16 +735,16 @@ section>div:only-of-type{-webkit-box-flex:1}
 .donatebutton{background:#FDD835;-webkit-user-select:none;-moz-user-select:none;user-select:none;color:#000;font-size:12px;min-width:7em;padding:2px 10px;text-decoration:none;text-transform:uppercase;box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2)}
 .donatebutton:hover{background:rgba(253,216,53,.6)}
 /* load */
-#productwelcomeimageload{display:block;margin-left:auto;margin-right:auto;padding-left:0;font-family:verdana;font-size:16px;color:#000;text-align:center}
+#productwelcomeimageload{display:block;margin-left:auto;margin-right:auto;padding-left:0;font-family:verdana;font-size:16px;color:var(--totl-title-color);text-align:center}
 #productwelcomeimageload .icon{display:flex;align-items:center;justify-content:center}
 /* image gallery */
-#wallpapershow{display:inline-block;right:0;position:absolute;width:135px}
-#wallpaperhide{display:inline-block;right:0;position:absolute;width:135px}
+#wallpapershow{right:0;position:absolute;width:135px}
+#wallpaperhide{right:0;position:absolute;width:135px}
 #imagegallery{padding-left:20px;margin:16px 0 0 0;box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12)}
 .imageshaduw{margin:10px 12px;padding:1px;border:1px solid #bebebe}
 /* loading bar */
 #loadinghelp{bottom:10px;position:absolute;right:15px}
-#loading{position:fixed;width:100%;height:100%;z-index:500;background:rgba(255,255,255,1);margin:0;padding:0;left:0;top:0}
+#loading{position:fixed;width:100%;height:100%;z-index:500;background:var(--totl-body-background);margin:0;padding:0;left:0;top:0}
 #loadingcenter{margin:20% auto;width:500px}
 #progressbar{width:500px;height:5px;background-color:rgba(33,150,243,0.5);clear:both;margin:5px 0}
 #progress{background:rgb(33,150,243);height:5px;width:0;max-width:100%;float:left;animation:progress 2s 1 forwards}
@@ -739,8 +757,8 @@ section>div:only-of-type{-webkit-box-flex:1}
 .suggpanel{width:335px;position:relative;display:inline-block;float:left}
 /* dynamic */
 .relative{position:relative}
-#dynamicshow{display:inline-block;right:0;position:absolute;width:135px}
-#dynamichide{display:inline-block;right:0;position:absolute;width:135px}
+#dynamicshow{right:0;position:absolute;width:135px}
+#dynamichide{right:0;position:absolute;width:135px}
 #customDynamicGroup{display:none}
 #extradyn{position:absolute;top:-8px;right:165px}
 #dynamicgallery{padding-left:20px;margin:16px 0 0 0;box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12)}
@@ -761,7 +779,7 @@ section>div:only-of-type{-webkit-box-flex:1}
 #autoplaywhitelist input[type=url],#atmospherewhitelist input[type=url],#nightwhitelist input[type=url],#cammotionwhitelist input[type=url],#speechwhitelist input[type=url],#autostopwhitelist input[type=url],#videotoolwhitelist input[type=url],#EyeWhitelist input[type=url]{width:360px;float:left}
 #autoplaywhitelist select,#atmospherewhitelist select,#nightwhitelist select,#cammotionwhitelist select,#speechwhitelist select,#autostopwhitelist select,#videotoolwhitelist select,#EyeWhitelist select{width:437px;margin-right:16px}
 /* Night Theme */
-#samplestefanvdnighttheme{transform:scale(0.7) translate(-20px,0px);padding:0;margin:0;z-index:500;-webkit-user-select:none;-moz-user-select:none;user-select:none;background:#fff;border:1px solid #EBEBEB;box-shadow:#fff 0 0 10px;border-radius:5px;cursor:pointer;display:block;height:50px;overflow:hidden;width:100px;position:relative}
+#samplestefanvdnighttheme{zoom:0.7;padding:0;margin:20px 0;z-index:500;-webkit-user-select:none;-moz-user-select:none;user-select:none;background:#fff;border:1px solid #EBEBEB;box-shadow:#fff 0 0 10px;border-radius:5px;cursor:pointer;display:block;height:50px;overflow:hidden;width:100px;position:relative}
 #samplestefanvdnighttheme input{display:none}
 #samplestefanvdnighttheme input:checked + #stefanvdnightthemeslider{left:0}
 #samplestefanvdnighttheme #stefanvdnightthemeslider{left:-50px;position:absolute;top:0;-webkit-transition:left .25s ease-out;-moz-transition:left .25s ease-out;-o-transition:left .25s ease-out;-ms-transition:left .25s ease-out;transition:left .25s ease-out}
@@ -819,10 +837,10 @@ section>div:only-of-type{-webkit-box-flex:1}
 .lampchoose:hover{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22)}
 .bcklampchoose{background:#000}
 /* share box */
-#shareboxgoogle{background:url(../images/googleplus@2x.png)left top no-repeat;background:-webkit-image-set(url(../images/googleplus.png) 1x,url(../images/googleplus@2x.png) 2x);width:28px;height:18px;display:inline-block;background-size:cover;margin-left:10px;margin-right:10px;cursor:pointer}
-#shareboxfacebook{background:url(../images/facebook@2x.png)left top no-repeat;background:-webkit-image-set(url(../images/facebook.png) 1x,url(../images/facebook@2x.png) 2x);width:18px;height:18px;display:inline-block;background-size:cover;margin-right:10px;cursor:pointer}
-#shareboxtwitter{background:url(../images/twitter@2x.png)left top no-repeat;background:-webkit-image-set(url(../images/twitter.png) 1x,url(../images/twitter@2x.png) 2x);width:21px;height:18px;display:inline-block;background-size:cover;cursor:pointer}
-#shareboxrate:hover,#shareboxgoogle:hover,#shareboxfacebook:hover,#shareboxtwitter:hover{opacity:.8;cursor:pointer}
+#shareboxyoutube{background:url(/images/youtube@2x.webp)left top no-repeat;background:-webkit-image-set(url(/images/youtube.webp) 1x,url(/images/youtube@2x.webp) 2x);width:25px;height:18px;display:inline-block;background-size:cover;margin-left:10px;margin-right:10px;cursor:pointer}
+#shareboxfacebook{background:url(/images/facebook@2x.webp)left top no-repeat;background:-webkit-image-set(url(/images/facebook.webp) 1x,url(/images/facebook@2x.webp) 2x);width:18px;height:18px;display:inline-block;background-size:cover;margin-right:10px;cursor:pointer}
+#shareboxtwitter{background:url(/images/twitter@2x.webp)left top no-repeat;background:-webkit-image-set(url(/images/twitter.webp) 1x,url(/images/twitter@2x.webp) 2x);width:18px;height:18px;display:inline-block;background-size:cover;cursor:pointer}
+#shareboxrate:hover,#shareboxyoutube:hover,#shareboxfacebook:hover,#shareboxtwitter:hover{opacity:.8;cursor:pointer}
 /* Review box */
 #reviewextensionbox{height:75px;position:relative;-webkit-user-select:none;-moz-user-select:none;user-select:none}
 .stars{position:absolute;color:#ffce32;font-size:38px;top:0;left:30px}
@@ -838,9 +856,9 @@ section>div:only-of-type{-webkit-box-flex:1}
 #apnt{position:absolute;font-size:12px;font-weight:700;color:#fff;text-transform:uppercase;top:60px;left:50px;cursor:pointer}
 #apgetapp{position:absolute;font-size:12px;font-weight:700;color:#39F;text-transform:uppercase;top:60px;right:30px;cursor:pointer}
 /* Mobile app */
-#mobileappbox{height:75px;position:relative;background:black url(../images/mobilebanner.png);background-repeat:no-repeat;border-radius:2px}
+#mobileappbox{height:75px;position:relative;background:black url(/images/mobilebanner.webp);background-repeat:no-repeat;border-radius:2px}
 @media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-device-pixel-ratio:2){
-#mobileappbox{height:75px;position:relative;background:black url(../images/mobilebanner@2x.png);background-repeat:no-repeat;border-radius:2px;background-size:cover}
+#mobileappbox{height:75px;position:relative;background:black url(/images/mobilebanner@2x.webp);background-repeat:no-repeat;border-radius:2px;background-size:cover}
 }
 #matllo{position:absolute;font-size:16px;top:28px;right:30px;color:#fff;background:black}
 #mant{position:absolute;font-size:12px;font-weight:700;color:#fff;background:black;text-transform:uppercase;top:60px;left:50px;cursor:pointer}
@@ -910,16 +928,17 @@ input[type=checkbox]:checked ~ div #expandprofileaicon,input[type=checkbox]:chec
 #myCharttwo{width:100px;height:100px}
 #myChartthree{width:100px;height:100px}
 .threecanvasgroup{width:100%}
-.tabledatalist{border-spacing:0;width:100%}
+.tabledatalist{border-spacing:0;width:100%;table-layout:fixed;overflow:hidden}
 .tabledatalist tr:first-child{background:var(--totl-table-first-background);color:var(--totl-table-first-color)}
-.tabledatalist td{border-bottom:var(--totl-table-td-border);height:48px;padding:0 24px;-webkit-user-select:none;-moz-user-select:none;user-select:none}
+.tabledatalist td{border-bottom:var(--totl-table-td-border);height:48px;padding:0 24px;-webkit-user-select:none;-moz-user-select:none;user-select:none;overflow:hidden}
+.tabledatalist td:first-child{width:80%}
 .tabledatalist tr:hover{background-color:var(--totl-table-tr-background-hover)}
 .tabledatalist tr:active{background-color:var(--totl-table-tr-background-active)}
 header{background:var(--totl-primary-background);color:var(--totl-primary-font-color);-webkit-user-select:none;-moz-user-select:none;user-select:none;width:100%;box-shadow:0 2px 5px rgba(0,0,0,.26);display:block;flex-direction:row;align-items:center;z-index:399;position:fixed}
 header .messagehead{align-items:center;display:flex;width:100%;position:relative;margin:0;padding:0}
 header .masterhead{min-height:56px;align-items:center;display:flex;position:relative;margin:0;padding:0 16px}
-header .icon{position:relative;display:inline;margin:0;top:1px}
-header .title{color:var(--totl-primary-font-color);-webkit-user-select:none;-moz-user-select:none;user-select:none;margin-left:54px;font-size:18px;position:absolute;top:17px;left:0;cursor:pointer}
+header .icon{position:relative;display:inline-block;margin:0;top:2px;width:16px;height:16px}
+header .title{color:var(--totl-primary-font-color);-webkit-user-select:none;-moz-user-select:none;user-select:none;margin-left:54px;font-size:18px;position:absolute;top:18px;left:0;cursor:pointer}
 header .rightmenu{position:absolute;width:24px;height:24px;top:6px;right:20px;padding:10px;border-radius:50%}
 header .rightmenu svg{fill:var(--totl-svg-fill-color)}
 header .rightmenu:hover{background:var(--totl-svg-fill-color-hover);cursor:pointer}
@@ -931,7 +950,7 @@ header .rightmenu:hover{background:var(--totl-svg-fill-color-hover);cursor:point
 #dropmenu ul li{height:48px;user-select:none;padding:0px 16px;color:var(--totl-primary-font-color);cursor:pointer}
 #dropmenu ul li:hover{background-color:var(--totl-dropmenu-li-background-hover)}
 #dropmenu ul li:active{background-color:var(--totl-dropmenu-li-background-active)}
-#menu{-webkit-user-select:none;user-select:none;z-index:399;position:absolute;top:5px;left:5px;height:45px;width:45px;border-radius:50%}
+#menu{-webkit-user-select:none;user-select:none;z-index:399;position:fixed;top:5px;left:5px;height:45px;width:45px;border-radius:50%}
 #menu:hover{ background:var(--totl-menu-background-hover);cursor:pointer}
 #menuToggle{height:12px;width:20px;border-radius:50%;position:absolute;top:0;bottom:0;margin:auto;left:0;right:0}
 #menuToggle span{display:block;width:20px;height:2px;margin-bottom:3px;position:relative;background:var(--totl-primary-font-color)}
@@ -1083,6 +1102,7 @@ button[disabled],input[type=button][disabled],input[type=submit][disabled],butto
 #materialModalIntroduceButtons{width:calc(100% - 12px);position:absolute;bottom:0px}
 /* About */
 .aboutbuttons button{margin:15px 10px 0 0;display:inline-block}
+#permullist{padding-inline-start:15px}
 @keyframes slide-in{from{left:-280px}to{left:0}}
 @keyframes slide-out{from{left:0}to{left:-280px}}
 /* mobile */
@@ -1092,6 +1112,7 @@ only screen and (max-device-width:982px){
 }
 @media only screen and (max-width:480px),
 only screen and (max-device-width:480px){
+  .search{display:none}
   #navbar-container{z-index:401;box-shadow:0 0 16px rgba(0,0,0,.28);animation:slide-out 0.5s ease;animation-fill-mode:forwards}
   body{min-width:auto;min-height:auto}
   #mainview{padding-left:0px}
